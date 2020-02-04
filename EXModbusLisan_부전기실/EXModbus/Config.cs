@@ -3,6 +3,7 @@ using System.Windows.Media;
 
 namespace EXModbus
 {
+    // test
     public class Config : INotifyPropertyChanged
     {
         public event PropertyChangedEventHandler PropertyChanged;

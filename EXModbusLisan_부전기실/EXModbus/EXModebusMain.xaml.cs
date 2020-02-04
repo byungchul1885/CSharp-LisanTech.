@@ -18,6 +18,8 @@ namespace EXModbus
 
         private DispatcherTimer ReqInterval;
 
+
+        //test
         private int reqCnt;
 
         public EXModebusMain()
@@ -120,7 +122,7 @@ namespace EXModbus
         {
             if (MBmaster.Connected == false)
                 return;
-            
+
             reqCnt = 0;
 
             App.Config.ConnStat = "정상접속중";
@@ -637,7 +639,7 @@ namespace EXModbus
                 App.Config.ConnStatBackgBrush = Brushes.Red;
                 App.Config.ConnStatForgBrush = Brushes.Yellow;
             }
-            MBmaster.ReadHoldingRegister(100, 1, 0x7080,  32); // 0x7080 ~ 0x709F
+            MBmaster.ReadHoldingRegister(100, 1, 0x7080, 32); // 0x7080 ~ 0x709F
         }
 
         private void Connect_CanExecute(object sender, CanExecuteRoutedEventArgs e)
