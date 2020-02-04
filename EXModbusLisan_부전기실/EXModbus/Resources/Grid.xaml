@@ -1,0 +1,53 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Style x:Key="CollapseGridStyle" TargetType="Grid">
+        <Style.Triggers>
+            <MultiDataTrigger>
+                <MultiDataTrigger.Conditions>
+                    <Condition Binding="{Binding Visible}" Value="Collapsed"/>
+                </MultiDataTrigger.Conditions>
+                <Setter Property="Margin" Value="0,0,0,0"/>
+            </MultiDataTrigger>
+            <MultiDataTrigger>
+                <MultiDataTrigger.Conditions>
+                    <Condition Binding="{Binding Visible}" Value="Visible"/>
+                </MultiDataTrigger.Conditions>
+                <Setter Property="Margin" Value="0,0,0,5"/>
+            </MultiDataTrigger>
+        </Style.Triggers>
+    </Style>
+
+    <Style x:Key="CollapseGridStyleEx" TargetType="Grid">
+        <Style.Triggers>
+            <MultiDataTrigger>
+                <MultiDataTrigger.Conditions>
+                    <Condition Binding="{Binding DataVisible}" Value="Collapsed"/>
+                </MultiDataTrigger.Conditions>
+                <Setter Property="Margin" Value="0,0,0,0"/>
+            </MultiDataTrigger>
+            <MultiDataTrigger>
+                <MultiDataTrigger.Conditions>
+                    <Condition Binding="{Binding DataVisible}" Value="Visible"/>
+                </MultiDataTrigger.Conditions>
+                <Setter Property="Margin" Value="0,0,0,5"/>
+            </MultiDataTrigger>
+        </Style.Triggers>
+    </Style>
+
+    <Style x:Key="CollapseGridStyleEx2" TargetType="Grid">
+        <Style.Triggers>
+            <MultiDataTrigger>
+                <MultiDataTrigger.Conditions>
+                    <Condition Binding="{Binding HeaderVisible}" Value="Collapsed"/>
+                </MultiDataTrigger.Conditions>
+                <Setter Property="Margin" Value="0,0,0,0"/>
+            </MultiDataTrigger>
+            <MultiDataTrigger>
+                <MultiDataTrigger.Conditions>
+                    <Condition Binding="{Binding HeaderVisible}" Value="Visible"/>
+                </MultiDataTrigger.Conditions>
+                <Setter Property="Margin" Value="0,0,0,5"/>
+            </MultiDataTrigger>
+        </Style.Triggers>
+    </Style>
+</ResourceDictionary>

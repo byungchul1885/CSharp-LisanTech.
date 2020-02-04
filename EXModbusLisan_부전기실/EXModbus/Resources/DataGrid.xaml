@@ -1,0 +1,164 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:converters="clr-namespace:ExTerm">
+    <Style x:Key="BaseDataGridStyle" TargetType="DataGrid">
+        <Setter Property="Margin" 
+                Value="5,5,5,5"/>
+        <Setter Property="FontWeight" 
+                Value="Normal"/>
+        <Setter Property="RowHeight" 
+                Value="20"/>
+        <Setter Property="HeadersVisibility" 
+                Value="Column"/>
+        <Setter Property="AutoGenerateColumns" 
+                Value="False"/>
+        <Setter Property="CanUserAddRows" 
+                Value="False"/>
+        <Setter Property="CanUserSortColumns" 
+                Value="False"/>
+        <Setter Property="IsReadOnly" 
+                Value="True"/>
+        <Setter Property="CanUserReorderColumns" 
+                Value="False"/>
+        <Setter Property="CanUserResizeRows" 
+                Value="False"/>
+        <Setter Property="CanUserResizeColumns" 
+                Value="False"/>
+        <Setter Property="SelectionMode" 
+                Value="Single"/>
+    </Style>
+
+    <Style x:Key="OnOffDataGridStyle" 
+           TargetType="DataGrid" 
+           BasedOn="{StaticResource BaseDataGridStyle}">
+        <Style.Triggers>
+            <MultiDataTrigger>
+                <MultiDataTrigger.Conditions>
+                    <Condition Binding="{Binding IsEnabled, ElementName=btnOpenEther}" Value="True"/>
+                    <Condition Binding="{Binding IsEnabled, ElementName=btnCloseEther}" Value="False"/>
+                </MultiDataTrigger.Conditions>
+                <Setter Property="IsEnabled" Value="True"/>
+            </MultiDataTrigger>
+            <MultiDataTrigger>
+                <MultiDataTrigger.Conditions>
+                    <Condition Binding="{Binding IsEnabled, ElementName=btnOpenEther}" Value="False"/>
+                    <Condition Binding="{Binding IsEnabled, ElementName=btnCloseEther}" Value="True"/>
+                </MultiDataTrigger.Conditions>
+                <Setter Property="IsEnabled" Value="False"/>
+            </MultiDataTrigger>
+        </Style.Triggers>
+    </Style>
+
+    <Style x:Key="DataGridColumnHeaderStyle" TargetType="{x:Type DataGridColumnHeader}">
+        <Setter Property="Background" 
+                Value="#FF4169AA"/>
+        <Setter Property="Foreground" 
+                Value="White" />
+        <Setter Property="BorderThickness" 
+                Value="0,0,1,0"/>
+        <Setter Property="BorderBrush" 
+                Value="Black"/>
+    </Style>
+
+    <Style x:Key="DataGridColumnHeaderNWInfoStyle" TargetType="{x:Type DataGridColumnHeader}"
+           BasedOn="{StaticResource DataGridColumnHeaderStyle}">
+        <Setter Property="HorizontalContentAlignment" 
+                Value="Center"/>
+        <Setter Property="ToolTipService.ShowDuration" 
+                Value="60000"/>
+        <Setter Property="ToolTipService.InitialShowDelay" 
+                Value="0"/>
+        <Style.Triggers>
+            <DataTrigger Binding="{Binding}" Value="Index">
+                <Setter Property="ToolTip" Value="index" />
+            </DataTrigger>
+            <DataTrigger Binding="{Binding}" Value="DA">
+                <Setter Property="ToolTip" Value="MAC Address of the STA[Index]" />
+            </DataTrigger>
+            <DataTrigger Binding="{Binding}" Value="TEI">
+                <Setter Property="ToolTip" Value="TEI of the STA[Index]" />
+            </DataTrigger>
+            <DataTrigger Binding="{Binding}" Value="FisrtBDA">
+                <Setter Property="ToolTip" Value="MAC Address of the first Node bridged by STA[Index]" />
+            </DataTrigger>
+            <DataTrigger Binding="{Binding}" Value="TX">
+                <Setter Property="ToolTip" Value="Average PHY Data Rate in Mega Bits per second from STA to DA[Index].&#10;0x00 = unreachable/unknown&#10;0x01 = 1 Mbps, and so on" />
+            </DataTrigger>
+            <DataTrigger Binding="{Binding}" Value="RX">
+                <Setter Property="ToolTip" Value="Average PHY Data Rate in Mega Bits per second from STA to DA[Index].&#10;0x00 = unreachable/unknown&#10;0x01 = 1 Mbps, and so on" />
+            </DataTrigger>
+        </Style.Triggers>
+    </Style>
+
+    <Style x:Key="DataGridColumnHeaderTopologyStyle" TargetType="{x:Type DataGridColumnHeader}"
+           BasedOn="{StaticResource DataGridColumnHeaderStyle}">
+        <Setter Property="HorizontalContentAlignment" 
+                Value="Center"/>
+        <Setter Property="ToolTipService.ShowDuration" 
+                Value="60000"/>
+        <Setter Property="ToolTipService.InitialShowDelay" 
+                Value="0"/>
+        <Style.Triggers>
+            <DataTrigger Binding="{Binding}" Value="Index">
+                <Setter Property="ToolTip" Value="index" />
+            </DataTrigger>
+            <DataTrigger Binding="{Binding}" Value="MAC">
+                <Setter Property="ToolTip" Value="MAC Address of the STA[Index]" />
+            </DataTrigger>
+            <DataTrigger Binding="{Binding}" Value="TEI">
+                <Setter Property="ToolTip" Value="TEI of the STA[Index]" />
+            </DataTrigger>
+            <DataTrigger Binding="{Binding}" Value="numOfSTA">
+                <Setter Property="ToolTip" Value="the number of STA directly under this STA" />
+            </DataTrigger>
+            <DataTrigger Binding="{Binding}" Value="Status">
+                <Setter Property="ToolTip" Value="the status of this STA. currently 1 means authenticated, 0 is associated" />
+            </DataTrigger>
+        </Style.Triggers>
+    </Style>
+
+    <Style x:Key="DataGridElementStyle" TargetType="{x:Type TextBlock}">
+        <Setter Property="Margin" 
+                Value="0,0,0,0" />
+        <Setter Property="HorizontalAlignment" 
+                Value="Center" />
+        <Setter Property="VerticalAlignment" 
+                Value="Center" />
+    </Style>
+
+    <Style x:Key="DataCellStyle" TargetType="{x:Type DataGridCell}">
+        <Style.Triggers>
+            <DataTrigger Binding="{Binding RelativeSource={RelativeSource Self}, Path=Content.Text, Converter={StaticResource MyMacToBoolConverter}}"
+                         Value="True" >
+                <Setter Property="Background" Value="#FFC2EFF5" />
+                <!--<Setter Property="FontWeight" Value="Bold" />-->
+            </DataTrigger>
+
+            <!--<Trigger Property="IsSelected"
+                Value="True">
+                <Setter Property="BorderBrush"
+                Value="#FFA6CF39" />
+                <Setter Property="BorderThickness"
+                Value="2" />
+            </Trigger>-->
+        </Style.Triggers>
+    </Style>
+
+    <Style x:Key="DataRowStyle" TargetType="{x:Type DataGridRow}">
+        <Style.Resources>
+            <SolidColorBrush x:Key="{x:Static SystemColors.HighlightBrushKey}" 
+                             Color="#FFCFF1B3" />
+            <SolidColorBrush x:Key="{x:Static SystemColors.HighlightTextBrushKey}" 
+                             Color="Black" />
+        </Style.Resources>
+        <!--<Style.Triggers>
+            <Trigger Property="IsSelected"
+                    Value="True">
+                <Setter Property="BorderBrush"
+                    Value="#FFCF6D1B" />
+                <Setter Property="BorderThickness"
+                    Value="2" />
+            </Trigger>
+        </Style.Triggers>-->
+    </Style>
+</ResourceDictionary>
