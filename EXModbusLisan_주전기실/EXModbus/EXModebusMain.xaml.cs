@@ -126,6 +126,7 @@ namespace EXModbus
             App.Config.ConnStat = "정상접속중";
             App.Config.ConnStatBackgBrush = Brushes.Green;
             App.Config.ConnStatForgBrush = Brushes.AntiqueWhite;
+
             if (ID == 100)
             {
                 Parsing_7080H(values);
