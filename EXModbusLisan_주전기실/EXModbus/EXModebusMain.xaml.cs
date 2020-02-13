@@ -118,9 +118,12 @@ namespace EXModbus
 
         private void MBmaster_OnResponseData(ushort ID, byte unit, byte function, byte[] values)
         {
-            if (MBmaster.Connected == false)
+            //if (MBmaster.Connected == false)
+            //    return;
+
+            if (this.Connected == false)
                 return;
-            
+
             reqCnt = 0;
 
             App.Config.ConnStat = "정상접속중";
