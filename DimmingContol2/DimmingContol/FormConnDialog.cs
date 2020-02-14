@@ -10,24 +10,24 @@ using System.Windows.Forms;
 
 namespace DimmingContol
 {
-    public partial class MainForm : Form
+    public partial class FormConnDialog : Form
     {
-        public MainForm()
+        public FormConnDialog()
         {
             InitializeComponent();
         }
 
-        private void bunifuCustomLabel1_Click(object sender, EventArgs e)
+        private void bunifuThinButton23_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
+        private void bunifuThinButton22_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void bunifuMetroTextbox1_OnValueChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void bunifuiOSSwitch2_OnValueChange(object sender, EventArgs e)
+        private void bunifuThinButton21_Click(object sender, EventArgs e)
         {
 
         }
