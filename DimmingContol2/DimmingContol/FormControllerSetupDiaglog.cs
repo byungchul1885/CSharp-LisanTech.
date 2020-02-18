@@ -2,11 +2,13 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Bunifu.Framework.UI;
 
 namespace DimmingContol
 {
@@ -28,29 +30,17 @@ namespace DimmingContol
             {
                 form.StartPosition = FormStartPosition.CenterParent;
 
-                //int buttonIndex = Int32.Parse(button.Name.Remove(0, "connButtonX".Length));
-
-                //form.IP = Properties.Settings.Default.IP[buttonIndex];
-                //form.SubMask = Properties.Settings.Default.SubMask[buttonIndex];
-                //form.Gateway = Properties.Settings.Default.Gateway[buttonIndex];
-                //form.Port = Properties.Settings.Default.Port[buttonIndex];
-                //form.ControllerName = Properties.Settings.Default.ControllerName[buttonIndex];
-
-                ////form.Loaded += test_loaded;
+                foreach (Control c in dimmLevelPanel.Controls)
+                {
+                    if (c.GetType() == typeof(BunifuCustomLabel) 
+                        && c.Name.Contains("dimmLevelLabel"))
+                    {
+                        int levelIndex = Int32.Parse(c.Name.Remove(0, "dimmLevelLabel".Length));
+                        form.DimLevel[levelIndex] = c.Text;
+                    }
+                }
 
                 form.ShowDialog();
-
-                //if (form.ButtonAction == "conn")
-                //{
-                //    Properties.Settings.Default.IP[buttonIndex] = form.IP;
-                //    Properties.Settings.Default.SubMask[buttonIndex] = form.SubMask;
-                //    Properties.Settings.Default.Gateway[buttonIndex] = form.Gateway;
-                //    Properties.Settings.Default.Port[buttonIndex] = form.Port;
-                //}
-                //else if (form.ButtonAction == "close")
-                //{
-
-                //}
             }            
         }
 
