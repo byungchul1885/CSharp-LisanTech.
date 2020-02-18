@@ -37,13 +37,13 @@
             this.bunifuCustomLabel3 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel4 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel5 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuMetroTextbox1 = new Bunifu.Framework.UI.BunifuMetroTextbox();
-            this.bunifuMetroTextbox2 = new Bunifu.Framework.UI.BunifuMetroTextbox();
-            this.bunifuMetroTextbox3 = new Bunifu.Framework.UI.BunifuMetroTextbox();
-            this.bunifuMetroTextbox4 = new Bunifu.Framework.UI.BunifuMetroTextbox();
-            this.bunifuThinButton21 = new Bunifu.Framework.UI.BunifuThinButton2();
-            this.bunifuThinButton22 = new Bunifu.Framework.UI.BunifuThinButton2();
-            this.bunifuThinButton23 = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.ipMetroTextbox = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.subMaskMetroTextbox = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.gateWayMetroTextbox = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.portMetroTextbox = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.connButton = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.closeButton = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.cancelButton = new Bunifu.Framework.UI.BunifuThinButton2();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -121,158 +121,158 @@
             this.bunifuCustomLabel5.Text = "Port";
             this.bunifuCustomLabel5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // bunifuMetroTextbox1
+            // ipMetroTextbox
             // 
-            this.bunifuMetroTextbox1.BorderColorFocused = System.Drawing.Color.Blue;
-            this.bunifuMetroTextbox1.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.bunifuMetroTextbox1.BorderColorMouseHover = System.Drawing.Color.Blue;
-            this.bunifuMetroTextbox1.BorderThickness = 3;
-            this.bunifuMetroTextbox1.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.bunifuMetroTextbox1.Font = new System.Drawing.Font("Malgun Gothic", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuMetroTextbox1.ForeColor = System.Drawing.Color.Gainsboro;
-            this.bunifuMetroTextbox1.isPassword = false;
-            this.bunifuMetroTextbox1.Location = new System.Drawing.Point(309, 119);
-            this.bunifuMetroTextbox1.Margin = new System.Windows.Forms.Padding(0);
-            this.bunifuMetroTextbox1.Name = "bunifuMetroTextbox1";
-            this.bunifuMetroTextbox1.Size = new System.Drawing.Size(255, 63);
-            this.bunifuMetroTextbox1.TabIndex = 6;
-            this.bunifuMetroTextbox1.Text = "192.168.0.100";
-            this.bunifuMetroTextbox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.ipMetroTextbox.BorderColorFocused = System.Drawing.Color.Blue;
+            this.ipMetroTextbox.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.ipMetroTextbox.BorderColorMouseHover = System.Drawing.Color.Blue;
+            this.ipMetroTextbox.BorderThickness = 3;
+            this.ipMetroTextbox.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.ipMetroTextbox.Font = new System.Drawing.Font("Malgun Gothic", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ipMetroTextbox.ForeColor = System.Drawing.Color.Gainsboro;
+            this.ipMetroTextbox.isPassword = false;
+            this.ipMetroTextbox.Location = new System.Drawing.Point(309, 119);
+            this.ipMetroTextbox.Margin = new System.Windows.Forms.Padding(0);
+            this.ipMetroTextbox.Name = "ipMetroTextbox";
+            this.ipMetroTextbox.Size = new System.Drawing.Size(255, 63);
+            this.ipMetroTextbox.TabIndex = 6;
+            this.ipMetroTextbox.Text = "192.168.0.100";
+            this.ipMetroTextbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // bunifuMetroTextbox2
+            // subMaskMetroTextbox
             // 
-            this.bunifuMetroTextbox2.BorderColorFocused = System.Drawing.Color.Blue;
-            this.bunifuMetroTextbox2.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.bunifuMetroTextbox2.BorderColorMouseHover = System.Drawing.Color.Blue;
-            this.bunifuMetroTextbox2.BorderThickness = 3;
-            this.bunifuMetroTextbox2.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.bunifuMetroTextbox2.Font = new System.Drawing.Font("Malgun Gothic", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuMetroTextbox2.ForeColor = System.Drawing.Color.Gainsboro;
-            this.bunifuMetroTextbox2.isPassword = false;
-            this.bunifuMetroTextbox2.Location = new System.Drawing.Point(309, 201);
-            this.bunifuMetroTextbox2.Margin = new System.Windows.Forms.Padding(0);
-            this.bunifuMetroTextbox2.Name = "bunifuMetroTextbox2";
-            this.bunifuMetroTextbox2.Size = new System.Drawing.Size(255, 63);
-            this.bunifuMetroTextbox2.TabIndex = 8;
-            this.bunifuMetroTextbox2.Text = "255.255.255.0";
-            this.bunifuMetroTextbox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.subMaskMetroTextbox.BorderColorFocused = System.Drawing.Color.Blue;
+            this.subMaskMetroTextbox.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.subMaskMetroTextbox.BorderColorMouseHover = System.Drawing.Color.Blue;
+            this.subMaskMetroTextbox.BorderThickness = 3;
+            this.subMaskMetroTextbox.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.subMaskMetroTextbox.Font = new System.Drawing.Font("Malgun Gothic", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.subMaskMetroTextbox.ForeColor = System.Drawing.Color.Gainsboro;
+            this.subMaskMetroTextbox.isPassword = false;
+            this.subMaskMetroTextbox.Location = new System.Drawing.Point(309, 201);
+            this.subMaskMetroTextbox.Margin = new System.Windows.Forms.Padding(0);
+            this.subMaskMetroTextbox.Name = "subMaskMetroTextbox";
+            this.subMaskMetroTextbox.Size = new System.Drawing.Size(255, 63);
+            this.subMaskMetroTextbox.TabIndex = 8;
+            this.subMaskMetroTextbox.Text = "255.255.255.0";
+            this.subMaskMetroTextbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // bunifuMetroTextbox3
+            // gateWayMetroTextbox
             // 
-            this.bunifuMetroTextbox3.BorderColorFocused = System.Drawing.Color.Blue;
-            this.bunifuMetroTextbox3.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.bunifuMetroTextbox3.BorderColorMouseHover = System.Drawing.Color.Blue;
-            this.bunifuMetroTextbox3.BorderThickness = 3;
-            this.bunifuMetroTextbox3.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.bunifuMetroTextbox3.Font = new System.Drawing.Font("Malgun Gothic", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuMetroTextbox3.ForeColor = System.Drawing.Color.Gainsboro;
-            this.bunifuMetroTextbox3.isPassword = false;
-            this.bunifuMetroTextbox3.Location = new System.Drawing.Point(309, 283);
-            this.bunifuMetroTextbox3.Margin = new System.Windows.Forms.Padding(0);
-            this.bunifuMetroTextbox3.Name = "bunifuMetroTextbox3";
-            this.bunifuMetroTextbox3.Size = new System.Drawing.Size(255, 63);
-            this.bunifuMetroTextbox3.TabIndex = 9;
-            this.bunifuMetroTextbox3.Text = "192.168.0.1";
-            this.bunifuMetroTextbox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.gateWayMetroTextbox.BorderColorFocused = System.Drawing.Color.Blue;
+            this.gateWayMetroTextbox.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.gateWayMetroTextbox.BorderColorMouseHover = System.Drawing.Color.Blue;
+            this.gateWayMetroTextbox.BorderThickness = 3;
+            this.gateWayMetroTextbox.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.gateWayMetroTextbox.Font = new System.Drawing.Font("Malgun Gothic", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gateWayMetroTextbox.ForeColor = System.Drawing.Color.Gainsboro;
+            this.gateWayMetroTextbox.isPassword = false;
+            this.gateWayMetroTextbox.Location = new System.Drawing.Point(309, 283);
+            this.gateWayMetroTextbox.Margin = new System.Windows.Forms.Padding(0);
+            this.gateWayMetroTextbox.Name = "gateWayMetroTextbox";
+            this.gateWayMetroTextbox.Size = new System.Drawing.Size(255, 63);
+            this.gateWayMetroTextbox.TabIndex = 9;
+            this.gateWayMetroTextbox.Text = "192.168.0.1";
+            this.gateWayMetroTextbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // bunifuMetroTextbox4
+            // portMetroTextbox
             // 
-            this.bunifuMetroTextbox4.BorderColorFocused = System.Drawing.Color.Blue;
-            this.bunifuMetroTextbox4.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.bunifuMetroTextbox4.BorderColorMouseHover = System.Drawing.Color.Blue;
-            this.bunifuMetroTextbox4.BorderThickness = 3;
-            this.bunifuMetroTextbox4.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.bunifuMetroTextbox4.Font = new System.Drawing.Font("Malgun Gothic", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuMetroTextbox4.ForeColor = System.Drawing.Color.Gainsboro;
-            this.bunifuMetroTextbox4.isPassword = false;
-            this.bunifuMetroTextbox4.Location = new System.Drawing.Point(309, 365);
-            this.bunifuMetroTextbox4.Margin = new System.Windows.Forms.Padding(0);
-            this.bunifuMetroTextbox4.Name = "bunifuMetroTextbox4";
-            this.bunifuMetroTextbox4.Size = new System.Drawing.Size(255, 63);
-            this.bunifuMetroTextbox4.TabIndex = 10;
-            this.bunifuMetroTextbox4.Text = "5000";
-            this.bunifuMetroTextbox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.portMetroTextbox.BorderColorFocused = System.Drawing.Color.Blue;
+            this.portMetroTextbox.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.portMetroTextbox.BorderColorMouseHover = System.Drawing.Color.Blue;
+            this.portMetroTextbox.BorderThickness = 3;
+            this.portMetroTextbox.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.portMetroTextbox.Font = new System.Drawing.Font("Malgun Gothic", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.portMetroTextbox.ForeColor = System.Drawing.Color.Gainsboro;
+            this.portMetroTextbox.isPassword = false;
+            this.portMetroTextbox.Location = new System.Drawing.Point(309, 365);
+            this.portMetroTextbox.Margin = new System.Windows.Forms.Padding(0);
+            this.portMetroTextbox.Name = "portMetroTextbox";
+            this.portMetroTextbox.Size = new System.Drawing.Size(255, 63);
+            this.portMetroTextbox.TabIndex = 10;
+            this.portMetroTextbox.Text = "5000";
+            this.portMetroTextbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // bunifuThinButton21
+            // connButton
             // 
-            this.bunifuThinButton21.ActiveBorderThickness = 1;
-            this.bunifuThinButton21.ActiveCornerRadius = 20;
-            this.bunifuThinButton21.ActiveFillColor = System.Drawing.Color.SeaGreen;
-            this.bunifuThinButton21.ActiveForecolor = System.Drawing.Color.White;
-            this.bunifuThinButton21.ActiveLineColor = System.Drawing.Color.SeaGreen;
-            this.bunifuThinButton21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(46)))), ((int)(((byte)(59)))));
-            this.bunifuThinButton21.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton21.BackgroundImage")));
-            this.bunifuThinButton21.ButtonText = "연결";
-            this.bunifuThinButton21.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuThinButton21.Font = new System.Drawing.Font("Malgun Gothic", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.bunifuThinButton21.ForeColor = System.Drawing.Color.SeaGreen;
-            this.bunifuThinButton21.IdleBorderThickness = 1;
-            this.bunifuThinButton21.IdleCornerRadius = 20;
-            this.bunifuThinButton21.IdleFillColor = System.Drawing.Color.White;
-            this.bunifuThinButton21.IdleForecolor = System.Drawing.Color.SeaGreen;
-            this.bunifuThinButton21.IdleLineColor = System.Drawing.Color.SeaGreen;
-            this.bunifuThinButton21.Location = new System.Drawing.Point(73, 485);
-            this.bunifuThinButton21.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.bunifuThinButton21.Name = "bunifuThinButton21";
-            this.bunifuThinButton21.Size = new System.Drawing.Size(126, 52);
-            this.bunifuThinButton21.TabIndex = 11;
-            this.bunifuThinButton21.TabStop = false;
-            this.bunifuThinButton21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.bunifuThinButton21.Click += new System.EventHandler(this.bunifuThinButton21_Click);
+            this.connButton.ActiveBorderThickness = 1;
+            this.connButton.ActiveCornerRadius = 20;
+            this.connButton.ActiveFillColor = System.Drawing.Color.SeaGreen;
+            this.connButton.ActiveForecolor = System.Drawing.Color.White;
+            this.connButton.ActiveLineColor = System.Drawing.Color.SeaGreen;
+            this.connButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(46)))), ((int)(((byte)(59)))));
+            this.connButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("connButton.BackgroundImage")));
+            this.connButton.ButtonText = "연결";
+            this.connButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.connButton.Font = new System.Drawing.Font("Malgun Gothic", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.connButton.ForeColor = System.Drawing.Color.SeaGreen;
+            this.connButton.IdleBorderThickness = 1;
+            this.connButton.IdleCornerRadius = 20;
+            this.connButton.IdleFillColor = System.Drawing.Color.White;
+            this.connButton.IdleForecolor = System.Drawing.Color.SeaGreen;
+            this.connButton.IdleLineColor = System.Drawing.Color.SeaGreen;
+            this.connButton.Location = new System.Drawing.Point(73, 485);
+            this.connButton.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
+            this.connButton.Name = "connButton";
+            this.connButton.Size = new System.Drawing.Size(126, 52);
+            this.connButton.TabIndex = 11;
+            this.connButton.TabStop = false;
+            this.connButton.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.connButton.Click += new System.EventHandler(this.Button_Click);
             // 
-            // bunifuThinButton22
+            // closeButton
             // 
-            this.bunifuThinButton22.ActiveBorderThickness = 1;
-            this.bunifuThinButton22.ActiveCornerRadius = 20;
-            this.bunifuThinButton22.ActiveFillColor = System.Drawing.Color.SeaGreen;
-            this.bunifuThinButton22.ActiveForecolor = System.Drawing.Color.White;
-            this.bunifuThinButton22.ActiveLineColor = System.Drawing.Color.SeaGreen;
-            this.bunifuThinButton22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(46)))), ((int)(((byte)(59)))));
-            this.bunifuThinButton22.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton22.BackgroundImage")));
-            this.bunifuThinButton22.ButtonText = "끊기";
-            this.bunifuThinButton22.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuThinButton22.Font = new System.Drawing.Font("Malgun Gothic", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.bunifuThinButton22.ForeColor = System.Drawing.Color.SeaGreen;
-            this.bunifuThinButton22.IdleBorderThickness = 1;
-            this.bunifuThinButton22.IdleCornerRadius = 20;
-            this.bunifuThinButton22.IdleFillColor = System.Drawing.Color.White;
-            this.bunifuThinButton22.IdleForecolor = System.Drawing.Color.SeaGreen;
-            this.bunifuThinButton22.IdleLineColor = System.Drawing.Color.SeaGreen;
-            this.bunifuThinButton22.Location = new System.Drawing.Point(266, 485);
-            this.bunifuThinButton22.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.bunifuThinButton22.Name = "bunifuThinButton22";
-            this.bunifuThinButton22.Size = new System.Drawing.Size(126, 52);
-            this.bunifuThinButton22.TabIndex = 12;
-            this.bunifuThinButton22.TabStop = false;
-            this.bunifuThinButton22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.bunifuThinButton22.Click += new System.EventHandler(this.bunifuThinButton22_Click);
+            this.closeButton.ActiveBorderThickness = 1;
+            this.closeButton.ActiveCornerRadius = 20;
+            this.closeButton.ActiveFillColor = System.Drawing.Color.SeaGreen;
+            this.closeButton.ActiveForecolor = System.Drawing.Color.White;
+            this.closeButton.ActiveLineColor = System.Drawing.Color.SeaGreen;
+            this.closeButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(46)))), ((int)(((byte)(59)))));
+            this.closeButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("closeButton.BackgroundImage")));
+            this.closeButton.ButtonText = "끊기";
+            this.closeButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.closeButton.Font = new System.Drawing.Font("Malgun Gothic", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.closeButton.ForeColor = System.Drawing.Color.SeaGreen;
+            this.closeButton.IdleBorderThickness = 1;
+            this.closeButton.IdleCornerRadius = 20;
+            this.closeButton.IdleFillColor = System.Drawing.Color.White;
+            this.closeButton.IdleForecolor = System.Drawing.Color.SeaGreen;
+            this.closeButton.IdleLineColor = System.Drawing.Color.SeaGreen;
+            this.closeButton.Location = new System.Drawing.Point(266, 485);
+            this.closeButton.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
+            this.closeButton.Name = "closeButton";
+            this.closeButton.Size = new System.Drawing.Size(126, 52);
+            this.closeButton.TabIndex = 12;
+            this.closeButton.TabStop = false;
+            this.closeButton.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.closeButton.Click += new System.EventHandler(this.Button_Click);
             // 
-            // bunifuThinButton23
+            // cancelButton
             // 
-            this.bunifuThinButton23.ActiveBorderThickness = 1;
-            this.bunifuThinButton23.ActiveCornerRadius = 20;
-            this.bunifuThinButton23.ActiveFillColor = System.Drawing.Color.SeaGreen;
-            this.bunifuThinButton23.ActiveForecolor = System.Drawing.Color.White;
-            this.bunifuThinButton23.ActiveLineColor = System.Drawing.Color.SeaGreen;
-            this.bunifuThinButton23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(46)))), ((int)(((byte)(59)))));
-            this.bunifuThinButton23.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton23.BackgroundImage")));
-            this.bunifuThinButton23.ButtonText = "닫기";
-            this.bunifuThinButton23.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuThinButton23.Font = new System.Drawing.Font("Malgun Gothic", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.bunifuThinButton23.ForeColor = System.Drawing.Color.SeaGreen;
-            this.bunifuThinButton23.IdleBorderThickness = 1;
-            this.bunifuThinButton23.IdleCornerRadius = 20;
-            this.bunifuThinButton23.IdleFillColor = System.Drawing.Color.White;
-            this.bunifuThinButton23.IdleForecolor = System.Drawing.Color.SeaGreen;
-            this.bunifuThinButton23.IdleLineColor = System.Drawing.Color.SeaGreen;
-            this.bunifuThinButton23.Location = new System.Drawing.Point(459, 485);
-            this.bunifuThinButton23.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.bunifuThinButton23.Name = "bunifuThinButton23";
-            this.bunifuThinButton23.Size = new System.Drawing.Size(126, 52);
-            this.bunifuThinButton23.TabIndex = 13;
-            this.bunifuThinButton23.TabStop = false;
-            this.bunifuThinButton23.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.bunifuThinButton23.Click += new System.EventHandler(this.bunifuThinButton23_Click);
+            this.cancelButton.ActiveBorderThickness = 1;
+            this.cancelButton.ActiveCornerRadius = 20;
+            this.cancelButton.ActiveFillColor = System.Drawing.Color.SeaGreen;
+            this.cancelButton.ActiveForecolor = System.Drawing.Color.White;
+            this.cancelButton.ActiveLineColor = System.Drawing.Color.SeaGreen;
+            this.cancelButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(46)))), ((int)(((byte)(59)))));
+            this.cancelButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("cancelButton.BackgroundImage")));
+            this.cancelButton.ButtonText = "닫기";
+            this.cancelButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.cancelButton.Font = new System.Drawing.Font("Malgun Gothic", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.cancelButton.ForeColor = System.Drawing.Color.SeaGreen;
+            this.cancelButton.IdleBorderThickness = 1;
+            this.cancelButton.IdleCornerRadius = 20;
+            this.cancelButton.IdleFillColor = System.Drawing.Color.White;
+            this.cancelButton.IdleForecolor = System.Drawing.Color.SeaGreen;
+            this.cancelButton.IdleLineColor = System.Drawing.Color.SeaGreen;
+            this.cancelButton.Location = new System.Drawing.Point(459, 485);
+            this.cancelButton.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
+            this.cancelButton.Name = "cancelButton";
+            this.cancelButton.Size = new System.Drawing.Size(126, 52);
+            this.cancelButton.TabIndex = 13;
+            this.cancelButton.TabStop = false;
+            this.cancelButton.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.cancelButton.Click += new System.EventHandler(this.Button_Click);
             // 
             // FormConnDialog
             // 
@@ -280,13 +280,13 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(46)))), ((int)(((byte)(59)))));
             this.ClientSize = new System.Drawing.Size(678, 576);
-            this.Controls.Add(this.bunifuThinButton23);
-            this.Controls.Add(this.bunifuThinButton22);
-            this.Controls.Add(this.bunifuThinButton21);
-            this.Controls.Add(this.bunifuMetroTextbox4);
-            this.Controls.Add(this.bunifuMetroTextbox3);
-            this.Controls.Add(this.bunifuMetroTextbox2);
-            this.Controls.Add(this.bunifuMetroTextbox1);
+            this.Controls.Add(this.cancelButton);
+            this.Controls.Add(this.closeButton);
+            this.Controls.Add(this.connButton);
+            this.Controls.Add(this.portMetroTextbox);
+            this.Controls.Add(this.gateWayMetroTextbox);
+            this.Controls.Add(this.subMaskMetroTextbox);
+            this.Controls.Add(this.ipMetroTextbox);
             this.Controls.Add(this.bunifuCustomLabel5);
             this.Controls.Add(this.bunifuCustomLabel4);
             this.Controls.Add(this.bunifuCustomLabel3);
@@ -296,6 +296,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FormConnDialog";
             this.Text = "FormConnDialog";
+            this.Load += new System.EventHandler(this.FormConnDialog_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
@@ -307,16 +308,16 @@
         private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;
         private System.Windows.Forms.Panel panel1;
         private Bunifu.Framework.UI.BunifuCustomLabel titleLabel;
-        private Bunifu.Framework.UI.BunifuMetroTextbox bunifuMetroTextbox1;
+        private Bunifu.Framework.UI.BunifuMetroTextbox ipMetroTextbox;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel5;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel4;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel3;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel2;
-        private Bunifu.Framework.UI.BunifuMetroTextbox bunifuMetroTextbox4;
-        private Bunifu.Framework.UI.BunifuMetroTextbox bunifuMetroTextbox3;
-        private Bunifu.Framework.UI.BunifuMetroTextbox bunifuMetroTextbox2;
-        private Bunifu.Framework.UI.BunifuThinButton2 bunifuThinButton23;
-        private Bunifu.Framework.UI.BunifuThinButton2 bunifuThinButton22;
-        private Bunifu.Framework.UI.BunifuThinButton2 bunifuThinButton21;
+        private Bunifu.Framework.UI.BunifuMetroTextbox portMetroTextbox;
+        private Bunifu.Framework.UI.BunifuMetroTextbox gateWayMetroTextbox;
+        private Bunifu.Framework.UI.BunifuMetroTextbox subMaskMetroTextbox;
+        private Bunifu.Framework.UI.BunifuThinButton2 cancelButton;
+        private Bunifu.Framework.UI.BunifuThinButton2 closeButton;
+        private Bunifu.Framework.UI.BunifuThinButton2 connButton;
     }
 }

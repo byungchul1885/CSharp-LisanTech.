@@ -19,12 +19,10 @@ namespace DimmingContol
         public FormResolutionDialog()
         {
             InitializeComponent();
-
-            //Debug.WriteLine($"{CurrWidthHeight}");
         }
 
 
-        private void bunifuThinButton21_Click(object sender, EventArgs e)
+        private void ApplyButton_Click(object sender, EventArgs e)
         {
             this.DialogResult = DialogResult.OK;
 
@@ -38,7 +36,7 @@ namespace DimmingContol
             this.Close();
         }
 
-        private void bunifuThinButton22_Click(object sender, EventArgs e)
+        private void CancelButton_Click(object sender, EventArgs e)
         {
             this.DialogResult = DialogResult.Cancel;
             this.Close();

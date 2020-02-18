@@ -5,5 +5,57 @@
     <Setting Name="WidthHeight" Type="System.String" Scope="User">
       <Value Profile="(Default)">1920 * 1080</Value>
     </Setting>
+    <Setting Name="IP" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;192.168.0.100&lt;/string&gt;
+  &lt;string&gt;192.168.0.101&lt;/string&gt;
+  &lt;string&gt;192.168.0.102&lt;/string&gt;
+  &lt;string&gt;192.168.0.103&lt;/string&gt;
+  &lt;string&gt;192.168.0.104&lt;/string&gt;
+  &lt;string&gt;192.168.0.105&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="SubMask" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;255.255.255.0&lt;/string&gt;
+  &lt;string&gt;255.255.255.0&lt;/string&gt;
+  &lt;string&gt;255.255.255.0&lt;/string&gt;
+  &lt;string&gt;255.255.255.0&lt;/string&gt;
+  &lt;string&gt;255.255.255.0&lt;/string&gt;
+  &lt;string&gt;255.255.255.0&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="Gateway" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;192.168.0.1&lt;/string&gt;
+  &lt;string&gt;192.168.0.1&lt;/string&gt;
+  &lt;string&gt;192.168.0.1&lt;/string&gt;
+  &lt;string&gt;192.168.0.1&lt;/string&gt;
+  &lt;string&gt;192.168.0.1&lt;/string&gt;
+  &lt;string&gt;192.168.0.1&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="Port" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;5000&lt;/string&gt;
+  &lt;string&gt;5000&lt;/string&gt;
+  &lt;string&gt;5000&lt;/string&gt;
+  &lt;string&gt;5000&lt;/string&gt;
+  &lt;string&gt;5000&lt;/string&gt;
+  &lt;string&gt;5000&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="ControllerName" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;정릉 터널&lt;/string&gt;
+  &lt;string&gt;홍지문 터널 통합&lt;/string&gt;
+  &lt;string&gt;홍지문 터널 문화촌&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
   </Settings>
 </SettingsFile>

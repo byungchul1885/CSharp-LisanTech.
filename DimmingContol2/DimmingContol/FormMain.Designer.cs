@@ -32,6 +32,9 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.mainTLPanel = new System.Windows.Forms.TableLayoutPanel();
+            this.connButtonX2 = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.connButtonX1 = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.connButtonX0 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.btnPanel02 = new System.Windows.Forms.TableLayoutPanel();
             this.bunifuFlatButton5 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bunifuFlatButton6 = new Bunifu.Framework.UI.BunifuFlatButton();
@@ -170,20 +173,17 @@
             this.bunifuCustomLabel124 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel125 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel126 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel22 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel20 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.jtLabel01 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.btnPanel00 = new System.Windows.Forms.TableLayoutPanel();
-            this.bunifuFlatButton2 = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.tunnelLabelX2 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.tunnelLabelX1 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.tunnelLabelX0 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.btnPanelX0 = new System.Windows.Forms.TableLayoutPanel();
+            this.controllerSetupButtonX0 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bunifuFlatButton1 = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.bunifuFlatButton7 = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.screenSizeButton = new Bunifu.Framework.UI.BunifuFlatButton();
             this.titlePanel = new System.Windows.Forms.Panel();
-            this.bunifuImageButton1 = new Bunifu.Framework.UI.BunifuImageButton();
+            this.closeProgramButton = new Bunifu.Framework.UI.BunifuImageButton();
             this.titleLabel = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuDragControl1 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
-            this.connButton00 = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.connButton01 = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.connButton02 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.mainTLPanel.SuspendLayout();
             this.btnPanel02.SuspendLayout();
             this.btnPanel01.SuspendLayout();
@@ -199,9 +199,9 @@
             this.tlPanel30.SuspendLayout();
             this.tlPanel31.SuspendLayout();
             this.tlPanel32.SuspendLayout();
-            this.btnPanel00.SuspendLayout();
+            this.btnPanelX0.SuspendLayout();
             this.titlePanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.closeProgramButton)).BeginInit();
             this.SuspendLayout();
             // 
             // bunifuElipse1
@@ -254,9 +254,9 @@
             this.mainTLPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 2.5F));
             this.mainTLPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 2.5F));
             this.mainTLPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 2.5F));
-            this.mainTLPanel.Controls.Add(this.connButton02, 33, 2);
-            this.mainTLPanel.Controls.Add(this.connButton01, 25, 2);
-            this.mainTLPanel.Controls.Add(this.connButton00, 12, 2);
+            this.mainTLPanel.Controls.Add(this.connButtonX2, 33, 2);
+            this.mainTLPanel.Controls.Add(this.connButtonX1, 25, 2);
+            this.mainTLPanel.Controls.Add(this.connButtonX0, 12, 2);
             this.mainTLPanel.Controls.Add(this.btnPanel02, 28, 38);
             this.mainTLPanel.Controls.Add(this.btnPanel01, 20, 38);
             this.mainTLPanel.Controls.Add(this.tlPanel00, 7, 6);
@@ -271,11 +271,11 @@
             this.mainTLPanel.Controls.Add(this.tlPanel30, 7, 29);
             this.mainTLPanel.Controls.Add(this.tlPanel31, 20, 29);
             this.mainTLPanel.Controls.Add(this.tlPanel32, 28, 29);
-            this.mainTLPanel.Controls.Add(this.bunifuCustomLabel22, 28, 2);
-            this.mainTLPanel.Controls.Add(this.bunifuCustomLabel20, 20, 2);
-            this.mainTLPanel.Controls.Add(this.jtLabel01, 7, 2);
-            this.mainTLPanel.Controls.Add(this.btnPanel00, 7, 38);
-            this.mainTLPanel.Controls.Add(this.bunifuFlatButton7, 39, 0);
+            this.mainTLPanel.Controls.Add(this.tunnelLabelX2, 28, 2);
+            this.mainTLPanel.Controls.Add(this.tunnelLabelX1, 20, 2);
+            this.mainTLPanel.Controls.Add(this.tunnelLabelX0, 7, 2);
+            this.mainTLPanel.Controls.Add(this.btnPanelX0, 7, 38);
+            this.mainTLPanel.Controls.Add(this.screenSizeButton, 39, 0);
             this.mainTLPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.mainTLPanel.Location = new System.Drawing.Point(0, 41);
             this.mainTLPanel.Name = "mainTLPanel";
@@ -323,6 +323,123 @@
             this.mainTLPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.mainTLPanel.Size = new System.Drawing.Size(1920, 1039);
             this.mainTLPanel.TabIndex = 0;
+            // 
+            // connButtonX2
+            // 
+            this.connButtonX2.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
+            this.connButtonX2.BackColor = System.Drawing.Color.Red;
+            this.connButtonX2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.connButtonX2.BorderRadius = 0;
+            this.connButtonX2.ButtonText = "끊어짐";
+            this.mainTLPanel.SetColumnSpan(this.connButtonX2, 2);
+            this.connButtonX2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.connButtonX2.DisabledColor = System.Drawing.Color.Gray;
+            this.connButtonX2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.connButtonX2.Iconcolor = System.Drawing.Color.Transparent;
+            this.connButtonX2.Iconimage = null;
+            this.connButtonX2.Iconimage_right = null;
+            this.connButtonX2.Iconimage_right_Selected = null;
+            this.connButtonX2.Iconimage_Selected = null;
+            this.connButtonX2.IconMarginLeft = 0;
+            this.connButtonX2.IconMarginRight = 0;
+            this.connButtonX2.IconRightVisible = true;
+            this.connButtonX2.IconRightZoom = 0D;
+            this.connButtonX2.IconVisible = true;
+            this.connButtonX2.IconZoom = 90D;
+            this.connButtonX2.IsTab = false;
+            this.connButtonX2.Location = new System.Drawing.Point(1584, 55);
+            this.connButtonX2.Margin = new System.Windows.Forms.Padding(0, 5, 10, 10);
+            this.connButtonX2.Name = "connButtonX2";
+            this.connButtonX2.Normalcolor = System.Drawing.Color.Red;
+            this.connButtonX2.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
+            this.connButtonX2.OnHoverTextColor = System.Drawing.Color.White;
+            this.mainTLPanel.SetRowSpan(this.connButtonX2, 2);
+            this.connButtonX2.selected = false;
+            this.connButtonX2.Size = new System.Drawing.Size(86, 35);
+            this.connButtonX2.TabIndex = 24;
+            this.connButtonX2.Text = "끊어짐";
+            this.connButtonX2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.connButtonX2.Textcolor = System.Drawing.Color.White;
+            this.connButtonX2.TextFont = new System.Drawing.Font("Malgun Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.connButtonX2.Click += new System.EventHandler(this.ConnButton_Click);
+            // 
+            // connButtonX1
+            // 
+            this.connButtonX1.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
+            this.connButtonX1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(60)))), ((int)(((byte)(12)))));
+            this.connButtonX1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.connButtonX1.BorderRadius = 0;
+            this.connButtonX1.ButtonText = "연결";
+            this.mainTLPanel.SetColumnSpan(this.connButtonX1, 2);
+            this.connButtonX1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.connButtonX1.DisabledColor = System.Drawing.Color.Gray;
+            this.connButtonX1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.connButtonX1.Iconcolor = System.Drawing.Color.Transparent;
+            this.connButtonX1.Iconimage = null;
+            this.connButtonX1.Iconimage_right = null;
+            this.connButtonX1.Iconimage_right_Selected = null;
+            this.connButtonX1.Iconimage_Selected = null;
+            this.connButtonX1.IconMarginLeft = 0;
+            this.connButtonX1.IconMarginRight = 0;
+            this.connButtonX1.IconRightVisible = true;
+            this.connButtonX1.IconRightZoom = 0D;
+            this.connButtonX1.IconVisible = true;
+            this.connButtonX1.IconZoom = 90D;
+            this.connButtonX1.IsTab = false;
+            this.connButtonX1.Location = new System.Drawing.Point(1200, 55);
+            this.connButtonX1.Margin = new System.Windows.Forms.Padding(0, 5, 10, 10);
+            this.connButtonX1.Name = "connButtonX1";
+            this.connButtonX1.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(60)))), ((int)(((byte)(12)))));
+            this.connButtonX1.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
+            this.connButtonX1.OnHoverTextColor = System.Drawing.Color.White;
+            this.mainTLPanel.SetRowSpan(this.connButtonX1, 2);
+            this.connButtonX1.selected = false;
+            this.connButtonX1.Size = new System.Drawing.Size(86, 35);
+            this.connButtonX1.TabIndex = 23;
+            this.connButtonX1.Text = "연결";
+            this.connButtonX1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.connButtonX1.Textcolor = System.Drawing.Color.White;
+            this.connButtonX1.TextFont = new System.Drawing.Font("Malgun Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.connButtonX1.Click += new System.EventHandler(this.ConnButton_Click);
+            // 
+            // connButtonX0
+            // 
+            this.connButtonX0.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
+            this.connButtonX0.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(60)))), ((int)(((byte)(12)))));
+            this.connButtonX0.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.connButtonX0.BorderRadius = 0;
+            this.connButtonX0.ButtonText = "연결";
+            this.mainTLPanel.SetColumnSpan(this.connButtonX0, 2);
+            this.connButtonX0.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.connButtonX0.DisabledColor = System.Drawing.Color.Gray;
+            this.connButtonX0.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.connButtonX0.Iconcolor = System.Drawing.Color.Transparent;
+            this.connButtonX0.Iconimage = null;
+            this.connButtonX0.Iconimage_right = null;
+            this.connButtonX0.Iconimage_right_Selected = null;
+            this.connButtonX0.Iconimage_Selected = null;
+            this.connButtonX0.IconMarginLeft = 0;
+            this.connButtonX0.IconMarginRight = 0;
+            this.connButtonX0.IconRightVisible = true;
+            this.connButtonX0.IconRightZoom = 0D;
+            this.connButtonX0.IconVisible = true;
+            this.connButtonX0.IconZoom = 90D;
+            this.connButtonX0.IsTab = false;
+            this.connButtonX0.Location = new System.Drawing.Point(576, 55);
+            this.connButtonX0.Margin = new System.Windows.Forms.Padding(0, 5, 10, 10);
+            this.connButtonX0.Name = "connButtonX0";
+            this.connButtonX0.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(60)))), ((int)(((byte)(12)))));
+            this.connButtonX0.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
+            this.connButtonX0.OnHoverTextColor = System.Drawing.Color.White;
+            this.mainTLPanel.SetRowSpan(this.connButtonX0, 2);
+            this.connButtonX0.selected = false;
+            this.connButtonX0.Size = new System.Drawing.Size(86, 35);
+            this.connButtonX0.TabIndex = 22;
+            this.connButtonX0.Text = "연결";
+            this.connButtonX0.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.connButtonX0.Textcolor = System.Drawing.Color.White;
+            this.connButtonX0.TextFont = new System.Drawing.Font("Malgun Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.connButtonX0.Click += new System.EventHandler(this.ConnButton_Click);
             // 
             // btnPanel02
             // 
@@ -436,7 +553,7 @@
             // 
             // bunifuFlatButton3
             // 
-            this.bunifuFlatButton3.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
+            this.bunifuFlatButton3.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(89)))), ((int)(((byte)(89)))), ((int)(((byte)(89)))));
             this.bunifuFlatButton3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(89)))), ((int)(((byte)(89)))), ((int)(((byte)(89)))));
             this.bunifuFlatButton3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.bunifuFlatButton3.BorderRadius = 0;
@@ -2745,111 +2862,112 @@
             this.bunifuCustomLabel126.Text = "외부휘도";
             this.bunifuCustomLabel126.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // bunifuCustomLabel22
+            // tunnelLabelX2
             // 
-            this.bunifuCustomLabel22.AutoSize = true;
-            this.bunifuCustomLabel22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(217)))), ((int)(((byte)(217)))));
-            this.mainTLPanel.SetColumnSpan(this.bunifuCustomLabel22, 5);
-            this.bunifuCustomLabel22.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuCustomLabel22.Font = new System.Drawing.Font("Malgun Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.bunifuCustomLabel22.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(32)))), ((int)(((byte)(96)))));
-            this.bunifuCustomLabel22.Location = new System.Drawing.Point(1354, 55);
-            this.bunifuCustomLabel22.Margin = new System.Windows.Forms.Padding(10, 5, 5, 10);
-            this.bunifuCustomLabel22.Name = "bunifuCustomLabel22";
-            this.mainTLPanel.SetRowSpan(this.bunifuCustomLabel22, 2);
-            this.bunifuCustomLabel22.Size = new System.Drawing.Size(225, 35);
-            this.bunifuCustomLabel22.TabIndex = 5;
-            this.bunifuCustomLabel22.Text = "홍지문 터널 문화촌";
-            this.bunifuCustomLabel22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.tunnelLabelX2.AutoSize = true;
+            this.tunnelLabelX2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(217)))), ((int)(((byte)(217)))));
+            this.mainTLPanel.SetColumnSpan(this.tunnelLabelX2, 5);
+            this.tunnelLabelX2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tunnelLabelX2.Font = new System.Drawing.Font("Malgun Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.tunnelLabelX2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(32)))), ((int)(((byte)(96)))));
+            this.tunnelLabelX2.Location = new System.Drawing.Point(1354, 55);
+            this.tunnelLabelX2.Margin = new System.Windows.Forms.Padding(10, 5, 5, 10);
+            this.tunnelLabelX2.Name = "tunnelLabelX2";
+            this.mainTLPanel.SetRowSpan(this.tunnelLabelX2, 2);
+            this.tunnelLabelX2.Size = new System.Drawing.Size(225, 35);
+            this.tunnelLabelX2.TabIndex = 5;
+            this.tunnelLabelX2.Text = "홍지문 터널 문화촌";
+            this.tunnelLabelX2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // bunifuCustomLabel20
+            // tunnelLabelX1
             // 
-            this.bunifuCustomLabel20.AutoSize = true;
-            this.bunifuCustomLabel20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(217)))), ((int)(((byte)(217)))));
-            this.mainTLPanel.SetColumnSpan(this.bunifuCustomLabel20, 5);
-            this.bunifuCustomLabel20.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuCustomLabel20.Font = new System.Drawing.Font("Malgun Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.bunifuCustomLabel20.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(32)))), ((int)(((byte)(96)))));
-            this.bunifuCustomLabel20.Location = new System.Drawing.Point(970, 55);
-            this.bunifuCustomLabel20.Margin = new System.Windows.Forms.Padding(10, 5, 5, 10);
-            this.bunifuCustomLabel20.Name = "bunifuCustomLabel20";
-            this.mainTLPanel.SetRowSpan(this.bunifuCustomLabel20, 2);
-            this.bunifuCustomLabel20.Size = new System.Drawing.Size(225, 35);
-            this.bunifuCustomLabel20.TabIndex = 3;
-            this.bunifuCustomLabel20.Text = "홍지문 터널 통합";
-            this.bunifuCustomLabel20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.tunnelLabelX1.AutoSize = true;
+            this.tunnelLabelX1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(217)))), ((int)(((byte)(217)))));
+            this.mainTLPanel.SetColumnSpan(this.tunnelLabelX1, 5);
+            this.tunnelLabelX1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tunnelLabelX1.Font = new System.Drawing.Font("Malgun Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.tunnelLabelX1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(32)))), ((int)(((byte)(96)))));
+            this.tunnelLabelX1.Location = new System.Drawing.Point(970, 55);
+            this.tunnelLabelX1.Margin = new System.Windows.Forms.Padding(10, 5, 5, 10);
+            this.tunnelLabelX1.Name = "tunnelLabelX1";
+            this.mainTLPanel.SetRowSpan(this.tunnelLabelX1, 2);
+            this.tunnelLabelX1.Size = new System.Drawing.Size(225, 35);
+            this.tunnelLabelX1.TabIndex = 3;
+            this.tunnelLabelX1.Text = "홍지문 터널 통합";
+            this.tunnelLabelX1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // jtLabel01
+            // tunnelLabelX0
             // 
-            this.jtLabel01.AutoSize = true;
-            this.jtLabel01.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(217)))), ((int)(((byte)(217)))));
-            this.mainTLPanel.SetColumnSpan(this.jtLabel01, 5);
-            this.jtLabel01.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.jtLabel01.Font = new System.Drawing.Font("Malgun Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.jtLabel01.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(32)))), ((int)(((byte)(96)))));
-            this.jtLabel01.Location = new System.Drawing.Point(346, 55);
-            this.jtLabel01.Margin = new System.Windows.Forms.Padding(10, 5, 5, 10);
-            this.jtLabel01.Name = "jtLabel01";
-            this.mainTLPanel.SetRowSpan(this.jtLabel01, 2);
-            this.jtLabel01.Size = new System.Drawing.Size(225, 35);
-            this.jtLabel01.TabIndex = 1;
-            this.jtLabel01.Text = "정릉 터널";
-            this.jtLabel01.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.tunnelLabelX0.AutoSize = true;
+            this.tunnelLabelX0.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(217)))), ((int)(((byte)(217)))));
+            this.mainTLPanel.SetColumnSpan(this.tunnelLabelX0, 5);
+            this.tunnelLabelX0.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tunnelLabelX0.Font = new System.Drawing.Font("Malgun Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.tunnelLabelX0.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(32)))), ((int)(((byte)(96)))));
+            this.tunnelLabelX0.Location = new System.Drawing.Point(346, 55);
+            this.tunnelLabelX0.Margin = new System.Windows.Forms.Padding(10, 5, 5, 10);
+            this.tunnelLabelX0.Name = "tunnelLabelX0";
+            this.mainTLPanel.SetRowSpan(this.tunnelLabelX0, 2);
+            this.tunnelLabelX0.Size = new System.Drawing.Size(225, 35);
+            this.tunnelLabelX0.TabIndex = 1;
+            this.tunnelLabelX0.Text = "정릉 터널";
+            this.tunnelLabelX0.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // btnPanel00
+            // btnPanelX0
             // 
-            this.btnPanel00.ColumnCount = 1;
-            this.mainTLPanel.SetColumnSpan(this.btnPanel00, 7);
-            this.btnPanel00.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.btnPanel00.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.btnPanel00.Controls.Add(this.bunifuFlatButton2, 0, 1);
-            this.btnPanel00.Controls.Add(this.bunifuFlatButton1, 0, 0);
-            this.btnPanel00.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.btnPanel00.Location = new System.Drawing.Point(339, 950);
-            this.btnPanel00.Margin = new System.Windows.Forms.Padding(3, 0, 3, 10);
-            this.btnPanel00.Name = "btnPanel00";
-            this.btnPanel00.RowCount = 2;
-            this.mainTLPanel.SetRowSpan(this.btnPanel00, 2);
-            this.btnPanel00.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.btnPanel00.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.btnPanel00.Size = new System.Drawing.Size(330, 79);
-            this.btnPanel00.TabIndex = 18;
+            this.btnPanelX0.ColumnCount = 1;
+            this.mainTLPanel.SetColumnSpan(this.btnPanelX0, 7);
+            this.btnPanelX0.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.btnPanelX0.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.btnPanelX0.Controls.Add(this.controllerSetupButtonX0, 0, 1);
+            this.btnPanelX0.Controls.Add(this.bunifuFlatButton1, 0, 0);
+            this.btnPanelX0.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btnPanelX0.Location = new System.Drawing.Point(339, 950);
+            this.btnPanelX0.Margin = new System.Windows.Forms.Padding(3, 0, 3, 10);
+            this.btnPanelX0.Name = "btnPanelX0";
+            this.btnPanelX0.RowCount = 2;
+            this.mainTLPanel.SetRowSpan(this.btnPanelX0, 2);
+            this.btnPanelX0.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.btnPanelX0.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.btnPanelX0.Size = new System.Drawing.Size(330, 79);
+            this.btnPanelX0.TabIndex = 18;
             // 
-            // bunifuFlatButton2
+            // controllerSetupButtonX0
             // 
-            this.bunifuFlatButton2.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
-            this.bunifuFlatButton2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(89)))), ((int)(((byte)(89)))), ((int)(((byte)(89)))));
-            this.bunifuFlatButton2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bunifuFlatButton2.BorderRadius = 0;
-            this.bunifuFlatButton2.ButtonText = "터널등 제어기 설정";
-            this.bunifuFlatButton2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuFlatButton2.DisabledColor = System.Drawing.Color.Gray;
-            this.bunifuFlatButton2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuFlatButton2.Iconcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton2.Iconimage = null;
-            this.bunifuFlatButton2.Iconimage_right = null;
-            this.bunifuFlatButton2.Iconimage_right_Selected = null;
-            this.bunifuFlatButton2.Iconimage_Selected = null;
-            this.bunifuFlatButton2.IconMarginLeft = 0;
-            this.bunifuFlatButton2.IconMarginRight = 0;
-            this.bunifuFlatButton2.IconRightVisible = true;
-            this.bunifuFlatButton2.IconRightZoom = 0D;
-            this.bunifuFlatButton2.IconVisible = true;
-            this.bunifuFlatButton2.IconZoom = 90D;
-            this.bunifuFlatButton2.IsTab = false;
-            this.bunifuFlatButton2.Location = new System.Drawing.Point(0, 39);
-            this.bunifuFlatButton2.Margin = new System.Windows.Forms.Padding(0);
-            this.bunifuFlatButton2.Name = "bunifuFlatButton2";
-            this.bunifuFlatButton2.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(89)))), ((int)(((byte)(89)))), ((int)(((byte)(89)))));
-            this.bunifuFlatButton2.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
-            this.bunifuFlatButton2.OnHoverTextColor = System.Drawing.Color.White;
-            this.bunifuFlatButton2.selected = false;
-            this.bunifuFlatButton2.Size = new System.Drawing.Size(330, 40);
-            this.bunifuFlatButton2.TabIndex = 1;
-            this.bunifuFlatButton2.Text = "터널등 제어기 설정";
-            this.bunifuFlatButton2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.bunifuFlatButton2.Textcolor = System.Drawing.Color.White;
-            this.bunifuFlatButton2.TextFont = new System.Drawing.Font("Malgun Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.controllerSetupButtonX0.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(89)))), ((int)(((byte)(89)))), ((int)(((byte)(89)))));
+            this.controllerSetupButtonX0.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(89)))), ((int)(((byte)(89)))), ((int)(((byte)(89)))));
+            this.controllerSetupButtonX0.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.controllerSetupButtonX0.BorderRadius = 0;
+            this.controllerSetupButtonX0.ButtonText = "터널등 제어기 설정";
+            this.controllerSetupButtonX0.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.controllerSetupButtonX0.DisabledColor = System.Drawing.Color.Gray;
+            this.controllerSetupButtonX0.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.controllerSetupButtonX0.Iconcolor = System.Drawing.Color.Transparent;
+            this.controllerSetupButtonX0.Iconimage = null;
+            this.controllerSetupButtonX0.Iconimage_right = null;
+            this.controllerSetupButtonX0.Iconimage_right_Selected = null;
+            this.controllerSetupButtonX0.Iconimage_Selected = null;
+            this.controllerSetupButtonX0.IconMarginLeft = 0;
+            this.controllerSetupButtonX0.IconMarginRight = 0;
+            this.controllerSetupButtonX0.IconRightVisible = true;
+            this.controllerSetupButtonX0.IconRightZoom = 0D;
+            this.controllerSetupButtonX0.IconVisible = true;
+            this.controllerSetupButtonX0.IconZoom = 90D;
+            this.controllerSetupButtonX0.IsTab = false;
+            this.controllerSetupButtonX0.Location = new System.Drawing.Point(0, 39);
+            this.controllerSetupButtonX0.Margin = new System.Windows.Forms.Padding(0);
+            this.controllerSetupButtonX0.Name = "controllerSetupButtonX0";
+            this.controllerSetupButtonX0.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(89)))), ((int)(((byte)(89)))), ((int)(((byte)(89)))));
+            this.controllerSetupButtonX0.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
+            this.controllerSetupButtonX0.OnHoverTextColor = System.Drawing.Color.White;
+            this.controllerSetupButtonX0.selected = false;
+            this.controllerSetupButtonX0.Size = new System.Drawing.Size(330, 40);
+            this.controllerSetupButtonX0.TabIndex = 1;
+            this.controllerSetupButtonX0.Text = "터널등 제어기 설정";
+            this.controllerSetupButtonX0.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.controllerSetupButtonX0.Textcolor = System.Drawing.Color.White;
+            this.controllerSetupButtonX0.TextFont = new System.Drawing.Font("Malgun Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.controllerSetupButtonX0.Click += new System.EventHandler(this.ControllerSetupButton_Click);
             // 
             // bunifuFlatButton1
             // 
@@ -2887,46 +3005,46 @@
             this.bunifuFlatButton1.Textcolor = System.Drawing.Color.White;
             this.bunifuFlatButton1.TextFont = new System.Drawing.Font("Malgun Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             // 
-            // bunifuFlatButton7
+            // screenSizeButton
             // 
-            this.bunifuFlatButton7.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
-            this.bunifuFlatButton7.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bunifuFlatButton7.BorderRadius = 0;
-            this.bunifuFlatButton7.ButtonText = "";
-            this.bunifuFlatButton7.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuFlatButton7.DisabledColor = System.Drawing.Color.Gray;
-            this.bunifuFlatButton7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuFlatButton7.Iconcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton7.Iconimage = ((System.Drawing.Image)(resources.GetObject("bunifuFlatButton7.Iconimage")));
-            this.bunifuFlatButton7.Iconimage_right = null;
-            this.bunifuFlatButton7.Iconimage_right_Selected = null;
-            this.bunifuFlatButton7.Iconimage_Selected = null;
-            this.bunifuFlatButton7.IconMarginLeft = 0;
-            this.bunifuFlatButton7.IconMarginRight = 0;
-            this.bunifuFlatButton7.IconRightVisible = true;
-            this.bunifuFlatButton7.IconRightZoom = 0D;
-            this.bunifuFlatButton7.IconVisible = true;
-            this.bunifuFlatButton7.IconZoom = 90D;
-            this.bunifuFlatButton7.IsTab = false;
-            this.bunifuFlatButton7.Location = new System.Drawing.Point(1875, 3);
-            this.bunifuFlatButton7.Name = "bunifuFlatButton7";
-            this.bunifuFlatButton7.Normalcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton7.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
-            this.bunifuFlatButton7.OnHoverTextColor = System.Drawing.Color.White;
-            this.mainTLPanel.SetRowSpan(this.bunifuFlatButton7, 2);
-            this.bunifuFlatButton7.selected = false;
-            this.bunifuFlatButton7.Size = new System.Drawing.Size(42, 44);
-            this.bunifuFlatButton7.TabIndex = 21;
-            this.bunifuFlatButton7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.bunifuFlatButton7.Textcolor = System.Drawing.Color.White;
-            this.bunifuFlatButton7.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuFlatButton7.Click += new System.EventHandler(this.bunifuFlatButton7_Click);
+            this.screenSizeButton.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
+            this.screenSizeButton.BackColor = System.Drawing.Color.Transparent;
+            this.screenSizeButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.screenSizeButton.BorderRadius = 0;
+            this.screenSizeButton.ButtonText = "";
+            this.screenSizeButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.screenSizeButton.DisabledColor = System.Drawing.Color.Gray;
+            this.screenSizeButton.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.screenSizeButton.Iconcolor = System.Drawing.Color.Transparent;
+            this.screenSizeButton.Iconimage = ((System.Drawing.Image)(resources.GetObject("screenSizeButton.Iconimage")));
+            this.screenSizeButton.Iconimage_right = null;
+            this.screenSizeButton.Iconimage_right_Selected = null;
+            this.screenSizeButton.Iconimage_Selected = null;
+            this.screenSizeButton.IconMarginLeft = 0;
+            this.screenSizeButton.IconMarginRight = 0;
+            this.screenSizeButton.IconRightVisible = true;
+            this.screenSizeButton.IconRightZoom = 0D;
+            this.screenSizeButton.IconVisible = true;
+            this.screenSizeButton.IconZoom = 90D;
+            this.screenSizeButton.IsTab = false;
+            this.screenSizeButton.Location = new System.Drawing.Point(1875, 3);
+            this.screenSizeButton.Name = "screenSizeButton";
+            this.screenSizeButton.Normalcolor = System.Drawing.Color.Transparent;
+            this.screenSizeButton.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
+            this.screenSizeButton.OnHoverTextColor = System.Drawing.Color.White;
+            this.mainTLPanel.SetRowSpan(this.screenSizeButton, 2);
+            this.screenSizeButton.selected = false;
+            this.screenSizeButton.Size = new System.Drawing.Size(42, 44);
+            this.screenSizeButton.TabIndex = 21;
+            this.screenSizeButton.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.screenSizeButton.Textcolor = System.Drawing.Color.White;
+            this.screenSizeButton.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.screenSizeButton.Click += new System.EventHandler(this.ScreenSizeButton_Click);
             // 
             // titlePanel
             // 
             this.titlePanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
-            this.titlePanel.Controls.Add(this.bunifuImageButton1);
+            this.titlePanel.Controls.Add(this.closeProgramButton);
             this.titlePanel.Controls.Add(this.titleLabel);
             this.titlePanel.Dock = System.Windows.Forms.DockStyle.Top;
             this.titlePanel.Location = new System.Drawing.Point(0, 0);
@@ -2935,21 +3053,21 @@
             this.titlePanel.Size = new System.Drawing.Size(1920, 41);
             this.titlePanel.TabIndex = 1;
             // 
-            // bunifuImageButton1
+            // closeProgramButton
             // 
-            this.bunifuImageButton1.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuImageButton1.Dock = System.Windows.Forms.DockStyle.Right;
-            this.bunifuImageButton1.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton1.Image")));
-            this.bunifuImageButton1.ImageActive = null;
-            this.bunifuImageButton1.Location = new System.Drawing.Point(1885, 0);
-            this.bunifuImageButton1.Margin = new System.Windows.Forms.Padding(5);
-            this.bunifuImageButton1.Name = "bunifuImageButton1";
-            this.bunifuImageButton1.Size = new System.Drawing.Size(30, 41);
-            this.bunifuImageButton1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.bunifuImageButton1.TabIndex = 1;
-            this.bunifuImageButton1.TabStop = false;
-            this.bunifuImageButton1.Zoom = 0;
-            this.bunifuImageButton1.Click += new System.EventHandler(this.bunifuImageButton1_Click);
+            this.closeProgramButton.BackColor = System.Drawing.Color.Transparent;
+            this.closeProgramButton.Dock = System.Windows.Forms.DockStyle.Right;
+            this.closeProgramButton.Image = ((System.Drawing.Image)(resources.GetObject("closeProgramButton.Image")));
+            this.closeProgramButton.ImageActive = null;
+            this.closeProgramButton.Location = new System.Drawing.Point(1885, 0);
+            this.closeProgramButton.Margin = new System.Windows.Forms.Padding(5);
+            this.closeProgramButton.Name = "closeProgramButton";
+            this.closeProgramButton.Size = new System.Drawing.Size(30, 41);
+            this.closeProgramButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.closeProgramButton.TabIndex = 1;
+            this.closeProgramButton.TabStop = false;
+            this.closeProgramButton.Zoom = 0;
+            this.closeProgramButton.Click += new System.EventHandler(this.CloseProgramButton_Click);
             // 
             // titleLabel
             // 
@@ -2972,121 +3090,6 @@
             this.bunifuDragControl1.TargetControl = this.titlePanel;
             this.bunifuDragControl1.Vertical = true;
             // 
-            // connButton00
-            // 
-            this.connButton00.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
-            this.connButton00.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(60)))), ((int)(((byte)(12)))));
-            this.connButton00.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.connButton00.BorderRadius = 0;
-            this.connButton00.ButtonText = "연결";
-            this.mainTLPanel.SetColumnSpan(this.connButton00, 2);
-            this.connButton00.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.connButton00.DisabledColor = System.Drawing.Color.Gray;
-            this.connButton00.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.connButton00.Iconcolor = System.Drawing.Color.Transparent;
-            this.connButton00.Iconimage = null;
-            this.connButton00.Iconimage_right = null;
-            this.connButton00.Iconimage_right_Selected = null;
-            this.connButton00.Iconimage_Selected = null;
-            this.connButton00.IconMarginLeft = 0;
-            this.connButton00.IconMarginRight = 0;
-            this.connButton00.IconRightVisible = true;
-            this.connButton00.IconRightZoom = 0D;
-            this.connButton00.IconVisible = true;
-            this.connButton00.IconZoom = 90D;
-            this.connButton00.IsTab = false;
-            this.connButton00.Location = new System.Drawing.Point(576, 55);
-            this.connButton00.Margin = new System.Windows.Forms.Padding(0, 5, 10, 10);
-            this.connButton00.Name = "connButton00";
-            this.connButton00.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(60)))), ((int)(((byte)(12)))));
-            this.connButton00.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
-            this.connButton00.OnHoverTextColor = System.Drawing.Color.White;
-            this.mainTLPanel.SetRowSpan(this.connButton00, 2);
-            this.connButton00.selected = false;
-            this.connButton00.Size = new System.Drawing.Size(86, 35);
-            this.connButton00.TabIndex = 22;
-            this.connButton00.Text = "연결";
-            this.connButton00.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.connButton00.Textcolor = System.Drawing.Color.White;
-            this.connButton00.TextFont = new System.Drawing.Font("Malgun Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.connButton00.Click += new System.EventHandler(this.connButton00_Click);
-            // 
-            // connButton01
-            // 
-            this.connButton01.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
-            this.connButton01.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(60)))), ((int)(((byte)(12)))));
-            this.connButton01.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.connButton01.BorderRadius = 0;
-            this.connButton01.ButtonText = "연결";
-            this.mainTLPanel.SetColumnSpan(this.connButton01, 2);
-            this.connButton01.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.connButton01.DisabledColor = System.Drawing.Color.Gray;
-            this.connButton01.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.connButton01.Iconcolor = System.Drawing.Color.Transparent;
-            this.connButton01.Iconimage = null;
-            this.connButton01.Iconimage_right = null;
-            this.connButton01.Iconimage_right_Selected = null;
-            this.connButton01.Iconimage_Selected = null;
-            this.connButton01.IconMarginLeft = 0;
-            this.connButton01.IconMarginRight = 0;
-            this.connButton01.IconRightVisible = true;
-            this.connButton01.IconRightZoom = 0D;
-            this.connButton01.IconVisible = true;
-            this.connButton01.IconZoom = 90D;
-            this.connButton01.IsTab = false;
-            this.connButton01.Location = new System.Drawing.Point(1200, 55);
-            this.connButton01.Margin = new System.Windows.Forms.Padding(0, 5, 10, 10);
-            this.connButton01.Name = "connButton01";
-            this.connButton01.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(60)))), ((int)(((byte)(12)))));
-            this.connButton01.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
-            this.connButton01.OnHoverTextColor = System.Drawing.Color.White;
-            this.mainTLPanel.SetRowSpan(this.connButton01, 2);
-            this.connButton01.selected = false;
-            this.connButton01.Size = new System.Drawing.Size(86, 35);
-            this.connButton01.TabIndex = 23;
-            this.connButton01.Text = "연결";
-            this.connButton01.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.connButton01.Textcolor = System.Drawing.Color.White;
-            this.connButton01.TextFont = new System.Drawing.Font("Malgun Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            // 
-            // connButton02
-            // 
-            this.connButton02.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
-            this.connButton02.BackColor = System.Drawing.Color.Red;
-            this.connButton02.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.connButton02.BorderRadius = 0;
-            this.connButton02.ButtonText = "끊어짐";
-            this.mainTLPanel.SetColumnSpan(this.connButton02, 2);
-            this.connButton02.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.connButton02.DisabledColor = System.Drawing.Color.Gray;
-            this.connButton02.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.connButton02.Iconcolor = System.Drawing.Color.Transparent;
-            this.connButton02.Iconimage = null;
-            this.connButton02.Iconimage_right = null;
-            this.connButton02.Iconimage_right_Selected = null;
-            this.connButton02.Iconimage_Selected = null;
-            this.connButton02.IconMarginLeft = 0;
-            this.connButton02.IconMarginRight = 0;
-            this.connButton02.IconRightVisible = true;
-            this.connButton02.IconRightZoom = 0D;
-            this.connButton02.IconVisible = true;
-            this.connButton02.IconZoom = 90D;
-            this.connButton02.IsTab = false;
-            this.connButton02.Location = new System.Drawing.Point(1584, 55);
-            this.connButton02.Margin = new System.Windows.Forms.Padding(0, 5, 10, 10);
-            this.connButton02.Name = "connButton02";
-            this.connButton02.Normalcolor = System.Drawing.Color.Red;
-            this.connButton02.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
-            this.connButton02.OnHoverTextColor = System.Drawing.Color.White;
-            this.mainTLPanel.SetRowSpan(this.connButton02, 2);
-            this.connButton02.selected = false;
-            this.connButton02.Size = new System.Drawing.Size(86, 35);
-            this.connButton02.TabIndex = 24;
-            this.connButton02.Text = "끊어짐";
-            this.connButton02.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.connButton02.Textcolor = System.Drawing.Color.White;
-            this.connButton02.TextFont = new System.Drawing.Font("Malgun Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
@@ -3100,7 +3103,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FormMain";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
-            this.Load += new System.EventHandler(this.Form1_Load);
+            this.Load += new System.EventHandler(this.FormMain_Load);
             this.mainTLPanel.ResumeLayout(false);
             this.mainTLPanel.PerformLayout();
             this.btnPanel02.ResumeLayout(false);
@@ -3129,10 +3132,10 @@
             this.tlPanel31.PerformLayout();
             this.tlPanel32.ResumeLayout(false);
             this.tlPanel32.PerformLayout();
-            this.btnPanel00.ResumeLayout(false);
+            this.btnPanelX0.ResumeLayout(false);
             this.titlePanel.ResumeLayout(false);
             this.titlePanel.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.closeProgramButton)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -3140,9 +3143,9 @@
         #endregion
         private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;
         private System.Windows.Forms.TableLayoutPanel mainTLPanel;
-        private Bunifu.Framework.UI.BunifuCustomLabel jtLabel01;
-        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel20;
-        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel22;
+        private Bunifu.Framework.UI.BunifuCustomLabel tunnelLabelX0;
+        private Bunifu.Framework.UI.BunifuCustomLabel tunnelLabelX1;
+        private Bunifu.Framework.UI.BunifuCustomLabel tunnelLabelX2;
         private System.Windows.Forms.TableLayoutPanel tlPanel00;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel25;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel28;
@@ -3275,9 +3278,9 @@
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel114;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel115;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel116;
-        private System.Windows.Forms.TableLayoutPanel btnPanel00;
+        private System.Windows.Forms.TableLayoutPanel btnPanelX0;
         private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton1;
-        private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton2;
+        private Bunifu.Framework.UI.BunifuFlatButton controllerSetupButtonX0;
         private System.Windows.Forms.TableLayoutPanel btnPanel02;
         private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton5;
         private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton6;
@@ -3287,10 +3290,10 @@
         private System.Windows.Forms.Panel titlePanel;
         private Bunifu.Framework.UI.BunifuCustomLabel titleLabel;
         private Bunifu.Framework.UI.BunifuDragControl bunifuDragControl1;
-        private Bunifu.Framework.UI.BunifuImageButton bunifuImageButton1;
-        private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton7;
-        private Bunifu.Framework.UI.BunifuFlatButton connButton00;
-        private Bunifu.Framework.UI.BunifuFlatButton connButton02;
-        private Bunifu.Framework.UI.BunifuFlatButton connButton01;
+        private Bunifu.Framework.UI.BunifuImageButton closeProgramButton;
+        private Bunifu.Framework.UI.BunifuFlatButton screenSizeButton;
+        private Bunifu.Framework.UI.BunifuFlatButton connButtonX0;
+        private Bunifu.Framework.UI.BunifuFlatButton connButtonX2;
+        private Bunifu.Framework.UI.BunifuFlatButton connButtonX1;
     }
 }

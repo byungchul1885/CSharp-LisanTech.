@@ -34,5 +34,102 @@ namespace DimmingContol.Properties {
                 this["WidthHeight"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute(@"<?xml version=""1.0"" encoding=""utf-16""?>
+<ArrayOfString xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance"" xmlns:xsd=""http://www.w3.org/2001/XMLSchema"">
+  <string>192.168.0.100</string>
+  <string>192.168.0.101</string>
+  <string>192.168.0.102</string>
+  <string>192.168.0.103</string>
+  <string>192.168.0.104</string>
+  <string>192.168.0.105</string>
+</ArrayOfString>")]
+        public global::System.Collections.Specialized.StringCollection IP {
+            get {
+                return ((global::System.Collections.Specialized.StringCollection)(this["IP"]));
+            }
+            set {
+                this["IP"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute(@"<?xml version=""1.0"" encoding=""utf-16""?>
+<ArrayOfString xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance"" xmlns:xsd=""http://www.w3.org/2001/XMLSchema"">
+  <string>255.255.255.0</string>
+  <string>255.255.255.0</string>
+  <string>255.255.255.0</string>
+  <string>255.255.255.0</string>
+  <string>255.255.255.0</string>
+  <string>255.255.255.0</string>
+</ArrayOfString>")]
+        public global::System.Collections.Specialized.StringCollection SubMask {
+            get {
+                return ((global::System.Collections.Specialized.StringCollection)(this["SubMask"]));
+            }
+            set {
+                this["SubMask"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute(@"<?xml version=""1.0"" encoding=""utf-16""?>
+<ArrayOfString xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance"" xmlns:xsd=""http://www.w3.org/2001/XMLSchema"">
+  <string>192.168.0.1</string>
+  <string>192.168.0.1</string>
+  <string>192.168.0.1</string>
+  <string>192.168.0.1</string>
+  <string>192.168.0.1</string>
+  <string>192.168.0.1</string>
+</ArrayOfString>")]
+        public global::System.Collections.Specialized.StringCollection Gateway {
+            get {
+                return ((global::System.Collections.Specialized.StringCollection)(this["Gateway"]));
+            }
+            set {
+                this["Gateway"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute(@"<?xml version=""1.0"" encoding=""utf-16""?>
+<ArrayOfString xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance"" xmlns:xsd=""http://www.w3.org/2001/XMLSchema"">
+  <string>5000</string>
+  <string>5000</string>
+  <string>5000</string>
+  <string>5000</string>
+  <string>5000</string>
+  <string>5000</string>
+</ArrayOfString>")]
+        public global::System.Collections.Specialized.StringCollection Port {
+            get {
+                return ((global::System.Collections.Specialized.StringCollection)(this["Port"]));
+            }
+            set {
+                this["Port"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute(@"<?xml version=""1.0"" encoding=""utf-16""?>
+<ArrayOfString xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance"" xmlns:xsd=""http://www.w3.org/2001/XMLSchema"">
+  <string>정릉 터널</string>
+  <string>홍지문 터널 통합</string>
+  <string>홍지문 터널 문화촌</string>
+</ArrayOfString>")]
+        public global::System.Collections.Specialized.StringCollection ControllerName {
+            get {
+                return ((global::System.Collections.Specialized.StringCollection)(this["ControllerName"]));
+            }
+            set {
+                this["ControllerName"] = value;
+            }
+        }
     }
 }

@@ -152,7 +152,7 @@
             this.bunifuThinButton21.Size = new System.Drawing.Size(169, 70);
             this.bunifuThinButton21.TabIndex = 8;
             this.bunifuThinButton21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.bunifuThinButton21.Click += new System.EventHandler(this.bunifuThinButton21_Click);
+            this.bunifuThinButton21.Click += new System.EventHandler(this.ApplyButton_Click);
             // 
             // bunifuThinButton22
             // 
@@ -178,7 +178,7 @@
             this.bunifuThinButton22.Size = new System.Drawing.Size(169, 70);
             this.bunifuThinButton22.TabIndex = 8;
             this.bunifuThinButton22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.bunifuThinButton22.Click += new System.EventHandler(this.bunifuThinButton22_Click);
+            this.bunifuThinButton22.Click += new System.EventHandler(this.CancelButton_Click);
             // 
             // label1
             // 
