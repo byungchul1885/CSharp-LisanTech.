@@ -365,7 +365,7 @@
             // 
             // connButtonX1
             // 
-            this.connButtonX1.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
+            this.connButtonX1.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(60)))), ((int)(((byte)(12)))));
             this.connButtonX1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(60)))), ((int)(((byte)(12)))));
             this.connButtonX1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.connButtonX1.BorderRadius = 0;
@@ -404,7 +404,7 @@
             // 
             // connButtonX0
             // 
-            this.connButtonX0.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
+            this.connButtonX0.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(60)))), ((int)(((byte)(12)))));
             this.connButtonX0.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(60)))), ((int)(((byte)(12)))));
             this.connButtonX0.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.connButtonX0.BorderRadius = 0;
