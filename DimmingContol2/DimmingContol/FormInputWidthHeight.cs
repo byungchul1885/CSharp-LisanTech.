@@ -11,12 +11,12 @@ using System.Windows.Forms;
 
 namespace DimmingContol
 {
-    public partial class FormResolutionDialog : Form
+    public partial class FormInputWidthHeight : Form
     {
         public string ReturnValue { get; set; }
         public string CurrWidthHeight { get; set; }
 
-        public FormResolutionDialog()
+        public FormInputWidthHeight()
         {
             InitializeComponent();
         }

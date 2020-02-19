@@ -14,13 +14,15 @@ namespace DimmingContol
 {
     public partial class FormMain : Form
     {
-        public static event EventHandler DimmLevelValueReceived;
+        public static event EventHandler DimmLevelValueReceivedFromController;
+        public static event EventHandler MaintenanceFactorReceivedFromController;
 
         public FormMain()
         {
             InitializeComponent();
 
             FormInputDimmLevel.UserChangedDimmLevelValue += DimmLevelChagnedByUser;
+            FormInputMaintenanceFactor.UserChangedMaintenanceFactor += MaintenanceFactorChagnedByUser;
         }
 
         public IEnumerable<Control> GetAll(Control control, Type type)
@@ -105,7 +107,7 @@ namespace DimmingContol
             //    button.reset();
             //}
 
-            using (var form = new FormResolutionDialog())
+            using (var form = new FormInputWidthHeight())
             {
                 form.StartPosition = FormStartPosition.CenterParent;
                 form.CurrWidthHeight = Properties.Settings.Default.WidthHeight;
@@ -123,7 +125,7 @@ namespace DimmingContol
         {
             if (sender is BunifuFlatButton button)
             {
-                using (var form = new FormConnDialog())
+                using (var form = new FormConn())
                 {
                     form.StartPosition = FormStartPosition.CenterParent;
 
@@ -161,6 +163,9 @@ namespace DimmingContol
                 "50", "45", "40", "35", "30", "25", "20", "15", "10", "5", 
                 "0"};
 
+            string[] tempMaintenanceFactor = new string[] {"",
+                "55", "66", "77", "88", "100", "100"};
+
             if (sender is BunifuFlatButton button)
             {
                 using (var form = new FormControllerSetup())
@@ -173,6 +178,9 @@ namespace DimmingContol
                     form.DimLevelValue.Clear();
                     form.DimLevelValue.AddRange(tempDim);
 
+                    form.MaintenanceFactor.Clear();
+                    form.MaintenanceFactor.AddRange(tempMaintenanceFactor);
+
                     form.ShowDialog();
                 }
             }
@@ -182,17 +190,15 @@ namespace DimmingContol
         {
             if (sender is FormInputDimmLevel form)
             {
-                Debug.WriteLine($"DimLevel[0] {form.DimLevelValue[0]}");
-                Debug.WriteLine($"DimLevel[1] {form.DimLevelValue[1]}");
-                Debug.WriteLine($"DimLevel[2] {form.DimLevelValue[2]}");
-                Debug.WriteLine($"DimLevel[3] {form.DimLevelValue[3]}");
+                DimmLevelValueReceivedFromController?.Invoke(form.DimLevelValue, e);
+            }
+        }
 
-                Debug.WriteLine($"DimLevel[18] {form.DimLevelValue[18]}");
-                Debug.WriteLine($"DimLevel[19] {form.DimLevelValue[19]}");
-                Debug.WriteLine($"DimLevel[20] {form.DimLevelValue[20]}");
-
-
-                DimmLevelValueReceived?.Invoke(form.DimLevelValue, e);
+        private void MaintenanceFactorChagnedByUser(object sender, EventArgs e)
+        {
+            if (sender is FormInputMaintenanceFactor form)
+            {
+                MaintenanceFactorReceivedFromController?.Invoke(form.MaintenanceFactor, e);
             }
         }
     }

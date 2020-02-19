@@ -189,8 +189,7 @@
             this.dimmTextBox21.TabIndex = 64;
             this.dimmTextBox21.Text = "100";
             this.dimmTextBox21.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.dimmTextBox21.OnValueChanged += new System.EventHandler(this.dimmTextBox_OnValueChanged);
-            this.dimmTextBox21.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CheckNumeric_KeyPress);
+            this.dimmTextBox21.OnValueChanged += new System.EventHandler(this.DimmTextBox_OnValueChanged);
             // 
             // dimmTextBox20
             // 
@@ -213,8 +212,7 @@
             this.dimmTextBox20.TabIndex = 63;
             this.dimmTextBox20.Text = "100";
             this.dimmTextBox20.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.dimmTextBox20.OnValueChanged += new System.EventHandler(this.dimmTextBox_OnValueChanged);
-            this.dimmTextBox20.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CheckNumeric_KeyPress);
+            this.dimmTextBox20.OnValueChanged += new System.EventHandler(this.DimmTextBox_OnValueChanged);
             // 
             // dimmTextBox19
             // 
@@ -237,8 +235,7 @@
             this.dimmTextBox19.TabIndex = 62;
             this.dimmTextBox19.Text = "100";
             this.dimmTextBox19.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.dimmTextBox19.OnValueChanged += new System.EventHandler(this.dimmTextBox_OnValueChanged);
-            this.dimmTextBox19.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CheckNumeric_KeyPress);
+            this.dimmTextBox19.OnValueChanged += new System.EventHandler(this.DimmTextBox_OnValueChanged);
             // 
             // dimmTextBox18
             // 
@@ -261,8 +258,7 @@
             this.dimmTextBox18.TabIndex = 61;
             this.dimmTextBox18.Text = "100";
             this.dimmTextBox18.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.dimmTextBox18.OnValueChanged += new System.EventHandler(this.dimmTextBox_OnValueChanged);
-            this.dimmTextBox18.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CheckNumeric_KeyPress);
+            this.dimmTextBox18.OnValueChanged += new System.EventHandler(this.DimmTextBox_OnValueChanged);
             // 
             // dimmTextBox17
             // 
@@ -285,8 +281,7 @@
             this.dimmTextBox17.TabIndex = 60;
             this.dimmTextBox17.Text = "100";
             this.dimmTextBox17.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.dimmTextBox17.OnValueChanged += new System.EventHandler(this.dimmTextBox_OnValueChanged);
-            this.dimmTextBox17.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CheckNumeric_KeyPress);
+            this.dimmTextBox17.OnValueChanged += new System.EventHandler(this.DimmTextBox_OnValueChanged);
             // 
             // dimmTextBox16
             // 
@@ -309,8 +304,7 @@
             this.dimmTextBox16.TabIndex = 59;
             this.dimmTextBox16.Text = "100";
             this.dimmTextBox16.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.dimmTextBox16.OnValueChanged += new System.EventHandler(this.dimmTextBox_OnValueChanged);
-            this.dimmTextBox16.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CheckNumeric_KeyPress);
+            this.dimmTextBox16.OnValueChanged += new System.EventHandler(this.DimmTextBox_OnValueChanged);
             // 
             // dimmTextBox15
             // 
@@ -333,8 +327,7 @@
             this.dimmTextBox15.TabIndex = 58;
             this.dimmTextBox15.Text = "100";
             this.dimmTextBox15.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.dimmTextBox15.OnValueChanged += new System.EventHandler(this.dimmTextBox_OnValueChanged);
-            this.dimmTextBox15.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CheckNumeric_KeyPress);
+            this.dimmTextBox15.OnValueChanged += new System.EventHandler(this.DimmTextBox_OnValueChanged);
             // 
             // dimmTextBox14
             // 
@@ -357,8 +350,7 @@
             this.dimmTextBox14.TabIndex = 57;
             this.dimmTextBox14.Text = "100";
             this.dimmTextBox14.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.dimmTextBox14.OnValueChanged += new System.EventHandler(this.dimmTextBox_OnValueChanged);
-            this.dimmTextBox14.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CheckNumeric_KeyPress);
+            this.dimmTextBox14.OnValueChanged += new System.EventHandler(this.DimmTextBox_OnValueChanged);
             // 
             // dimmTextBox13
             // 
@@ -381,8 +373,7 @@
             this.dimmTextBox13.TabIndex = 56;
             this.dimmTextBox13.Text = "100";
             this.dimmTextBox13.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.dimmTextBox13.OnValueChanged += new System.EventHandler(this.dimmTextBox_OnValueChanged);
-            this.dimmTextBox13.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CheckNumeric_KeyPress);
+            this.dimmTextBox13.OnValueChanged += new System.EventHandler(this.DimmTextBox_OnValueChanged);
             // 
             // dimmTextBox12
             // 
@@ -405,8 +396,7 @@
             this.dimmTextBox12.TabIndex = 55;
             this.dimmTextBox12.Text = "100";
             this.dimmTextBox12.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.dimmTextBox12.OnValueChanged += new System.EventHandler(this.dimmTextBox_OnValueChanged);
-            this.dimmTextBox12.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CheckNumeric_KeyPress);
+            this.dimmTextBox12.OnValueChanged += new System.EventHandler(this.DimmTextBox_OnValueChanged);
             // 
             // dimmTextBox11
             // 
@@ -429,8 +419,7 @@
             this.dimmTextBox11.TabIndex = 54;
             this.dimmTextBox11.Text = "100";
             this.dimmTextBox11.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.dimmTextBox11.OnValueChanged += new System.EventHandler(this.dimmTextBox_OnValueChanged);
-            this.dimmTextBox11.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CheckNumeric_KeyPress);
+            this.dimmTextBox11.OnValueChanged += new System.EventHandler(this.DimmTextBox_OnValueChanged);
             // 
             // dimmTextBox10
             // 
@@ -453,8 +442,7 @@
             this.dimmTextBox10.TabIndex = 53;
             this.dimmTextBox10.Text = "100";
             this.dimmTextBox10.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.dimmTextBox10.OnValueChanged += new System.EventHandler(this.dimmTextBox_OnValueChanged);
-            this.dimmTextBox10.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CheckNumeric_KeyPress);
+            this.dimmTextBox10.OnValueChanged += new System.EventHandler(this.DimmTextBox_OnValueChanged);
             // 
             // dimmTextBox09
             // 
@@ -477,8 +465,7 @@
             this.dimmTextBox09.TabIndex = 52;
             this.dimmTextBox09.Text = "100";
             this.dimmTextBox09.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.dimmTextBox09.OnValueChanged += new System.EventHandler(this.dimmTextBox_OnValueChanged);
-            this.dimmTextBox09.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CheckNumeric_KeyPress);
+            this.dimmTextBox09.OnValueChanged += new System.EventHandler(this.DimmTextBox_OnValueChanged);
             // 
             // dimmTextBox08
             // 
@@ -501,8 +488,7 @@
             this.dimmTextBox08.TabIndex = 51;
             this.dimmTextBox08.Text = "100";
             this.dimmTextBox08.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.dimmTextBox08.OnValueChanged += new System.EventHandler(this.dimmTextBox_OnValueChanged);
-            this.dimmTextBox08.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CheckNumeric_KeyPress);
+            this.dimmTextBox08.OnValueChanged += new System.EventHandler(this.DimmTextBox_OnValueChanged);
             // 
             // dimmTextBox07
             // 
@@ -525,8 +511,7 @@
             this.dimmTextBox07.TabIndex = 50;
             this.dimmTextBox07.Text = "100";
             this.dimmTextBox07.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.dimmTextBox07.OnValueChanged += new System.EventHandler(this.dimmTextBox_OnValueChanged);
-            this.dimmTextBox07.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CheckNumeric_KeyPress);
+            this.dimmTextBox07.OnValueChanged += new System.EventHandler(this.DimmTextBox_OnValueChanged);
             // 
             // dimmTextBox06
             // 
@@ -549,8 +534,7 @@
             this.dimmTextBox06.TabIndex = 49;
             this.dimmTextBox06.Text = "100";
             this.dimmTextBox06.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.dimmTextBox06.OnValueChanged += new System.EventHandler(this.dimmTextBox_OnValueChanged);
-            this.dimmTextBox06.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CheckNumeric_KeyPress);
+            this.dimmTextBox06.OnValueChanged += new System.EventHandler(this.DimmTextBox_OnValueChanged);
             // 
             // dimmTextBox05
             // 
@@ -573,8 +557,7 @@
             this.dimmTextBox05.TabIndex = 48;
             this.dimmTextBox05.Text = "100";
             this.dimmTextBox05.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.dimmTextBox05.OnValueChanged += new System.EventHandler(this.dimmTextBox_OnValueChanged);
-            this.dimmTextBox05.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CheckNumeric_KeyPress);
+            this.dimmTextBox05.OnValueChanged += new System.EventHandler(this.DimmTextBox_OnValueChanged);
             // 
             // dimmTextBox04
             // 
@@ -597,8 +580,7 @@
             this.dimmTextBox04.TabIndex = 47;
             this.dimmTextBox04.Text = "100";
             this.dimmTextBox04.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.dimmTextBox04.OnValueChanged += new System.EventHandler(this.dimmTextBox_OnValueChanged);
-            this.dimmTextBox04.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CheckNumeric_KeyPress);
+            this.dimmTextBox04.OnValueChanged += new System.EventHandler(this.DimmTextBox_OnValueChanged);
             // 
             // dimmTextBox03
             // 
@@ -621,8 +603,7 @@
             this.dimmTextBox03.TabIndex = 46;
             this.dimmTextBox03.Text = "100";
             this.dimmTextBox03.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.dimmTextBox03.OnValueChanged += new System.EventHandler(this.dimmTextBox_OnValueChanged);
-            this.dimmTextBox03.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CheckNumeric_KeyPress);
+            this.dimmTextBox03.OnValueChanged += new System.EventHandler(this.DimmTextBox_OnValueChanged);
             // 
             // dimmTextBox02
             // 
@@ -645,8 +626,7 @@
             this.dimmTextBox02.TabIndex = 45;
             this.dimmTextBox02.Text = "100";
             this.dimmTextBox02.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.dimmTextBox02.OnValueChanged += new System.EventHandler(this.dimmTextBox_OnValueChanged);
-            this.dimmTextBox02.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CheckNumeric_KeyPress);
+            this.dimmTextBox02.OnValueChanged += new System.EventHandler(this.DimmTextBox_OnValueChanged);
             // 
             // bunifuCustomLabel24
             // 
@@ -1014,8 +994,7 @@
             this.dimmTextBox01.TabIndex = 44;
             this.dimmTextBox01.Text = "100";
             this.dimmTextBox01.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.dimmTextBox01.OnValueChanged += new System.EventHandler(this.dimmTextBox_OnValueChanged);
-            this.dimmTextBox01.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CheckNumeric_KeyPress);
+            this.dimmTextBox01.OnValueChanged += new System.EventHandler(this.DimmTextBox_OnValueChanged);
             // 
             // panel1
             // 
@@ -1125,7 +1104,7 @@
             this.inputValidation.TabIndex = 10;
             this.inputValidation.Text = "입력 에러 창";
             // 
-            // FormDimmLevelSetup
+            // FormInputDimmLevel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -1137,7 +1116,7 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.dimmLevelPanel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "FormDimmLevelSetup";
+            this.Name = "FormInputDimmLevel";
             this.Text = "FormDimmLevelSetup";
             this.Load += new System.EventHandler(this.FormDimmLevelSetup_Load);
             this.dimmLevelPanel.ResumeLayout(false);

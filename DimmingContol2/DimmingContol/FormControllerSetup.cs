@@ -15,6 +15,7 @@ namespace DimmingContol
     public partial class FormControllerSetup : Form
     {
         public List<string> DimLevelValue { get; set; }
+        public List<string> MaintenanceFactor { get; set; }
         public int ControllerIdx { get; set; }
         public string ControllerName { get; set; }
 
@@ -23,8 +24,10 @@ namespace DimmingContol
             InitializeComponent();
 
             DimLevelValue = new List<string>();
+            MaintenanceFactor = new List<string>();
 
-            FormMain.DimmLevelValueReceived += DimmLevelValueRefresh;
+            FormMain.DimmLevelValueReceivedFromController += DimmLevelValueRefresh;
+            FormMain.MaintenanceFactorReceivedFromController += MaintenanceFactorRefresh;
         }
 
         private void Close_Click(object sender, EventArgs e)
@@ -39,6 +42,7 @@ namespace DimmingContol
                 form.StartPosition = FormStartPosition.CenterParent;
 
                 form.ControllerName = ControllerName;
+
                 form.DimLevelValue.Clear();
                 form.DimLevelValue.AddRange(DimLevelValue);
 
@@ -48,7 +52,17 @@ namespace DimmingContol
 
         private void MaintenanceFactorSetup_Click(object sender, EventArgs e)
         {
-            
+            using (var form = new FormInputMaintenanceFactor())
+            {
+                form.StartPosition = FormStartPosition.CenterParent;
+
+                form.ControllerName = ControllerName;
+
+                form.MaintenanceFactor.Clear();
+                form.MaintenanceFactor.AddRange(MaintenanceFactor);
+
+                form.ShowDialog();
+            }
         }
 
         private void FormControllerSetupDiaglog_Load(object sender, EventArgs e)
@@ -60,6 +74,16 @@ namespace DimmingContol
                 {
                     int levelIndex = Int32.Parse(c.Name.Remove(0, "dimmLevelLabel".Length));
                     c.Text = DimLevelValue[levelIndex];
+                }
+            }
+
+            foreach (Control c in maintenanceFactorPanel.Controls)
+            {
+                if (c.GetType() == typeof(BunifuCustomLabel)
+                    && c.Name.Contains("maintenanceFactorLabel"))
+                {
+                    int levelIndex = Int32.Parse(c.Name.Remove(0, "maintenanceFactorLabel".Length));
+                    c.Text = MaintenanceFactor[levelIndex];
                 }
             }
 
@@ -85,7 +109,25 @@ namespace DimmingContol
             }
         }
 
+        private void MaintenanceFactorRefresh(object sender, EventArgs e)
+        {   
+            if (sender is List<string> li)
+            {
+                MaintenanceFactor.Clear();
+                MaintenanceFactor.AddRange(li);
 
-        
+                foreach (Control c in maintenanceFactorPanel.Controls)
+                {
+                    if (c.GetType() == typeof(BunifuCustomLabel)
+                        && c.Name.Contains("maintenanceFactorLabel"))
+                    {
+                        int levelIndex = Int32.Parse(c.Name.Remove(0, "maintenanceFactorLabel".Length));
+                        c.Text = MaintenanceFactor[levelIndex];
+                    }
+                }
+            }
+        }
+
+
     }
 }

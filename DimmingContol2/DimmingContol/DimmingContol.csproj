@@ -54,11 +54,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Config.cs" />
-    <Compile Include="FormConnDialog.cs">
+    <Compile Include="FormConn.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormConnDialog.Designer.cs">
-      <DependentUpon>FormConnDialog.cs</DependentUpon>
+    <Compile Include="FormConn.Designer.cs">
+      <DependentUpon>FormConn.cs</DependentUpon>
     </Compile>
     <Compile Include="FormControllerSetup.cs">
       <SubType>Form</SubType>
@@ -84,17 +84,17 @@
     <Compile Include="FormInputMaintenanceFactor.Designer.cs">
       <DependentUpon>FormInputMaintenanceFactor.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormResolutionDialog.cs">
+    <Compile Include="FormInputWidthHeight.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormResolutionDialog.Designer.cs">
-      <DependentUpon>FormResolutionDialog.cs</DependentUpon>
+    <Compile Include="FormInputWidthHeight.Designer.cs">
+      <DependentUpon>FormInputWidthHeight.cs</DependentUpon>
     </Compile>
     <Compile Include="Master.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="FormConnDialog.resx">
-      <DependentUpon>FormConnDialog.cs</DependentUpon>
+    <EmbeddedResource Include="FormConn.resx">
+      <DependentUpon>FormConn.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormControllerSetup.resx">
       <DependentUpon>FormControllerSetup.cs</DependentUpon>
@@ -108,8 +108,8 @@
     <EmbeddedResource Include="FormInputMaintenanceFactor.resx">
       <DependentUpon>FormInputMaintenanceFactor.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormResolutionDialog.resx">
-      <DependentUpon>FormResolutionDialog.cs</DependentUpon>
+    <EmbeddedResource Include="FormInputWidthHeight.resx">
+      <DependentUpon>FormInputWidthHeight.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

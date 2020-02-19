@@ -39,17 +39,17 @@
             this.inputValidation = new System.Windows.Forms.Label();
             this.applyButton = new Bunifu.Framework.UI.BunifuFlatButton();
             this.closeButton = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.dimmLevelPanel = new System.Windows.Forms.TableLayoutPanel();
+            this.maintenanceFactorPanel = new System.Windows.Forms.TableLayoutPanel();
+            this.maintenanceFactorTextBox01 = new Bunifu.Framework.UI.BunifuMaterialTextbox();
+            this.maintenanceFactorTextBox02 = new Bunifu.Framework.UI.BunifuMaterialTextbox();
             this.bunifuCustomLabel7 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel6 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel5 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel4 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel3 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel2 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.maintenanceFactorTextBox02 = new Bunifu.Framework.UI.BunifuMaterialTextbox();
-            this.maintenanceFactorTextBox01 = new Bunifu.Framework.UI.BunifuMaterialTextbox();
             this.panel1.SuspendLayout();
-            this.dimmLevelPanel.SuspendLayout();
+            this.maintenanceFactorPanel.SuspendLayout();
             this.SuspendLayout();
             // 
             // bunifuElipse1
@@ -83,7 +83,7 @@
             this.maintenanceFactorTextBox06.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(218)))), ((int)(((byte)(227)))), ((int)(((byte)(243)))));
             this.maintenanceFactorTextBox06.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.maintenanceFactorTextBox06.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.maintenanceFactorTextBox06.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.maintenanceFactorTextBox06.Font = new System.Drawing.Font("Century Gothic", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.maintenanceFactorTextBox06.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.maintenanceFactorTextBox06.HintForeColor = System.Drawing.Color.Empty;
             this.maintenanceFactorTextBox06.HintText = "";
@@ -91,21 +91,22 @@
             this.maintenanceFactorTextBox06.LineFocusedColor = System.Drawing.Color.Blue;
             this.maintenanceFactorTextBox06.LineIdleColor = System.Drawing.Color.Gray;
             this.maintenanceFactorTextBox06.LineMouseHoverColor = System.Drawing.Color.Blue;
-            this.maintenanceFactorTextBox06.LineThickness = 6;
+            this.maintenanceFactorTextBox06.LineThickness = 8;
             this.maintenanceFactorTextBox06.Location = new System.Drawing.Point(791, 71);
             this.maintenanceFactorTextBox06.Margin = new System.Windows.Forms.Padding(1);
             this.maintenanceFactorTextBox06.Name = "maintenanceFactorTextBox06";
             this.maintenanceFactorTextBox06.Size = new System.Drawing.Size(158, 68);
-            this.maintenanceFactorTextBox06.TabIndex = 48;
+            this.maintenanceFactorTextBox06.TabIndex = 6;
             this.maintenanceFactorTextBox06.Text = "100";
             this.maintenanceFactorTextBox06.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.maintenanceFactorTextBox06.OnValueChanged += new System.EventHandler(this.MaintenanceFactor_OnValueChanged);
             // 
             // maintenanceFactorTextBox05
             // 
             this.maintenanceFactorTextBox05.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(218)))), ((int)(((byte)(227)))), ((int)(((byte)(243)))));
             this.maintenanceFactorTextBox05.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.maintenanceFactorTextBox05.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.maintenanceFactorTextBox05.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.maintenanceFactorTextBox05.Font = new System.Drawing.Font("Century Gothic", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.maintenanceFactorTextBox05.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.maintenanceFactorTextBox05.HintForeColor = System.Drawing.Color.Empty;
             this.maintenanceFactorTextBox05.HintText = "";
@@ -113,21 +114,22 @@
             this.maintenanceFactorTextBox05.LineFocusedColor = System.Drawing.Color.Blue;
             this.maintenanceFactorTextBox05.LineIdleColor = System.Drawing.Color.Gray;
             this.maintenanceFactorTextBox05.LineMouseHoverColor = System.Drawing.Color.Blue;
-            this.maintenanceFactorTextBox05.LineThickness = 6;
+            this.maintenanceFactorTextBox05.LineThickness = 8;
             this.maintenanceFactorTextBox05.Location = new System.Drawing.Point(633, 71);
             this.maintenanceFactorTextBox05.Margin = new System.Windows.Forms.Padding(1);
             this.maintenanceFactorTextBox05.Name = "maintenanceFactorTextBox05";
             this.maintenanceFactorTextBox05.Size = new System.Drawing.Size(156, 68);
-            this.maintenanceFactorTextBox05.TabIndex = 47;
+            this.maintenanceFactorTextBox05.TabIndex = 5;
             this.maintenanceFactorTextBox05.Text = "100";
             this.maintenanceFactorTextBox05.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.maintenanceFactorTextBox05.OnValueChanged += new System.EventHandler(this.MaintenanceFactor_OnValueChanged);
             // 
             // maintenanceFactorTextBox04
             // 
             this.maintenanceFactorTextBox04.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(218)))), ((int)(((byte)(227)))), ((int)(((byte)(243)))));
             this.maintenanceFactorTextBox04.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.maintenanceFactorTextBox04.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.maintenanceFactorTextBox04.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.maintenanceFactorTextBox04.Font = new System.Drawing.Font("Century Gothic", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.maintenanceFactorTextBox04.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.maintenanceFactorTextBox04.HintForeColor = System.Drawing.Color.Empty;
             this.maintenanceFactorTextBox04.HintText = "";
@@ -135,21 +137,22 @@
             this.maintenanceFactorTextBox04.LineFocusedColor = System.Drawing.Color.Blue;
             this.maintenanceFactorTextBox04.LineIdleColor = System.Drawing.Color.Gray;
             this.maintenanceFactorTextBox04.LineMouseHoverColor = System.Drawing.Color.Blue;
-            this.maintenanceFactorTextBox04.LineThickness = 6;
+            this.maintenanceFactorTextBox04.LineThickness = 8;
             this.maintenanceFactorTextBox04.Location = new System.Drawing.Point(475, 71);
             this.maintenanceFactorTextBox04.Margin = new System.Windows.Forms.Padding(1);
             this.maintenanceFactorTextBox04.Name = "maintenanceFactorTextBox04";
             this.maintenanceFactorTextBox04.Size = new System.Drawing.Size(156, 68);
-            this.maintenanceFactorTextBox04.TabIndex = 46;
+            this.maintenanceFactorTextBox04.TabIndex = 4;
             this.maintenanceFactorTextBox04.Text = "100";
             this.maintenanceFactorTextBox04.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.maintenanceFactorTextBox04.OnValueChanged += new System.EventHandler(this.MaintenanceFactor_OnValueChanged);
             // 
             // maintenanceFactorTextBox03
             // 
             this.maintenanceFactorTextBox03.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(218)))), ((int)(((byte)(227)))), ((int)(((byte)(243)))));
             this.maintenanceFactorTextBox03.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.maintenanceFactorTextBox03.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.maintenanceFactorTextBox03.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.maintenanceFactorTextBox03.Font = new System.Drawing.Font("Century Gothic", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.maintenanceFactorTextBox03.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.maintenanceFactorTextBox03.HintForeColor = System.Drawing.Color.Empty;
             this.maintenanceFactorTextBox03.HintText = "";
@@ -157,14 +160,15 @@
             this.maintenanceFactorTextBox03.LineFocusedColor = System.Drawing.Color.Blue;
             this.maintenanceFactorTextBox03.LineIdleColor = System.Drawing.Color.Gray;
             this.maintenanceFactorTextBox03.LineMouseHoverColor = System.Drawing.Color.Blue;
-            this.maintenanceFactorTextBox03.LineThickness = 6;
+            this.maintenanceFactorTextBox03.LineThickness = 8;
             this.maintenanceFactorTextBox03.Location = new System.Drawing.Point(317, 71);
             this.maintenanceFactorTextBox03.Margin = new System.Windows.Forms.Padding(1);
             this.maintenanceFactorTextBox03.Name = "maintenanceFactorTextBox03";
             this.maintenanceFactorTextBox03.Size = new System.Drawing.Size(156, 68);
-            this.maintenanceFactorTextBox03.TabIndex = 45;
+            this.maintenanceFactorTextBox03.TabIndex = 3;
             this.maintenanceFactorTextBox03.Text = "100";
             this.maintenanceFactorTextBox03.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.maintenanceFactorTextBox03.OnValueChanged += new System.EventHandler(this.MaintenanceFactor_OnValueChanged);
             // 
             // inputValidation
             // 
@@ -214,6 +218,7 @@
             this.applyButton.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.applyButton.Textcolor = System.Drawing.Color.Black;
             this.applyButton.TextFont = new System.Drawing.Font("Malgun Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.applyButton.Click += new System.EventHandler(this.Apply_Click);
             // 
             // closeButton
             // 
@@ -250,37 +255,84 @@
             this.closeButton.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.closeButton.Textcolor = System.Drawing.Color.Black;
             this.closeButton.TextFont = new System.Drawing.Font("Malgun Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.closeButton.Click += new System.EventHandler(this.Close_Click);
             // 
-            // dimmLevelPanel
+            // maintenanceFactorPanel
             // 
-            this.dimmLevelPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(130)))), ((int)(((byte)(131)))));
-            this.dimmLevelPanel.ColumnCount = 6;
-            this.dimmLevelPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 4.545456F));
-            this.dimmLevelPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 4.545456F));
-            this.dimmLevelPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 4.545456F));
-            this.dimmLevelPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 4.545456F));
-            this.dimmLevelPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 4.545456F));
-            this.dimmLevelPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 4.545456F));
-            this.dimmLevelPanel.Controls.Add(this.maintenanceFactorTextBox01, 0, 1);
-            this.dimmLevelPanel.Controls.Add(this.maintenanceFactorTextBox02, 1, 1);
-            this.dimmLevelPanel.Controls.Add(this.maintenanceFactorTextBox03, 2, 1);
-            this.dimmLevelPanel.Controls.Add(this.maintenanceFactorTextBox04, 3, 1);
-            this.dimmLevelPanel.Controls.Add(this.maintenanceFactorTextBox05, 4, 1);
-            this.dimmLevelPanel.Controls.Add(this.maintenanceFactorTextBox06, 5, 1);
-            this.dimmLevelPanel.Controls.Add(this.bunifuCustomLabel7, 5, 0);
-            this.dimmLevelPanel.Controls.Add(this.bunifuCustomLabel6, 4, 0);
-            this.dimmLevelPanel.Controls.Add(this.bunifuCustomLabel5, 3, 0);
-            this.dimmLevelPanel.Controls.Add(this.bunifuCustomLabel4, 2, 0);
-            this.dimmLevelPanel.Controls.Add(this.bunifuCustomLabel3, 1, 0);
-            this.dimmLevelPanel.Controls.Add(this.bunifuCustomLabel2, 0, 0);
-            this.dimmLevelPanel.Location = new System.Drawing.Point(25, 130);
-            this.dimmLevelPanel.Name = "dimmLevelPanel";
-            this.dimmLevelPanel.RowCount = 2;
-            this.dimmLevelPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.dimmLevelPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.dimmLevelPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.dimmLevelPanel.Size = new System.Drawing.Size(950, 140);
-            this.dimmLevelPanel.TabIndex = 11;
+            this.maintenanceFactorPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(130)))), ((int)(((byte)(131)))));
+            this.maintenanceFactorPanel.ColumnCount = 6;
+            this.maintenanceFactorPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 4.545456F));
+            this.maintenanceFactorPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 4.545456F));
+            this.maintenanceFactorPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 4.545456F));
+            this.maintenanceFactorPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 4.545456F));
+            this.maintenanceFactorPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 4.545456F));
+            this.maintenanceFactorPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 4.545456F));
+            this.maintenanceFactorPanel.Controls.Add(this.maintenanceFactorTextBox01, 0, 1);
+            this.maintenanceFactorPanel.Controls.Add(this.maintenanceFactorTextBox02, 1, 1);
+            this.maintenanceFactorPanel.Controls.Add(this.maintenanceFactorTextBox03, 2, 1);
+            this.maintenanceFactorPanel.Controls.Add(this.maintenanceFactorTextBox04, 3, 1);
+            this.maintenanceFactorPanel.Controls.Add(this.maintenanceFactorTextBox05, 4, 1);
+            this.maintenanceFactorPanel.Controls.Add(this.maintenanceFactorTextBox06, 5, 1);
+            this.maintenanceFactorPanel.Controls.Add(this.bunifuCustomLabel7, 5, 0);
+            this.maintenanceFactorPanel.Controls.Add(this.bunifuCustomLabel6, 4, 0);
+            this.maintenanceFactorPanel.Controls.Add(this.bunifuCustomLabel5, 3, 0);
+            this.maintenanceFactorPanel.Controls.Add(this.bunifuCustomLabel4, 2, 0);
+            this.maintenanceFactorPanel.Controls.Add(this.bunifuCustomLabel3, 1, 0);
+            this.maintenanceFactorPanel.Controls.Add(this.bunifuCustomLabel2, 0, 0);
+            this.maintenanceFactorPanel.Location = new System.Drawing.Point(25, 130);
+            this.maintenanceFactorPanel.Name = "maintenanceFactorPanel";
+            this.maintenanceFactorPanel.RowCount = 2;
+            this.maintenanceFactorPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.maintenanceFactorPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.maintenanceFactorPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.maintenanceFactorPanel.Size = new System.Drawing.Size(950, 140);
+            this.maintenanceFactorPanel.TabIndex = 11;
+            // 
+            // maintenanceFactorTextBox01
+            // 
+            this.maintenanceFactorTextBox01.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(218)))), ((int)(((byte)(227)))), ((int)(((byte)(243)))));
+            this.maintenanceFactorTextBox01.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.maintenanceFactorTextBox01.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.maintenanceFactorTextBox01.Font = new System.Drawing.Font("Century Gothic", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.maintenanceFactorTextBox01.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.maintenanceFactorTextBox01.HintForeColor = System.Drawing.Color.Empty;
+            this.maintenanceFactorTextBox01.HintText = "";
+            this.maintenanceFactorTextBox01.isPassword = false;
+            this.maintenanceFactorTextBox01.LineFocusedColor = System.Drawing.Color.Blue;
+            this.maintenanceFactorTextBox01.LineIdleColor = System.Drawing.Color.Gray;
+            this.maintenanceFactorTextBox01.LineMouseHoverColor = System.Drawing.Color.Blue;
+            this.maintenanceFactorTextBox01.LineThickness = 8;
+            this.maintenanceFactorTextBox01.Location = new System.Drawing.Point(1, 71);
+            this.maintenanceFactorTextBox01.Margin = new System.Windows.Forms.Padding(1);
+            this.maintenanceFactorTextBox01.Name = "maintenanceFactorTextBox01";
+            this.maintenanceFactorTextBox01.Size = new System.Drawing.Size(156, 68);
+            this.maintenanceFactorTextBox01.TabIndex = 1;
+            this.maintenanceFactorTextBox01.Text = "100";
+            this.maintenanceFactorTextBox01.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.maintenanceFactorTextBox01.OnValueChanged += new System.EventHandler(this.MaintenanceFactor_OnValueChanged);
+            // 
+            // maintenanceFactorTextBox02
+            // 
+            this.maintenanceFactorTextBox02.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(218)))), ((int)(((byte)(227)))), ((int)(((byte)(243)))));
+            this.maintenanceFactorTextBox02.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.maintenanceFactorTextBox02.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.maintenanceFactorTextBox02.Font = new System.Drawing.Font("Century Gothic", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.maintenanceFactorTextBox02.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.maintenanceFactorTextBox02.HintForeColor = System.Drawing.Color.Empty;
+            this.maintenanceFactorTextBox02.HintText = "";
+            this.maintenanceFactorTextBox02.isPassword = false;
+            this.maintenanceFactorTextBox02.LineFocusedColor = System.Drawing.Color.Blue;
+            this.maintenanceFactorTextBox02.LineIdleColor = System.Drawing.Color.Gray;
+            this.maintenanceFactorTextBox02.LineMouseHoverColor = System.Drawing.Color.Blue;
+            this.maintenanceFactorTextBox02.LineThickness = 8;
+            this.maintenanceFactorTextBox02.Location = new System.Drawing.Point(159, 71);
+            this.maintenanceFactorTextBox02.Margin = new System.Windows.Forms.Padding(1);
+            this.maintenanceFactorTextBox02.Name = "maintenanceFactorTextBox02";
+            this.maintenanceFactorTextBox02.Size = new System.Drawing.Size(156, 68);
+            this.maintenanceFactorTextBox02.TabIndex = 2;
+            this.maintenanceFactorTextBox02.Text = "100";
+            this.maintenanceFactorTextBox02.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.maintenanceFactorTextBox02.OnValueChanged += new System.EventHandler(this.MaintenanceFactor_OnValueChanged);
             // 
             // bunifuCustomLabel7
             // 
@@ -372,51 +424,7 @@
             this.bunifuCustomLabel2.Text = "주간 주행";
             this.bunifuCustomLabel2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // maintenanceFactorTextBox02
-            // 
-            this.maintenanceFactorTextBox02.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(218)))), ((int)(((byte)(227)))), ((int)(((byte)(243)))));
-            this.maintenanceFactorTextBox02.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.maintenanceFactorTextBox02.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.maintenanceFactorTextBox02.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.maintenanceFactorTextBox02.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.maintenanceFactorTextBox02.HintForeColor = System.Drawing.Color.Empty;
-            this.maintenanceFactorTextBox02.HintText = "";
-            this.maintenanceFactorTextBox02.isPassword = false;
-            this.maintenanceFactorTextBox02.LineFocusedColor = System.Drawing.Color.Blue;
-            this.maintenanceFactorTextBox02.LineIdleColor = System.Drawing.Color.Gray;
-            this.maintenanceFactorTextBox02.LineMouseHoverColor = System.Drawing.Color.Blue;
-            this.maintenanceFactorTextBox02.LineThickness = 6;
-            this.maintenanceFactorTextBox02.Location = new System.Drawing.Point(159, 71);
-            this.maintenanceFactorTextBox02.Margin = new System.Windows.Forms.Padding(1);
-            this.maintenanceFactorTextBox02.Name = "maintenanceFactorTextBox02";
-            this.maintenanceFactorTextBox02.Size = new System.Drawing.Size(156, 68);
-            this.maintenanceFactorTextBox02.TabIndex = 44;
-            this.maintenanceFactorTextBox02.Text = "100";
-            this.maintenanceFactorTextBox02.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            // 
-            // maintenanceFactorTextBox01
-            // 
-            this.maintenanceFactorTextBox01.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(218)))), ((int)(((byte)(227)))), ((int)(((byte)(243)))));
-            this.maintenanceFactorTextBox01.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.maintenanceFactorTextBox01.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.maintenanceFactorTextBox01.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.maintenanceFactorTextBox01.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.maintenanceFactorTextBox01.HintForeColor = System.Drawing.Color.Empty;
-            this.maintenanceFactorTextBox01.HintText = "";
-            this.maintenanceFactorTextBox01.isPassword = false;
-            this.maintenanceFactorTextBox01.LineFocusedColor = System.Drawing.Color.Blue;
-            this.maintenanceFactorTextBox01.LineIdleColor = System.Drawing.Color.Gray;
-            this.maintenanceFactorTextBox01.LineMouseHoverColor = System.Drawing.Color.Blue;
-            this.maintenanceFactorTextBox01.LineThickness = 6;
-            this.maintenanceFactorTextBox01.Location = new System.Drawing.Point(1, 71);
-            this.maintenanceFactorTextBox01.Margin = new System.Windows.Forms.Padding(1);
-            this.maintenanceFactorTextBox01.Name = "maintenanceFactorTextBox01";
-            this.maintenanceFactorTextBox01.Size = new System.Drawing.Size(156, 68);
-            this.maintenanceFactorTextBox01.TabIndex = 53;
-            this.maintenanceFactorTextBox01.Text = "100";
-            this.maintenanceFactorTextBox01.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            // 
-            // FormMaintenanceFactorSetup
+            // FormInputMaintenanceFactor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -426,14 +434,15 @@
             this.Controls.Add(this.inputValidation);
             this.Controls.Add(this.applyButton);
             this.Controls.Add(this.closeButton);
-            this.Controls.Add(this.dimmLevelPanel);
+            this.Controls.Add(this.maintenanceFactorPanel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "FormMaintenanceFactorSetup";
+            this.Name = "FormInputMaintenanceFactor";
             this.Text = "FormMaintenanceFactorSetup";
+            this.Load += new System.EventHandler(this.FormInputMaintenanceFactor_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            this.dimmLevelPanel.ResumeLayout(false);
-            this.dimmLevelPanel.PerformLayout();
+            this.maintenanceFactorPanel.ResumeLayout(false);
+            this.maintenanceFactorPanel.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -447,7 +456,7 @@
         private System.Windows.Forms.Label inputValidation;
         private Bunifu.Framework.UI.BunifuFlatButton applyButton;
         private Bunifu.Framework.UI.BunifuFlatButton closeButton;
-        private System.Windows.Forms.TableLayoutPanel dimmLevelPanel;
+        private System.Windows.Forms.TableLayoutPanel maintenanceFactorPanel;
         private Bunifu.Framework.UI.BunifuMaterialTextbox maintenanceFactorTextBox06;
         private Bunifu.Framework.UI.BunifuMaterialTextbox maintenanceFactorTextBox05;
         private Bunifu.Framework.UI.BunifuMaterialTextbox maintenanceFactorTextBox04;

@@ -12,7 +12,7 @@ using Bunifu.Framework.UI;
 
 namespace DimmingContol
 {
-    public partial class FormConnDialog : Form
+    public partial class FormConn : Form
     {
         public string IP { get; set; }
         public string SubMask { get; set; }
@@ -25,7 +25,7 @@ namespace DimmingContol
         //public event EventHandler Loaded;
 
 
-        public FormConnDialog()
+        public FormConn()
         {
             InitializeComponent();
         }
