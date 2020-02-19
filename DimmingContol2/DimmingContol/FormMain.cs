@@ -14,9 +14,13 @@ namespace DimmingContol
 {
     public partial class FormMain : Form
     {
+        public static event EventHandler DimmLevelValueReceived;
+
         public FormMain()
         {
             InitializeComponent();
+
+            FormInputDimmLevel.UserChangedDimmLevelValue += DimmLevelChagnedByUser;
         }
 
         public IEnumerable<Control> GetAll(Control control, Type type)
@@ -104,7 +108,7 @@ namespace DimmingContol
             using (var form = new FormResolutionDialog())
             {
                 form.StartPosition = FormStartPosition.CenterParent;
-                form.CurrWidthHeight = Properties.Settings.Default.WidthHeight;                
+                form.CurrWidthHeight = Properties.Settings.Default.WidthHeight;
 
                 if (form.ShowDialog() == DialogResult.OK)
                 {
@@ -152,42 +156,44 @@ namespace DimmingContol
 
         private void ControllerSetupButton_Click(object sender, EventArgs e)
         {
+            string[] tempDim = new string[] {"",
+                "100", "95", "90", "85", "80", "75", "70", "65", "60", "55", 
+                "50", "45", "40", "35", "30", "25", "20", "15", "10", "5", 
+                "0"};
+
             if (sender is BunifuFlatButton button)
             {
-                using (var form = new FormControllerSetupDiaglog())
+                using (var form = new FormControllerSetup())
                 {
                     form.StartPosition = FormStartPosition.CenterParent;
 
-                    //int buttonIndex = Int32.Parse(button.Name.Remove(0, "connButtonX".Length));
+                    form.ControllerIdx = Int32.Parse(button.Name.Remove(0, "controllerSetupButtonX".Length));
+                    form.ControllerName = Properties.Settings.Default.ControllerName[form.ControllerIdx];
 
-                    //form.IP = Properties.Settings.Default.IP[buttonIndex];
-                    //form.SubMask = Properties.Settings.Default.SubMask[buttonIndex];
-                    //form.Gateway = Properties.Settings.Default.Gateway[buttonIndex];
-                    //form.Port = Properties.Settings.Default.Port[buttonIndex];
-                    //form.ControllerName = Properties.Settings.Default.ControllerName[buttonIndex];
-
-                    ////form.Loaded += test_loaded;
+                    form.DimLevelValue.Clear();
+                    form.DimLevelValue.AddRange(tempDim);
 
                     form.ShowDialog();
-
-                    //if (form.ButtonAction == "conn")
-                    //{
-                    //    Properties.Settings.Default.IP[buttonIndex] = form.IP;
-                    //    Properties.Settings.Default.SubMask[buttonIndex] = form.SubMask;
-                    //    Properties.Settings.Default.Gateway[buttonIndex] = form.Gateway;
-                    //    Properties.Settings.Default.Port[buttonIndex] = form.Port;
-                    //}
-                    //else if (form.ButtonAction == "close")
-                    //{
-
-                    //}
                 }
             }
         }
 
-        //public void test_loaded(object sender, EventArgs e)
-        //{
-        //    Debug.WriteLine($" test_loaded");
-        //}
+        private void DimmLevelChagnedByUser(object sender, EventArgs e)
+        {
+            if (sender is FormInputDimmLevel form)
+            {
+                Debug.WriteLine($"DimLevel[0] {form.DimLevelValue[0]}");
+                Debug.WriteLine($"DimLevel[1] {form.DimLevelValue[1]}");
+                Debug.WriteLine($"DimLevel[2] {form.DimLevelValue[2]}");
+                Debug.WriteLine($"DimLevel[3] {form.DimLevelValue[3]}");
+
+                Debug.WriteLine($"DimLevel[18] {form.DimLevelValue[18]}");
+                Debug.WriteLine($"DimLevel[19] {form.DimLevelValue[19]}");
+                Debug.WriteLine($"DimLevel[20] {form.DimLevelValue[20]}");
+
+
+                DimmLevelValueReceived?.Invoke(form.DimLevelValue, e);
+            }
+        }
     }
 }

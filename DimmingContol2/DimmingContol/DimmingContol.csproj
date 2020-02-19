@@ -60,23 +60,29 @@
     <Compile Include="FormConnDialog.Designer.cs">
       <DependentUpon>FormConnDialog.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormControllerSetupDiaglog.cs">
+    <Compile Include="FormControllerSetup.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormControllerSetupDiaglog.Designer.cs">
-      <DependentUpon>FormControllerSetupDiaglog.cs</DependentUpon>
+    <Compile Include="FormControllerSetup.Designer.cs">
+      <DependentUpon>FormControllerSetup.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormDimmLevelSetup.cs">
+    <Compile Include="FormInputDimmLevel.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormDimmLevelSetup.Designer.cs">
-      <DependentUpon>FormDimmLevelSetup.cs</DependentUpon>
+    <Compile Include="FormInputDimmLevel.Designer.cs">
+      <DependentUpon>FormInputDimmLevel.cs</DependentUpon>
     </Compile>
     <Compile Include="FormMain.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormMain.Designer.cs">
       <DependentUpon>FormMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormInputMaintenanceFactor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormInputMaintenanceFactor.Designer.cs">
+      <DependentUpon>FormInputMaintenanceFactor.cs</DependentUpon>
     </Compile>
     <Compile Include="FormResolutionDialog.cs">
       <SubType>Form</SubType>
@@ -90,14 +96,17 @@
     <EmbeddedResource Include="FormConnDialog.resx">
       <DependentUpon>FormConnDialog.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormControllerSetupDiaglog.resx">
-      <DependentUpon>FormControllerSetupDiaglog.cs</DependentUpon>
+    <EmbeddedResource Include="FormControllerSetup.resx">
+      <DependentUpon>FormControllerSetup.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormDimmLevelSetup.resx">
-      <DependentUpon>FormDimmLevelSetup.cs</DependentUpon>
+    <EmbeddedResource Include="FormInputDimmLevel.resx">
+      <DependentUpon>FormInputDimmLevel.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormMain.resx">
       <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormInputMaintenanceFactor.resx">
+      <DependentUpon>FormInputMaintenanceFactor.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormResolutionDialog.resx">
       <DependentUpon>FormResolutionDialog.cs</DependentUpon>
