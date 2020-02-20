@@ -90,6 +90,44 @@ namespace DimmingContol
             tunnelLabelX0.Text = Properties.Settings.Default.ControllerName[0];
             tunnelLabelX1.Text = Properties.Settings.Default.ControllerName[1];
             tunnelLabelX2.Text = Properties.Settings.Default.ControllerName[2];
+
+            //mainTLPanel.BackgroundImage = new Bitmap("images\");
+
+
+            List<Bitmap> images = new List<Bitmap>();
+            //Bitmap finalImage = new Bitmap(2998, 1686);
+
+            Bitmap finalImage = (Bitmap)Properties.Resources.ResourceManager.GetObject("main");
+            //channelPic.Image = (Image)O; //Set the Image property of channelPic to the returned object as Image
+
+            //Bitmap bitmap0 = (Bitmap)Properties.Resources.ResourceManager.GetObject("main");
+            //Bitmap bitmap1 = (Bitmap)Properties.Resources.ResourceManager.GetObject("fire10");
+            Bitmap bitmap2 = (Bitmap)Properties.Resources.ResourceManager.GetObject("fire00");
+            Bitmap bitmap3 = (Bitmap)Properties.Resources.ResourceManager.GetObject("fire01");
+            Bitmap bitmap4 = (Bitmap)Properties.Resources.ResourceManager.GetObject("fire11");
+            Bitmap bitmap5 = (Bitmap)Properties.Resources.ResourceManager.GetObject("fire02");
+            Bitmap bitmap6 = (Bitmap)Properties.Resources.ResourceManager.GetObject("fire12");
+
+
+            //images.Add((Bitmap)Properties.Resources.ResourceManager.GetObject("main"));
+            images.Add((Bitmap)Properties.Resources.ResourceManager.GetObject("fire10"));
+            //images.Add(bitmap2);
+            //images.Add(bitmap3);
+            //images.Add(bitmap4);
+            //images.Add(bitmap5);
+            //images.Add(bitmap6);
+
+
+            using (Graphics g = Graphics.FromImage(finalImage))
+            {
+                foreach (Bitmap image in images)
+                {
+                    g.DrawImage(image, new Rectangle(0, 0, image.Width, image.Height));
+                }
+            }
+
+            mainTLPanel.BackgroundImage = finalImage;
+
         }
 
         private void CloseProgramButton_Click(object sender, EventArgs e)
