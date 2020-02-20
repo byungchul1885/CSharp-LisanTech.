@@ -57,5 +57,11 @@
   &lt;string&gt;홍지문 터널 문화촌&lt;/string&gt;
 &lt;/ArrayOfString&gt;</Value>
     </Setting>
+    <Setting Name="ascendingDirection" Type="System.String" Scope="User">
+      <Value Profile="(Default)">마장방면</Value>
+    </Setting>
+    <Setting Name="descendingDirection" Type="System.String" Scope="User">
+      <Value Profile="(Default)">성산방면</Value>
+    </Setting>
   </Settings>
 </SettingsFile>

@@ -91,11 +91,12 @@ namespace DimmingContol
             tunnelLabelX1.Text = Properties.Settings.Default.ControllerName[1];
             tunnelLabelX2.Text = Properties.Settings.Default.ControllerName[2];
 
-            //mainTLPanel.BackgroundImage = new Bitmap("images\");
+            ascendingDirectionLabel.Text = Properties.Settings.Default.ascendingDirection;
+            descendingDirectionLabel.Text = Properties.Settings.Default.descendingDirection;
+
 
 
             List<Bitmap> images = new List<Bitmap>();
-            //Bitmap finalImage = new Bitmap(2998, 1686);
 
             Bitmap finalImage = (Bitmap)Properties.Resources.ResourceManager.GetObject("main");
             //channelPic.Image = (Image)O; //Set the Image property of channelPic to the returned object as Image

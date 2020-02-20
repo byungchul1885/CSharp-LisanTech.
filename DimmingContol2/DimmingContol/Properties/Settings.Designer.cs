@@ -131,5 +131,29 @@ namespace DimmingContol.Properties {
                 this["ControllerName"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("마장방면")]
+        public string ascendingDirection {
+            get {
+                return ((string)(this["ascendingDirection"]));
+            }
+            set {
+                this["ascendingDirection"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("성산방면")]
+        public string descendingDirection {
+            get {
+                return ((string)(this["descendingDirection"]));
+            }
+            set {
+                this["descendingDirection"] = value;
+            }
+        }
     }
 }
