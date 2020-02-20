@@ -129,6 +129,8 @@ namespace DimmingContol
 
             mainTLPanel.BackgroundImage = finalImage;
 
+            
+
         }
 
         private void CloseProgramButton_Click(object sender, EventArgs e)
