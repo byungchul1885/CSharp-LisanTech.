@@ -155,5 +155,17 @@ namespace DimmingContol.Properties {
                 this["descendingDirection"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("4")]
+        public int NumController {
+            get {
+                return ((int)(this["NumController"]));
+            }
+            set {
+                this["NumController"] = value;
+            }
+        }
     }
 }

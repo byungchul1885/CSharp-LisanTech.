@@ -45,100 +45,133 @@
             this.controllerSetupButtonX2 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bunifuFlatButton6 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.tlPanel00 = new System.Windows.Forms.TableLayoutPanel();
-            this.bunifuCustomLabel32 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel31 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel30 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.regularLampButtonX00 = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.dayLampButtonX00 = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.regularLampDimmPercentX00 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.dayLampDimmPercentX00 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.internalLuminanceX00 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel28 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel27 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel26 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel25 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel29 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.externalLuminanceX00 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.tlPanel01 = new System.Windows.Forms.TableLayoutPanel();
-            this.bunifuCustomLabel51 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel50 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel49 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel48 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.regularLampButtonX01 = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.dayLampButtonX01 = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.regularLampDimmPercentX01 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.dayLampDimmPercentX01 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.internalLuminanceX01 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.externalLuminanceX01 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel47 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel46 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel45 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel44 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.tlPanel02 = new System.Windows.Forms.TableLayoutPanel();
-            this.bunifuCustomLabel77 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel76 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel74 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel72 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.regularLampButtonX02 = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.dayLampButtonX02 = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.dayLampDimmPercentX02 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.regularLampDimmPercentX02 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.internalLuminanceX02 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.externalLuminanceX02 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel67 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel66 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel65 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel64 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.tlPanel10 = new System.Windows.Forms.TableLayoutPanel();
-            this.bunifuCustomLabel41 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel40 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel39 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel38 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.regularLampButtonX10 = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.dayLampButtonX10 = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.regularLampDimmPercentX10 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.dayLampDimmPercentX10 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.internalLuminanceX10 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.externalLuminanceX10 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel37 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel36 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel35 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel34 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.tlPanel11 = new System.Windows.Forms.TableLayoutPanel();
-            this.bunifuCustomLabel61 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel60 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel59 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel58 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.regularLampButtonX11 = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.dayLampButtonX11 = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.regularLampDimmPercentX11 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.dayLampDimmPercentX11 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.internalLuminanceX11 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.externalLuminanceX11 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel57 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel56 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel55 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel54 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.tlPanel12 = new System.Windows.Forms.TableLayoutPanel();
-            this.bunifuCustomLabel79 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel78 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel75 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel73 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.regularLampButtonX12 = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.dayLampButtonX12 = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.dayLampDimmPercentX12 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.regularLampDimmPercentX12 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.internalLuminanceX12 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.externalLuminanceX12 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel71 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel70 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel69 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel68 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.tlPanel20 = new System.Windows.Forms.TableLayoutPanel();
-            this.bunifuCustomLabel4 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel5 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel6 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.regularLampButtonX20 = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.dayLampButtonX20 = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.regularLampDimmPercentX20 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.dayLampDimmPercentX20 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.internalLuminanceX20 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel7 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel8 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel9 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel10 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel11 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.externalLuminanceX20 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.tlPanel21 = new System.Windows.Forms.TableLayoutPanel();
-            this.bunifuCustomLabel89 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel90 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel91 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel92 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.regularLampButtonX21 = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.dayLampButtonX21 = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.regularLampDimmPercentX21 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.dayLampDimmPercentX21 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.internalLuminanceX21 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.externalLuminanceX21 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel93 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel94 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel95 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel96 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.tlPanel22 = new System.Windows.Forms.TableLayoutPanel();
-            this.bunifuCustomLabel109 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel110 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel111 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel112 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.regularLampButtonX22 = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.dayLampButtonX22 = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.dayLampDimmPercentX22 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.regularLampDimmPercentX22 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.internalLuminanceX22 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.externalLuminanceX22 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel113 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel114 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel115 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel116 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.tlPanel30 = new System.Windows.Forms.TableLayoutPanel();
+            this.externalLuminanceX30 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.internalLuminanceX30 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.regularLampButtonX30 = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.dayLampButtonX30 = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.regularLampDimmPercentX30 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.dayLampDimmPercentX30 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuCustomLabel17 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuCustomLabel18 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuCustomLabel84 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuCustomLabel85 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.tlPanel31 = new System.Windows.Forms.TableLayoutPanel();
-            this.bunifuCustomLabel99 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel100 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel101 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel102 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.regularLampButtonX31 = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.dayLampButtonX31 = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.regularLampDimmPercentX31 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.dayLampDimmPercentX31 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.internalLuminanceX31 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.externalLuminanceX31 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel103 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel104 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel105 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel106 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.tlPanel32 = new System.Windows.Forms.TableLayoutPanel();
-            this.bunifuCustomLabel119 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel120 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel121 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel122 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.regularLampButtonX32 = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.dayLampButtonX32 = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.dayLampDimmPercentX32 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.regularLampDimmPercentX32 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.internalLuminanceX32 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.externalLuminanceX32 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel123 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel124 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel125 = new Bunifu.Framework.UI.BunifuCustomLabel();
@@ -147,45 +180,12 @@
             this.tunnelLabelX1 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.tunnelLabelX2 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.screenSizeButton = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.ascendingDirectionLabel = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.descendingDirectionLabel = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.titlePanel = new System.Windows.Forms.Panel();
             this.closeProgramButton = new Bunifu.Framework.UI.BunifuImageButton();
             this.titleLabel = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuDragControl1 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
-            this.ascendingDirectionLabel = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.descendingDirectionLabel = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.dayLampButtonX00 = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.regularLampButtonX00 = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.dayLampButtonX10 = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.regularLampButtonX10 = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.bunifuCustomLabel86 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel85 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel84 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel18 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel17 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel16 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel15 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel14 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.tlPanel30 = new System.Windows.Forms.TableLayoutPanel();
-            this.dayLampButtonX20 = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.dayLampButtonX30 = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.dayLampButtonX01 = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.dayLampButtonX11 = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.dayLampButtonX21 = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.dayLampButtonX31 = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.dayLampButtonX02 = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.dayLampButtonX12 = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.dayLampButtonX22 = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.dayLampButtonX32 = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.regularLampButtonX20 = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.regularLampButtonX30 = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.regularLampButtonX01 = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.regularLampButtonX11 = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.regularLampButtonX21 = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.regularLampButtonX31 = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.regularLampButtonX02 = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.regularLampButtonX12 = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.regularLampButtonX22 = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.regularLampButtonX32 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.mainTLPanel.SuspendLayout();
             this.btnPanelX0.SuspendLayout();
             this.btnPanelX1.SuspendLayout();
@@ -199,11 +199,11 @@
             this.tlPanel20.SuspendLayout();
             this.tlPanel21.SuspendLayout();
             this.tlPanel22.SuspendLayout();
+            this.tlPanel30.SuspendLayout();
             this.tlPanel31.SuspendLayout();
             this.tlPanel32.SuspendLayout();
             this.titlePanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.closeProgramButton)).BeginInit();
-            this.tlPanel30.SuspendLayout();
             this.SuspendLayout();
             // 
             // bunifuElipse1
@@ -731,14 +731,14 @@
             this.tlPanel00.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
             this.tlPanel00.Controls.Add(this.regularLampButtonX00, 2, 3);
             this.tlPanel00.Controls.Add(this.dayLampButtonX00, 2, 2);
-            this.tlPanel00.Controls.Add(this.bunifuCustomLabel32, 1, 3);
-            this.tlPanel00.Controls.Add(this.bunifuCustomLabel31, 1, 2);
-            this.tlPanel00.Controls.Add(this.bunifuCustomLabel30, 1, 1);
+            this.tlPanel00.Controls.Add(this.regularLampDimmPercentX00, 1, 3);
+            this.tlPanel00.Controls.Add(this.dayLampDimmPercentX00, 1, 2);
+            this.tlPanel00.Controls.Add(this.internalLuminanceX00, 1, 1);
             this.tlPanel00.Controls.Add(this.bunifuCustomLabel28, 0, 1);
             this.tlPanel00.Controls.Add(this.bunifuCustomLabel27, 0, 3);
             this.tlPanel00.Controls.Add(this.bunifuCustomLabel26, 0, 2);
             this.tlPanel00.Controls.Add(this.bunifuCustomLabel25, 0, 0);
-            this.tlPanel00.Controls.Add(this.bunifuCustomLabel29, 1, 0);
+            this.tlPanel00.Controls.Add(this.externalLuminanceX00, 1, 0);
             this.tlPanel00.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tlPanel00.Location = new System.Drawing.Point(339, 160);
             this.tlPanel00.Margin = new System.Windows.Forms.Padding(3, 10, 3, 10);
@@ -761,51 +761,123 @@
             this.tlPanel00.Size = new System.Drawing.Size(330, 130);
             this.tlPanel00.TabIndex = 6;
             // 
-            // bunifuCustomLabel32
+            // regularLampButtonX00
             // 
-            this.bunifuCustomLabel32.AutoSize = true;
-            this.bunifuCustomLabel32.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
-            this.bunifuCustomLabel32.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuCustomLabel32.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.bunifuCustomLabel32.ForeColor = System.Drawing.Color.White;
-            this.bunifuCustomLabel32.Location = new System.Drawing.Point(112, 98);
-            this.bunifuCustomLabel32.Margin = new System.Windows.Forms.Padding(2);
-            this.bunifuCustomLabel32.Name = "bunifuCustomLabel32";
-            this.bunifuCustomLabel32.Size = new System.Drawing.Size(105, 30);
-            this.bunifuCustomLabel32.TabIndex = 7;
-            this.bunifuCustomLabel32.Text = "디밍 0%";
-            this.bunifuCustomLabel32.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.regularLampButtonX00.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.regularLampButtonX00.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.regularLampButtonX00.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.regularLampButtonX00.BorderRadius = 0;
+            this.regularLampButtonX00.ButtonText = "OFF";
+            this.regularLampButtonX00.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.regularLampButtonX00.DisabledColor = System.Drawing.Color.Gray;
+            this.regularLampButtonX00.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.regularLampButtonX00.Iconcolor = System.Drawing.Color.Transparent;
+            this.regularLampButtonX00.Iconimage = null;
+            this.regularLampButtonX00.Iconimage_right = null;
+            this.regularLampButtonX00.Iconimage_right_Selected = null;
+            this.regularLampButtonX00.Iconimage_Selected = null;
+            this.regularLampButtonX00.IconMarginLeft = 0;
+            this.regularLampButtonX00.IconMarginRight = 0;
+            this.regularLampButtonX00.IconRightVisible = true;
+            this.regularLampButtonX00.IconRightZoom = 0D;
+            this.regularLampButtonX00.IconVisible = true;
+            this.regularLampButtonX00.IconZoom = 90D;
+            this.regularLampButtonX00.IsTab = false;
+            this.regularLampButtonX00.Location = new System.Drawing.Point(221, 98);
+            this.regularLampButtonX00.Margin = new System.Windows.Forms.Padding(2);
+            this.regularLampButtonX00.Name = "regularLampButtonX00";
+            this.regularLampButtonX00.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.regularLampButtonX00.OnHovercolor = System.Drawing.Color.Pink;
+            this.regularLampButtonX00.OnHoverTextColor = System.Drawing.Color.White;
+            this.regularLampButtonX00.selected = false;
+            this.regularLampButtonX00.Size = new System.Drawing.Size(107, 30);
+            this.regularLampButtonX00.TabIndex = 24;
+            this.regularLampButtonX00.Text = "OFF";
+            this.regularLampButtonX00.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.regularLampButtonX00.Textcolor = System.Drawing.Color.White;
+            this.regularLampButtonX00.TextFont = new System.Drawing.Font("Malgun Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             // 
-            // bunifuCustomLabel31
+            // dayLampButtonX00
             // 
-            this.bunifuCustomLabel31.AutoSize = true;
-            this.bunifuCustomLabel31.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
-            this.bunifuCustomLabel31.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuCustomLabel31.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.bunifuCustomLabel31.ForeColor = System.Drawing.Color.White;
-            this.bunifuCustomLabel31.Location = new System.Drawing.Point(112, 66);
-            this.bunifuCustomLabel31.Margin = new System.Windows.Forms.Padding(2);
-            this.bunifuCustomLabel31.Name = "bunifuCustomLabel31";
-            this.bunifuCustomLabel31.Size = new System.Drawing.Size(105, 28);
-            this.bunifuCustomLabel31.TabIndex = 6;
-            this.bunifuCustomLabel31.Text = "디밍 0%";
-            this.bunifuCustomLabel31.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.dayLampButtonX00.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.dayLampButtonX00.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.dayLampButtonX00.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.dayLampButtonX00.BorderRadius = 0;
+            this.dayLampButtonX00.ButtonText = "OFF";
+            this.dayLampButtonX00.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.dayLampButtonX00.DisabledColor = System.Drawing.Color.Gray;
+            this.dayLampButtonX00.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dayLampButtonX00.Iconcolor = System.Drawing.Color.Transparent;
+            this.dayLampButtonX00.Iconimage = null;
+            this.dayLampButtonX00.Iconimage_right = null;
+            this.dayLampButtonX00.Iconimage_right_Selected = null;
+            this.dayLampButtonX00.Iconimage_Selected = null;
+            this.dayLampButtonX00.IconMarginLeft = 0;
+            this.dayLampButtonX00.IconMarginRight = 0;
+            this.dayLampButtonX00.IconRightVisible = true;
+            this.dayLampButtonX00.IconRightZoom = 0D;
+            this.dayLampButtonX00.IconVisible = true;
+            this.dayLampButtonX00.IconZoom = 90D;
+            this.dayLampButtonX00.IsTab = false;
+            this.dayLampButtonX00.Location = new System.Drawing.Point(221, 66);
+            this.dayLampButtonX00.Margin = new System.Windows.Forms.Padding(2);
+            this.dayLampButtonX00.Name = "dayLampButtonX00";
+            this.dayLampButtonX00.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.dayLampButtonX00.OnHovercolor = System.Drawing.Color.Pink;
+            this.dayLampButtonX00.OnHoverTextColor = System.Drawing.Color.White;
+            this.dayLampButtonX00.selected = false;
+            this.dayLampButtonX00.Size = new System.Drawing.Size(107, 28);
+            this.dayLampButtonX00.TabIndex = 23;
+            this.dayLampButtonX00.Text = "OFF";
+            this.dayLampButtonX00.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.dayLampButtonX00.Textcolor = System.Drawing.Color.White;
+            this.dayLampButtonX00.TextFont = new System.Drawing.Font("Malgun Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             // 
-            // bunifuCustomLabel30
+            // regularLampDimmPercentX00
             // 
-            this.bunifuCustomLabel30.AutoSize = true;
-            this.bunifuCustomLabel30.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
-            this.tlPanel00.SetColumnSpan(this.bunifuCustomLabel30, 2);
-            this.bunifuCustomLabel30.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuCustomLabel30.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.bunifuCustomLabel30.ForeColor = System.Drawing.Color.White;
-            this.bunifuCustomLabel30.Location = new System.Drawing.Point(112, 34);
-            this.bunifuCustomLabel30.Margin = new System.Windows.Forms.Padding(2);
-            this.bunifuCustomLabel30.Name = "bunifuCustomLabel30";
-            this.bunifuCustomLabel30.Size = new System.Drawing.Size(216, 28);
-            this.bunifuCustomLabel30.TabIndex = 5;
-            this.bunifuCustomLabel30.Text = "86 cd/㎡";
-            this.bunifuCustomLabel30.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.regularLampDimmPercentX00.AutoSize = true;
+            this.regularLampDimmPercentX00.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
+            this.regularLampDimmPercentX00.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.regularLampDimmPercentX00.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.regularLampDimmPercentX00.ForeColor = System.Drawing.Color.White;
+            this.regularLampDimmPercentX00.Location = new System.Drawing.Point(112, 98);
+            this.regularLampDimmPercentX00.Margin = new System.Windows.Forms.Padding(2);
+            this.regularLampDimmPercentX00.Name = "regularLampDimmPercentX00";
+            this.regularLampDimmPercentX00.Size = new System.Drawing.Size(105, 30);
+            this.regularLampDimmPercentX00.TabIndex = 7;
+            this.regularLampDimmPercentX00.Text = "디밍 0%";
+            this.regularLampDimmPercentX00.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // dayLampDimmPercentX00
+            // 
+            this.dayLampDimmPercentX00.AutoSize = true;
+            this.dayLampDimmPercentX00.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
+            this.dayLampDimmPercentX00.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dayLampDimmPercentX00.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.dayLampDimmPercentX00.ForeColor = System.Drawing.Color.White;
+            this.dayLampDimmPercentX00.Location = new System.Drawing.Point(112, 66);
+            this.dayLampDimmPercentX00.Margin = new System.Windows.Forms.Padding(2);
+            this.dayLampDimmPercentX00.Name = "dayLampDimmPercentX00";
+            this.dayLampDimmPercentX00.Size = new System.Drawing.Size(105, 28);
+            this.dayLampDimmPercentX00.TabIndex = 6;
+            this.dayLampDimmPercentX00.Text = "디밍 0%";
+            this.dayLampDimmPercentX00.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // internalLuminanceX00
+            // 
+            this.internalLuminanceX00.AutoSize = true;
+            this.internalLuminanceX00.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
+            this.tlPanel00.SetColumnSpan(this.internalLuminanceX00, 2);
+            this.internalLuminanceX00.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.internalLuminanceX00.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.internalLuminanceX00.ForeColor = System.Drawing.Color.White;
+            this.internalLuminanceX00.Location = new System.Drawing.Point(112, 34);
+            this.internalLuminanceX00.Margin = new System.Windows.Forms.Padding(2);
+            this.internalLuminanceX00.Name = "internalLuminanceX00";
+            this.internalLuminanceX00.Size = new System.Drawing.Size(216, 28);
+            this.internalLuminanceX00.TabIndex = 5;
+            this.internalLuminanceX00.Text = "86 cd/㎡";
+            this.internalLuminanceX00.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // bunifuCustomLabel28
             // 
@@ -863,21 +935,21 @@
             this.bunifuCustomLabel25.Text = "외부휘도";
             this.bunifuCustomLabel25.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // bunifuCustomLabel29
+            // externalLuminanceX00
             // 
-            this.bunifuCustomLabel29.AutoSize = true;
-            this.bunifuCustomLabel29.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
-            this.tlPanel00.SetColumnSpan(this.bunifuCustomLabel29, 2);
-            this.bunifuCustomLabel29.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuCustomLabel29.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.bunifuCustomLabel29.ForeColor = System.Drawing.Color.White;
-            this.bunifuCustomLabel29.Location = new System.Drawing.Point(112, 2);
-            this.bunifuCustomLabel29.Margin = new System.Windows.Forms.Padding(2);
-            this.bunifuCustomLabel29.Name = "bunifuCustomLabel29";
-            this.bunifuCustomLabel29.Size = new System.Drawing.Size(216, 28);
-            this.bunifuCustomLabel29.TabIndex = 4;
-            this.bunifuCustomLabel29.Text = "1653 cd/㎡";
-            this.bunifuCustomLabel29.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.externalLuminanceX00.AutoSize = true;
+            this.externalLuminanceX00.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
+            this.tlPanel00.SetColumnSpan(this.externalLuminanceX00, 2);
+            this.externalLuminanceX00.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.externalLuminanceX00.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.externalLuminanceX00.ForeColor = System.Drawing.Color.White;
+            this.externalLuminanceX00.Location = new System.Drawing.Point(112, 2);
+            this.externalLuminanceX00.Margin = new System.Windows.Forms.Padding(2);
+            this.externalLuminanceX00.Name = "externalLuminanceX00";
+            this.externalLuminanceX00.Size = new System.Drawing.Size(216, 28);
+            this.externalLuminanceX00.TabIndex = 4;
+            this.externalLuminanceX00.Text = "1653 cd/㎡";
+            this.externalLuminanceX00.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // tlPanel01
             // 
@@ -889,10 +961,10 @@
             this.tlPanel01.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33334F));
             this.tlPanel01.Controls.Add(this.regularLampButtonX01, 2, 3);
             this.tlPanel01.Controls.Add(this.dayLampButtonX01, 2, 2);
-            this.tlPanel01.Controls.Add(this.bunifuCustomLabel51, 1, 3);
-            this.tlPanel01.Controls.Add(this.bunifuCustomLabel50, 1, 2);
-            this.tlPanel01.Controls.Add(this.bunifuCustomLabel49, 1, 1);
-            this.tlPanel01.Controls.Add(this.bunifuCustomLabel48, 1, 0);
+            this.tlPanel01.Controls.Add(this.regularLampDimmPercentX01, 1, 3);
+            this.tlPanel01.Controls.Add(this.dayLampDimmPercentX01, 1, 2);
+            this.tlPanel01.Controls.Add(this.internalLuminanceX01, 1, 1);
+            this.tlPanel01.Controls.Add(this.externalLuminanceX01, 1, 0);
             this.tlPanel01.Controls.Add(this.bunifuCustomLabel47, 0, 3);
             this.tlPanel01.Controls.Add(this.bunifuCustomLabel46, 0, 2);
             this.tlPanel01.Controls.Add(this.bunifuCustomLabel45, 0, 1);
@@ -911,67 +983,139 @@
             this.tlPanel01.Size = new System.Drawing.Size(330, 130);
             this.tlPanel01.TabIndex = 8;
             // 
-            // bunifuCustomLabel51
+            // regularLampButtonX01
             // 
-            this.bunifuCustomLabel51.AutoSize = true;
-            this.bunifuCustomLabel51.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
-            this.bunifuCustomLabel51.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuCustomLabel51.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.bunifuCustomLabel51.ForeColor = System.Drawing.Color.White;
-            this.bunifuCustomLabel51.Location = new System.Drawing.Point(112, 98);
-            this.bunifuCustomLabel51.Margin = new System.Windows.Forms.Padding(2);
-            this.bunifuCustomLabel51.Name = "bunifuCustomLabel51";
-            this.bunifuCustomLabel51.Size = new System.Drawing.Size(106, 30);
-            this.bunifuCustomLabel51.TabIndex = 10;
-            this.bunifuCustomLabel51.Text = "디밍 0%";
-            this.bunifuCustomLabel51.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.regularLampButtonX01.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.regularLampButtonX01.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.regularLampButtonX01.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.regularLampButtonX01.BorderRadius = 0;
+            this.regularLampButtonX01.ButtonText = "OFF";
+            this.regularLampButtonX01.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.regularLampButtonX01.DisabledColor = System.Drawing.Color.Gray;
+            this.regularLampButtonX01.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.regularLampButtonX01.Iconcolor = System.Drawing.Color.Transparent;
+            this.regularLampButtonX01.Iconimage = null;
+            this.regularLampButtonX01.Iconimage_right = null;
+            this.regularLampButtonX01.Iconimage_right_Selected = null;
+            this.regularLampButtonX01.Iconimage_Selected = null;
+            this.regularLampButtonX01.IconMarginLeft = 0;
+            this.regularLampButtonX01.IconMarginRight = 0;
+            this.regularLampButtonX01.IconRightVisible = true;
+            this.regularLampButtonX01.IconRightZoom = 0D;
+            this.regularLampButtonX01.IconVisible = true;
+            this.regularLampButtonX01.IconZoom = 90D;
+            this.regularLampButtonX01.IsTab = false;
+            this.regularLampButtonX01.Location = new System.Drawing.Point(222, 98);
+            this.regularLampButtonX01.Margin = new System.Windows.Forms.Padding(2);
+            this.regularLampButtonX01.Name = "regularLampButtonX01";
+            this.regularLampButtonX01.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.regularLampButtonX01.OnHovercolor = System.Drawing.Color.Pink;
+            this.regularLampButtonX01.OnHoverTextColor = System.Drawing.Color.White;
+            this.regularLampButtonX01.selected = false;
+            this.regularLampButtonX01.Size = new System.Drawing.Size(106, 30);
+            this.regularLampButtonX01.TabIndex = 26;
+            this.regularLampButtonX01.Text = "OFF";
+            this.regularLampButtonX01.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.regularLampButtonX01.Textcolor = System.Drawing.Color.White;
+            this.regularLampButtonX01.TextFont = new System.Drawing.Font("Malgun Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             // 
-            // bunifuCustomLabel50
+            // dayLampButtonX01
             // 
-            this.bunifuCustomLabel50.AutoSize = true;
-            this.bunifuCustomLabel50.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
-            this.bunifuCustomLabel50.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuCustomLabel50.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.bunifuCustomLabel50.ForeColor = System.Drawing.Color.White;
-            this.bunifuCustomLabel50.Location = new System.Drawing.Point(112, 66);
-            this.bunifuCustomLabel50.Margin = new System.Windows.Forms.Padding(2);
-            this.bunifuCustomLabel50.Name = "bunifuCustomLabel50";
-            this.bunifuCustomLabel50.Size = new System.Drawing.Size(106, 28);
-            this.bunifuCustomLabel50.TabIndex = 9;
-            this.bunifuCustomLabel50.Text = "디밍 0%";
-            this.bunifuCustomLabel50.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.dayLampButtonX01.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.dayLampButtonX01.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.dayLampButtonX01.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.dayLampButtonX01.BorderRadius = 0;
+            this.dayLampButtonX01.ButtonText = "OFF";
+            this.dayLampButtonX01.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.dayLampButtonX01.DisabledColor = System.Drawing.Color.Gray;
+            this.dayLampButtonX01.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dayLampButtonX01.Iconcolor = System.Drawing.Color.Transparent;
+            this.dayLampButtonX01.Iconimage = null;
+            this.dayLampButtonX01.Iconimage_right = null;
+            this.dayLampButtonX01.Iconimage_right_Selected = null;
+            this.dayLampButtonX01.Iconimage_Selected = null;
+            this.dayLampButtonX01.IconMarginLeft = 0;
+            this.dayLampButtonX01.IconMarginRight = 0;
+            this.dayLampButtonX01.IconRightVisible = true;
+            this.dayLampButtonX01.IconRightZoom = 0D;
+            this.dayLampButtonX01.IconVisible = true;
+            this.dayLampButtonX01.IconZoom = 90D;
+            this.dayLampButtonX01.IsTab = false;
+            this.dayLampButtonX01.Location = new System.Drawing.Point(222, 66);
+            this.dayLampButtonX01.Margin = new System.Windows.Forms.Padding(2);
+            this.dayLampButtonX01.Name = "dayLampButtonX01";
+            this.dayLampButtonX01.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.dayLampButtonX01.OnHovercolor = System.Drawing.Color.Pink;
+            this.dayLampButtonX01.OnHoverTextColor = System.Drawing.Color.White;
+            this.dayLampButtonX01.selected = false;
+            this.dayLampButtonX01.Size = new System.Drawing.Size(106, 28);
+            this.dayLampButtonX01.TabIndex = 24;
+            this.dayLampButtonX01.Text = "OFF";
+            this.dayLampButtonX01.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.dayLampButtonX01.Textcolor = System.Drawing.Color.White;
+            this.dayLampButtonX01.TextFont = new System.Drawing.Font("Malgun Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             // 
-            // bunifuCustomLabel49
+            // regularLampDimmPercentX01
             // 
-            this.bunifuCustomLabel49.AutoSize = true;
-            this.bunifuCustomLabel49.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
-            this.tlPanel01.SetColumnSpan(this.bunifuCustomLabel49, 2);
-            this.bunifuCustomLabel49.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuCustomLabel49.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.bunifuCustomLabel49.ForeColor = System.Drawing.Color.White;
-            this.bunifuCustomLabel49.Location = new System.Drawing.Point(112, 34);
-            this.bunifuCustomLabel49.Margin = new System.Windows.Forms.Padding(2);
-            this.bunifuCustomLabel49.Name = "bunifuCustomLabel49";
-            this.bunifuCustomLabel49.Size = new System.Drawing.Size(216, 28);
-            this.bunifuCustomLabel49.TabIndex = 8;
-            this.bunifuCustomLabel49.Text = "86 cd/㎡";
-            this.bunifuCustomLabel49.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.regularLampDimmPercentX01.AutoSize = true;
+            this.regularLampDimmPercentX01.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
+            this.regularLampDimmPercentX01.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.regularLampDimmPercentX01.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.regularLampDimmPercentX01.ForeColor = System.Drawing.Color.White;
+            this.regularLampDimmPercentX01.Location = new System.Drawing.Point(112, 98);
+            this.regularLampDimmPercentX01.Margin = new System.Windows.Forms.Padding(2);
+            this.regularLampDimmPercentX01.Name = "regularLampDimmPercentX01";
+            this.regularLampDimmPercentX01.Size = new System.Drawing.Size(106, 30);
+            this.regularLampDimmPercentX01.TabIndex = 10;
+            this.regularLampDimmPercentX01.Text = "디밍 0%";
+            this.regularLampDimmPercentX01.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // bunifuCustomLabel48
+            // dayLampDimmPercentX01
             // 
-            this.bunifuCustomLabel48.AutoSize = true;
-            this.bunifuCustomLabel48.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
-            this.tlPanel01.SetColumnSpan(this.bunifuCustomLabel48, 2);
-            this.bunifuCustomLabel48.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuCustomLabel48.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.bunifuCustomLabel48.ForeColor = System.Drawing.Color.White;
-            this.bunifuCustomLabel48.Location = new System.Drawing.Point(112, 2);
-            this.bunifuCustomLabel48.Margin = new System.Windows.Forms.Padding(2);
-            this.bunifuCustomLabel48.Name = "bunifuCustomLabel48";
-            this.bunifuCustomLabel48.Size = new System.Drawing.Size(216, 28);
-            this.bunifuCustomLabel48.TabIndex = 7;
-            this.bunifuCustomLabel48.Text = "1653 cd/㎡";
-            this.bunifuCustomLabel48.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.dayLampDimmPercentX01.AutoSize = true;
+            this.dayLampDimmPercentX01.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
+            this.dayLampDimmPercentX01.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dayLampDimmPercentX01.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.dayLampDimmPercentX01.ForeColor = System.Drawing.Color.White;
+            this.dayLampDimmPercentX01.Location = new System.Drawing.Point(112, 66);
+            this.dayLampDimmPercentX01.Margin = new System.Windows.Forms.Padding(2);
+            this.dayLampDimmPercentX01.Name = "dayLampDimmPercentX01";
+            this.dayLampDimmPercentX01.Size = new System.Drawing.Size(106, 28);
+            this.dayLampDimmPercentX01.TabIndex = 9;
+            this.dayLampDimmPercentX01.Text = "디밍 0%";
+            this.dayLampDimmPercentX01.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // internalLuminanceX01
+            // 
+            this.internalLuminanceX01.AutoSize = true;
+            this.internalLuminanceX01.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
+            this.tlPanel01.SetColumnSpan(this.internalLuminanceX01, 2);
+            this.internalLuminanceX01.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.internalLuminanceX01.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.internalLuminanceX01.ForeColor = System.Drawing.Color.White;
+            this.internalLuminanceX01.Location = new System.Drawing.Point(112, 34);
+            this.internalLuminanceX01.Margin = new System.Windows.Forms.Padding(2);
+            this.internalLuminanceX01.Name = "internalLuminanceX01";
+            this.internalLuminanceX01.Size = new System.Drawing.Size(216, 28);
+            this.internalLuminanceX01.TabIndex = 8;
+            this.internalLuminanceX01.Text = "86 cd/㎡";
+            this.internalLuminanceX01.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // externalLuminanceX01
+            // 
+            this.externalLuminanceX01.AutoSize = true;
+            this.externalLuminanceX01.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
+            this.tlPanel01.SetColumnSpan(this.externalLuminanceX01, 2);
+            this.externalLuminanceX01.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.externalLuminanceX01.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.externalLuminanceX01.ForeColor = System.Drawing.Color.White;
+            this.externalLuminanceX01.Location = new System.Drawing.Point(112, 2);
+            this.externalLuminanceX01.Margin = new System.Windows.Forms.Padding(2);
+            this.externalLuminanceX01.Name = "externalLuminanceX01";
+            this.externalLuminanceX01.Size = new System.Drawing.Size(216, 28);
+            this.externalLuminanceX01.TabIndex = 7;
+            this.externalLuminanceX01.Text = "1653 cd/㎡";
+            this.externalLuminanceX01.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // bunifuCustomLabel47
             // 
@@ -1039,10 +1183,10 @@
             this.tlPanel02.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33334F));
             this.tlPanel02.Controls.Add(this.regularLampButtonX02, 2, 3);
             this.tlPanel02.Controls.Add(this.dayLampButtonX02, 2, 2);
-            this.tlPanel02.Controls.Add(this.bunifuCustomLabel77, 1, 2);
-            this.tlPanel02.Controls.Add(this.bunifuCustomLabel76, 1, 3);
-            this.tlPanel02.Controls.Add(this.bunifuCustomLabel74, 1, 1);
-            this.tlPanel02.Controls.Add(this.bunifuCustomLabel72, 1, 0);
+            this.tlPanel02.Controls.Add(this.dayLampDimmPercentX02, 1, 2);
+            this.tlPanel02.Controls.Add(this.regularLampDimmPercentX02, 1, 3);
+            this.tlPanel02.Controls.Add(this.internalLuminanceX02, 1, 1);
+            this.tlPanel02.Controls.Add(this.externalLuminanceX02, 1, 0);
             this.tlPanel02.Controls.Add(this.bunifuCustomLabel67, 0, 3);
             this.tlPanel02.Controls.Add(this.bunifuCustomLabel66, 0, 2);
             this.tlPanel02.Controls.Add(this.bunifuCustomLabel65, 0, 1);
@@ -1062,67 +1206,139 @@
             this.tlPanel02.Size = new System.Drawing.Size(306, 130);
             this.tlPanel02.TabIndex = 10;
             // 
-            // bunifuCustomLabel77
+            // regularLampButtonX02
             // 
-            this.bunifuCustomLabel77.AutoSize = true;
-            this.bunifuCustomLabel77.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
-            this.bunifuCustomLabel77.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuCustomLabel77.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.bunifuCustomLabel77.ForeColor = System.Drawing.Color.White;
-            this.bunifuCustomLabel77.Location = new System.Drawing.Point(104, 66);
-            this.bunifuCustomLabel77.Margin = new System.Windows.Forms.Padding(2);
-            this.bunifuCustomLabel77.Name = "bunifuCustomLabel77";
-            this.bunifuCustomLabel77.Size = new System.Drawing.Size(98, 28);
-            this.bunifuCustomLabel77.TabIndex = 11;
-            this.bunifuCustomLabel77.Text = "디밍 0%";
-            this.bunifuCustomLabel77.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.regularLampButtonX02.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.regularLampButtonX02.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.regularLampButtonX02.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.regularLampButtonX02.BorderRadius = 0;
+            this.regularLampButtonX02.ButtonText = "OFF";
+            this.regularLampButtonX02.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.regularLampButtonX02.DisabledColor = System.Drawing.Color.Gray;
+            this.regularLampButtonX02.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.regularLampButtonX02.Iconcolor = System.Drawing.Color.Transparent;
+            this.regularLampButtonX02.Iconimage = null;
+            this.regularLampButtonX02.Iconimage_right = null;
+            this.regularLampButtonX02.Iconimage_right_Selected = null;
+            this.regularLampButtonX02.Iconimage_Selected = null;
+            this.regularLampButtonX02.IconMarginLeft = 0;
+            this.regularLampButtonX02.IconMarginRight = 0;
+            this.regularLampButtonX02.IconRightVisible = true;
+            this.regularLampButtonX02.IconRightZoom = 0D;
+            this.regularLampButtonX02.IconVisible = true;
+            this.regularLampButtonX02.IconZoom = 90D;
+            this.regularLampButtonX02.IsTab = false;
+            this.regularLampButtonX02.Location = new System.Drawing.Point(206, 98);
+            this.regularLampButtonX02.Margin = new System.Windows.Forms.Padding(2);
+            this.regularLampButtonX02.Name = "regularLampButtonX02";
+            this.regularLampButtonX02.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.regularLampButtonX02.OnHovercolor = System.Drawing.Color.Pink;
+            this.regularLampButtonX02.OnHoverTextColor = System.Drawing.Color.White;
+            this.regularLampButtonX02.selected = false;
+            this.regularLampButtonX02.Size = new System.Drawing.Size(98, 30);
+            this.regularLampButtonX02.TabIndex = 26;
+            this.regularLampButtonX02.Text = "OFF";
+            this.regularLampButtonX02.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.regularLampButtonX02.Textcolor = System.Drawing.Color.White;
+            this.regularLampButtonX02.TextFont = new System.Drawing.Font("Malgun Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             // 
-            // bunifuCustomLabel76
+            // dayLampButtonX02
             // 
-            this.bunifuCustomLabel76.AutoSize = true;
-            this.bunifuCustomLabel76.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
-            this.bunifuCustomLabel76.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuCustomLabel76.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.bunifuCustomLabel76.ForeColor = System.Drawing.Color.White;
-            this.bunifuCustomLabel76.Location = new System.Drawing.Point(104, 98);
-            this.bunifuCustomLabel76.Margin = new System.Windows.Forms.Padding(2);
-            this.bunifuCustomLabel76.Name = "bunifuCustomLabel76";
-            this.bunifuCustomLabel76.Size = new System.Drawing.Size(98, 30);
-            this.bunifuCustomLabel76.TabIndex = 10;
-            this.bunifuCustomLabel76.Text = "디밍 0%";
-            this.bunifuCustomLabel76.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.dayLampButtonX02.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.dayLampButtonX02.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.dayLampButtonX02.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.dayLampButtonX02.BorderRadius = 0;
+            this.dayLampButtonX02.ButtonText = "OFF";
+            this.dayLampButtonX02.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.dayLampButtonX02.DisabledColor = System.Drawing.Color.Gray;
+            this.dayLampButtonX02.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dayLampButtonX02.Iconcolor = System.Drawing.Color.Transparent;
+            this.dayLampButtonX02.Iconimage = null;
+            this.dayLampButtonX02.Iconimage_right = null;
+            this.dayLampButtonX02.Iconimage_right_Selected = null;
+            this.dayLampButtonX02.Iconimage_Selected = null;
+            this.dayLampButtonX02.IconMarginLeft = 0;
+            this.dayLampButtonX02.IconMarginRight = 0;
+            this.dayLampButtonX02.IconRightVisible = true;
+            this.dayLampButtonX02.IconRightZoom = 0D;
+            this.dayLampButtonX02.IconVisible = true;
+            this.dayLampButtonX02.IconZoom = 90D;
+            this.dayLampButtonX02.IsTab = false;
+            this.dayLampButtonX02.Location = new System.Drawing.Point(206, 66);
+            this.dayLampButtonX02.Margin = new System.Windows.Forms.Padding(2);
+            this.dayLampButtonX02.Name = "dayLampButtonX02";
+            this.dayLampButtonX02.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.dayLampButtonX02.OnHovercolor = System.Drawing.Color.Pink;
+            this.dayLampButtonX02.OnHoverTextColor = System.Drawing.Color.White;
+            this.dayLampButtonX02.selected = false;
+            this.dayLampButtonX02.Size = new System.Drawing.Size(98, 28);
+            this.dayLampButtonX02.TabIndex = 24;
+            this.dayLampButtonX02.Text = "OFF";
+            this.dayLampButtonX02.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.dayLampButtonX02.Textcolor = System.Drawing.Color.White;
+            this.dayLampButtonX02.TextFont = new System.Drawing.Font("Malgun Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             // 
-            // bunifuCustomLabel74
+            // dayLampDimmPercentX02
             // 
-            this.bunifuCustomLabel74.AutoSize = true;
-            this.bunifuCustomLabel74.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
-            this.tlPanel02.SetColumnSpan(this.bunifuCustomLabel74, 2);
-            this.bunifuCustomLabel74.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuCustomLabel74.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.bunifuCustomLabel74.ForeColor = System.Drawing.Color.White;
-            this.bunifuCustomLabel74.Location = new System.Drawing.Point(104, 34);
-            this.bunifuCustomLabel74.Margin = new System.Windows.Forms.Padding(2);
-            this.bunifuCustomLabel74.Name = "bunifuCustomLabel74";
-            this.bunifuCustomLabel74.Size = new System.Drawing.Size(200, 28);
-            this.bunifuCustomLabel74.TabIndex = 9;
-            this.bunifuCustomLabel74.Text = "86 cd/㎡";
-            this.bunifuCustomLabel74.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.dayLampDimmPercentX02.AutoSize = true;
+            this.dayLampDimmPercentX02.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
+            this.dayLampDimmPercentX02.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dayLampDimmPercentX02.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.dayLampDimmPercentX02.ForeColor = System.Drawing.Color.White;
+            this.dayLampDimmPercentX02.Location = new System.Drawing.Point(104, 66);
+            this.dayLampDimmPercentX02.Margin = new System.Windows.Forms.Padding(2);
+            this.dayLampDimmPercentX02.Name = "dayLampDimmPercentX02";
+            this.dayLampDimmPercentX02.Size = new System.Drawing.Size(98, 28);
+            this.dayLampDimmPercentX02.TabIndex = 11;
+            this.dayLampDimmPercentX02.Text = "디밍 0%";
+            this.dayLampDimmPercentX02.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // bunifuCustomLabel72
+            // regularLampDimmPercentX02
             // 
-            this.bunifuCustomLabel72.AutoSize = true;
-            this.bunifuCustomLabel72.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
-            this.tlPanel02.SetColumnSpan(this.bunifuCustomLabel72, 2);
-            this.bunifuCustomLabel72.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuCustomLabel72.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.bunifuCustomLabel72.ForeColor = System.Drawing.Color.White;
-            this.bunifuCustomLabel72.Location = new System.Drawing.Point(104, 2);
-            this.bunifuCustomLabel72.Margin = new System.Windows.Forms.Padding(2);
-            this.bunifuCustomLabel72.Name = "bunifuCustomLabel72";
-            this.bunifuCustomLabel72.Size = new System.Drawing.Size(200, 28);
-            this.bunifuCustomLabel72.TabIndex = 8;
-            this.bunifuCustomLabel72.Text = "1653 cd/㎡";
-            this.bunifuCustomLabel72.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.regularLampDimmPercentX02.AutoSize = true;
+            this.regularLampDimmPercentX02.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
+            this.regularLampDimmPercentX02.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.regularLampDimmPercentX02.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.regularLampDimmPercentX02.ForeColor = System.Drawing.Color.White;
+            this.regularLampDimmPercentX02.Location = new System.Drawing.Point(104, 98);
+            this.regularLampDimmPercentX02.Margin = new System.Windows.Forms.Padding(2);
+            this.regularLampDimmPercentX02.Name = "regularLampDimmPercentX02";
+            this.regularLampDimmPercentX02.Size = new System.Drawing.Size(98, 30);
+            this.regularLampDimmPercentX02.TabIndex = 10;
+            this.regularLampDimmPercentX02.Text = "디밍 0%";
+            this.regularLampDimmPercentX02.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // internalLuminanceX02
+            // 
+            this.internalLuminanceX02.AutoSize = true;
+            this.internalLuminanceX02.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
+            this.tlPanel02.SetColumnSpan(this.internalLuminanceX02, 2);
+            this.internalLuminanceX02.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.internalLuminanceX02.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.internalLuminanceX02.ForeColor = System.Drawing.Color.White;
+            this.internalLuminanceX02.Location = new System.Drawing.Point(104, 34);
+            this.internalLuminanceX02.Margin = new System.Windows.Forms.Padding(2);
+            this.internalLuminanceX02.Name = "internalLuminanceX02";
+            this.internalLuminanceX02.Size = new System.Drawing.Size(200, 28);
+            this.internalLuminanceX02.TabIndex = 9;
+            this.internalLuminanceX02.Text = "86 cd/㎡";
+            this.internalLuminanceX02.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // externalLuminanceX02
+            // 
+            this.externalLuminanceX02.AutoSize = true;
+            this.externalLuminanceX02.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
+            this.tlPanel02.SetColumnSpan(this.externalLuminanceX02, 2);
+            this.externalLuminanceX02.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.externalLuminanceX02.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.externalLuminanceX02.ForeColor = System.Drawing.Color.White;
+            this.externalLuminanceX02.Location = new System.Drawing.Point(104, 2);
+            this.externalLuminanceX02.Margin = new System.Windows.Forms.Padding(2);
+            this.externalLuminanceX02.Name = "externalLuminanceX02";
+            this.externalLuminanceX02.Size = new System.Drawing.Size(200, 28);
+            this.externalLuminanceX02.TabIndex = 8;
+            this.externalLuminanceX02.Text = "1653 cd/㎡";
+            this.externalLuminanceX02.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // bunifuCustomLabel67
             // 
@@ -1190,10 +1406,10 @@
             this.tlPanel10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33334F));
             this.tlPanel10.Controls.Add(this.regularLampButtonX10, 2, 3);
             this.tlPanel10.Controls.Add(this.dayLampButtonX10, 2, 2);
-            this.tlPanel10.Controls.Add(this.bunifuCustomLabel41, 1, 3);
-            this.tlPanel10.Controls.Add(this.bunifuCustomLabel40, 1, 2);
-            this.tlPanel10.Controls.Add(this.bunifuCustomLabel39, 1, 1);
-            this.tlPanel10.Controls.Add(this.bunifuCustomLabel38, 1, 0);
+            this.tlPanel10.Controls.Add(this.regularLampDimmPercentX10, 1, 3);
+            this.tlPanel10.Controls.Add(this.dayLampDimmPercentX10, 1, 2);
+            this.tlPanel10.Controls.Add(this.internalLuminanceX10, 1, 1);
+            this.tlPanel10.Controls.Add(this.externalLuminanceX10, 1, 0);
             this.tlPanel10.Controls.Add(this.bunifuCustomLabel37, 0, 3);
             this.tlPanel10.Controls.Add(this.bunifuCustomLabel36, 0, 2);
             this.tlPanel10.Controls.Add(this.bunifuCustomLabel35, 0, 1);
@@ -1222,67 +1438,139 @@
             this.tlPanel10.Size = new System.Drawing.Size(330, 130);
             this.tlPanel10.TabIndex = 7;
             // 
-            // bunifuCustomLabel41
+            // regularLampButtonX10
             // 
-            this.bunifuCustomLabel41.AutoSize = true;
-            this.bunifuCustomLabel41.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
-            this.bunifuCustomLabel41.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuCustomLabel41.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.bunifuCustomLabel41.ForeColor = System.Drawing.Color.White;
-            this.bunifuCustomLabel41.Location = new System.Drawing.Point(112, 98);
-            this.bunifuCustomLabel41.Margin = new System.Windows.Forms.Padding(2);
-            this.bunifuCustomLabel41.Name = "bunifuCustomLabel41";
-            this.bunifuCustomLabel41.Size = new System.Drawing.Size(106, 30);
-            this.bunifuCustomLabel41.TabIndex = 10;
-            this.bunifuCustomLabel41.Text = "디밍 0%";
-            this.bunifuCustomLabel41.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.regularLampButtonX10.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.regularLampButtonX10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.regularLampButtonX10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.regularLampButtonX10.BorderRadius = 0;
+            this.regularLampButtonX10.ButtonText = "OFF";
+            this.regularLampButtonX10.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.regularLampButtonX10.DisabledColor = System.Drawing.Color.Gray;
+            this.regularLampButtonX10.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.regularLampButtonX10.Iconcolor = System.Drawing.Color.Transparent;
+            this.regularLampButtonX10.Iconimage = null;
+            this.regularLampButtonX10.Iconimage_right = null;
+            this.regularLampButtonX10.Iconimage_right_Selected = null;
+            this.regularLampButtonX10.Iconimage_Selected = null;
+            this.regularLampButtonX10.IconMarginLeft = 0;
+            this.regularLampButtonX10.IconMarginRight = 0;
+            this.regularLampButtonX10.IconRightVisible = true;
+            this.regularLampButtonX10.IconRightZoom = 0D;
+            this.regularLampButtonX10.IconVisible = true;
+            this.regularLampButtonX10.IconZoom = 90D;
+            this.regularLampButtonX10.IsTab = false;
+            this.regularLampButtonX10.Location = new System.Drawing.Point(222, 98);
+            this.regularLampButtonX10.Margin = new System.Windows.Forms.Padding(2);
+            this.regularLampButtonX10.Name = "regularLampButtonX10";
+            this.regularLampButtonX10.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.regularLampButtonX10.OnHovercolor = System.Drawing.Color.Pink;
+            this.regularLampButtonX10.OnHoverTextColor = System.Drawing.Color.White;
+            this.regularLampButtonX10.selected = false;
+            this.regularLampButtonX10.Size = new System.Drawing.Size(106, 30);
+            this.regularLampButtonX10.TabIndex = 25;
+            this.regularLampButtonX10.Text = "OFF";
+            this.regularLampButtonX10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.regularLampButtonX10.Textcolor = System.Drawing.Color.White;
+            this.regularLampButtonX10.TextFont = new System.Drawing.Font("Malgun Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             // 
-            // bunifuCustomLabel40
+            // dayLampButtonX10
             // 
-            this.bunifuCustomLabel40.AutoSize = true;
-            this.bunifuCustomLabel40.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
-            this.bunifuCustomLabel40.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuCustomLabel40.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.bunifuCustomLabel40.ForeColor = System.Drawing.Color.White;
-            this.bunifuCustomLabel40.Location = new System.Drawing.Point(112, 66);
-            this.bunifuCustomLabel40.Margin = new System.Windows.Forms.Padding(2);
-            this.bunifuCustomLabel40.Name = "bunifuCustomLabel40";
-            this.bunifuCustomLabel40.Size = new System.Drawing.Size(106, 28);
-            this.bunifuCustomLabel40.TabIndex = 9;
-            this.bunifuCustomLabel40.Text = "디밍 0%";
-            this.bunifuCustomLabel40.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.dayLampButtonX10.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.dayLampButtonX10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.dayLampButtonX10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.dayLampButtonX10.BorderRadius = 0;
+            this.dayLampButtonX10.ButtonText = "OFF";
+            this.dayLampButtonX10.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.dayLampButtonX10.DisabledColor = System.Drawing.Color.Gray;
+            this.dayLampButtonX10.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dayLampButtonX10.Iconcolor = System.Drawing.Color.Transparent;
+            this.dayLampButtonX10.Iconimage = null;
+            this.dayLampButtonX10.Iconimage_right = null;
+            this.dayLampButtonX10.Iconimage_right_Selected = null;
+            this.dayLampButtonX10.Iconimage_Selected = null;
+            this.dayLampButtonX10.IconMarginLeft = 0;
+            this.dayLampButtonX10.IconMarginRight = 0;
+            this.dayLampButtonX10.IconRightVisible = true;
+            this.dayLampButtonX10.IconRightZoom = 0D;
+            this.dayLampButtonX10.IconVisible = true;
+            this.dayLampButtonX10.IconZoom = 90D;
+            this.dayLampButtonX10.IsTab = false;
+            this.dayLampButtonX10.Location = new System.Drawing.Point(222, 66);
+            this.dayLampButtonX10.Margin = new System.Windows.Forms.Padding(2);
+            this.dayLampButtonX10.Name = "dayLampButtonX10";
+            this.dayLampButtonX10.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.dayLampButtonX10.OnHovercolor = System.Drawing.Color.Pink;
+            this.dayLampButtonX10.OnHoverTextColor = System.Drawing.Color.White;
+            this.dayLampButtonX10.selected = false;
+            this.dayLampButtonX10.Size = new System.Drawing.Size(106, 28);
+            this.dayLampButtonX10.TabIndex = 24;
+            this.dayLampButtonX10.Text = "OFF";
+            this.dayLampButtonX10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.dayLampButtonX10.Textcolor = System.Drawing.Color.White;
+            this.dayLampButtonX10.TextFont = new System.Drawing.Font("Malgun Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             // 
-            // bunifuCustomLabel39
+            // regularLampDimmPercentX10
             // 
-            this.bunifuCustomLabel39.AutoSize = true;
-            this.bunifuCustomLabel39.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
-            this.tlPanel10.SetColumnSpan(this.bunifuCustomLabel39, 2);
-            this.bunifuCustomLabel39.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuCustomLabel39.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.bunifuCustomLabel39.ForeColor = System.Drawing.Color.White;
-            this.bunifuCustomLabel39.Location = new System.Drawing.Point(112, 34);
-            this.bunifuCustomLabel39.Margin = new System.Windows.Forms.Padding(2);
-            this.bunifuCustomLabel39.Name = "bunifuCustomLabel39";
-            this.bunifuCustomLabel39.Size = new System.Drawing.Size(216, 28);
-            this.bunifuCustomLabel39.TabIndex = 8;
-            this.bunifuCustomLabel39.Text = "86 cd/㎡";
-            this.bunifuCustomLabel39.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.regularLampDimmPercentX10.AutoSize = true;
+            this.regularLampDimmPercentX10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
+            this.regularLampDimmPercentX10.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.regularLampDimmPercentX10.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.regularLampDimmPercentX10.ForeColor = System.Drawing.Color.White;
+            this.regularLampDimmPercentX10.Location = new System.Drawing.Point(112, 98);
+            this.regularLampDimmPercentX10.Margin = new System.Windows.Forms.Padding(2);
+            this.regularLampDimmPercentX10.Name = "regularLampDimmPercentX10";
+            this.regularLampDimmPercentX10.Size = new System.Drawing.Size(106, 30);
+            this.regularLampDimmPercentX10.TabIndex = 10;
+            this.regularLampDimmPercentX10.Text = "디밍 0%";
+            this.regularLampDimmPercentX10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // bunifuCustomLabel38
+            // dayLampDimmPercentX10
             // 
-            this.bunifuCustomLabel38.AutoSize = true;
-            this.bunifuCustomLabel38.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
-            this.tlPanel10.SetColumnSpan(this.bunifuCustomLabel38, 2);
-            this.bunifuCustomLabel38.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuCustomLabel38.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.bunifuCustomLabel38.ForeColor = System.Drawing.Color.White;
-            this.bunifuCustomLabel38.Location = new System.Drawing.Point(112, 2);
-            this.bunifuCustomLabel38.Margin = new System.Windows.Forms.Padding(2);
-            this.bunifuCustomLabel38.Name = "bunifuCustomLabel38";
-            this.bunifuCustomLabel38.Size = new System.Drawing.Size(216, 28);
-            this.bunifuCustomLabel38.TabIndex = 7;
-            this.bunifuCustomLabel38.Text = "1653 cd/㎡";
-            this.bunifuCustomLabel38.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.dayLampDimmPercentX10.AutoSize = true;
+            this.dayLampDimmPercentX10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
+            this.dayLampDimmPercentX10.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dayLampDimmPercentX10.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.dayLampDimmPercentX10.ForeColor = System.Drawing.Color.White;
+            this.dayLampDimmPercentX10.Location = new System.Drawing.Point(112, 66);
+            this.dayLampDimmPercentX10.Margin = new System.Windows.Forms.Padding(2);
+            this.dayLampDimmPercentX10.Name = "dayLampDimmPercentX10";
+            this.dayLampDimmPercentX10.Size = new System.Drawing.Size(106, 28);
+            this.dayLampDimmPercentX10.TabIndex = 9;
+            this.dayLampDimmPercentX10.Text = "디밍 0%";
+            this.dayLampDimmPercentX10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // internalLuminanceX10
+            // 
+            this.internalLuminanceX10.AutoSize = true;
+            this.internalLuminanceX10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
+            this.tlPanel10.SetColumnSpan(this.internalLuminanceX10, 2);
+            this.internalLuminanceX10.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.internalLuminanceX10.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.internalLuminanceX10.ForeColor = System.Drawing.Color.White;
+            this.internalLuminanceX10.Location = new System.Drawing.Point(112, 34);
+            this.internalLuminanceX10.Margin = new System.Windows.Forms.Padding(2);
+            this.internalLuminanceX10.Name = "internalLuminanceX10";
+            this.internalLuminanceX10.Size = new System.Drawing.Size(216, 28);
+            this.internalLuminanceX10.TabIndex = 8;
+            this.internalLuminanceX10.Text = "86 cd/㎡";
+            this.internalLuminanceX10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // externalLuminanceX10
+            // 
+            this.externalLuminanceX10.AutoSize = true;
+            this.externalLuminanceX10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
+            this.tlPanel10.SetColumnSpan(this.externalLuminanceX10, 2);
+            this.externalLuminanceX10.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.externalLuminanceX10.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.externalLuminanceX10.ForeColor = System.Drawing.Color.White;
+            this.externalLuminanceX10.Location = new System.Drawing.Point(112, 2);
+            this.externalLuminanceX10.Margin = new System.Windows.Forms.Padding(2);
+            this.externalLuminanceX10.Name = "externalLuminanceX10";
+            this.externalLuminanceX10.Size = new System.Drawing.Size(216, 28);
+            this.externalLuminanceX10.TabIndex = 7;
+            this.externalLuminanceX10.Text = "1653 cd/㎡";
+            this.externalLuminanceX10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // bunifuCustomLabel37
             // 
@@ -1350,10 +1638,10 @@
             this.tlPanel11.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
             this.tlPanel11.Controls.Add(this.regularLampButtonX11, 2, 3);
             this.tlPanel11.Controls.Add(this.dayLampButtonX11, 2, 2);
-            this.tlPanel11.Controls.Add(this.bunifuCustomLabel61, 1, 3);
-            this.tlPanel11.Controls.Add(this.bunifuCustomLabel60, 1, 2);
-            this.tlPanel11.Controls.Add(this.bunifuCustomLabel59, 1, 1);
-            this.tlPanel11.Controls.Add(this.bunifuCustomLabel58, 1, 0);
+            this.tlPanel11.Controls.Add(this.regularLampDimmPercentX11, 1, 3);
+            this.tlPanel11.Controls.Add(this.dayLampDimmPercentX11, 1, 2);
+            this.tlPanel11.Controls.Add(this.internalLuminanceX11, 1, 1);
+            this.tlPanel11.Controls.Add(this.externalLuminanceX11, 1, 0);
             this.tlPanel11.Controls.Add(this.bunifuCustomLabel57, 0, 3);
             this.tlPanel11.Controls.Add(this.bunifuCustomLabel56, 0, 2);
             this.tlPanel11.Controls.Add(this.bunifuCustomLabel55, 0, 1);
@@ -1373,67 +1661,139 @@
             this.tlPanel11.Size = new System.Drawing.Size(330, 130);
             this.tlPanel11.TabIndex = 9;
             // 
-            // bunifuCustomLabel61
+            // regularLampButtonX11
             // 
-            this.bunifuCustomLabel61.AutoSize = true;
-            this.bunifuCustomLabel61.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
-            this.bunifuCustomLabel61.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuCustomLabel61.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.bunifuCustomLabel61.ForeColor = System.Drawing.Color.White;
-            this.bunifuCustomLabel61.Location = new System.Drawing.Point(112, 98);
-            this.bunifuCustomLabel61.Margin = new System.Windows.Forms.Padding(2);
-            this.bunifuCustomLabel61.Name = "bunifuCustomLabel61";
-            this.bunifuCustomLabel61.Size = new System.Drawing.Size(105, 30);
-            this.bunifuCustomLabel61.TabIndex = 11;
-            this.bunifuCustomLabel61.Text = "디밍 0%";
-            this.bunifuCustomLabel61.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.regularLampButtonX11.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.regularLampButtonX11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.regularLampButtonX11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.regularLampButtonX11.BorderRadius = 0;
+            this.regularLampButtonX11.ButtonText = "OFF";
+            this.regularLampButtonX11.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.regularLampButtonX11.DisabledColor = System.Drawing.Color.Gray;
+            this.regularLampButtonX11.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.regularLampButtonX11.Iconcolor = System.Drawing.Color.Transparent;
+            this.regularLampButtonX11.Iconimage = null;
+            this.regularLampButtonX11.Iconimage_right = null;
+            this.regularLampButtonX11.Iconimage_right_Selected = null;
+            this.regularLampButtonX11.Iconimage_Selected = null;
+            this.regularLampButtonX11.IconMarginLeft = 0;
+            this.regularLampButtonX11.IconMarginRight = 0;
+            this.regularLampButtonX11.IconRightVisible = true;
+            this.regularLampButtonX11.IconRightZoom = 0D;
+            this.regularLampButtonX11.IconVisible = true;
+            this.regularLampButtonX11.IconZoom = 90D;
+            this.regularLampButtonX11.IsTab = false;
+            this.regularLampButtonX11.Location = new System.Drawing.Point(221, 98);
+            this.regularLampButtonX11.Margin = new System.Windows.Forms.Padding(2);
+            this.regularLampButtonX11.Name = "regularLampButtonX11";
+            this.regularLampButtonX11.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.regularLampButtonX11.OnHovercolor = System.Drawing.Color.Pink;
+            this.regularLampButtonX11.OnHoverTextColor = System.Drawing.Color.White;
+            this.regularLampButtonX11.selected = false;
+            this.regularLampButtonX11.Size = new System.Drawing.Size(107, 30);
+            this.regularLampButtonX11.TabIndex = 26;
+            this.regularLampButtonX11.Text = "OFF";
+            this.regularLampButtonX11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.regularLampButtonX11.Textcolor = System.Drawing.Color.White;
+            this.regularLampButtonX11.TextFont = new System.Drawing.Font("Malgun Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             // 
-            // bunifuCustomLabel60
+            // dayLampButtonX11
             // 
-            this.bunifuCustomLabel60.AutoSize = true;
-            this.bunifuCustomLabel60.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
-            this.bunifuCustomLabel60.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuCustomLabel60.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.bunifuCustomLabel60.ForeColor = System.Drawing.Color.White;
-            this.bunifuCustomLabel60.Location = new System.Drawing.Point(112, 66);
-            this.bunifuCustomLabel60.Margin = new System.Windows.Forms.Padding(2);
-            this.bunifuCustomLabel60.Name = "bunifuCustomLabel60";
-            this.bunifuCustomLabel60.Size = new System.Drawing.Size(105, 28);
-            this.bunifuCustomLabel60.TabIndex = 10;
-            this.bunifuCustomLabel60.Text = "디밍 0%";
-            this.bunifuCustomLabel60.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.dayLampButtonX11.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.dayLampButtonX11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.dayLampButtonX11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.dayLampButtonX11.BorderRadius = 0;
+            this.dayLampButtonX11.ButtonText = "OFF";
+            this.dayLampButtonX11.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.dayLampButtonX11.DisabledColor = System.Drawing.Color.Gray;
+            this.dayLampButtonX11.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dayLampButtonX11.Iconcolor = System.Drawing.Color.Transparent;
+            this.dayLampButtonX11.Iconimage = null;
+            this.dayLampButtonX11.Iconimage_right = null;
+            this.dayLampButtonX11.Iconimage_right_Selected = null;
+            this.dayLampButtonX11.Iconimage_Selected = null;
+            this.dayLampButtonX11.IconMarginLeft = 0;
+            this.dayLampButtonX11.IconMarginRight = 0;
+            this.dayLampButtonX11.IconRightVisible = true;
+            this.dayLampButtonX11.IconRightZoom = 0D;
+            this.dayLampButtonX11.IconVisible = true;
+            this.dayLampButtonX11.IconZoom = 90D;
+            this.dayLampButtonX11.IsTab = false;
+            this.dayLampButtonX11.Location = new System.Drawing.Point(221, 66);
+            this.dayLampButtonX11.Margin = new System.Windows.Forms.Padding(2);
+            this.dayLampButtonX11.Name = "dayLampButtonX11";
+            this.dayLampButtonX11.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.dayLampButtonX11.OnHovercolor = System.Drawing.Color.Pink;
+            this.dayLampButtonX11.OnHoverTextColor = System.Drawing.Color.White;
+            this.dayLampButtonX11.selected = false;
+            this.dayLampButtonX11.Size = new System.Drawing.Size(107, 28);
+            this.dayLampButtonX11.TabIndex = 24;
+            this.dayLampButtonX11.Text = "OFF";
+            this.dayLampButtonX11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.dayLampButtonX11.Textcolor = System.Drawing.Color.White;
+            this.dayLampButtonX11.TextFont = new System.Drawing.Font("Malgun Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             // 
-            // bunifuCustomLabel59
+            // regularLampDimmPercentX11
             // 
-            this.bunifuCustomLabel59.AutoSize = true;
-            this.bunifuCustomLabel59.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
-            this.tlPanel11.SetColumnSpan(this.bunifuCustomLabel59, 2);
-            this.bunifuCustomLabel59.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuCustomLabel59.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.bunifuCustomLabel59.ForeColor = System.Drawing.Color.White;
-            this.bunifuCustomLabel59.Location = new System.Drawing.Point(112, 34);
-            this.bunifuCustomLabel59.Margin = new System.Windows.Forms.Padding(2);
-            this.bunifuCustomLabel59.Name = "bunifuCustomLabel59";
-            this.bunifuCustomLabel59.Size = new System.Drawing.Size(216, 28);
-            this.bunifuCustomLabel59.TabIndex = 9;
-            this.bunifuCustomLabel59.Text = "86 cd/㎡";
-            this.bunifuCustomLabel59.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.regularLampDimmPercentX11.AutoSize = true;
+            this.regularLampDimmPercentX11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
+            this.regularLampDimmPercentX11.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.regularLampDimmPercentX11.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.regularLampDimmPercentX11.ForeColor = System.Drawing.Color.White;
+            this.regularLampDimmPercentX11.Location = new System.Drawing.Point(112, 98);
+            this.regularLampDimmPercentX11.Margin = new System.Windows.Forms.Padding(2);
+            this.regularLampDimmPercentX11.Name = "regularLampDimmPercentX11";
+            this.regularLampDimmPercentX11.Size = new System.Drawing.Size(105, 30);
+            this.regularLampDimmPercentX11.TabIndex = 11;
+            this.regularLampDimmPercentX11.Text = "디밍 0%";
+            this.regularLampDimmPercentX11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // bunifuCustomLabel58
+            // dayLampDimmPercentX11
             // 
-            this.bunifuCustomLabel58.AutoSize = true;
-            this.bunifuCustomLabel58.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
-            this.tlPanel11.SetColumnSpan(this.bunifuCustomLabel58, 2);
-            this.bunifuCustomLabel58.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuCustomLabel58.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.bunifuCustomLabel58.ForeColor = System.Drawing.Color.White;
-            this.bunifuCustomLabel58.Location = new System.Drawing.Point(112, 2);
-            this.bunifuCustomLabel58.Margin = new System.Windows.Forms.Padding(2);
-            this.bunifuCustomLabel58.Name = "bunifuCustomLabel58";
-            this.bunifuCustomLabel58.Size = new System.Drawing.Size(216, 28);
-            this.bunifuCustomLabel58.TabIndex = 8;
-            this.bunifuCustomLabel58.Text = "1653 cd/㎡";
-            this.bunifuCustomLabel58.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.dayLampDimmPercentX11.AutoSize = true;
+            this.dayLampDimmPercentX11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
+            this.dayLampDimmPercentX11.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dayLampDimmPercentX11.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.dayLampDimmPercentX11.ForeColor = System.Drawing.Color.White;
+            this.dayLampDimmPercentX11.Location = new System.Drawing.Point(112, 66);
+            this.dayLampDimmPercentX11.Margin = new System.Windows.Forms.Padding(2);
+            this.dayLampDimmPercentX11.Name = "dayLampDimmPercentX11";
+            this.dayLampDimmPercentX11.Size = new System.Drawing.Size(105, 28);
+            this.dayLampDimmPercentX11.TabIndex = 10;
+            this.dayLampDimmPercentX11.Text = "디밍 0%";
+            this.dayLampDimmPercentX11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // internalLuminanceX11
+            // 
+            this.internalLuminanceX11.AutoSize = true;
+            this.internalLuminanceX11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
+            this.tlPanel11.SetColumnSpan(this.internalLuminanceX11, 2);
+            this.internalLuminanceX11.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.internalLuminanceX11.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.internalLuminanceX11.ForeColor = System.Drawing.Color.White;
+            this.internalLuminanceX11.Location = new System.Drawing.Point(112, 34);
+            this.internalLuminanceX11.Margin = new System.Windows.Forms.Padding(2);
+            this.internalLuminanceX11.Name = "internalLuminanceX11";
+            this.internalLuminanceX11.Size = new System.Drawing.Size(216, 28);
+            this.internalLuminanceX11.TabIndex = 9;
+            this.internalLuminanceX11.Text = "86 cd/㎡";
+            this.internalLuminanceX11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // externalLuminanceX11
+            // 
+            this.externalLuminanceX11.AutoSize = true;
+            this.externalLuminanceX11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
+            this.tlPanel11.SetColumnSpan(this.externalLuminanceX11, 2);
+            this.externalLuminanceX11.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.externalLuminanceX11.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.externalLuminanceX11.ForeColor = System.Drawing.Color.White;
+            this.externalLuminanceX11.Location = new System.Drawing.Point(112, 2);
+            this.externalLuminanceX11.Margin = new System.Windows.Forms.Padding(2);
+            this.externalLuminanceX11.Name = "externalLuminanceX11";
+            this.externalLuminanceX11.Size = new System.Drawing.Size(216, 28);
+            this.externalLuminanceX11.TabIndex = 8;
+            this.externalLuminanceX11.Text = "1653 cd/㎡";
+            this.externalLuminanceX11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // bunifuCustomLabel57
             // 
@@ -1501,10 +1861,10 @@
             this.tlPanel12.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33334F));
             this.tlPanel12.Controls.Add(this.regularLampButtonX12, 2, 3);
             this.tlPanel12.Controls.Add(this.dayLampButtonX12, 2, 2);
-            this.tlPanel12.Controls.Add(this.bunifuCustomLabel79, 1, 2);
-            this.tlPanel12.Controls.Add(this.bunifuCustomLabel78, 1, 3);
-            this.tlPanel12.Controls.Add(this.bunifuCustomLabel75, 1, 1);
-            this.tlPanel12.Controls.Add(this.bunifuCustomLabel73, 1, 0);
+            this.tlPanel12.Controls.Add(this.dayLampDimmPercentX12, 1, 2);
+            this.tlPanel12.Controls.Add(this.regularLampDimmPercentX12, 1, 3);
+            this.tlPanel12.Controls.Add(this.internalLuminanceX12, 1, 1);
+            this.tlPanel12.Controls.Add(this.externalLuminanceX12, 1, 0);
             this.tlPanel12.Controls.Add(this.bunifuCustomLabel71, 0, 3);
             this.tlPanel12.Controls.Add(this.bunifuCustomLabel70, 0, 2);
             this.tlPanel12.Controls.Add(this.bunifuCustomLabel69, 0, 1);
@@ -1529,67 +1889,139 @@
             this.tlPanel12.Size = new System.Drawing.Size(306, 130);
             this.tlPanel12.TabIndex = 11;
             // 
-            // bunifuCustomLabel79
+            // regularLampButtonX12
             // 
-            this.bunifuCustomLabel79.AutoSize = true;
-            this.bunifuCustomLabel79.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
-            this.bunifuCustomLabel79.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuCustomLabel79.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.bunifuCustomLabel79.ForeColor = System.Drawing.Color.White;
-            this.bunifuCustomLabel79.Location = new System.Drawing.Point(104, 66);
-            this.bunifuCustomLabel79.Margin = new System.Windows.Forms.Padding(2);
-            this.bunifuCustomLabel79.Name = "bunifuCustomLabel79";
-            this.bunifuCustomLabel79.Size = new System.Drawing.Size(98, 28);
-            this.bunifuCustomLabel79.TabIndex = 12;
-            this.bunifuCustomLabel79.Text = "디밍 0%";
-            this.bunifuCustomLabel79.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.regularLampButtonX12.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.regularLampButtonX12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.regularLampButtonX12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.regularLampButtonX12.BorderRadius = 0;
+            this.regularLampButtonX12.ButtonText = "OFF";
+            this.regularLampButtonX12.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.regularLampButtonX12.DisabledColor = System.Drawing.Color.Gray;
+            this.regularLampButtonX12.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.regularLampButtonX12.Iconcolor = System.Drawing.Color.Transparent;
+            this.regularLampButtonX12.Iconimage = null;
+            this.regularLampButtonX12.Iconimage_right = null;
+            this.regularLampButtonX12.Iconimage_right_Selected = null;
+            this.regularLampButtonX12.Iconimage_Selected = null;
+            this.regularLampButtonX12.IconMarginLeft = 0;
+            this.regularLampButtonX12.IconMarginRight = 0;
+            this.regularLampButtonX12.IconRightVisible = true;
+            this.regularLampButtonX12.IconRightZoom = 0D;
+            this.regularLampButtonX12.IconVisible = true;
+            this.regularLampButtonX12.IconZoom = 90D;
+            this.regularLampButtonX12.IsTab = false;
+            this.regularLampButtonX12.Location = new System.Drawing.Point(206, 98);
+            this.regularLampButtonX12.Margin = new System.Windows.Forms.Padding(2);
+            this.regularLampButtonX12.Name = "regularLampButtonX12";
+            this.regularLampButtonX12.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.regularLampButtonX12.OnHovercolor = System.Drawing.Color.Pink;
+            this.regularLampButtonX12.OnHoverTextColor = System.Drawing.Color.White;
+            this.regularLampButtonX12.selected = false;
+            this.regularLampButtonX12.Size = new System.Drawing.Size(98, 30);
+            this.regularLampButtonX12.TabIndex = 26;
+            this.regularLampButtonX12.Text = "OFF";
+            this.regularLampButtonX12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.regularLampButtonX12.Textcolor = System.Drawing.Color.White;
+            this.regularLampButtonX12.TextFont = new System.Drawing.Font("Malgun Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             // 
-            // bunifuCustomLabel78
+            // dayLampButtonX12
             // 
-            this.bunifuCustomLabel78.AutoSize = true;
-            this.bunifuCustomLabel78.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
-            this.bunifuCustomLabel78.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuCustomLabel78.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.bunifuCustomLabel78.ForeColor = System.Drawing.Color.White;
-            this.bunifuCustomLabel78.Location = new System.Drawing.Point(104, 98);
-            this.bunifuCustomLabel78.Margin = new System.Windows.Forms.Padding(2);
-            this.bunifuCustomLabel78.Name = "bunifuCustomLabel78";
-            this.bunifuCustomLabel78.Size = new System.Drawing.Size(98, 30);
-            this.bunifuCustomLabel78.TabIndex = 11;
-            this.bunifuCustomLabel78.Text = "디밍 0%";
-            this.bunifuCustomLabel78.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.dayLampButtonX12.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.dayLampButtonX12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.dayLampButtonX12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.dayLampButtonX12.BorderRadius = 0;
+            this.dayLampButtonX12.ButtonText = "OFF";
+            this.dayLampButtonX12.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.dayLampButtonX12.DisabledColor = System.Drawing.Color.Gray;
+            this.dayLampButtonX12.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dayLampButtonX12.Iconcolor = System.Drawing.Color.Transparent;
+            this.dayLampButtonX12.Iconimage = null;
+            this.dayLampButtonX12.Iconimage_right = null;
+            this.dayLampButtonX12.Iconimage_right_Selected = null;
+            this.dayLampButtonX12.Iconimage_Selected = null;
+            this.dayLampButtonX12.IconMarginLeft = 0;
+            this.dayLampButtonX12.IconMarginRight = 0;
+            this.dayLampButtonX12.IconRightVisible = true;
+            this.dayLampButtonX12.IconRightZoom = 0D;
+            this.dayLampButtonX12.IconVisible = true;
+            this.dayLampButtonX12.IconZoom = 90D;
+            this.dayLampButtonX12.IsTab = false;
+            this.dayLampButtonX12.Location = new System.Drawing.Point(206, 66);
+            this.dayLampButtonX12.Margin = new System.Windows.Forms.Padding(2);
+            this.dayLampButtonX12.Name = "dayLampButtonX12";
+            this.dayLampButtonX12.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.dayLampButtonX12.OnHovercolor = System.Drawing.Color.Pink;
+            this.dayLampButtonX12.OnHoverTextColor = System.Drawing.Color.White;
+            this.dayLampButtonX12.selected = false;
+            this.dayLampButtonX12.Size = new System.Drawing.Size(98, 28);
+            this.dayLampButtonX12.TabIndex = 24;
+            this.dayLampButtonX12.Text = "OFF";
+            this.dayLampButtonX12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.dayLampButtonX12.Textcolor = System.Drawing.Color.White;
+            this.dayLampButtonX12.TextFont = new System.Drawing.Font("Malgun Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             // 
-            // bunifuCustomLabel75
+            // dayLampDimmPercentX12
             // 
-            this.bunifuCustomLabel75.AutoSize = true;
-            this.bunifuCustomLabel75.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
-            this.tlPanel12.SetColumnSpan(this.bunifuCustomLabel75, 2);
-            this.bunifuCustomLabel75.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuCustomLabel75.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.bunifuCustomLabel75.ForeColor = System.Drawing.Color.White;
-            this.bunifuCustomLabel75.Location = new System.Drawing.Point(104, 34);
-            this.bunifuCustomLabel75.Margin = new System.Windows.Forms.Padding(2);
-            this.bunifuCustomLabel75.Name = "bunifuCustomLabel75";
-            this.bunifuCustomLabel75.Size = new System.Drawing.Size(200, 28);
-            this.bunifuCustomLabel75.TabIndex = 10;
-            this.bunifuCustomLabel75.Text = "86 cd/㎡";
-            this.bunifuCustomLabel75.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.dayLampDimmPercentX12.AutoSize = true;
+            this.dayLampDimmPercentX12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
+            this.dayLampDimmPercentX12.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dayLampDimmPercentX12.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.dayLampDimmPercentX12.ForeColor = System.Drawing.Color.White;
+            this.dayLampDimmPercentX12.Location = new System.Drawing.Point(104, 66);
+            this.dayLampDimmPercentX12.Margin = new System.Windows.Forms.Padding(2);
+            this.dayLampDimmPercentX12.Name = "dayLampDimmPercentX12";
+            this.dayLampDimmPercentX12.Size = new System.Drawing.Size(98, 28);
+            this.dayLampDimmPercentX12.TabIndex = 12;
+            this.dayLampDimmPercentX12.Text = "디밍 0%";
+            this.dayLampDimmPercentX12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // bunifuCustomLabel73
+            // regularLampDimmPercentX12
             // 
-            this.bunifuCustomLabel73.AutoSize = true;
-            this.bunifuCustomLabel73.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
-            this.tlPanel12.SetColumnSpan(this.bunifuCustomLabel73, 2);
-            this.bunifuCustomLabel73.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuCustomLabel73.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.bunifuCustomLabel73.ForeColor = System.Drawing.Color.White;
-            this.bunifuCustomLabel73.Location = new System.Drawing.Point(104, 2);
-            this.bunifuCustomLabel73.Margin = new System.Windows.Forms.Padding(2);
-            this.bunifuCustomLabel73.Name = "bunifuCustomLabel73";
-            this.bunifuCustomLabel73.Size = new System.Drawing.Size(200, 28);
-            this.bunifuCustomLabel73.TabIndex = 9;
-            this.bunifuCustomLabel73.Text = "1653 cd/㎡";
-            this.bunifuCustomLabel73.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.regularLampDimmPercentX12.AutoSize = true;
+            this.regularLampDimmPercentX12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
+            this.regularLampDimmPercentX12.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.regularLampDimmPercentX12.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.regularLampDimmPercentX12.ForeColor = System.Drawing.Color.White;
+            this.regularLampDimmPercentX12.Location = new System.Drawing.Point(104, 98);
+            this.regularLampDimmPercentX12.Margin = new System.Windows.Forms.Padding(2);
+            this.regularLampDimmPercentX12.Name = "regularLampDimmPercentX12";
+            this.regularLampDimmPercentX12.Size = new System.Drawing.Size(98, 30);
+            this.regularLampDimmPercentX12.TabIndex = 11;
+            this.regularLampDimmPercentX12.Text = "디밍 0%";
+            this.regularLampDimmPercentX12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // internalLuminanceX12
+            // 
+            this.internalLuminanceX12.AutoSize = true;
+            this.internalLuminanceX12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
+            this.tlPanel12.SetColumnSpan(this.internalLuminanceX12, 2);
+            this.internalLuminanceX12.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.internalLuminanceX12.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.internalLuminanceX12.ForeColor = System.Drawing.Color.White;
+            this.internalLuminanceX12.Location = new System.Drawing.Point(104, 34);
+            this.internalLuminanceX12.Margin = new System.Windows.Forms.Padding(2);
+            this.internalLuminanceX12.Name = "internalLuminanceX12";
+            this.internalLuminanceX12.Size = new System.Drawing.Size(200, 28);
+            this.internalLuminanceX12.TabIndex = 10;
+            this.internalLuminanceX12.Text = "86 cd/㎡";
+            this.internalLuminanceX12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // externalLuminanceX12
+            // 
+            this.externalLuminanceX12.AutoSize = true;
+            this.externalLuminanceX12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
+            this.tlPanel12.SetColumnSpan(this.externalLuminanceX12, 2);
+            this.externalLuminanceX12.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.externalLuminanceX12.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.externalLuminanceX12.ForeColor = System.Drawing.Color.White;
+            this.externalLuminanceX12.Location = new System.Drawing.Point(104, 2);
+            this.externalLuminanceX12.Margin = new System.Windows.Forms.Padding(2);
+            this.externalLuminanceX12.Name = "externalLuminanceX12";
+            this.externalLuminanceX12.Size = new System.Drawing.Size(200, 28);
+            this.externalLuminanceX12.TabIndex = 9;
+            this.externalLuminanceX12.Text = "1653 cd/㎡";
+            this.externalLuminanceX12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // bunifuCustomLabel71
             // 
@@ -1657,14 +2089,14 @@
             this.tlPanel20.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
             this.tlPanel20.Controls.Add(this.regularLampButtonX20, 2, 3);
             this.tlPanel20.Controls.Add(this.dayLampButtonX20, 2, 2);
-            this.tlPanel20.Controls.Add(this.bunifuCustomLabel4, 1, 3);
-            this.tlPanel20.Controls.Add(this.bunifuCustomLabel5, 1, 2);
-            this.tlPanel20.Controls.Add(this.bunifuCustomLabel6, 1, 1);
+            this.tlPanel20.Controls.Add(this.regularLampDimmPercentX20, 1, 3);
+            this.tlPanel20.Controls.Add(this.dayLampDimmPercentX20, 1, 2);
+            this.tlPanel20.Controls.Add(this.internalLuminanceX20, 1, 1);
             this.tlPanel20.Controls.Add(this.bunifuCustomLabel7, 0, 1);
             this.tlPanel20.Controls.Add(this.bunifuCustomLabel8, 0, 3);
             this.tlPanel20.Controls.Add(this.bunifuCustomLabel9, 0, 2);
             this.tlPanel20.Controls.Add(this.bunifuCustomLabel10, 0, 0);
-            this.tlPanel20.Controls.Add(this.bunifuCustomLabel11, 1, 0);
+            this.tlPanel20.Controls.Add(this.externalLuminanceX20, 1, 0);
             this.tlPanel20.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tlPanel20.Location = new System.Drawing.Point(339, 585);
             this.tlPanel20.Margin = new System.Windows.Forms.Padding(3, 10, 3, 10);
@@ -1689,51 +2121,123 @@
             this.tlPanel20.Size = new System.Drawing.Size(330, 130);
             this.tlPanel20.TabIndex = 12;
             // 
-            // bunifuCustomLabel4
+            // regularLampButtonX20
             // 
-            this.bunifuCustomLabel4.AutoSize = true;
-            this.bunifuCustomLabel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
-            this.bunifuCustomLabel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuCustomLabel4.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.bunifuCustomLabel4.ForeColor = System.Drawing.Color.White;
-            this.bunifuCustomLabel4.Location = new System.Drawing.Point(112, 98);
-            this.bunifuCustomLabel4.Margin = new System.Windows.Forms.Padding(2);
-            this.bunifuCustomLabel4.Name = "bunifuCustomLabel4";
-            this.bunifuCustomLabel4.Size = new System.Drawing.Size(105, 30);
-            this.bunifuCustomLabel4.TabIndex = 7;
-            this.bunifuCustomLabel4.Text = "디밍 0%";
-            this.bunifuCustomLabel4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.regularLampButtonX20.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.regularLampButtonX20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.regularLampButtonX20.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.regularLampButtonX20.BorderRadius = 0;
+            this.regularLampButtonX20.ButtonText = "OFF";
+            this.regularLampButtonX20.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.regularLampButtonX20.DisabledColor = System.Drawing.Color.Gray;
+            this.regularLampButtonX20.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.regularLampButtonX20.Iconcolor = System.Drawing.Color.Transparent;
+            this.regularLampButtonX20.Iconimage = null;
+            this.regularLampButtonX20.Iconimage_right = null;
+            this.regularLampButtonX20.Iconimage_right_Selected = null;
+            this.regularLampButtonX20.Iconimage_Selected = null;
+            this.regularLampButtonX20.IconMarginLeft = 0;
+            this.regularLampButtonX20.IconMarginRight = 0;
+            this.regularLampButtonX20.IconRightVisible = true;
+            this.regularLampButtonX20.IconRightZoom = 0D;
+            this.regularLampButtonX20.IconVisible = true;
+            this.regularLampButtonX20.IconZoom = 90D;
+            this.regularLampButtonX20.IsTab = false;
+            this.regularLampButtonX20.Location = new System.Drawing.Point(221, 98);
+            this.regularLampButtonX20.Margin = new System.Windows.Forms.Padding(2);
+            this.regularLampButtonX20.Name = "regularLampButtonX20";
+            this.regularLampButtonX20.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.regularLampButtonX20.OnHovercolor = System.Drawing.Color.Pink;
+            this.regularLampButtonX20.OnHoverTextColor = System.Drawing.Color.White;
+            this.regularLampButtonX20.selected = false;
+            this.regularLampButtonX20.Size = new System.Drawing.Size(107, 30);
+            this.regularLampButtonX20.TabIndex = 26;
+            this.regularLampButtonX20.Text = "OFF";
+            this.regularLampButtonX20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.regularLampButtonX20.Textcolor = System.Drawing.Color.White;
+            this.regularLampButtonX20.TextFont = new System.Drawing.Font("Malgun Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             // 
-            // bunifuCustomLabel5
+            // dayLampButtonX20
             // 
-            this.bunifuCustomLabel5.AutoSize = true;
-            this.bunifuCustomLabel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
-            this.bunifuCustomLabel5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuCustomLabel5.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.bunifuCustomLabel5.ForeColor = System.Drawing.Color.White;
-            this.bunifuCustomLabel5.Location = new System.Drawing.Point(112, 66);
-            this.bunifuCustomLabel5.Margin = new System.Windows.Forms.Padding(2);
-            this.bunifuCustomLabel5.Name = "bunifuCustomLabel5";
-            this.bunifuCustomLabel5.Size = new System.Drawing.Size(105, 28);
-            this.bunifuCustomLabel5.TabIndex = 6;
-            this.bunifuCustomLabel5.Text = "디밍 0%";
-            this.bunifuCustomLabel5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.dayLampButtonX20.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.dayLampButtonX20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.dayLampButtonX20.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.dayLampButtonX20.BorderRadius = 0;
+            this.dayLampButtonX20.ButtonText = "OFF";
+            this.dayLampButtonX20.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.dayLampButtonX20.DisabledColor = System.Drawing.Color.Gray;
+            this.dayLampButtonX20.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dayLampButtonX20.Iconcolor = System.Drawing.Color.Transparent;
+            this.dayLampButtonX20.Iconimage = null;
+            this.dayLampButtonX20.Iconimage_right = null;
+            this.dayLampButtonX20.Iconimage_right_Selected = null;
+            this.dayLampButtonX20.Iconimage_Selected = null;
+            this.dayLampButtonX20.IconMarginLeft = 0;
+            this.dayLampButtonX20.IconMarginRight = 0;
+            this.dayLampButtonX20.IconRightVisible = true;
+            this.dayLampButtonX20.IconRightZoom = 0D;
+            this.dayLampButtonX20.IconVisible = true;
+            this.dayLampButtonX20.IconZoom = 90D;
+            this.dayLampButtonX20.IsTab = false;
+            this.dayLampButtonX20.Location = new System.Drawing.Point(221, 66);
+            this.dayLampButtonX20.Margin = new System.Windows.Forms.Padding(2);
+            this.dayLampButtonX20.Name = "dayLampButtonX20";
+            this.dayLampButtonX20.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.dayLampButtonX20.OnHovercolor = System.Drawing.Color.Pink;
+            this.dayLampButtonX20.OnHoverTextColor = System.Drawing.Color.White;
+            this.dayLampButtonX20.selected = false;
+            this.dayLampButtonX20.Size = new System.Drawing.Size(107, 28);
+            this.dayLampButtonX20.TabIndex = 24;
+            this.dayLampButtonX20.Text = "OFF";
+            this.dayLampButtonX20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.dayLampButtonX20.Textcolor = System.Drawing.Color.White;
+            this.dayLampButtonX20.TextFont = new System.Drawing.Font("Malgun Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             // 
-            // bunifuCustomLabel6
+            // regularLampDimmPercentX20
             // 
-            this.bunifuCustomLabel6.AutoSize = true;
-            this.bunifuCustomLabel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
-            this.tlPanel20.SetColumnSpan(this.bunifuCustomLabel6, 2);
-            this.bunifuCustomLabel6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuCustomLabel6.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.bunifuCustomLabel6.ForeColor = System.Drawing.Color.White;
-            this.bunifuCustomLabel6.Location = new System.Drawing.Point(112, 34);
-            this.bunifuCustomLabel6.Margin = new System.Windows.Forms.Padding(2);
-            this.bunifuCustomLabel6.Name = "bunifuCustomLabel6";
-            this.bunifuCustomLabel6.Size = new System.Drawing.Size(216, 28);
-            this.bunifuCustomLabel6.TabIndex = 5;
-            this.bunifuCustomLabel6.Text = "86 cd/㎡";
-            this.bunifuCustomLabel6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.regularLampDimmPercentX20.AutoSize = true;
+            this.regularLampDimmPercentX20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
+            this.regularLampDimmPercentX20.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.regularLampDimmPercentX20.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.regularLampDimmPercentX20.ForeColor = System.Drawing.Color.White;
+            this.regularLampDimmPercentX20.Location = new System.Drawing.Point(112, 98);
+            this.regularLampDimmPercentX20.Margin = new System.Windows.Forms.Padding(2);
+            this.regularLampDimmPercentX20.Name = "regularLampDimmPercentX20";
+            this.regularLampDimmPercentX20.Size = new System.Drawing.Size(105, 30);
+            this.regularLampDimmPercentX20.TabIndex = 7;
+            this.regularLampDimmPercentX20.Text = "디밍 0%";
+            this.regularLampDimmPercentX20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // dayLampDimmPercentX20
+            // 
+            this.dayLampDimmPercentX20.AutoSize = true;
+            this.dayLampDimmPercentX20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
+            this.dayLampDimmPercentX20.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dayLampDimmPercentX20.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.dayLampDimmPercentX20.ForeColor = System.Drawing.Color.White;
+            this.dayLampDimmPercentX20.Location = new System.Drawing.Point(112, 66);
+            this.dayLampDimmPercentX20.Margin = new System.Windows.Forms.Padding(2);
+            this.dayLampDimmPercentX20.Name = "dayLampDimmPercentX20";
+            this.dayLampDimmPercentX20.Size = new System.Drawing.Size(105, 28);
+            this.dayLampDimmPercentX20.TabIndex = 6;
+            this.dayLampDimmPercentX20.Text = "디밍 0%";
+            this.dayLampDimmPercentX20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // internalLuminanceX20
+            // 
+            this.internalLuminanceX20.AutoSize = true;
+            this.internalLuminanceX20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
+            this.tlPanel20.SetColumnSpan(this.internalLuminanceX20, 2);
+            this.internalLuminanceX20.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.internalLuminanceX20.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.internalLuminanceX20.ForeColor = System.Drawing.Color.White;
+            this.internalLuminanceX20.Location = new System.Drawing.Point(112, 34);
+            this.internalLuminanceX20.Margin = new System.Windows.Forms.Padding(2);
+            this.internalLuminanceX20.Name = "internalLuminanceX20";
+            this.internalLuminanceX20.Size = new System.Drawing.Size(216, 28);
+            this.internalLuminanceX20.TabIndex = 5;
+            this.internalLuminanceX20.Text = "86 cd/㎡";
+            this.internalLuminanceX20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // bunifuCustomLabel7
             // 
@@ -1791,21 +2295,21 @@
             this.bunifuCustomLabel10.Text = "외부휘도";
             this.bunifuCustomLabel10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // bunifuCustomLabel11
+            // externalLuminanceX20
             // 
-            this.bunifuCustomLabel11.AutoSize = true;
-            this.bunifuCustomLabel11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
-            this.tlPanel20.SetColumnSpan(this.bunifuCustomLabel11, 2);
-            this.bunifuCustomLabel11.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuCustomLabel11.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.bunifuCustomLabel11.ForeColor = System.Drawing.Color.White;
-            this.bunifuCustomLabel11.Location = new System.Drawing.Point(112, 2);
-            this.bunifuCustomLabel11.Margin = new System.Windows.Forms.Padding(2);
-            this.bunifuCustomLabel11.Name = "bunifuCustomLabel11";
-            this.bunifuCustomLabel11.Size = new System.Drawing.Size(216, 28);
-            this.bunifuCustomLabel11.TabIndex = 4;
-            this.bunifuCustomLabel11.Text = "1653 cd/㎡";
-            this.bunifuCustomLabel11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.externalLuminanceX20.AutoSize = true;
+            this.externalLuminanceX20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
+            this.tlPanel20.SetColumnSpan(this.externalLuminanceX20, 2);
+            this.externalLuminanceX20.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.externalLuminanceX20.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.externalLuminanceX20.ForeColor = System.Drawing.Color.White;
+            this.externalLuminanceX20.Location = new System.Drawing.Point(112, 2);
+            this.externalLuminanceX20.Margin = new System.Windows.Forms.Padding(2);
+            this.externalLuminanceX20.Name = "externalLuminanceX20";
+            this.externalLuminanceX20.Size = new System.Drawing.Size(216, 28);
+            this.externalLuminanceX20.TabIndex = 4;
+            this.externalLuminanceX20.Text = "1653 cd/㎡";
+            this.externalLuminanceX20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // tlPanel21
             // 
@@ -1829,10 +2333,10 @@
             this.tlPanel21.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tlPanel21.Controls.Add(this.regularLampButtonX21, 2, 3);
             this.tlPanel21.Controls.Add(this.dayLampButtonX21, 2, 2);
-            this.tlPanel21.Controls.Add(this.bunifuCustomLabel89, 1, 3);
-            this.tlPanel21.Controls.Add(this.bunifuCustomLabel90, 1, 2);
-            this.tlPanel21.Controls.Add(this.bunifuCustomLabel91, 1, 1);
-            this.tlPanel21.Controls.Add(this.bunifuCustomLabel92, 1, 0);
+            this.tlPanel21.Controls.Add(this.regularLampDimmPercentX21, 1, 3);
+            this.tlPanel21.Controls.Add(this.dayLampDimmPercentX21, 1, 2);
+            this.tlPanel21.Controls.Add(this.internalLuminanceX21, 1, 1);
+            this.tlPanel21.Controls.Add(this.externalLuminanceX21, 1, 0);
             this.tlPanel21.Controls.Add(this.bunifuCustomLabel93, 0, 3);
             this.tlPanel21.Controls.Add(this.bunifuCustomLabel94, 0, 2);
             this.tlPanel21.Controls.Add(this.bunifuCustomLabel95, 0, 1);
@@ -1851,67 +2355,139 @@
             this.tlPanel21.Size = new System.Drawing.Size(330, 130);
             this.tlPanel21.TabIndex = 14;
             // 
-            // bunifuCustomLabel89
+            // regularLampButtonX21
             // 
-            this.bunifuCustomLabel89.AutoSize = true;
-            this.bunifuCustomLabel89.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
-            this.bunifuCustomLabel89.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuCustomLabel89.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.bunifuCustomLabel89.ForeColor = System.Drawing.Color.White;
-            this.bunifuCustomLabel89.Location = new System.Drawing.Point(112, 98);
-            this.bunifuCustomLabel89.Margin = new System.Windows.Forms.Padding(2);
-            this.bunifuCustomLabel89.Name = "bunifuCustomLabel89";
-            this.bunifuCustomLabel89.Size = new System.Drawing.Size(106, 30);
-            this.bunifuCustomLabel89.TabIndex = 10;
-            this.bunifuCustomLabel89.Text = "디밍 0%";
-            this.bunifuCustomLabel89.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.regularLampButtonX21.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.regularLampButtonX21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.regularLampButtonX21.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.regularLampButtonX21.BorderRadius = 0;
+            this.regularLampButtonX21.ButtonText = "OFF";
+            this.regularLampButtonX21.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.regularLampButtonX21.DisabledColor = System.Drawing.Color.Gray;
+            this.regularLampButtonX21.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.regularLampButtonX21.Iconcolor = System.Drawing.Color.Transparent;
+            this.regularLampButtonX21.Iconimage = null;
+            this.regularLampButtonX21.Iconimage_right = null;
+            this.regularLampButtonX21.Iconimage_right_Selected = null;
+            this.regularLampButtonX21.Iconimage_Selected = null;
+            this.regularLampButtonX21.IconMarginLeft = 0;
+            this.regularLampButtonX21.IconMarginRight = 0;
+            this.regularLampButtonX21.IconRightVisible = true;
+            this.regularLampButtonX21.IconRightZoom = 0D;
+            this.regularLampButtonX21.IconVisible = true;
+            this.regularLampButtonX21.IconZoom = 90D;
+            this.regularLampButtonX21.IsTab = false;
+            this.regularLampButtonX21.Location = new System.Drawing.Point(222, 98);
+            this.regularLampButtonX21.Margin = new System.Windows.Forms.Padding(2);
+            this.regularLampButtonX21.Name = "regularLampButtonX21";
+            this.regularLampButtonX21.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.regularLampButtonX21.OnHovercolor = System.Drawing.Color.Pink;
+            this.regularLampButtonX21.OnHoverTextColor = System.Drawing.Color.White;
+            this.regularLampButtonX21.selected = false;
+            this.regularLampButtonX21.Size = new System.Drawing.Size(106, 30);
+            this.regularLampButtonX21.TabIndex = 26;
+            this.regularLampButtonX21.Text = "OFF";
+            this.regularLampButtonX21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.regularLampButtonX21.Textcolor = System.Drawing.Color.White;
+            this.regularLampButtonX21.TextFont = new System.Drawing.Font("Malgun Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             // 
-            // bunifuCustomLabel90
+            // dayLampButtonX21
             // 
-            this.bunifuCustomLabel90.AutoSize = true;
-            this.bunifuCustomLabel90.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
-            this.bunifuCustomLabel90.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuCustomLabel90.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.bunifuCustomLabel90.ForeColor = System.Drawing.Color.White;
-            this.bunifuCustomLabel90.Location = new System.Drawing.Point(112, 66);
-            this.bunifuCustomLabel90.Margin = new System.Windows.Forms.Padding(2);
-            this.bunifuCustomLabel90.Name = "bunifuCustomLabel90";
-            this.bunifuCustomLabel90.Size = new System.Drawing.Size(106, 28);
-            this.bunifuCustomLabel90.TabIndex = 9;
-            this.bunifuCustomLabel90.Text = "디밍 0%";
-            this.bunifuCustomLabel90.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.dayLampButtonX21.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.dayLampButtonX21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.dayLampButtonX21.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.dayLampButtonX21.BorderRadius = 0;
+            this.dayLampButtonX21.ButtonText = "OFF";
+            this.dayLampButtonX21.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.dayLampButtonX21.DisabledColor = System.Drawing.Color.Gray;
+            this.dayLampButtonX21.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dayLampButtonX21.Iconcolor = System.Drawing.Color.Transparent;
+            this.dayLampButtonX21.Iconimage = null;
+            this.dayLampButtonX21.Iconimage_right = null;
+            this.dayLampButtonX21.Iconimage_right_Selected = null;
+            this.dayLampButtonX21.Iconimage_Selected = null;
+            this.dayLampButtonX21.IconMarginLeft = 0;
+            this.dayLampButtonX21.IconMarginRight = 0;
+            this.dayLampButtonX21.IconRightVisible = true;
+            this.dayLampButtonX21.IconRightZoom = 0D;
+            this.dayLampButtonX21.IconVisible = true;
+            this.dayLampButtonX21.IconZoom = 90D;
+            this.dayLampButtonX21.IsTab = false;
+            this.dayLampButtonX21.Location = new System.Drawing.Point(222, 66);
+            this.dayLampButtonX21.Margin = new System.Windows.Forms.Padding(2);
+            this.dayLampButtonX21.Name = "dayLampButtonX21";
+            this.dayLampButtonX21.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.dayLampButtonX21.OnHovercolor = System.Drawing.Color.Pink;
+            this.dayLampButtonX21.OnHoverTextColor = System.Drawing.Color.White;
+            this.dayLampButtonX21.selected = false;
+            this.dayLampButtonX21.Size = new System.Drawing.Size(106, 28);
+            this.dayLampButtonX21.TabIndex = 24;
+            this.dayLampButtonX21.Text = "OFF";
+            this.dayLampButtonX21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.dayLampButtonX21.Textcolor = System.Drawing.Color.White;
+            this.dayLampButtonX21.TextFont = new System.Drawing.Font("Malgun Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             // 
-            // bunifuCustomLabel91
+            // regularLampDimmPercentX21
             // 
-            this.bunifuCustomLabel91.AutoSize = true;
-            this.bunifuCustomLabel91.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
-            this.tlPanel21.SetColumnSpan(this.bunifuCustomLabel91, 2);
-            this.bunifuCustomLabel91.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuCustomLabel91.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.bunifuCustomLabel91.ForeColor = System.Drawing.Color.White;
-            this.bunifuCustomLabel91.Location = new System.Drawing.Point(112, 34);
-            this.bunifuCustomLabel91.Margin = new System.Windows.Forms.Padding(2);
-            this.bunifuCustomLabel91.Name = "bunifuCustomLabel91";
-            this.bunifuCustomLabel91.Size = new System.Drawing.Size(216, 28);
-            this.bunifuCustomLabel91.TabIndex = 8;
-            this.bunifuCustomLabel91.Text = "86 cd/㎡";
-            this.bunifuCustomLabel91.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.regularLampDimmPercentX21.AutoSize = true;
+            this.regularLampDimmPercentX21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
+            this.regularLampDimmPercentX21.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.regularLampDimmPercentX21.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.regularLampDimmPercentX21.ForeColor = System.Drawing.Color.White;
+            this.regularLampDimmPercentX21.Location = new System.Drawing.Point(112, 98);
+            this.regularLampDimmPercentX21.Margin = new System.Windows.Forms.Padding(2);
+            this.regularLampDimmPercentX21.Name = "regularLampDimmPercentX21";
+            this.regularLampDimmPercentX21.Size = new System.Drawing.Size(106, 30);
+            this.regularLampDimmPercentX21.TabIndex = 10;
+            this.regularLampDimmPercentX21.Text = "디밍 0%";
+            this.regularLampDimmPercentX21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // bunifuCustomLabel92
+            // dayLampDimmPercentX21
             // 
-            this.bunifuCustomLabel92.AutoSize = true;
-            this.bunifuCustomLabel92.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
-            this.tlPanel21.SetColumnSpan(this.bunifuCustomLabel92, 2);
-            this.bunifuCustomLabel92.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuCustomLabel92.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.bunifuCustomLabel92.ForeColor = System.Drawing.Color.White;
-            this.bunifuCustomLabel92.Location = new System.Drawing.Point(112, 2);
-            this.bunifuCustomLabel92.Margin = new System.Windows.Forms.Padding(2);
-            this.bunifuCustomLabel92.Name = "bunifuCustomLabel92";
-            this.bunifuCustomLabel92.Size = new System.Drawing.Size(216, 28);
-            this.bunifuCustomLabel92.TabIndex = 7;
-            this.bunifuCustomLabel92.Text = "1653 cd/㎡";
-            this.bunifuCustomLabel92.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.dayLampDimmPercentX21.AutoSize = true;
+            this.dayLampDimmPercentX21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
+            this.dayLampDimmPercentX21.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dayLampDimmPercentX21.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.dayLampDimmPercentX21.ForeColor = System.Drawing.Color.White;
+            this.dayLampDimmPercentX21.Location = new System.Drawing.Point(112, 66);
+            this.dayLampDimmPercentX21.Margin = new System.Windows.Forms.Padding(2);
+            this.dayLampDimmPercentX21.Name = "dayLampDimmPercentX21";
+            this.dayLampDimmPercentX21.Size = new System.Drawing.Size(106, 28);
+            this.dayLampDimmPercentX21.TabIndex = 9;
+            this.dayLampDimmPercentX21.Text = "디밍 0%";
+            this.dayLampDimmPercentX21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // internalLuminanceX21
+            // 
+            this.internalLuminanceX21.AutoSize = true;
+            this.internalLuminanceX21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
+            this.tlPanel21.SetColumnSpan(this.internalLuminanceX21, 2);
+            this.internalLuminanceX21.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.internalLuminanceX21.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.internalLuminanceX21.ForeColor = System.Drawing.Color.White;
+            this.internalLuminanceX21.Location = new System.Drawing.Point(112, 34);
+            this.internalLuminanceX21.Margin = new System.Windows.Forms.Padding(2);
+            this.internalLuminanceX21.Name = "internalLuminanceX21";
+            this.internalLuminanceX21.Size = new System.Drawing.Size(216, 28);
+            this.internalLuminanceX21.TabIndex = 8;
+            this.internalLuminanceX21.Text = "86 cd/㎡";
+            this.internalLuminanceX21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // externalLuminanceX21
+            // 
+            this.externalLuminanceX21.AutoSize = true;
+            this.externalLuminanceX21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
+            this.tlPanel21.SetColumnSpan(this.externalLuminanceX21, 2);
+            this.externalLuminanceX21.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.externalLuminanceX21.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.externalLuminanceX21.ForeColor = System.Drawing.Color.White;
+            this.externalLuminanceX21.Location = new System.Drawing.Point(112, 2);
+            this.externalLuminanceX21.Margin = new System.Windows.Forms.Padding(2);
+            this.externalLuminanceX21.Name = "externalLuminanceX21";
+            this.externalLuminanceX21.Size = new System.Drawing.Size(216, 28);
+            this.externalLuminanceX21.TabIndex = 7;
+            this.externalLuminanceX21.Text = "1653 cd/㎡";
+            this.externalLuminanceX21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // bunifuCustomLabel93
             // 
@@ -1979,10 +2555,10 @@
             this.tlPanel22.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33334F));
             this.tlPanel22.Controls.Add(this.regularLampButtonX22, 2, 3);
             this.tlPanel22.Controls.Add(this.dayLampButtonX22, 2, 2);
-            this.tlPanel22.Controls.Add(this.bunifuCustomLabel109, 1, 2);
-            this.tlPanel22.Controls.Add(this.bunifuCustomLabel110, 1, 3);
-            this.tlPanel22.Controls.Add(this.bunifuCustomLabel111, 1, 1);
-            this.tlPanel22.Controls.Add(this.bunifuCustomLabel112, 1, 0);
+            this.tlPanel22.Controls.Add(this.dayLampDimmPercentX22, 1, 2);
+            this.tlPanel22.Controls.Add(this.regularLampDimmPercentX22, 1, 3);
+            this.tlPanel22.Controls.Add(this.internalLuminanceX22, 1, 1);
+            this.tlPanel22.Controls.Add(this.externalLuminanceX22, 1, 0);
             this.tlPanel22.Controls.Add(this.bunifuCustomLabel113, 0, 3);
             this.tlPanel22.Controls.Add(this.bunifuCustomLabel114, 0, 2);
             this.tlPanel22.Controls.Add(this.bunifuCustomLabel115, 0, 1);
@@ -2002,67 +2578,139 @@
             this.tlPanel22.Size = new System.Drawing.Size(306, 130);
             this.tlPanel22.TabIndex = 16;
             // 
-            // bunifuCustomLabel109
+            // regularLampButtonX22
             // 
-            this.bunifuCustomLabel109.AutoSize = true;
-            this.bunifuCustomLabel109.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
-            this.bunifuCustomLabel109.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuCustomLabel109.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.bunifuCustomLabel109.ForeColor = System.Drawing.Color.White;
-            this.bunifuCustomLabel109.Location = new System.Drawing.Point(104, 66);
-            this.bunifuCustomLabel109.Margin = new System.Windows.Forms.Padding(2);
-            this.bunifuCustomLabel109.Name = "bunifuCustomLabel109";
-            this.bunifuCustomLabel109.Size = new System.Drawing.Size(98, 28);
-            this.bunifuCustomLabel109.TabIndex = 11;
-            this.bunifuCustomLabel109.Text = "디밍 0%";
-            this.bunifuCustomLabel109.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.regularLampButtonX22.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.regularLampButtonX22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.regularLampButtonX22.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.regularLampButtonX22.BorderRadius = 0;
+            this.regularLampButtonX22.ButtonText = "OFF";
+            this.regularLampButtonX22.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.regularLampButtonX22.DisabledColor = System.Drawing.Color.Gray;
+            this.regularLampButtonX22.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.regularLampButtonX22.Iconcolor = System.Drawing.Color.Transparent;
+            this.regularLampButtonX22.Iconimage = null;
+            this.regularLampButtonX22.Iconimage_right = null;
+            this.regularLampButtonX22.Iconimage_right_Selected = null;
+            this.regularLampButtonX22.Iconimage_Selected = null;
+            this.regularLampButtonX22.IconMarginLeft = 0;
+            this.regularLampButtonX22.IconMarginRight = 0;
+            this.regularLampButtonX22.IconRightVisible = true;
+            this.regularLampButtonX22.IconRightZoom = 0D;
+            this.regularLampButtonX22.IconVisible = true;
+            this.regularLampButtonX22.IconZoom = 90D;
+            this.regularLampButtonX22.IsTab = false;
+            this.regularLampButtonX22.Location = new System.Drawing.Point(206, 98);
+            this.regularLampButtonX22.Margin = new System.Windows.Forms.Padding(2);
+            this.regularLampButtonX22.Name = "regularLampButtonX22";
+            this.regularLampButtonX22.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.regularLampButtonX22.OnHovercolor = System.Drawing.Color.Pink;
+            this.regularLampButtonX22.OnHoverTextColor = System.Drawing.Color.White;
+            this.regularLampButtonX22.selected = false;
+            this.regularLampButtonX22.Size = new System.Drawing.Size(98, 30);
+            this.regularLampButtonX22.TabIndex = 26;
+            this.regularLampButtonX22.Text = "OFF";
+            this.regularLampButtonX22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.regularLampButtonX22.Textcolor = System.Drawing.Color.White;
+            this.regularLampButtonX22.TextFont = new System.Drawing.Font("Malgun Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             // 
-            // bunifuCustomLabel110
+            // dayLampButtonX22
             // 
-            this.bunifuCustomLabel110.AutoSize = true;
-            this.bunifuCustomLabel110.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
-            this.bunifuCustomLabel110.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuCustomLabel110.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.bunifuCustomLabel110.ForeColor = System.Drawing.Color.White;
-            this.bunifuCustomLabel110.Location = new System.Drawing.Point(104, 98);
-            this.bunifuCustomLabel110.Margin = new System.Windows.Forms.Padding(2);
-            this.bunifuCustomLabel110.Name = "bunifuCustomLabel110";
-            this.bunifuCustomLabel110.Size = new System.Drawing.Size(98, 30);
-            this.bunifuCustomLabel110.TabIndex = 10;
-            this.bunifuCustomLabel110.Text = "디밍 0%";
-            this.bunifuCustomLabel110.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.dayLampButtonX22.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.dayLampButtonX22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.dayLampButtonX22.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.dayLampButtonX22.BorderRadius = 0;
+            this.dayLampButtonX22.ButtonText = "OFF";
+            this.dayLampButtonX22.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.dayLampButtonX22.DisabledColor = System.Drawing.Color.Gray;
+            this.dayLampButtonX22.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dayLampButtonX22.Iconcolor = System.Drawing.Color.Transparent;
+            this.dayLampButtonX22.Iconimage = null;
+            this.dayLampButtonX22.Iconimage_right = null;
+            this.dayLampButtonX22.Iconimage_right_Selected = null;
+            this.dayLampButtonX22.Iconimage_Selected = null;
+            this.dayLampButtonX22.IconMarginLeft = 0;
+            this.dayLampButtonX22.IconMarginRight = 0;
+            this.dayLampButtonX22.IconRightVisible = true;
+            this.dayLampButtonX22.IconRightZoom = 0D;
+            this.dayLampButtonX22.IconVisible = true;
+            this.dayLampButtonX22.IconZoom = 90D;
+            this.dayLampButtonX22.IsTab = false;
+            this.dayLampButtonX22.Location = new System.Drawing.Point(206, 66);
+            this.dayLampButtonX22.Margin = new System.Windows.Forms.Padding(2);
+            this.dayLampButtonX22.Name = "dayLampButtonX22";
+            this.dayLampButtonX22.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.dayLampButtonX22.OnHovercolor = System.Drawing.Color.Pink;
+            this.dayLampButtonX22.OnHoverTextColor = System.Drawing.Color.White;
+            this.dayLampButtonX22.selected = false;
+            this.dayLampButtonX22.Size = new System.Drawing.Size(98, 28);
+            this.dayLampButtonX22.TabIndex = 24;
+            this.dayLampButtonX22.Text = "OFF";
+            this.dayLampButtonX22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.dayLampButtonX22.Textcolor = System.Drawing.Color.White;
+            this.dayLampButtonX22.TextFont = new System.Drawing.Font("Malgun Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             // 
-            // bunifuCustomLabel111
+            // dayLampDimmPercentX22
             // 
-            this.bunifuCustomLabel111.AutoSize = true;
-            this.bunifuCustomLabel111.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
-            this.tlPanel22.SetColumnSpan(this.bunifuCustomLabel111, 2);
-            this.bunifuCustomLabel111.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuCustomLabel111.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.bunifuCustomLabel111.ForeColor = System.Drawing.Color.White;
-            this.bunifuCustomLabel111.Location = new System.Drawing.Point(104, 34);
-            this.bunifuCustomLabel111.Margin = new System.Windows.Forms.Padding(2);
-            this.bunifuCustomLabel111.Name = "bunifuCustomLabel111";
-            this.bunifuCustomLabel111.Size = new System.Drawing.Size(200, 28);
-            this.bunifuCustomLabel111.TabIndex = 9;
-            this.bunifuCustomLabel111.Text = "86 cd/㎡";
-            this.bunifuCustomLabel111.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.dayLampDimmPercentX22.AutoSize = true;
+            this.dayLampDimmPercentX22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
+            this.dayLampDimmPercentX22.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dayLampDimmPercentX22.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.dayLampDimmPercentX22.ForeColor = System.Drawing.Color.White;
+            this.dayLampDimmPercentX22.Location = new System.Drawing.Point(104, 66);
+            this.dayLampDimmPercentX22.Margin = new System.Windows.Forms.Padding(2);
+            this.dayLampDimmPercentX22.Name = "dayLampDimmPercentX22";
+            this.dayLampDimmPercentX22.Size = new System.Drawing.Size(98, 28);
+            this.dayLampDimmPercentX22.TabIndex = 11;
+            this.dayLampDimmPercentX22.Text = "디밍 0%";
+            this.dayLampDimmPercentX22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // bunifuCustomLabel112
+            // regularLampDimmPercentX22
             // 
-            this.bunifuCustomLabel112.AutoSize = true;
-            this.bunifuCustomLabel112.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
-            this.tlPanel22.SetColumnSpan(this.bunifuCustomLabel112, 2);
-            this.bunifuCustomLabel112.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuCustomLabel112.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.bunifuCustomLabel112.ForeColor = System.Drawing.Color.White;
-            this.bunifuCustomLabel112.Location = new System.Drawing.Point(104, 2);
-            this.bunifuCustomLabel112.Margin = new System.Windows.Forms.Padding(2);
-            this.bunifuCustomLabel112.Name = "bunifuCustomLabel112";
-            this.bunifuCustomLabel112.Size = new System.Drawing.Size(200, 28);
-            this.bunifuCustomLabel112.TabIndex = 8;
-            this.bunifuCustomLabel112.Text = "1653 cd/㎡";
-            this.bunifuCustomLabel112.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.regularLampDimmPercentX22.AutoSize = true;
+            this.regularLampDimmPercentX22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
+            this.regularLampDimmPercentX22.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.regularLampDimmPercentX22.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.regularLampDimmPercentX22.ForeColor = System.Drawing.Color.White;
+            this.regularLampDimmPercentX22.Location = new System.Drawing.Point(104, 98);
+            this.regularLampDimmPercentX22.Margin = new System.Windows.Forms.Padding(2);
+            this.regularLampDimmPercentX22.Name = "regularLampDimmPercentX22";
+            this.regularLampDimmPercentX22.Size = new System.Drawing.Size(98, 30);
+            this.regularLampDimmPercentX22.TabIndex = 10;
+            this.regularLampDimmPercentX22.Text = "디밍 0%";
+            this.regularLampDimmPercentX22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // internalLuminanceX22
+            // 
+            this.internalLuminanceX22.AutoSize = true;
+            this.internalLuminanceX22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
+            this.tlPanel22.SetColumnSpan(this.internalLuminanceX22, 2);
+            this.internalLuminanceX22.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.internalLuminanceX22.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.internalLuminanceX22.ForeColor = System.Drawing.Color.White;
+            this.internalLuminanceX22.Location = new System.Drawing.Point(104, 34);
+            this.internalLuminanceX22.Margin = new System.Windows.Forms.Padding(2);
+            this.internalLuminanceX22.Name = "internalLuminanceX22";
+            this.internalLuminanceX22.Size = new System.Drawing.Size(200, 28);
+            this.internalLuminanceX22.TabIndex = 9;
+            this.internalLuminanceX22.Text = "86 cd/㎡";
+            this.internalLuminanceX22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // externalLuminanceX22
+            // 
+            this.externalLuminanceX22.AutoSize = true;
+            this.externalLuminanceX22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
+            this.tlPanel22.SetColumnSpan(this.externalLuminanceX22, 2);
+            this.externalLuminanceX22.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.externalLuminanceX22.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.externalLuminanceX22.ForeColor = System.Drawing.Color.White;
+            this.externalLuminanceX22.Location = new System.Drawing.Point(104, 2);
+            this.externalLuminanceX22.Margin = new System.Windows.Forms.Padding(2);
+            this.externalLuminanceX22.Name = "externalLuminanceX22";
+            this.externalLuminanceX22.Size = new System.Drawing.Size(200, 28);
+            this.externalLuminanceX22.TabIndex = 8;
+            this.externalLuminanceX22.Text = "1653 cd/㎡";
+            this.externalLuminanceX22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // bunifuCustomLabel113
             // 
@@ -2120,6 +2768,238 @@
             this.bunifuCustomLabel116.Text = "외부휘도";
             this.bunifuCustomLabel116.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // tlPanel30
+            // 
+            this.tlPanel30.BackColor = System.Drawing.Color.Transparent;
+            this.tlPanel30.ColumnCount = 3;
+            this.mainTLPanel.SetColumnSpan(this.tlPanel30, 7);
+            this.tlPanel30.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33334F));
+            this.tlPanel30.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tlPanel30.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tlPanel30.Controls.Add(this.regularLampButtonX30, 2, 3);
+            this.tlPanel30.Controls.Add(this.dayLampButtonX30, 2, 2);
+            this.tlPanel30.Controls.Add(this.regularLampDimmPercentX30, 1, 3);
+            this.tlPanel30.Controls.Add(this.dayLampDimmPercentX30, 1, 2);
+            this.tlPanel30.Controls.Add(this.internalLuminanceX30, 1, 1);
+            this.tlPanel30.Controls.Add(this.bunifuCustomLabel17, 0, 1);
+            this.tlPanel30.Controls.Add(this.bunifuCustomLabel18, 0, 3);
+            this.tlPanel30.Controls.Add(this.bunifuCustomLabel84, 0, 2);
+            this.tlPanel30.Controls.Add(this.bunifuCustomLabel85, 0, 0);
+            this.tlPanel30.Controls.Add(this.externalLuminanceX30, 1, 0);
+            this.tlPanel30.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tlPanel30.Location = new System.Drawing.Point(339, 735);
+            this.tlPanel30.Margin = new System.Windows.Forms.Padding(3, 10, 3, 10);
+            this.tlPanel30.Name = "tlPanel30";
+            this.tlPanel30.RowCount = 4;
+            this.mainTLPanel.SetRowSpan(this.tlPanel30, 6);
+            this.tlPanel30.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tlPanel30.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tlPanel30.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tlPanel30.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tlPanel30.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tlPanel30.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tlPanel30.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tlPanel30.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tlPanel30.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tlPanel30.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tlPanel30.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tlPanel30.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tlPanel30.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tlPanel30.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tlPanel30.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tlPanel30.Size = new System.Drawing.Size(330, 130);
+            this.tlPanel30.TabIndex = 13;
+            // 
+            // externalLuminanceX30
+            // 
+            this.externalLuminanceX30.AutoSize = true;
+            this.externalLuminanceX30.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
+            this.tlPanel30.SetColumnSpan(this.externalLuminanceX30, 2);
+            this.externalLuminanceX30.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.externalLuminanceX30.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.externalLuminanceX30.ForeColor = System.Drawing.Color.White;
+            this.externalLuminanceX30.Location = new System.Drawing.Point(112, 2);
+            this.externalLuminanceX30.Margin = new System.Windows.Forms.Padding(2);
+            this.externalLuminanceX30.Name = "externalLuminanceX30";
+            this.externalLuminanceX30.Size = new System.Drawing.Size(216, 28);
+            this.externalLuminanceX30.TabIndex = 4;
+            this.externalLuminanceX30.Text = "1653 cd/㎡";
+            this.externalLuminanceX30.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // internalLuminanceX30
+            // 
+            this.internalLuminanceX30.AutoSize = true;
+            this.internalLuminanceX30.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
+            this.tlPanel30.SetColumnSpan(this.internalLuminanceX30, 2);
+            this.internalLuminanceX30.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.internalLuminanceX30.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.internalLuminanceX30.ForeColor = System.Drawing.Color.White;
+            this.internalLuminanceX30.Location = new System.Drawing.Point(112, 34);
+            this.internalLuminanceX30.Margin = new System.Windows.Forms.Padding(2);
+            this.internalLuminanceX30.Name = "internalLuminanceX30";
+            this.internalLuminanceX30.Size = new System.Drawing.Size(216, 28);
+            this.internalLuminanceX30.TabIndex = 5;
+            this.internalLuminanceX30.Text = "86 cd/㎡";
+            this.internalLuminanceX30.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // regularLampButtonX30
+            // 
+            this.regularLampButtonX30.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.regularLampButtonX30.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.regularLampButtonX30.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.regularLampButtonX30.BorderRadius = 0;
+            this.regularLampButtonX30.ButtonText = "OFF";
+            this.regularLampButtonX30.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.regularLampButtonX30.DisabledColor = System.Drawing.Color.Gray;
+            this.regularLampButtonX30.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.regularLampButtonX30.Iconcolor = System.Drawing.Color.Transparent;
+            this.regularLampButtonX30.Iconimage = null;
+            this.regularLampButtonX30.Iconimage_right = null;
+            this.regularLampButtonX30.Iconimage_right_Selected = null;
+            this.regularLampButtonX30.Iconimage_Selected = null;
+            this.regularLampButtonX30.IconMarginLeft = 0;
+            this.regularLampButtonX30.IconMarginRight = 0;
+            this.regularLampButtonX30.IconRightVisible = true;
+            this.regularLampButtonX30.IconRightZoom = 0D;
+            this.regularLampButtonX30.IconVisible = true;
+            this.regularLampButtonX30.IconZoom = 90D;
+            this.regularLampButtonX30.IsTab = false;
+            this.regularLampButtonX30.Location = new System.Drawing.Point(221, 98);
+            this.regularLampButtonX30.Margin = new System.Windows.Forms.Padding(2);
+            this.regularLampButtonX30.Name = "regularLampButtonX30";
+            this.regularLampButtonX30.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.regularLampButtonX30.OnHovercolor = System.Drawing.Color.Pink;
+            this.regularLampButtonX30.OnHoverTextColor = System.Drawing.Color.White;
+            this.regularLampButtonX30.selected = false;
+            this.regularLampButtonX30.Size = new System.Drawing.Size(107, 30);
+            this.regularLampButtonX30.TabIndex = 26;
+            this.regularLampButtonX30.Text = "OFF";
+            this.regularLampButtonX30.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.regularLampButtonX30.Textcolor = System.Drawing.Color.White;
+            this.regularLampButtonX30.TextFont = new System.Drawing.Font("Malgun Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            // 
+            // dayLampButtonX30
+            // 
+            this.dayLampButtonX30.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.dayLampButtonX30.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.dayLampButtonX30.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.dayLampButtonX30.BorderRadius = 0;
+            this.dayLampButtonX30.ButtonText = "OFF";
+            this.dayLampButtonX30.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.dayLampButtonX30.DisabledColor = System.Drawing.Color.Gray;
+            this.dayLampButtonX30.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dayLampButtonX30.Iconcolor = System.Drawing.Color.Transparent;
+            this.dayLampButtonX30.Iconimage = null;
+            this.dayLampButtonX30.Iconimage_right = null;
+            this.dayLampButtonX30.Iconimage_right_Selected = null;
+            this.dayLampButtonX30.Iconimage_Selected = null;
+            this.dayLampButtonX30.IconMarginLeft = 0;
+            this.dayLampButtonX30.IconMarginRight = 0;
+            this.dayLampButtonX30.IconRightVisible = true;
+            this.dayLampButtonX30.IconRightZoom = 0D;
+            this.dayLampButtonX30.IconVisible = true;
+            this.dayLampButtonX30.IconZoom = 90D;
+            this.dayLampButtonX30.IsTab = false;
+            this.dayLampButtonX30.Location = new System.Drawing.Point(221, 66);
+            this.dayLampButtonX30.Margin = new System.Windows.Forms.Padding(2);
+            this.dayLampButtonX30.Name = "dayLampButtonX30";
+            this.dayLampButtonX30.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.dayLampButtonX30.OnHovercolor = System.Drawing.Color.Pink;
+            this.dayLampButtonX30.OnHoverTextColor = System.Drawing.Color.White;
+            this.dayLampButtonX30.selected = false;
+            this.dayLampButtonX30.Size = new System.Drawing.Size(107, 28);
+            this.dayLampButtonX30.TabIndex = 24;
+            this.dayLampButtonX30.Text = "OFF";
+            this.dayLampButtonX30.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.dayLampButtonX30.Textcolor = System.Drawing.Color.White;
+            this.dayLampButtonX30.TextFont = new System.Drawing.Font("Malgun Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            // 
+            // regularLampDimmPercentX30
+            // 
+            this.regularLampDimmPercentX30.AutoSize = true;
+            this.regularLampDimmPercentX30.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
+            this.regularLampDimmPercentX30.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.regularLampDimmPercentX30.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.regularLampDimmPercentX30.ForeColor = System.Drawing.Color.White;
+            this.regularLampDimmPercentX30.Location = new System.Drawing.Point(112, 98);
+            this.regularLampDimmPercentX30.Margin = new System.Windows.Forms.Padding(2);
+            this.regularLampDimmPercentX30.Name = "regularLampDimmPercentX30";
+            this.regularLampDimmPercentX30.Size = new System.Drawing.Size(105, 30);
+            this.regularLampDimmPercentX30.TabIndex = 7;
+            this.regularLampDimmPercentX30.Text = "디밍 0%";
+            this.regularLampDimmPercentX30.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // dayLampDimmPercentX30
+            // 
+            this.dayLampDimmPercentX30.AutoSize = true;
+            this.dayLampDimmPercentX30.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
+            this.dayLampDimmPercentX30.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dayLampDimmPercentX30.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.dayLampDimmPercentX30.ForeColor = System.Drawing.Color.White;
+            this.dayLampDimmPercentX30.Location = new System.Drawing.Point(112, 66);
+            this.dayLampDimmPercentX30.Margin = new System.Windows.Forms.Padding(2);
+            this.dayLampDimmPercentX30.Name = "dayLampDimmPercentX30";
+            this.dayLampDimmPercentX30.Size = new System.Drawing.Size(105, 28);
+            this.dayLampDimmPercentX30.TabIndex = 6;
+            this.dayLampDimmPercentX30.Text = "디밍 0%";
+            this.dayLampDimmPercentX30.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // bunifuCustomLabel17
+            // 
+            this.bunifuCustomLabel17.AutoSize = true;
+            this.bunifuCustomLabel17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.bunifuCustomLabel17.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.bunifuCustomLabel17.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.bunifuCustomLabel17.Location = new System.Drawing.Point(2, 34);
+            this.bunifuCustomLabel17.Margin = new System.Windows.Forms.Padding(2);
+            this.bunifuCustomLabel17.Name = "bunifuCustomLabel17";
+            this.bunifuCustomLabel17.Size = new System.Drawing.Size(106, 28);
+            this.bunifuCustomLabel17.TabIndex = 3;
+            this.bunifuCustomLabel17.Text = "내부휘도";
+            this.bunifuCustomLabel17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // bunifuCustomLabel18
+            // 
+            this.bunifuCustomLabel18.AutoSize = true;
+            this.bunifuCustomLabel18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.bunifuCustomLabel18.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.bunifuCustomLabel18.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.bunifuCustomLabel18.Location = new System.Drawing.Point(2, 98);
+            this.bunifuCustomLabel18.Margin = new System.Windows.Forms.Padding(2);
+            this.bunifuCustomLabel18.Name = "bunifuCustomLabel18";
+            this.bunifuCustomLabel18.Size = new System.Drawing.Size(106, 30);
+            this.bunifuCustomLabel18.TabIndex = 2;
+            this.bunifuCustomLabel18.Text = "상시등";
+            this.bunifuCustomLabel18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // bunifuCustomLabel84
+            // 
+            this.bunifuCustomLabel84.AutoSize = true;
+            this.bunifuCustomLabel84.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.bunifuCustomLabel84.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.bunifuCustomLabel84.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.bunifuCustomLabel84.Location = new System.Drawing.Point(2, 66);
+            this.bunifuCustomLabel84.Margin = new System.Windows.Forms.Padding(2);
+            this.bunifuCustomLabel84.Name = "bunifuCustomLabel84";
+            this.bunifuCustomLabel84.Size = new System.Drawing.Size(106, 28);
+            this.bunifuCustomLabel84.TabIndex = 1;
+            this.bunifuCustomLabel84.Text = "주간등";
+            this.bunifuCustomLabel84.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // bunifuCustomLabel85
+            // 
+            this.bunifuCustomLabel85.AutoSize = true;
+            this.bunifuCustomLabel85.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.bunifuCustomLabel85.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.bunifuCustomLabel85.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.bunifuCustomLabel85.Location = new System.Drawing.Point(2, 2);
+            this.bunifuCustomLabel85.Margin = new System.Windows.Forms.Padding(2);
+            this.bunifuCustomLabel85.Name = "bunifuCustomLabel85";
+            this.bunifuCustomLabel85.Size = new System.Drawing.Size(106, 28);
+            this.bunifuCustomLabel85.TabIndex = 0;
+            this.bunifuCustomLabel85.Text = "외부휘도";
+            this.bunifuCustomLabel85.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // tlPanel31
             // 
             this.tlPanel31.BackColor = System.Drawing.Color.Transparent;
@@ -2142,10 +3022,10 @@
             this.tlPanel31.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tlPanel31.Controls.Add(this.regularLampButtonX31, 2, 3);
             this.tlPanel31.Controls.Add(this.dayLampButtonX31, 2, 2);
-            this.tlPanel31.Controls.Add(this.bunifuCustomLabel99, 1, 3);
-            this.tlPanel31.Controls.Add(this.bunifuCustomLabel100, 1, 2);
-            this.tlPanel31.Controls.Add(this.bunifuCustomLabel101, 1, 1);
-            this.tlPanel31.Controls.Add(this.bunifuCustomLabel102, 1, 0);
+            this.tlPanel31.Controls.Add(this.regularLampDimmPercentX31, 1, 3);
+            this.tlPanel31.Controls.Add(this.dayLampDimmPercentX31, 1, 2);
+            this.tlPanel31.Controls.Add(this.internalLuminanceX31, 1, 1);
+            this.tlPanel31.Controls.Add(this.externalLuminanceX31, 1, 0);
             this.tlPanel31.Controls.Add(this.bunifuCustomLabel103, 0, 3);
             this.tlPanel31.Controls.Add(this.bunifuCustomLabel104, 0, 2);
             this.tlPanel31.Controls.Add(this.bunifuCustomLabel105, 0, 1);
@@ -2164,67 +3044,139 @@
             this.tlPanel31.Size = new System.Drawing.Size(330, 130);
             this.tlPanel31.TabIndex = 15;
             // 
-            // bunifuCustomLabel99
+            // regularLampButtonX31
             // 
-            this.bunifuCustomLabel99.AutoSize = true;
-            this.bunifuCustomLabel99.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
-            this.bunifuCustomLabel99.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuCustomLabel99.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.bunifuCustomLabel99.ForeColor = System.Drawing.Color.White;
-            this.bunifuCustomLabel99.Location = new System.Drawing.Point(112, 98);
-            this.bunifuCustomLabel99.Margin = new System.Windows.Forms.Padding(2);
-            this.bunifuCustomLabel99.Name = "bunifuCustomLabel99";
-            this.bunifuCustomLabel99.Size = new System.Drawing.Size(106, 30);
-            this.bunifuCustomLabel99.TabIndex = 10;
-            this.bunifuCustomLabel99.Text = "디밍 0%";
-            this.bunifuCustomLabel99.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.regularLampButtonX31.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.regularLampButtonX31.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.regularLampButtonX31.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.regularLampButtonX31.BorderRadius = 0;
+            this.regularLampButtonX31.ButtonText = "OFF";
+            this.regularLampButtonX31.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.regularLampButtonX31.DisabledColor = System.Drawing.Color.Gray;
+            this.regularLampButtonX31.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.regularLampButtonX31.Iconcolor = System.Drawing.Color.Transparent;
+            this.regularLampButtonX31.Iconimage = null;
+            this.regularLampButtonX31.Iconimage_right = null;
+            this.regularLampButtonX31.Iconimage_right_Selected = null;
+            this.regularLampButtonX31.Iconimage_Selected = null;
+            this.regularLampButtonX31.IconMarginLeft = 0;
+            this.regularLampButtonX31.IconMarginRight = 0;
+            this.regularLampButtonX31.IconRightVisible = true;
+            this.regularLampButtonX31.IconRightZoom = 0D;
+            this.regularLampButtonX31.IconVisible = true;
+            this.regularLampButtonX31.IconZoom = 90D;
+            this.regularLampButtonX31.IsTab = false;
+            this.regularLampButtonX31.Location = new System.Drawing.Point(222, 98);
+            this.regularLampButtonX31.Margin = new System.Windows.Forms.Padding(2);
+            this.regularLampButtonX31.Name = "regularLampButtonX31";
+            this.regularLampButtonX31.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.regularLampButtonX31.OnHovercolor = System.Drawing.Color.Pink;
+            this.regularLampButtonX31.OnHoverTextColor = System.Drawing.Color.White;
+            this.regularLampButtonX31.selected = false;
+            this.regularLampButtonX31.Size = new System.Drawing.Size(106, 30);
+            this.regularLampButtonX31.TabIndex = 26;
+            this.regularLampButtonX31.Text = "OFF";
+            this.regularLampButtonX31.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.regularLampButtonX31.Textcolor = System.Drawing.Color.White;
+            this.regularLampButtonX31.TextFont = new System.Drawing.Font("Malgun Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             // 
-            // bunifuCustomLabel100
+            // dayLampButtonX31
             // 
-            this.bunifuCustomLabel100.AutoSize = true;
-            this.bunifuCustomLabel100.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
-            this.bunifuCustomLabel100.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuCustomLabel100.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.bunifuCustomLabel100.ForeColor = System.Drawing.Color.White;
-            this.bunifuCustomLabel100.Location = new System.Drawing.Point(112, 66);
-            this.bunifuCustomLabel100.Margin = new System.Windows.Forms.Padding(2);
-            this.bunifuCustomLabel100.Name = "bunifuCustomLabel100";
-            this.bunifuCustomLabel100.Size = new System.Drawing.Size(106, 28);
-            this.bunifuCustomLabel100.TabIndex = 9;
-            this.bunifuCustomLabel100.Text = "디밍 0%";
-            this.bunifuCustomLabel100.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.dayLampButtonX31.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.dayLampButtonX31.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.dayLampButtonX31.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.dayLampButtonX31.BorderRadius = 0;
+            this.dayLampButtonX31.ButtonText = "OFF";
+            this.dayLampButtonX31.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.dayLampButtonX31.DisabledColor = System.Drawing.Color.Gray;
+            this.dayLampButtonX31.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dayLampButtonX31.Iconcolor = System.Drawing.Color.Transparent;
+            this.dayLampButtonX31.Iconimage = null;
+            this.dayLampButtonX31.Iconimage_right = null;
+            this.dayLampButtonX31.Iconimage_right_Selected = null;
+            this.dayLampButtonX31.Iconimage_Selected = null;
+            this.dayLampButtonX31.IconMarginLeft = 0;
+            this.dayLampButtonX31.IconMarginRight = 0;
+            this.dayLampButtonX31.IconRightVisible = true;
+            this.dayLampButtonX31.IconRightZoom = 0D;
+            this.dayLampButtonX31.IconVisible = true;
+            this.dayLampButtonX31.IconZoom = 90D;
+            this.dayLampButtonX31.IsTab = false;
+            this.dayLampButtonX31.Location = new System.Drawing.Point(222, 66);
+            this.dayLampButtonX31.Margin = new System.Windows.Forms.Padding(2);
+            this.dayLampButtonX31.Name = "dayLampButtonX31";
+            this.dayLampButtonX31.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.dayLampButtonX31.OnHovercolor = System.Drawing.Color.Pink;
+            this.dayLampButtonX31.OnHoverTextColor = System.Drawing.Color.White;
+            this.dayLampButtonX31.selected = false;
+            this.dayLampButtonX31.Size = new System.Drawing.Size(106, 28);
+            this.dayLampButtonX31.TabIndex = 24;
+            this.dayLampButtonX31.Text = "OFF";
+            this.dayLampButtonX31.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.dayLampButtonX31.Textcolor = System.Drawing.Color.White;
+            this.dayLampButtonX31.TextFont = new System.Drawing.Font("Malgun Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             // 
-            // bunifuCustomLabel101
+            // regularLampDimmPercentX31
             // 
-            this.bunifuCustomLabel101.AutoSize = true;
-            this.bunifuCustomLabel101.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
-            this.tlPanel31.SetColumnSpan(this.bunifuCustomLabel101, 2);
-            this.bunifuCustomLabel101.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuCustomLabel101.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.bunifuCustomLabel101.ForeColor = System.Drawing.Color.White;
-            this.bunifuCustomLabel101.Location = new System.Drawing.Point(112, 34);
-            this.bunifuCustomLabel101.Margin = new System.Windows.Forms.Padding(2);
-            this.bunifuCustomLabel101.Name = "bunifuCustomLabel101";
-            this.bunifuCustomLabel101.Size = new System.Drawing.Size(216, 28);
-            this.bunifuCustomLabel101.TabIndex = 8;
-            this.bunifuCustomLabel101.Text = "86 cd/㎡";
-            this.bunifuCustomLabel101.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.regularLampDimmPercentX31.AutoSize = true;
+            this.regularLampDimmPercentX31.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
+            this.regularLampDimmPercentX31.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.regularLampDimmPercentX31.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.regularLampDimmPercentX31.ForeColor = System.Drawing.Color.White;
+            this.regularLampDimmPercentX31.Location = new System.Drawing.Point(112, 98);
+            this.regularLampDimmPercentX31.Margin = new System.Windows.Forms.Padding(2);
+            this.regularLampDimmPercentX31.Name = "regularLampDimmPercentX31";
+            this.regularLampDimmPercentX31.Size = new System.Drawing.Size(106, 30);
+            this.regularLampDimmPercentX31.TabIndex = 10;
+            this.regularLampDimmPercentX31.Text = "디밍 0%";
+            this.regularLampDimmPercentX31.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // bunifuCustomLabel102
+            // dayLampDimmPercentX31
             // 
-            this.bunifuCustomLabel102.AutoSize = true;
-            this.bunifuCustomLabel102.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
-            this.tlPanel31.SetColumnSpan(this.bunifuCustomLabel102, 2);
-            this.bunifuCustomLabel102.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuCustomLabel102.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.bunifuCustomLabel102.ForeColor = System.Drawing.Color.White;
-            this.bunifuCustomLabel102.Location = new System.Drawing.Point(112, 2);
-            this.bunifuCustomLabel102.Margin = new System.Windows.Forms.Padding(2);
-            this.bunifuCustomLabel102.Name = "bunifuCustomLabel102";
-            this.bunifuCustomLabel102.Size = new System.Drawing.Size(216, 28);
-            this.bunifuCustomLabel102.TabIndex = 7;
-            this.bunifuCustomLabel102.Text = "1653 cd/㎡";
-            this.bunifuCustomLabel102.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.dayLampDimmPercentX31.AutoSize = true;
+            this.dayLampDimmPercentX31.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
+            this.dayLampDimmPercentX31.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dayLampDimmPercentX31.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.dayLampDimmPercentX31.ForeColor = System.Drawing.Color.White;
+            this.dayLampDimmPercentX31.Location = new System.Drawing.Point(112, 66);
+            this.dayLampDimmPercentX31.Margin = new System.Windows.Forms.Padding(2);
+            this.dayLampDimmPercentX31.Name = "dayLampDimmPercentX31";
+            this.dayLampDimmPercentX31.Size = new System.Drawing.Size(106, 28);
+            this.dayLampDimmPercentX31.TabIndex = 9;
+            this.dayLampDimmPercentX31.Text = "디밍 0%";
+            this.dayLampDimmPercentX31.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // internalLuminanceX31
+            // 
+            this.internalLuminanceX31.AutoSize = true;
+            this.internalLuminanceX31.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
+            this.tlPanel31.SetColumnSpan(this.internalLuminanceX31, 2);
+            this.internalLuminanceX31.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.internalLuminanceX31.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.internalLuminanceX31.ForeColor = System.Drawing.Color.White;
+            this.internalLuminanceX31.Location = new System.Drawing.Point(112, 34);
+            this.internalLuminanceX31.Margin = new System.Windows.Forms.Padding(2);
+            this.internalLuminanceX31.Name = "internalLuminanceX31";
+            this.internalLuminanceX31.Size = new System.Drawing.Size(216, 28);
+            this.internalLuminanceX31.TabIndex = 8;
+            this.internalLuminanceX31.Text = "86 cd/㎡";
+            this.internalLuminanceX31.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // externalLuminanceX31
+            // 
+            this.externalLuminanceX31.AutoSize = true;
+            this.externalLuminanceX31.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
+            this.tlPanel31.SetColumnSpan(this.externalLuminanceX31, 2);
+            this.externalLuminanceX31.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.externalLuminanceX31.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.externalLuminanceX31.ForeColor = System.Drawing.Color.White;
+            this.externalLuminanceX31.Location = new System.Drawing.Point(112, 2);
+            this.externalLuminanceX31.Margin = new System.Windows.Forms.Padding(2);
+            this.externalLuminanceX31.Name = "externalLuminanceX31";
+            this.externalLuminanceX31.Size = new System.Drawing.Size(216, 28);
+            this.externalLuminanceX31.TabIndex = 7;
+            this.externalLuminanceX31.Text = "1653 cd/㎡";
+            this.externalLuminanceX31.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // bunifuCustomLabel103
             // 
@@ -2292,10 +3244,10 @@
             this.tlPanel32.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33334F));
             this.tlPanel32.Controls.Add(this.regularLampButtonX32, 2, 3);
             this.tlPanel32.Controls.Add(this.dayLampButtonX32, 2, 2);
-            this.tlPanel32.Controls.Add(this.bunifuCustomLabel119, 1, 2);
-            this.tlPanel32.Controls.Add(this.bunifuCustomLabel120, 1, 3);
-            this.tlPanel32.Controls.Add(this.bunifuCustomLabel121, 1, 1);
-            this.tlPanel32.Controls.Add(this.bunifuCustomLabel122, 1, 0);
+            this.tlPanel32.Controls.Add(this.dayLampDimmPercentX32, 1, 2);
+            this.tlPanel32.Controls.Add(this.regularLampDimmPercentX32, 1, 3);
+            this.tlPanel32.Controls.Add(this.internalLuminanceX32, 1, 1);
+            this.tlPanel32.Controls.Add(this.externalLuminanceX32, 1, 0);
             this.tlPanel32.Controls.Add(this.bunifuCustomLabel123, 0, 3);
             this.tlPanel32.Controls.Add(this.bunifuCustomLabel124, 0, 2);
             this.tlPanel32.Controls.Add(this.bunifuCustomLabel125, 0, 1);
@@ -2320,67 +3272,139 @@
             this.tlPanel32.Size = new System.Drawing.Size(306, 130);
             this.tlPanel32.TabIndex = 17;
             // 
-            // bunifuCustomLabel119
+            // regularLampButtonX32
             // 
-            this.bunifuCustomLabel119.AutoSize = true;
-            this.bunifuCustomLabel119.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
-            this.bunifuCustomLabel119.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuCustomLabel119.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.bunifuCustomLabel119.ForeColor = System.Drawing.Color.White;
-            this.bunifuCustomLabel119.Location = new System.Drawing.Point(104, 66);
-            this.bunifuCustomLabel119.Margin = new System.Windows.Forms.Padding(2);
-            this.bunifuCustomLabel119.Name = "bunifuCustomLabel119";
-            this.bunifuCustomLabel119.Size = new System.Drawing.Size(98, 28);
-            this.bunifuCustomLabel119.TabIndex = 12;
-            this.bunifuCustomLabel119.Text = "디밍 0%";
-            this.bunifuCustomLabel119.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.regularLampButtonX32.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.regularLampButtonX32.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.regularLampButtonX32.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.regularLampButtonX32.BorderRadius = 0;
+            this.regularLampButtonX32.ButtonText = "OFF";
+            this.regularLampButtonX32.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.regularLampButtonX32.DisabledColor = System.Drawing.Color.Gray;
+            this.regularLampButtonX32.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.regularLampButtonX32.Iconcolor = System.Drawing.Color.Transparent;
+            this.regularLampButtonX32.Iconimage = null;
+            this.regularLampButtonX32.Iconimage_right = null;
+            this.regularLampButtonX32.Iconimage_right_Selected = null;
+            this.regularLampButtonX32.Iconimage_Selected = null;
+            this.regularLampButtonX32.IconMarginLeft = 0;
+            this.regularLampButtonX32.IconMarginRight = 0;
+            this.regularLampButtonX32.IconRightVisible = true;
+            this.regularLampButtonX32.IconRightZoom = 0D;
+            this.regularLampButtonX32.IconVisible = true;
+            this.regularLampButtonX32.IconZoom = 90D;
+            this.regularLampButtonX32.IsTab = false;
+            this.regularLampButtonX32.Location = new System.Drawing.Point(206, 98);
+            this.regularLampButtonX32.Margin = new System.Windows.Forms.Padding(2);
+            this.regularLampButtonX32.Name = "regularLampButtonX32";
+            this.regularLampButtonX32.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.regularLampButtonX32.OnHovercolor = System.Drawing.Color.Pink;
+            this.regularLampButtonX32.OnHoverTextColor = System.Drawing.Color.White;
+            this.regularLampButtonX32.selected = false;
+            this.regularLampButtonX32.Size = new System.Drawing.Size(98, 30);
+            this.regularLampButtonX32.TabIndex = 26;
+            this.regularLampButtonX32.Text = "OFF";
+            this.regularLampButtonX32.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.regularLampButtonX32.Textcolor = System.Drawing.Color.White;
+            this.regularLampButtonX32.TextFont = new System.Drawing.Font("Malgun Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             // 
-            // bunifuCustomLabel120
+            // dayLampButtonX32
             // 
-            this.bunifuCustomLabel120.AutoSize = true;
-            this.bunifuCustomLabel120.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
-            this.bunifuCustomLabel120.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuCustomLabel120.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.bunifuCustomLabel120.ForeColor = System.Drawing.Color.White;
-            this.bunifuCustomLabel120.Location = new System.Drawing.Point(104, 98);
-            this.bunifuCustomLabel120.Margin = new System.Windows.Forms.Padding(2);
-            this.bunifuCustomLabel120.Name = "bunifuCustomLabel120";
-            this.bunifuCustomLabel120.Size = new System.Drawing.Size(98, 30);
-            this.bunifuCustomLabel120.TabIndex = 11;
-            this.bunifuCustomLabel120.Text = "디밍 0%";
-            this.bunifuCustomLabel120.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.dayLampButtonX32.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.dayLampButtonX32.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.dayLampButtonX32.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.dayLampButtonX32.BorderRadius = 0;
+            this.dayLampButtonX32.ButtonText = "OFF";
+            this.dayLampButtonX32.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.dayLampButtonX32.DisabledColor = System.Drawing.Color.Gray;
+            this.dayLampButtonX32.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dayLampButtonX32.Iconcolor = System.Drawing.Color.Transparent;
+            this.dayLampButtonX32.Iconimage = null;
+            this.dayLampButtonX32.Iconimage_right = null;
+            this.dayLampButtonX32.Iconimage_right_Selected = null;
+            this.dayLampButtonX32.Iconimage_Selected = null;
+            this.dayLampButtonX32.IconMarginLeft = 0;
+            this.dayLampButtonX32.IconMarginRight = 0;
+            this.dayLampButtonX32.IconRightVisible = true;
+            this.dayLampButtonX32.IconRightZoom = 0D;
+            this.dayLampButtonX32.IconVisible = true;
+            this.dayLampButtonX32.IconZoom = 90D;
+            this.dayLampButtonX32.IsTab = false;
+            this.dayLampButtonX32.Location = new System.Drawing.Point(206, 66);
+            this.dayLampButtonX32.Margin = new System.Windows.Forms.Padding(2);
+            this.dayLampButtonX32.Name = "dayLampButtonX32";
+            this.dayLampButtonX32.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.dayLampButtonX32.OnHovercolor = System.Drawing.Color.Pink;
+            this.dayLampButtonX32.OnHoverTextColor = System.Drawing.Color.White;
+            this.dayLampButtonX32.selected = false;
+            this.dayLampButtonX32.Size = new System.Drawing.Size(98, 28);
+            this.dayLampButtonX32.TabIndex = 24;
+            this.dayLampButtonX32.Text = "OFF";
+            this.dayLampButtonX32.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.dayLampButtonX32.Textcolor = System.Drawing.Color.White;
+            this.dayLampButtonX32.TextFont = new System.Drawing.Font("Malgun Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             // 
-            // bunifuCustomLabel121
+            // dayLampDimmPercentX32
             // 
-            this.bunifuCustomLabel121.AutoSize = true;
-            this.bunifuCustomLabel121.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
-            this.tlPanel32.SetColumnSpan(this.bunifuCustomLabel121, 2);
-            this.bunifuCustomLabel121.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuCustomLabel121.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.bunifuCustomLabel121.ForeColor = System.Drawing.Color.White;
-            this.bunifuCustomLabel121.Location = new System.Drawing.Point(104, 34);
-            this.bunifuCustomLabel121.Margin = new System.Windows.Forms.Padding(2);
-            this.bunifuCustomLabel121.Name = "bunifuCustomLabel121";
-            this.bunifuCustomLabel121.Size = new System.Drawing.Size(200, 28);
-            this.bunifuCustomLabel121.TabIndex = 10;
-            this.bunifuCustomLabel121.Text = "86 cd/㎡";
-            this.bunifuCustomLabel121.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.dayLampDimmPercentX32.AutoSize = true;
+            this.dayLampDimmPercentX32.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
+            this.dayLampDimmPercentX32.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dayLampDimmPercentX32.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.dayLampDimmPercentX32.ForeColor = System.Drawing.Color.White;
+            this.dayLampDimmPercentX32.Location = new System.Drawing.Point(104, 66);
+            this.dayLampDimmPercentX32.Margin = new System.Windows.Forms.Padding(2);
+            this.dayLampDimmPercentX32.Name = "dayLampDimmPercentX32";
+            this.dayLampDimmPercentX32.Size = new System.Drawing.Size(98, 28);
+            this.dayLampDimmPercentX32.TabIndex = 12;
+            this.dayLampDimmPercentX32.Text = "디밍 0%";
+            this.dayLampDimmPercentX32.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // bunifuCustomLabel122
+            // regularLampDimmPercentX32
             // 
-            this.bunifuCustomLabel122.AutoSize = true;
-            this.bunifuCustomLabel122.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
-            this.tlPanel32.SetColumnSpan(this.bunifuCustomLabel122, 2);
-            this.bunifuCustomLabel122.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuCustomLabel122.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.bunifuCustomLabel122.ForeColor = System.Drawing.Color.White;
-            this.bunifuCustomLabel122.Location = new System.Drawing.Point(104, 2);
-            this.bunifuCustomLabel122.Margin = new System.Windows.Forms.Padding(2);
-            this.bunifuCustomLabel122.Name = "bunifuCustomLabel122";
-            this.bunifuCustomLabel122.Size = new System.Drawing.Size(200, 28);
-            this.bunifuCustomLabel122.TabIndex = 9;
-            this.bunifuCustomLabel122.Text = "1653 cd/㎡";
-            this.bunifuCustomLabel122.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.regularLampDimmPercentX32.AutoSize = true;
+            this.regularLampDimmPercentX32.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
+            this.regularLampDimmPercentX32.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.regularLampDimmPercentX32.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.regularLampDimmPercentX32.ForeColor = System.Drawing.Color.White;
+            this.regularLampDimmPercentX32.Location = new System.Drawing.Point(104, 98);
+            this.regularLampDimmPercentX32.Margin = new System.Windows.Forms.Padding(2);
+            this.regularLampDimmPercentX32.Name = "regularLampDimmPercentX32";
+            this.regularLampDimmPercentX32.Size = new System.Drawing.Size(98, 30);
+            this.regularLampDimmPercentX32.TabIndex = 11;
+            this.regularLampDimmPercentX32.Text = "디밍 0%";
+            this.regularLampDimmPercentX32.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // internalLuminanceX32
+            // 
+            this.internalLuminanceX32.AutoSize = true;
+            this.internalLuminanceX32.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
+            this.tlPanel32.SetColumnSpan(this.internalLuminanceX32, 2);
+            this.internalLuminanceX32.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.internalLuminanceX32.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.internalLuminanceX32.ForeColor = System.Drawing.Color.White;
+            this.internalLuminanceX32.Location = new System.Drawing.Point(104, 34);
+            this.internalLuminanceX32.Margin = new System.Windows.Forms.Padding(2);
+            this.internalLuminanceX32.Name = "internalLuminanceX32";
+            this.internalLuminanceX32.Size = new System.Drawing.Size(200, 28);
+            this.internalLuminanceX32.TabIndex = 10;
+            this.internalLuminanceX32.Text = "86 cd/㎡";
+            this.internalLuminanceX32.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // externalLuminanceX32
+            // 
+            this.externalLuminanceX32.AutoSize = true;
+            this.externalLuminanceX32.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
+            this.tlPanel32.SetColumnSpan(this.externalLuminanceX32, 2);
+            this.externalLuminanceX32.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.externalLuminanceX32.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.externalLuminanceX32.ForeColor = System.Drawing.Color.White;
+            this.externalLuminanceX32.Location = new System.Drawing.Point(104, 2);
+            this.externalLuminanceX32.Margin = new System.Windows.Forms.Padding(2);
+            this.externalLuminanceX32.Name = "externalLuminanceX32";
+            this.externalLuminanceX32.Size = new System.Drawing.Size(200, 28);
+            this.externalLuminanceX32.TabIndex = 9;
+            this.externalLuminanceX32.Text = "1653 cd/㎡";
+            this.externalLuminanceX32.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // bunifuCustomLabel123
             // 
@@ -2525,6 +3549,36 @@
             this.screenSizeButton.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.screenSizeButton.Click += new System.EventHandler(this.ScreenSizeButton_Click);
             // 
+            // ascendingDirectionLabel
+            // 
+            this.ascendingDirectionLabel.AutoSize = true;
+            this.ascendingDirectionLabel.BackColor = System.Drawing.Color.Transparent;
+            this.ascendingDirectionLabel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ascendingDirectionLabel.Font = new System.Drawing.Font("Malgun Gothic", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.ascendingDirectionLabel.ForeColor = System.Drawing.Color.White;
+            this.ascendingDirectionLabel.Location = new System.Drawing.Point(13, 200);
+            this.ascendingDirectionLabel.Margin = new System.Windows.Forms.Padding(13, 0, 3, 0);
+            this.ascendingDirectionLabel.Name = "ascendingDirectionLabel";
+            this.mainTLPanel.SetRowSpan(this.ascendingDirectionLabel, 8);
+            this.ascendingDirectionLabel.Size = new System.Drawing.Size(32, 200);
+            this.ascendingDirectionLabel.TabIndex = 25;
+            this.ascendingDirectionLabel.Text = "마장방면";
+            // 
+            // descendingDirectionLabel
+            // 
+            this.descendingDirectionLabel.AutoSize = true;
+            this.descendingDirectionLabel.BackColor = System.Drawing.Color.Transparent;
+            this.descendingDirectionLabel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.descendingDirectionLabel.Font = new System.Drawing.Font("Malgun Gothic", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.descendingDirectionLabel.ForeColor = System.Drawing.Color.White;
+            this.descendingDirectionLabel.Location = new System.Drawing.Point(13, 650);
+            this.descendingDirectionLabel.Margin = new System.Windows.Forms.Padding(13, 0, 3, 0);
+            this.descendingDirectionLabel.Name = "descendingDirectionLabel";
+            this.mainTLPanel.SetRowSpan(this.descendingDirectionLabel, 8);
+            this.descendingDirectionLabel.Size = new System.Drawing.Size(32, 200);
+            this.descendingDirectionLabel.TabIndex = 26;
+            this.descendingDirectionLabel.Text = "성산방면";
+            // 
             // titlePanel
             // 
             this.titlePanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
@@ -2574,1060 +3628,6 @@
             this.bunifuDragControl1.TargetControl = this.titlePanel;
             this.bunifuDragControl1.Vertical = true;
             // 
-            // ascendingDirectionLabel
-            // 
-            this.ascendingDirectionLabel.AutoSize = true;
-            this.ascendingDirectionLabel.BackColor = System.Drawing.Color.Transparent;
-            this.ascendingDirectionLabel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ascendingDirectionLabel.Font = new System.Drawing.Font("Malgun Gothic", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.ascendingDirectionLabel.ForeColor = System.Drawing.Color.White;
-            this.ascendingDirectionLabel.Location = new System.Drawing.Point(13, 200);
-            this.ascendingDirectionLabel.Margin = new System.Windows.Forms.Padding(13, 0, 3, 0);
-            this.ascendingDirectionLabel.Name = "ascendingDirectionLabel";
-            this.mainTLPanel.SetRowSpan(this.ascendingDirectionLabel, 8);
-            this.ascendingDirectionLabel.Size = new System.Drawing.Size(32, 200);
-            this.ascendingDirectionLabel.TabIndex = 25;
-            this.ascendingDirectionLabel.Text = "마장방면";
-            // 
-            // descendingDirectionLabel
-            // 
-            this.descendingDirectionLabel.AutoSize = true;
-            this.descendingDirectionLabel.BackColor = System.Drawing.Color.Transparent;
-            this.descendingDirectionLabel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.descendingDirectionLabel.Font = new System.Drawing.Font("Malgun Gothic", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.descendingDirectionLabel.ForeColor = System.Drawing.Color.White;
-            this.descendingDirectionLabel.Location = new System.Drawing.Point(13, 650);
-            this.descendingDirectionLabel.Margin = new System.Windows.Forms.Padding(13, 0, 3, 0);
-            this.descendingDirectionLabel.Name = "descendingDirectionLabel";
-            this.mainTLPanel.SetRowSpan(this.descendingDirectionLabel, 8);
-            this.descendingDirectionLabel.Size = new System.Drawing.Size(32, 200);
-            this.descendingDirectionLabel.TabIndex = 26;
-            this.descendingDirectionLabel.Text = "성산방면";
-            // 
-            // dayLampButtonX00
-            // 
-            this.dayLampButtonX00.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.dayLampButtonX00.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.dayLampButtonX00.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.dayLampButtonX00.BorderRadius = 0;
-            this.dayLampButtonX00.ButtonText = "OFF";
-            this.dayLampButtonX00.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.dayLampButtonX00.DisabledColor = System.Drawing.Color.Gray;
-            this.dayLampButtonX00.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dayLampButtonX00.Iconcolor = System.Drawing.Color.Transparent;
-            this.dayLampButtonX00.Iconimage = null;
-            this.dayLampButtonX00.Iconimage_right = null;
-            this.dayLampButtonX00.Iconimage_right_Selected = null;
-            this.dayLampButtonX00.Iconimage_Selected = null;
-            this.dayLampButtonX00.IconMarginLeft = 0;
-            this.dayLampButtonX00.IconMarginRight = 0;
-            this.dayLampButtonX00.IconRightVisible = true;
-            this.dayLampButtonX00.IconRightZoom = 0D;
-            this.dayLampButtonX00.IconVisible = true;
-            this.dayLampButtonX00.IconZoom = 90D;
-            this.dayLampButtonX00.IsTab = false;
-            this.dayLampButtonX00.Location = new System.Drawing.Point(221, 66);
-            this.dayLampButtonX00.Margin = new System.Windows.Forms.Padding(2);
-            this.dayLampButtonX00.Name = "dayLampButtonX00";
-            this.dayLampButtonX00.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.dayLampButtonX00.OnHovercolor = System.Drawing.Color.Pink;
-            this.dayLampButtonX00.OnHoverTextColor = System.Drawing.Color.White;
-            this.dayLampButtonX00.selected = false;
-            this.dayLampButtonX00.Size = new System.Drawing.Size(107, 28);
-            this.dayLampButtonX00.TabIndex = 23;
-            this.dayLampButtonX00.Text = "OFF";
-            this.dayLampButtonX00.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.dayLampButtonX00.Textcolor = System.Drawing.Color.White;
-            this.dayLampButtonX00.TextFont = new System.Drawing.Font("Malgun Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            // 
-            // regularLampButtonX00
-            // 
-            this.regularLampButtonX00.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.regularLampButtonX00.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.regularLampButtonX00.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.regularLampButtonX00.BorderRadius = 0;
-            this.regularLampButtonX00.ButtonText = "OFF";
-            this.regularLampButtonX00.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.regularLampButtonX00.DisabledColor = System.Drawing.Color.Gray;
-            this.regularLampButtonX00.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.regularLampButtonX00.Iconcolor = System.Drawing.Color.Transparent;
-            this.regularLampButtonX00.Iconimage = null;
-            this.regularLampButtonX00.Iconimage_right = null;
-            this.regularLampButtonX00.Iconimage_right_Selected = null;
-            this.regularLampButtonX00.Iconimage_Selected = null;
-            this.regularLampButtonX00.IconMarginLeft = 0;
-            this.regularLampButtonX00.IconMarginRight = 0;
-            this.regularLampButtonX00.IconRightVisible = true;
-            this.regularLampButtonX00.IconRightZoom = 0D;
-            this.regularLampButtonX00.IconVisible = true;
-            this.regularLampButtonX00.IconZoom = 90D;
-            this.regularLampButtonX00.IsTab = false;
-            this.regularLampButtonX00.Location = new System.Drawing.Point(221, 98);
-            this.regularLampButtonX00.Margin = new System.Windows.Forms.Padding(2);
-            this.regularLampButtonX00.Name = "regularLampButtonX00";
-            this.regularLampButtonX00.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.regularLampButtonX00.OnHovercolor = System.Drawing.Color.Pink;
-            this.regularLampButtonX00.OnHoverTextColor = System.Drawing.Color.White;
-            this.regularLampButtonX00.selected = false;
-            this.regularLampButtonX00.Size = new System.Drawing.Size(107, 30);
-            this.regularLampButtonX00.TabIndex = 24;
-            this.regularLampButtonX00.Text = "OFF";
-            this.regularLampButtonX00.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.regularLampButtonX00.Textcolor = System.Drawing.Color.White;
-            this.regularLampButtonX00.TextFont = new System.Drawing.Font("Malgun Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            // 
-            // dayLampButtonX10
-            // 
-            this.dayLampButtonX10.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.dayLampButtonX10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.dayLampButtonX10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.dayLampButtonX10.BorderRadius = 0;
-            this.dayLampButtonX10.ButtonText = "OFF";
-            this.dayLampButtonX10.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.dayLampButtonX10.DisabledColor = System.Drawing.Color.Gray;
-            this.dayLampButtonX10.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dayLampButtonX10.Iconcolor = System.Drawing.Color.Transparent;
-            this.dayLampButtonX10.Iconimage = null;
-            this.dayLampButtonX10.Iconimage_right = null;
-            this.dayLampButtonX10.Iconimage_right_Selected = null;
-            this.dayLampButtonX10.Iconimage_Selected = null;
-            this.dayLampButtonX10.IconMarginLeft = 0;
-            this.dayLampButtonX10.IconMarginRight = 0;
-            this.dayLampButtonX10.IconRightVisible = true;
-            this.dayLampButtonX10.IconRightZoom = 0D;
-            this.dayLampButtonX10.IconVisible = true;
-            this.dayLampButtonX10.IconZoom = 90D;
-            this.dayLampButtonX10.IsTab = false;
-            this.dayLampButtonX10.Location = new System.Drawing.Point(222, 66);
-            this.dayLampButtonX10.Margin = new System.Windows.Forms.Padding(2);
-            this.dayLampButtonX10.Name = "dayLampButtonX10";
-            this.dayLampButtonX10.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.dayLampButtonX10.OnHovercolor = System.Drawing.Color.Pink;
-            this.dayLampButtonX10.OnHoverTextColor = System.Drawing.Color.White;
-            this.dayLampButtonX10.selected = false;
-            this.dayLampButtonX10.Size = new System.Drawing.Size(106, 28);
-            this.dayLampButtonX10.TabIndex = 24;
-            this.dayLampButtonX10.Text = "OFF";
-            this.dayLampButtonX10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.dayLampButtonX10.Textcolor = System.Drawing.Color.White;
-            this.dayLampButtonX10.TextFont = new System.Drawing.Font("Malgun Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            // 
-            // regularLampButtonX10
-            // 
-            this.regularLampButtonX10.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.regularLampButtonX10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.regularLampButtonX10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.regularLampButtonX10.BorderRadius = 0;
-            this.regularLampButtonX10.ButtonText = "OFF";
-            this.regularLampButtonX10.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.regularLampButtonX10.DisabledColor = System.Drawing.Color.Gray;
-            this.regularLampButtonX10.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.regularLampButtonX10.Iconcolor = System.Drawing.Color.Transparent;
-            this.regularLampButtonX10.Iconimage = null;
-            this.regularLampButtonX10.Iconimage_right = null;
-            this.regularLampButtonX10.Iconimage_right_Selected = null;
-            this.regularLampButtonX10.Iconimage_Selected = null;
-            this.regularLampButtonX10.IconMarginLeft = 0;
-            this.regularLampButtonX10.IconMarginRight = 0;
-            this.regularLampButtonX10.IconRightVisible = true;
-            this.regularLampButtonX10.IconRightZoom = 0D;
-            this.regularLampButtonX10.IconVisible = true;
-            this.regularLampButtonX10.IconZoom = 90D;
-            this.regularLampButtonX10.IsTab = false;
-            this.regularLampButtonX10.Location = new System.Drawing.Point(222, 98);
-            this.regularLampButtonX10.Margin = new System.Windows.Forms.Padding(2);
-            this.regularLampButtonX10.Name = "regularLampButtonX10";
-            this.regularLampButtonX10.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.regularLampButtonX10.OnHovercolor = System.Drawing.Color.Pink;
-            this.regularLampButtonX10.OnHoverTextColor = System.Drawing.Color.White;
-            this.regularLampButtonX10.selected = false;
-            this.regularLampButtonX10.Size = new System.Drawing.Size(106, 30);
-            this.regularLampButtonX10.TabIndex = 25;
-            this.regularLampButtonX10.Text = "OFF";
-            this.regularLampButtonX10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.regularLampButtonX10.Textcolor = System.Drawing.Color.White;
-            this.regularLampButtonX10.TextFont = new System.Drawing.Font("Malgun Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            // 
-            // bunifuCustomLabel86
-            // 
-            this.bunifuCustomLabel86.AutoSize = true;
-            this.bunifuCustomLabel86.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
-            this.tlPanel30.SetColumnSpan(this.bunifuCustomLabel86, 2);
-            this.bunifuCustomLabel86.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuCustomLabel86.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.bunifuCustomLabel86.ForeColor = System.Drawing.Color.White;
-            this.bunifuCustomLabel86.Location = new System.Drawing.Point(112, 2);
-            this.bunifuCustomLabel86.Margin = new System.Windows.Forms.Padding(2);
-            this.bunifuCustomLabel86.Name = "bunifuCustomLabel86";
-            this.bunifuCustomLabel86.Size = new System.Drawing.Size(216, 28);
-            this.bunifuCustomLabel86.TabIndex = 4;
-            this.bunifuCustomLabel86.Text = "1653 cd/㎡";
-            this.bunifuCustomLabel86.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // bunifuCustomLabel85
-            // 
-            this.bunifuCustomLabel85.AutoSize = true;
-            this.bunifuCustomLabel85.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.bunifuCustomLabel85.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuCustomLabel85.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.bunifuCustomLabel85.Location = new System.Drawing.Point(2, 2);
-            this.bunifuCustomLabel85.Margin = new System.Windows.Forms.Padding(2);
-            this.bunifuCustomLabel85.Name = "bunifuCustomLabel85";
-            this.bunifuCustomLabel85.Size = new System.Drawing.Size(106, 28);
-            this.bunifuCustomLabel85.TabIndex = 0;
-            this.bunifuCustomLabel85.Text = "외부휘도";
-            this.bunifuCustomLabel85.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // bunifuCustomLabel84
-            // 
-            this.bunifuCustomLabel84.AutoSize = true;
-            this.bunifuCustomLabel84.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.bunifuCustomLabel84.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuCustomLabel84.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.bunifuCustomLabel84.Location = new System.Drawing.Point(2, 66);
-            this.bunifuCustomLabel84.Margin = new System.Windows.Forms.Padding(2);
-            this.bunifuCustomLabel84.Name = "bunifuCustomLabel84";
-            this.bunifuCustomLabel84.Size = new System.Drawing.Size(106, 28);
-            this.bunifuCustomLabel84.TabIndex = 1;
-            this.bunifuCustomLabel84.Text = "주간등";
-            this.bunifuCustomLabel84.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // bunifuCustomLabel18
-            // 
-            this.bunifuCustomLabel18.AutoSize = true;
-            this.bunifuCustomLabel18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.bunifuCustomLabel18.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuCustomLabel18.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.bunifuCustomLabel18.Location = new System.Drawing.Point(2, 98);
-            this.bunifuCustomLabel18.Margin = new System.Windows.Forms.Padding(2);
-            this.bunifuCustomLabel18.Name = "bunifuCustomLabel18";
-            this.bunifuCustomLabel18.Size = new System.Drawing.Size(106, 30);
-            this.bunifuCustomLabel18.TabIndex = 2;
-            this.bunifuCustomLabel18.Text = "상시등";
-            this.bunifuCustomLabel18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // bunifuCustomLabel17
-            // 
-            this.bunifuCustomLabel17.AutoSize = true;
-            this.bunifuCustomLabel17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.bunifuCustomLabel17.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuCustomLabel17.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.bunifuCustomLabel17.Location = new System.Drawing.Point(2, 34);
-            this.bunifuCustomLabel17.Margin = new System.Windows.Forms.Padding(2);
-            this.bunifuCustomLabel17.Name = "bunifuCustomLabel17";
-            this.bunifuCustomLabel17.Size = new System.Drawing.Size(106, 28);
-            this.bunifuCustomLabel17.TabIndex = 3;
-            this.bunifuCustomLabel17.Text = "내부휘도";
-            this.bunifuCustomLabel17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // bunifuCustomLabel16
-            // 
-            this.bunifuCustomLabel16.AutoSize = true;
-            this.bunifuCustomLabel16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
-            this.tlPanel30.SetColumnSpan(this.bunifuCustomLabel16, 2);
-            this.bunifuCustomLabel16.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuCustomLabel16.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.bunifuCustomLabel16.ForeColor = System.Drawing.Color.White;
-            this.bunifuCustomLabel16.Location = new System.Drawing.Point(112, 34);
-            this.bunifuCustomLabel16.Margin = new System.Windows.Forms.Padding(2);
-            this.bunifuCustomLabel16.Name = "bunifuCustomLabel16";
-            this.bunifuCustomLabel16.Size = new System.Drawing.Size(216, 28);
-            this.bunifuCustomLabel16.TabIndex = 5;
-            this.bunifuCustomLabel16.Text = "86 cd/㎡";
-            this.bunifuCustomLabel16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // bunifuCustomLabel15
-            // 
-            this.bunifuCustomLabel15.AutoSize = true;
-            this.bunifuCustomLabel15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
-            this.bunifuCustomLabel15.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuCustomLabel15.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.bunifuCustomLabel15.ForeColor = System.Drawing.Color.White;
-            this.bunifuCustomLabel15.Location = new System.Drawing.Point(112, 66);
-            this.bunifuCustomLabel15.Margin = new System.Windows.Forms.Padding(2);
-            this.bunifuCustomLabel15.Name = "bunifuCustomLabel15";
-            this.bunifuCustomLabel15.Size = new System.Drawing.Size(105, 28);
-            this.bunifuCustomLabel15.TabIndex = 6;
-            this.bunifuCustomLabel15.Text = "디밍 0%";
-            this.bunifuCustomLabel15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // bunifuCustomLabel14
-            // 
-            this.bunifuCustomLabel14.AutoSize = true;
-            this.bunifuCustomLabel14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
-            this.bunifuCustomLabel14.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuCustomLabel14.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.bunifuCustomLabel14.ForeColor = System.Drawing.Color.White;
-            this.bunifuCustomLabel14.Location = new System.Drawing.Point(112, 98);
-            this.bunifuCustomLabel14.Margin = new System.Windows.Forms.Padding(2);
-            this.bunifuCustomLabel14.Name = "bunifuCustomLabel14";
-            this.bunifuCustomLabel14.Size = new System.Drawing.Size(105, 30);
-            this.bunifuCustomLabel14.TabIndex = 7;
-            this.bunifuCustomLabel14.Text = "디밍 0%";
-            this.bunifuCustomLabel14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // tlPanel30
-            // 
-            this.tlPanel30.BackColor = System.Drawing.Color.Transparent;
-            this.tlPanel30.ColumnCount = 3;
-            this.mainTLPanel.SetColumnSpan(this.tlPanel30, 7);
-            this.tlPanel30.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33334F));
-            this.tlPanel30.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.tlPanel30.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.tlPanel30.Controls.Add(this.regularLampButtonX30, 2, 3);
-            this.tlPanel30.Controls.Add(this.dayLampButtonX30, 2, 2);
-            this.tlPanel30.Controls.Add(this.bunifuCustomLabel14, 1, 3);
-            this.tlPanel30.Controls.Add(this.bunifuCustomLabel15, 1, 2);
-            this.tlPanel30.Controls.Add(this.bunifuCustomLabel16, 1, 1);
-            this.tlPanel30.Controls.Add(this.bunifuCustomLabel17, 0, 1);
-            this.tlPanel30.Controls.Add(this.bunifuCustomLabel18, 0, 3);
-            this.tlPanel30.Controls.Add(this.bunifuCustomLabel84, 0, 2);
-            this.tlPanel30.Controls.Add(this.bunifuCustomLabel85, 0, 0);
-            this.tlPanel30.Controls.Add(this.bunifuCustomLabel86, 1, 0);
-            this.tlPanel30.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tlPanel30.Location = new System.Drawing.Point(339, 735);
-            this.tlPanel30.Margin = new System.Windows.Forms.Padding(3, 10, 3, 10);
-            this.tlPanel30.Name = "tlPanel30";
-            this.tlPanel30.RowCount = 4;
-            this.mainTLPanel.SetRowSpan(this.tlPanel30, 6);
-            this.tlPanel30.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tlPanel30.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tlPanel30.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tlPanel30.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tlPanel30.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tlPanel30.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tlPanel30.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tlPanel30.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tlPanel30.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tlPanel30.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tlPanel30.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tlPanel30.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tlPanel30.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tlPanel30.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tlPanel30.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tlPanel30.Size = new System.Drawing.Size(330, 130);
-            this.tlPanel30.TabIndex = 13;
-            // 
-            // dayLampButtonX20
-            // 
-            this.dayLampButtonX20.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.dayLampButtonX20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.dayLampButtonX20.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.dayLampButtonX20.BorderRadius = 0;
-            this.dayLampButtonX20.ButtonText = "OFF";
-            this.dayLampButtonX20.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.dayLampButtonX20.DisabledColor = System.Drawing.Color.Gray;
-            this.dayLampButtonX20.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dayLampButtonX20.Iconcolor = System.Drawing.Color.Transparent;
-            this.dayLampButtonX20.Iconimage = null;
-            this.dayLampButtonX20.Iconimage_right = null;
-            this.dayLampButtonX20.Iconimage_right_Selected = null;
-            this.dayLampButtonX20.Iconimage_Selected = null;
-            this.dayLampButtonX20.IconMarginLeft = 0;
-            this.dayLampButtonX20.IconMarginRight = 0;
-            this.dayLampButtonX20.IconRightVisible = true;
-            this.dayLampButtonX20.IconRightZoom = 0D;
-            this.dayLampButtonX20.IconVisible = true;
-            this.dayLampButtonX20.IconZoom = 90D;
-            this.dayLampButtonX20.IsTab = false;
-            this.dayLampButtonX20.Location = new System.Drawing.Point(221, 66);
-            this.dayLampButtonX20.Margin = new System.Windows.Forms.Padding(2);
-            this.dayLampButtonX20.Name = "dayLampButtonX20";
-            this.dayLampButtonX20.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.dayLampButtonX20.OnHovercolor = System.Drawing.Color.Pink;
-            this.dayLampButtonX20.OnHoverTextColor = System.Drawing.Color.White;
-            this.dayLampButtonX20.selected = false;
-            this.dayLampButtonX20.Size = new System.Drawing.Size(107, 28);
-            this.dayLampButtonX20.TabIndex = 24;
-            this.dayLampButtonX20.Text = "OFF";
-            this.dayLampButtonX20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.dayLampButtonX20.Textcolor = System.Drawing.Color.White;
-            this.dayLampButtonX20.TextFont = new System.Drawing.Font("Malgun Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            // 
-            // dayLampButtonX30
-            // 
-            this.dayLampButtonX30.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.dayLampButtonX30.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.dayLampButtonX30.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.dayLampButtonX30.BorderRadius = 0;
-            this.dayLampButtonX30.ButtonText = "OFF";
-            this.dayLampButtonX30.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.dayLampButtonX30.DisabledColor = System.Drawing.Color.Gray;
-            this.dayLampButtonX30.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dayLampButtonX30.Iconcolor = System.Drawing.Color.Transparent;
-            this.dayLampButtonX30.Iconimage = null;
-            this.dayLampButtonX30.Iconimage_right = null;
-            this.dayLampButtonX30.Iconimage_right_Selected = null;
-            this.dayLampButtonX30.Iconimage_Selected = null;
-            this.dayLampButtonX30.IconMarginLeft = 0;
-            this.dayLampButtonX30.IconMarginRight = 0;
-            this.dayLampButtonX30.IconRightVisible = true;
-            this.dayLampButtonX30.IconRightZoom = 0D;
-            this.dayLampButtonX30.IconVisible = true;
-            this.dayLampButtonX30.IconZoom = 90D;
-            this.dayLampButtonX30.IsTab = false;
-            this.dayLampButtonX30.Location = new System.Drawing.Point(221, 66);
-            this.dayLampButtonX30.Margin = new System.Windows.Forms.Padding(2);
-            this.dayLampButtonX30.Name = "dayLampButtonX30";
-            this.dayLampButtonX30.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.dayLampButtonX30.OnHovercolor = System.Drawing.Color.Pink;
-            this.dayLampButtonX30.OnHoverTextColor = System.Drawing.Color.White;
-            this.dayLampButtonX30.selected = false;
-            this.dayLampButtonX30.Size = new System.Drawing.Size(107, 28);
-            this.dayLampButtonX30.TabIndex = 24;
-            this.dayLampButtonX30.Text = "OFF";
-            this.dayLampButtonX30.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.dayLampButtonX30.Textcolor = System.Drawing.Color.White;
-            this.dayLampButtonX30.TextFont = new System.Drawing.Font("Malgun Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            // 
-            // dayLampButtonX01
-            // 
-            this.dayLampButtonX01.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.dayLampButtonX01.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.dayLampButtonX01.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.dayLampButtonX01.BorderRadius = 0;
-            this.dayLampButtonX01.ButtonText = "OFF";
-            this.dayLampButtonX01.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.dayLampButtonX01.DisabledColor = System.Drawing.Color.Gray;
-            this.dayLampButtonX01.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dayLampButtonX01.Iconcolor = System.Drawing.Color.Transparent;
-            this.dayLampButtonX01.Iconimage = null;
-            this.dayLampButtonX01.Iconimage_right = null;
-            this.dayLampButtonX01.Iconimage_right_Selected = null;
-            this.dayLampButtonX01.Iconimage_Selected = null;
-            this.dayLampButtonX01.IconMarginLeft = 0;
-            this.dayLampButtonX01.IconMarginRight = 0;
-            this.dayLampButtonX01.IconRightVisible = true;
-            this.dayLampButtonX01.IconRightZoom = 0D;
-            this.dayLampButtonX01.IconVisible = true;
-            this.dayLampButtonX01.IconZoom = 90D;
-            this.dayLampButtonX01.IsTab = false;
-            this.dayLampButtonX01.Location = new System.Drawing.Point(222, 66);
-            this.dayLampButtonX01.Margin = new System.Windows.Forms.Padding(2);
-            this.dayLampButtonX01.Name = "dayLampButtonX01";
-            this.dayLampButtonX01.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.dayLampButtonX01.OnHovercolor = System.Drawing.Color.Pink;
-            this.dayLampButtonX01.OnHoverTextColor = System.Drawing.Color.White;
-            this.dayLampButtonX01.selected = false;
-            this.dayLampButtonX01.Size = new System.Drawing.Size(106, 28);
-            this.dayLampButtonX01.TabIndex = 24;
-            this.dayLampButtonX01.Text = "OFF";
-            this.dayLampButtonX01.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.dayLampButtonX01.Textcolor = System.Drawing.Color.White;
-            this.dayLampButtonX01.TextFont = new System.Drawing.Font("Malgun Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            // 
-            // dayLampButtonX11
-            // 
-            this.dayLampButtonX11.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.dayLampButtonX11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.dayLampButtonX11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.dayLampButtonX11.BorderRadius = 0;
-            this.dayLampButtonX11.ButtonText = "OFF";
-            this.dayLampButtonX11.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.dayLampButtonX11.DisabledColor = System.Drawing.Color.Gray;
-            this.dayLampButtonX11.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dayLampButtonX11.Iconcolor = System.Drawing.Color.Transparent;
-            this.dayLampButtonX11.Iconimage = null;
-            this.dayLampButtonX11.Iconimage_right = null;
-            this.dayLampButtonX11.Iconimage_right_Selected = null;
-            this.dayLampButtonX11.Iconimage_Selected = null;
-            this.dayLampButtonX11.IconMarginLeft = 0;
-            this.dayLampButtonX11.IconMarginRight = 0;
-            this.dayLampButtonX11.IconRightVisible = true;
-            this.dayLampButtonX11.IconRightZoom = 0D;
-            this.dayLampButtonX11.IconVisible = true;
-            this.dayLampButtonX11.IconZoom = 90D;
-            this.dayLampButtonX11.IsTab = false;
-            this.dayLampButtonX11.Location = new System.Drawing.Point(221, 66);
-            this.dayLampButtonX11.Margin = new System.Windows.Forms.Padding(2);
-            this.dayLampButtonX11.Name = "dayLampButtonX11";
-            this.dayLampButtonX11.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.dayLampButtonX11.OnHovercolor = System.Drawing.Color.Pink;
-            this.dayLampButtonX11.OnHoverTextColor = System.Drawing.Color.White;
-            this.dayLampButtonX11.selected = false;
-            this.dayLampButtonX11.Size = new System.Drawing.Size(107, 28);
-            this.dayLampButtonX11.TabIndex = 24;
-            this.dayLampButtonX11.Text = "OFF";
-            this.dayLampButtonX11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.dayLampButtonX11.Textcolor = System.Drawing.Color.White;
-            this.dayLampButtonX11.TextFont = new System.Drawing.Font("Malgun Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            // 
-            // dayLampButtonX21
-            // 
-            this.dayLampButtonX21.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.dayLampButtonX21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.dayLampButtonX21.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.dayLampButtonX21.BorderRadius = 0;
-            this.dayLampButtonX21.ButtonText = "OFF";
-            this.dayLampButtonX21.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.dayLampButtonX21.DisabledColor = System.Drawing.Color.Gray;
-            this.dayLampButtonX21.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dayLampButtonX21.Iconcolor = System.Drawing.Color.Transparent;
-            this.dayLampButtonX21.Iconimage = null;
-            this.dayLampButtonX21.Iconimage_right = null;
-            this.dayLampButtonX21.Iconimage_right_Selected = null;
-            this.dayLampButtonX21.Iconimage_Selected = null;
-            this.dayLampButtonX21.IconMarginLeft = 0;
-            this.dayLampButtonX21.IconMarginRight = 0;
-            this.dayLampButtonX21.IconRightVisible = true;
-            this.dayLampButtonX21.IconRightZoom = 0D;
-            this.dayLampButtonX21.IconVisible = true;
-            this.dayLampButtonX21.IconZoom = 90D;
-            this.dayLampButtonX21.IsTab = false;
-            this.dayLampButtonX21.Location = new System.Drawing.Point(222, 66);
-            this.dayLampButtonX21.Margin = new System.Windows.Forms.Padding(2);
-            this.dayLampButtonX21.Name = "dayLampButtonX21";
-            this.dayLampButtonX21.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.dayLampButtonX21.OnHovercolor = System.Drawing.Color.Pink;
-            this.dayLampButtonX21.OnHoverTextColor = System.Drawing.Color.White;
-            this.dayLampButtonX21.selected = false;
-            this.dayLampButtonX21.Size = new System.Drawing.Size(106, 28);
-            this.dayLampButtonX21.TabIndex = 24;
-            this.dayLampButtonX21.Text = "OFF";
-            this.dayLampButtonX21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.dayLampButtonX21.Textcolor = System.Drawing.Color.White;
-            this.dayLampButtonX21.TextFont = new System.Drawing.Font("Malgun Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            // 
-            // dayLampButtonX31
-            // 
-            this.dayLampButtonX31.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.dayLampButtonX31.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.dayLampButtonX31.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.dayLampButtonX31.BorderRadius = 0;
-            this.dayLampButtonX31.ButtonText = "OFF";
-            this.dayLampButtonX31.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.dayLampButtonX31.DisabledColor = System.Drawing.Color.Gray;
-            this.dayLampButtonX31.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dayLampButtonX31.Iconcolor = System.Drawing.Color.Transparent;
-            this.dayLampButtonX31.Iconimage = null;
-            this.dayLampButtonX31.Iconimage_right = null;
-            this.dayLampButtonX31.Iconimage_right_Selected = null;
-            this.dayLampButtonX31.Iconimage_Selected = null;
-            this.dayLampButtonX31.IconMarginLeft = 0;
-            this.dayLampButtonX31.IconMarginRight = 0;
-            this.dayLampButtonX31.IconRightVisible = true;
-            this.dayLampButtonX31.IconRightZoom = 0D;
-            this.dayLampButtonX31.IconVisible = true;
-            this.dayLampButtonX31.IconZoom = 90D;
-            this.dayLampButtonX31.IsTab = false;
-            this.dayLampButtonX31.Location = new System.Drawing.Point(222, 66);
-            this.dayLampButtonX31.Margin = new System.Windows.Forms.Padding(2);
-            this.dayLampButtonX31.Name = "dayLampButtonX31";
-            this.dayLampButtonX31.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.dayLampButtonX31.OnHovercolor = System.Drawing.Color.Pink;
-            this.dayLampButtonX31.OnHoverTextColor = System.Drawing.Color.White;
-            this.dayLampButtonX31.selected = false;
-            this.dayLampButtonX31.Size = new System.Drawing.Size(106, 28);
-            this.dayLampButtonX31.TabIndex = 24;
-            this.dayLampButtonX31.Text = "OFF";
-            this.dayLampButtonX31.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.dayLampButtonX31.Textcolor = System.Drawing.Color.White;
-            this.dayLampButtonX31.TextFont = new System.Drawing.Font("Malgun Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            // 
-            // dayLampButtonX02
-            // 
-            this.dayLampButtonX02.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.dayLampButtonX02.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.dayLampButtonX02.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.dayLampButtonX02.BorderRadius = 0;
-            this.dayLampButtonX02.ButtonText = "OFF";
-            this.dayLampButtonX02.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.dayLampButtonX02.DisabledColor = System.Drawing.Color.Gray;
-            this.dayLampButtonX02.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dayLampButtonX02.Iconcolor = System.Drawing.Color.Transparent;
-            this.dayLampButtonX02.Iconimage = null;
-            this.dayLampButtonX02.Iconimage_right = null;
-            this.dayLampButtonX02.Iconimage_right_Selected = null;
-            this.dayLampButtonX02.Iconimage_Selected = null;
-            this.dayLampButtonX02.IconMarginLeft = 0;
-            this.dayLampButtonX02.IconMarginRight = 0;
-            this.dayLampButtonX02.IconRightVisible = true;
-            this.dayLampButtonX02.IconRightZoom = 0D;
-            this.dayLampButtonX02.IconVisible = true;
-            this.dayLampButtonX02.IconZoom = 90D;
-            this.dayLampButtonX02.IsTab = false;
-            this.dayLampButtonX02.Location = new System.Drawing.Point(206, 66);
-            this.dayLampButtonX02.Margin = new System.Windows.Forms.Padding(2);
-            this.dayLampButtonX02.Name = "dayLampButtonX02";
-            this.dayLampButtonX02.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.dayLampButtonX02.OnHovercolor = System.Drawing.Color.Pink;
-            this.dayLampButtonX02.OnHoverTextColor = System.Drawing.Color.White;
-            this.dayLampButtonX02.selected = false;
-            this.dayLampButtonX02.Size = new System.Drawing.Size(98, 28);
-            this.dayLampButtonX02.TabIndex = 24;
-            this.dayLampButtonX02.Text = "OFF";
-            this.dayLampButtonX02.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.dayLampButtonX02.Textcolor = System.Drawing.Color.White;
-            this.dayLampButtonX02.TextFont = new System.Drawing.Font("Malgun Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            // 
-            // dayLampButtonX12
-            // 
-            this.dayLampButtonX12.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.dayLampButtonX12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.dayLampButtonX12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.dayLampButtonX12.BorderRadius = 0;
-            this.dayLampButtonX12.ButtonText = "OFF";
-            this.dayLampButtonX12.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.dayLampButtonX12.DisabledColor = System.Drawing.Color.Gray;
-            this.dayLampButtonX12.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dayLampButtonX12.Iconcolor = System.Drawing.Color.Transparent;
-            this.dayLampButtonX12.Iconimage = null;
-            this.dayLampButtonX12.Iconimage_right = null;
-            this.dayLampButtonX12.Iconimage_right_Selected = null;
-            this.dayLampButtonX12.Iconimage_Selected = null;
-            this.dayLampButtonX12.IconMarginLeft = 0;
-            this.dayLampButtonX12.IconMarginRight = 0;
-            this.dayLampButtonX12.IconRightVisible = true;
-            this.dayLampButtonX12.IconRightZoom = 0D;
-            this.dayLampButtonX12.IconVisible = true;
-            this.dayLampButtonX12.IconZoom = 90D;
-            this.dayLampButtonX12.IsTab = false;
-            this.dayLampButtonX12.Location = new System.Drawing.Point(206, 66);
-            this.dayLampButtonX12.Margin = new System.Windows.Forms.Padding(2);
-            this.dayLampButtonX12.Name = "dayLampButtonX12";
-            this.dayLampButtonX12.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.dayLampButtonX12.OnHovercolor = System.Drawing.Color.Pink;
-            this.dayLampButtonX12.OnHoverTextColor = System.Drawing.Color.White;
-            this.dayLampButtonX12.selected = false;
-            this.dayLampButtonX12.Size = new System.Drawing.Size(98, 28);
-            this.dayLampButtonX12.TabIndex = 24;
-            this.dayLampButtonX12.Text = "OFF";
-            this.dayLampButtonX12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.dayLampButtonX12.Textcolor = System.Drawing.Color.White;
-            this.dayLampButtonX12.TextFont = new System.Drawing.Font("Malgun Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            // 
-            // dayLampButtonX22
-            // 
-            this.dayLampButtonX22.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.dayLampButtonX22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.dayLampButtonX22.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.dayLampButtonX22.BorderRadius = 0;
-            this.dayLampButtonX22.ButtonText = "OFF";
-            this.dayLampButtonX22.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.dayLampButtonX22.DisabledColor = System.Drawing.Color.Gray;
-            this.dayLampButtonX22.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dayLampButtonX22.Iconcolor = System.Drawing.Color.Transparent;
-            this.dayLampButtonX22.Iconimage = null;
-            this.dayLampButtonX22.Iconimage_right = null;
-            this.dayLampButtonX22.Iconimage_right_Selected = null;
-            this.dayLampButtonX22.Iconimage_Selected = null;
-            this.dayLampButtonX22.IconMarginLeft = 0;
-            this.dayLampButtonX22.IconMarginRight = 0;
-            this.dayLampButtonX22.IconRightVisible = true;
-            this.dayLampButtonX22.IconRightZoom = 0D;
-            this.dayLampButtonX22.IconVisible = true;
-            this.dayLampButtonX22.IconZoom = 90D;
-            this.dayLampButtonX22.IsTab = false;
-            this.dayLampButtonX22.Location = new System.Drawing.Point(206, 66);
-            this.dayLampButtonX22.Margin = new System.Windows.Forms.Padding(2);
-            this.dayLampButtonX22.Name = "dayLampButtonX22";
-            this.dayLampButtonX22.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.dayLampButtonX22.OnHovercolor = System.Drawing.Color.Pink;
-            this.dayLampButtonX22.OnHoverTextColor = System.Drawing.Color.White;
-            this.dayLampButtonX22.selected = false;
-            this.dayLampButtonX22.Size = new System.Drawing.Size(98, 28);
-            this.dayLampButtonX22.TabIndex = 24;
-            this.dayLampButtonX22.Text = "OFF";
-            this.dayLampButtonX22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.dayLampButtonX22.Textcolor = System.Drawing.Color.White;
-            this.dayLampButtonX22.TextFont = new System.Drawing.Font("Malgun Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            // 
-            // dayLampButtonX32
-            // 
-            this.dayLampButtonX32.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.dayLampButtonX32.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.dayLampButtonX32.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.dayLampButtonX32.BorderRadius = 0;
-            this.dayLampButtonX32.ButtonText = "OFF";
-            this.dayLampButtonX32.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.dayLampButtonX32.DisabledColor = System.Drawing.Color.Gray;
-            this.dayLampButtonX32.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dayLampButtonX32.Iconcolor = System.Drawing.Color.Transparent;
-            this.dayLampButtonX32.Iconimage = null;
-            this.dayLampButtonX32.Iconimage_right = null;
-            this.dayLampButtonX32.Iconimage_right_Selected = null;
-            this.dayLampButtonX32.Iconimage_Selected = null;
-            this.dayLampButtonX32.IconMarginLeft = 0;
-            this.dayLampButtonX32.IconMarginRight = 0;
-            this.dayLampButtonX32.IconRightVisible = true;
-            this.dayLampButtonX32.IconRightZoom = 0D;
-            this.dayLampButtonX32.IconVisible = true;
-            this.dayLampButtonX32.IconZoom = 90D;
-            this.dayLampButtonX32.IsTab = false;
-            this.dayLampButtonX32.Location = new System.Drawing.Point(206, 66);
-            this.dayLampButtonX32.Margin = new System.Windows.Forms.Padding(2);
-            this.dayLampButtonX32.Name = "dayLampButtonX32";
-            this.dayLampButtonX32.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.dayLampButtonX32.OnHovercolor = System.Drawing.Color.Pink;
-            this.dayLampButtonX32.OnHoverTextColor = System.Drawing.Color.White;
-            this.dayLampButtonX32.selected = false;
-            this.dayLampButtonX32.Size = new System.Drawing.Size(98, 28);
-            this.dayLampButtonX32.TabIndex = 24;
-            this.dayLampButtonX32.Text = "OFF";
-            this.dayLampButtonX32.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.dayLampButtonX32.Textcolor = System.Drawing.Color.White;
-            this.dayLampButtonX32.TextFont = new System.Drawing.Font("Malgun Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            // 
-            // regularLampButtonX20
-            // 
-            this.regularLampButtonX20.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.regularLampButtonX20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.regularLampButtonX20.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.regularLampButtonX20.BorderRadius = 0;
-            this.regularLampButtonX20.ButtonText = "OFF";
-            this.regularLampButtonX20.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.regularLampButtonX20.DisabledColor = System.Drawing.Color.Gray;
-            this.regularLampButtonX20.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.regularLampButtonX20.Iconcolor = System.Drawing.Color.Transparent;
-            this.regularLampButtonX20.Iconimage = null;
-            this.regularLampButtonX20.Iconimage_right = null;
-            this.regularLampButtonX20.Iconimage_right_Selected = null;
-            this.regularLampButtonX20.Iconimage_Selected = null;
-            this.regularLampButtonX20.IconMarginLeft = 0;
-            this.regularLampButtonX20.IconMarginRight = 0;
-            this.regularLampButtonX20.IconRightVisible = true;
-            this.regularLampButtonX20.IconRightZoom = 0D;
-            this.regularLampButtonX20.IconVisible = true;
-            this.regularLampButtonX20.IconZoom = 90D;
-            this.regularLampButtonX20.IsTab = false;
-            this.regularLampButtonX20.Location = new System.Drawing.Point(221, 98);
-            this.regularLampButtonX20.Margin = new System.Windows.Forms.Padding(2);
-            this.regularLampButtonX20.Name = "regularLampButtonX20";
-            this.regularLampButtonX20.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.regularLampButtonX20.OnHovercolor = System.Drawing.Color.Pink;
-            this.regularLampButtonX20.OnHoverTextColor = System.Drawing.Color.White;
-            this.regularLampButtonX20.selected = false;
-            this.regularLampButtonX20.Size = new System.Drawing.Size(107, 30);
-            this.regularLampButtonX20.TabIndex = 26;
-            this.regularLampButtonX20.Text = "OFF";
-            this.regularLampButtonX20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.regularLampButtonX20.Textcolor = System.Drawing.Color.White;
-            this.regularLampButtonX20.TextFont = new System.Drawing.Font("Malgun Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            // 
-            // regularLampButtonX30
-            // 
-            this.regularLampButtonX30.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.regularLampButtonX30.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.regularLampButtonX30.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.regularLampButtonX30.BorderRadius = 0;
-            this.regularLampButtonX30.ButtonText = "OFF";
-            this.regularLampButtonX30.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.regularLampButtonX30.DisabledColor = System.Drawing.Color.Gray;
-            this.regularLampButtonX30.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.regularLampButtonX30.Iconcolor = System.Drawing.Color.Transparent;
-            this.regularLampButtonX30.Iconimage = null;
-            this.regularLampButtonX30.Iconimage_right = null;
-            this.regularLampButtonX30.Iconimage_right_Selected = null;
-            this.regularLampButtonX30.Iconimage_Selected = null;
-            this.regularLampButtonX30.IconMarginLeft = 0;
-            this.regularLampButtonX30.IconMarginRight = 0;
-            this.regularLampButtonX30.IconRightVisible = true;
-            this.regularLampButtonX30.IconRightZoom = 0D;
-            this.regularLampButtonX30.IconVisible = true;
-            this.regularLampButtonX30.IconZoom = 90D;
-            this.regularLampButtonX30.IsTab = false;
-            this.regularLampButtonX30.Location = new System.Drawing.Point(221, 98);
-            this.regularLampButtonX30.Margin = new System.Windows.Forms.Padding(2);
-            this.regularLampButtonX30.Name = "regularLampButtonX30";
-            this.regularLampButtonX30.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.regularLampButtonX30.OnHovercolor = System.Drawing.Color.Pink;
-            this.regularLampButtonX30.OnHoverTextColor = System.Drawing.Color.White;
-            this.regularLampButtonX30.selected = false;
-            this.regularLampButtonX30.Size = new System.Drawing.Size(107, 30);
-            this.regularLampButtonX30.TabIndex = 26;
-            this.regularLampButtonX30.Text = "OFF";
-            this.regularLampButtonX30.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.regularLampButtonX30.Textcolor = System.Drawing.Color.White;
-            this.regularLampButtonX30.TextFont = new System.Drawing.Font("Malgun Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            // 
-            // regularLampButtonX01
-            // 
-            this.regularLampButtonX01.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.regularLampButtonX01.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.regularLampButtonX01.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.regularLampButtonX01.BorderRadius = 0;
-            this.regularLampButtonX01.ButtonText = "OFF";
-            this.regularLampButtonX01.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.regularLampButtonX01.DisabledColor = System.Drawing.Color.Gray;
-            this.regularLampButtonX01.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.regularLampButtonX01.Iconcolor = System.Drawing.Color.Transparent;
-            this.regularLampButtonX01.Iconimage = null;
-            this.regularLampButtonX01.Iconimage_right = null;
-            this.regularLampButtonX01.Iconimage_right_Selected = null;
-            this.regularLampButtonX01.Iconimage_Selected = null;
-            this.regularLampButtonX01.IconMarginLeft = 0;
-            this.regularLampButtonX01.IconMarginRight = 0;
-            this.regularLampButtonX01.IconRightVisible = true;
-            this.regularLampButtonX01.IconRightZoom = 0D;
-            this.regularLampButtonX01.IconVisible = true;
-            this.regularLampButtonX01.IconZoom = 90D;
-            this.regularLampButtonX01.IsTab = false;
-            this.regularLampButtonX01.Location = new System.Drawing.Point(222, 98);
-            this.regularLampButtonX01.Margin = new System.Windows.Forms.Padding(2);
-            this.regularLampButtonX01.Name = "regularLampButtonX01";
-            this.regularLampButtonX01.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.regularLampButtonX01.OnHovercolor = System.Drawing.Color.Pink;
-            this.regularLampButtonX01.OnHoverTextColor = System.Drawing.Color.White;
-            this.regularLampButtonX01.selected = false;
-            this.regularLampButtonX01.Size = new System.Drawing.Size(106, 30);
-            this.regularLampButtonX01.TabIndex = 26;
-            this.regularLampButtonX01.Text = "OFF";
-            this.regularLampButtonX01.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.regularLampButtonX01.Textcolor = System.Drawing.Color.White;
-            this.regularLampButtonX01.TextFont = new System.Drawing.Font("Malgun Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            // 
-            // regularLampButtonX11
-            // 
-            this.regularLampButtonX11.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.regularLampButtonX11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.regularLampButtonX11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.regularLampButtonX11.BorderRadius = 0;
-            this.regularLampButtonX11.ButtonText = "OFF";
-            this.regularLampButtonX11.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.regularLampButtonX11.DisabledColor = System.Drawing.Color.Gray;
-            this.regularLampButtonX11.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.regularLampButtonX11.Iconcolor = System.Drawing.Color.Transparent;
-            this.regularLampButtonX11.Iconimage = null;
-            this.regularLampButtonX11.Iconimage_right = null;
-            this.regularLampButtonX11.Iconimage_right_Selected = null;
-            this.regularLampButtonX11.Iconimage_Selected = null;
-            this.regularLampButtonX11.IconMarginLeft = 0;
-            this.regularLampButtonX11.IconMarginRight = 0;
-            this.regularLampButtonX11.IconRightVisible = true;
-            this.regularLampButtonX11.IconRightZoom = 0D;
-            this.regularLampButtonX11.IconVisible = true;
-            this.regularLampButtonX11.IconZoom = 90D;
-            this.regularLampButtonX11.IsTab = false;
-            this.regularLampButtonX11.Location = new System.Drawing.Point(221, 98);
-            this.regularLampButtonX11.Margin = new System.Windows.Forms.Padding(2);
-            this.regularLampButtonX11.Name = "regularLampButtonX11";
-            this.regularLampButtonX11.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.regularLampButtonX11.OnHovercolor = System.Drawing.Color.Pink;
-            this.regularLampButtonX11.OnHoverTextColor = System.Drawing.Color.White;
-            this.regularLampButtonX11.selected = false;
-            this.regularLampButtonX11.Size = new System.Drawing.Size(107, 30);
-            this.regularLampButtonX11.TabIndex = 26;
-            this.regularLampButtonX11.Text = "OFF";
-            this.regularLampButtonX11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.regularLampButtonX11.Textcolor = System.Drawing.Color.White;
-            this.regularLampButtonX11.TextFont = new System.Drawing.Font("Malgun Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            // 
-            // regularLampButtonX21
-            // 
-            this.regularLampButtonX21.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.regularLampButtonX21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.regularLampButtonX21.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.regularLampButtonX21.BorderRadius = 0;
-            this.regularLampButtonX21.ButtonText = "OFF";
-            this.regularLampButtonX21.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.regularLampButtonX21.DisabledColor = System.Drawing.Color.Gray;
-            this.regularLampButtonX21.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.regularLampButtonX21.Iconcolor = System.Drawing.Color.Transparent;
-            this.regularLampButtonX21.Iconimage = null;
-            this.regularLampButtonX21.Iconimage_right = null;
-            this.regularLampButtonX21.Iconimage_right_Selected = null;
-            this.regularLampButtonX21.Iconimage_Selected = null;
-            this.regularLampButtonX21.IconMarginLeft = 0;
-            this.regularLampButtonX21.IconMarginRight = 0;
-            this.regularLampButtonX21.IconRightVisible = true;
-            this.regularLampButtonX21.IconRightZoom = 0D;
-            this.regularLampButtonX21.IconVisible = true;
-            this.regularLampButtonX21.IconZoom = 90D;
-            this.regularLampButtonX21.IsTab = false;
-            this.regularLampButtonX21.Location = new System.Drawing.Point(222, 98);
-            this.regularLampButtonX21.Margin = new System.Windows.Forms.Padding(2);
-            this.regularLampButtonX21.Name = "regularLampButtonX21";
-            this.regularLampButtonX21.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.regularLampButtonX21.OnHovercolor = System.Drawing.Color.Pink;
-            this.regularLampButtonX21.OnHoverTextColor = System.Drawing.Color.White;
-            this.regularLampButtonX21.selected = false;
-            this.regularLampButtonX21.Size = new System.Drawing.Size(106, 30);
-            this.regularLampButtonX21.TabIndex = 26;
-            this.regularLampButtonX21.Text = "OFF";
-            this.regularLampButtonX21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.regularLampButtonX21.Textcolor = System.Drawing.Color.White;
-            this.regularLampButtonX21.TextFont = new System.Drawing.Font("Malgun Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            // 
-            // regularLampButtonX31
-            // 
-            this.regularLampButtonX31.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.regularLampButtonX31.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.regularLampButtonX31.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.regularLampButtonX31.BorderRadius = 0;
-            this.regularLampButtonX31.ButtonText = "OFF";
-            this.regularLampButtonX31.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.regularLampButtonX31.DisabledColor = System.Drawing.Color.Gray;
-            this.regularLampButtonX31.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.regularLampButtonX31.Iconcolor = System.Drawing.Color.Transparent;
-            this.regularLampButtonX31.Iconimage = null;
-            this.regularLampButtonX31.Iconimage_right = null;
-            this.regularLampButtonX31.Iconimage_right_Selected = null;
-            this.regularLampButtonX31.Iconimage_Selected = null;
-            this.regularLampButtonX31.IconMarginLeft = 0;
-            this.regularLampButtonX31.IconMarginRight = 0;
-            this.regularLampButtonX31.IconRightVisible = true;
-            this.regularLampButtonX31.IconRightZoom = 0D;
-            this.regularLampButtonX31.IconVisible = true;
-            this.regularLampButtonX31.IconZoom = 90D;
-            this.regularLampButtonX31.IsTab = false;
-            this.regularLampButtonX31.Location = new System.Drawing.Point(222, 98);
-            this.regularLampButtonX31.Margin = new System.Windows.Forms.Padding(2);
-            this.regularLampButtonX31.Name = "regularLampButtonX31";
-            this.regularLampButtonX31.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.regularLampButtonX31.OnHovercolor = System.Drawing.Color.Pink;
-            this.regularLampButtonX31.OnHoverTextColor = System.Drawing.Color.White;
-            this.regularLampButtonX31.selected = false;
-            this.regularLampButtonX31.Size = new System.Drawing.Size(106, 30);
-            this.regularLampButtonX31.TabIndex = 26;
-            this.regularLampButtonX31.Text = "OFF";
-            this.regularLampButtonX31.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.regularLampButtonX31.Textcolor = System.Drawing.Color.White;
-            this.regularLampButtonX31.TextFont = new System.Drawing.Font("Malgun Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            // 
-            // regularLampButtonX02
-            // 
-            this.regularLampButtonX02.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.regularLampButtonX02.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.regularLampButtonX02.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.regularLampButtonX02.BorderRadius = 0;
-            this.regularLampButtonX02.ButtonText = "OFF";
-            this.regularLampButtonX02.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.regularLampButtonX02.DisabledColor = System.Drawing.Color.Gray;
-            this.regularLampButtonX02.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.regularLampButtonX02.Iconcolor = System.Drawing.Color.Transparent;
-            this.regularLampButtonX02.Iconimage = null;
-            this.regularLampButtonX02.Iconimage_right = null;
-            this.regularLampButtonX02.Iconimage_right_Selected = null;
-            this.regularLampButtonX02.Iconimage_Selected = null;
-            this.regularLampButtonX02.IconMarginLeft = 0;
-            this.regularLampButtonX02.IconMarginRight = 0;
-            this.regularLampButtonX02.IconRightVisible = true;
-            this.regularLampButtonX02.IconRightZoom = 0D;
-            this.regularLampButtonX02.IconVisible = true;
-            this.regularLampButtonX02.IconZoom = 90D;
-            this.regularLampButtonX02.IsTab = false;
-            this.regularLampButtonX02.Location = new System.Drawing.Point(206, 98);
-            this.regularLampButtonX02.Margin = new System.Windows.Forms.Padding(2);
-            this.regularLampButtonX02.Name = "regularLampButtonX02";
-            this.regularLampButtonX02.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.regularLampButtonX02.OnHovercolor = System.Drawing.Color.Pink;
-            this.regularLampButtonX02.OnHoverTextColor = System.Drawing.Color.White;
-            this.regularLampButtonX02.selected = false;
-            this.regularLampButtonX02.Size = new System.Drawing.Size(98, 30);
-            this.regularLampButtonX02.TabIndex = 26;
-            this.regularLampButtonX02.Text = "OFF";
-            this.regularLampButtonX02.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.regularLampButtonX02.Textcolor = System.Drawing.Color.White;
-            this.regularLampButtonX02.TextFont = new System.Drawing.Font("Malgun Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            // 
-            // regularLampButtonX12
-            // 
-            this.regularLampButtonX12.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.regularLampButtonX12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.regularLampButtonX12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.regularLampButtonX12.BorderRadius = 0;
-            this.regularLampButtonX12.ButtonText = "OFF";
-            this.regularLampButtonX12.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.regularLampButtonX12.DisabledColor = System.Drawing.Color.Gray;
-            this.regularLampButtonX12.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.regularLampButtonX12.Iconcolor = System.Drawing.Color.Transparent;
-            this.regularLampButtonX12.Iconimage = null;
-            this.regularLampButtonX12.Iconimage_right = null;
-            this.regularLampButtonX12.Iconimage_right_Selected = null;
-            this.regularLampButtonX12.Iconimage_Selected = null;
-            this.regularLampButtonX12.IconMarginLeft = 0;
-            this.regularLampButtonX12.IconMarginRight = 0;
-            this.regularLampButtonX12.IconRightVisible = true;
-            this.regularLampButtonX12.IconRightZoom = 0D;
-            this.regularLampButtonX12.IconVisible = true;
-            this.regularLampButtonX12.IconZoom = 90D;
-            this.regularLampButtonX12.IsTab = false;
-            this.regularLampButtonX12.Location = new System.Drawing.Point(206, 98);
-            this.regularLampButtonX12.Margin = new System.Windows.Forms.Padding(2);
-            this.regularLampButtonX12.Name = "regularLampButtonX12";
-            this.regularLampButtonX12.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.regularLampButtonX12.OnHovercolor = System.Drawing.Color.Pink;
-            this.regularLampButtonX12.OnHoverTextColor = System.Drawing.Color.White;
-            this.regularLampButtonX12.selected = false;
-            this.regularLampButtonX12.Size = new System.Drawing.Size(98, 30);
-            this.regularLampButtonX12.TabIndex = 26;
-            this.regularLampButtonX12.Text = "OFF";
-            this.regularLampButtonX12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.regularLampButtonX12.Textcolor = System.Drawing.Color.White;
-            this.regularLampButtonX12.TextFont = new System.Drawing.Font("Malgun Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            // 
-            // regularLampButtonX22
-            // 
-            this.regularLampButtonX22.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.regularLampButtonX22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.regularLampButtonX22.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.regularLampButtonX22.BorderRadius = 0;
-            this.regularLampButtonX22.ButtonText = "OFF";
-            this.regularLampButtonX22.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.regularLampButtonX22.DisabledColor = System.Drawing.Color.Gray;
-            this.regularLampButtonX22.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.regularLampButtonX22.Iconcolor = System.Drawing.Color.Transparent;
-            this.regularLampButtonX22.Iconimage = null;
-            this.regularLampButtonX22.Iconimage_right = null;
-            this.regularLampButtonX22.Iconimage_right_Selected = null;
-            this.regularLampButtonX22.Iconimage_Selected = null;
-            this.regularLampButtonX22.IconMarginLeft = 0;
-            this.regularLampButtonX22.IconMarginRight = 0;
-            this.regularLampButtonX22.IconRightVisible = true;
-            this.regularLampButtonX22.IconRightZoom = 0D;
-            this.regularLampButtonX22.IconVisible = true;
-            this.regularLampButtonX22.IconZoom = 90D;
-            this.regularLampButtonX22.IsTab = false;
-            this.regularLampButtonX22.Location = new System.Drawing.Point(206, 98);
-            this.regularLampButtonX22.Margin = new System.Windows.Forms.Padding(2);
-            this.regularLampButtonX22.Name = "regularLampButtonX22";
-            this.regularLampButtonX22.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.regularLampButtonX22.OnHovercolor = System.Drawing.Color.Pink;
-            this.regularLampButtonX22.OnHoverTextColor = System.Drawing.Color.White;
-            this.regularLampButtonX22.selected = false;
-            this.regularLampButtonX22.Size = new System.Drawing.Size(98, 30);
-            this.regularLampButtonX22.TabIndex = 26;
-            this.regularLampButtonX22.Text = "OFF";
-            this.regularLampButtonX22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.regularLampButtonX22.Textcolor = System.Drawing.Color.White;
-            this.regularLampButtonX22.TextFont = new System.Drawing.Font("Malgun Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            // 
-            // regularLampButtonX32
-            // 
-            this.regularLampButtonX32.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.regularLampButtonX32.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.regularLampButtonX32.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.regularLampButtonX32.BorderRadius = 0;
-            this.regularLampButtonX32.ButtonText = "OFF";
-            this.regularLampButtonX32.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.regularLampButtonX32.DisabledColor = System.Drawing.Color.Gray;
-            this.regularLampButtonX32.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.regularLampButtonX32.Iconcolor = System.Drawing.Color.Transparent;
-            this.regularLampButtonX32.Iconimage = null;
-            this.regularLampButtonX32.Iconimage_right = null;
-            this.regularLampButtonX32.Iconimage_right_Selected = null;
-            this.regularLampButtonX32.Iconimage_Selected = null;
-            this.regularLampButtonX32.IconMarginLeft = 0;
-            this.regularLampButtonX32.IconMarginRight = 0;
-            this.regularLampButtonX32.IconRightVisible = true;
-            this.regularLampButtonX32.IconRightZoom = 0D;
-            this.regularLampButtonX32.IconVisible = true;
-            this.regularLampButtonX32.IconZoom = 90D;
-            this.regularLampButtonX32.IsTab = false;
-            this.regularLampButtonX32.Location = new System.Drawing.Point(206, 98);
-            this.regularLampButtonX32.Margin = new System.Windows.Forms.Padding(2);
-            this.regularLampButtonX32.Name = "regularLampButtonX32";
-            this.regularLampButtonX32.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.regularLampButtonX32.OnHovercolor = System.Drawing.Color.Pink;
-            this.regularLampButtonX32.OnHoverTextColor = System.Drawing.Color.White;
-            this.regularLampButtonX32.selected = false;
-            this.regularLampButtonX32.Size = new System.Drawing.Size(98, 30);
-            this.regularLampButtonX32.TabIndex = 26;
-            this.regularLampButtonX32.Text = "OFF";
-            this.regularLampButtonX32.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.regularLampButtonX32.Textcolor = System.Drawing.Color.White;
-            this.regularLampButtonX32.TextFont = new System.Drawing.Font("Malgun Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
@@ -3667,6 +3667,8 @@
             this.tlPanel21.PerformLayout();
             this.tlPanel22.ResumeLayout(false);
             this.tlPanel22.PerformLayout();
+            this.tlPanel30.ResumeLayout(false);
+            this.tlPanel30.PerformLayout();
             this.tlPanel31.ResumeLayout(false);
             this.tlPanel31.PerformLayout();
             this.tlPanel32.ResumeLayout(false);
@@ -3674,8 +3676,6 @@
             this.titlePanel.ResumeLayout(false);
             this.titlePanel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.closeProgramButton)).EndInit();
-            this.tlPanel30.ResumeLayout(false);
-            this.tlPanel30.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -3691,96 +3691,96 @@
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel28;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel27;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel26;
-        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel29;
-        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel30;
-        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel32;
-        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel31;
+        private Bunifu.Framework.UI.BunifuCustomLabel externalLuminanceX00;
+        private Bunifu.Framework.UI.BunifuCustomLabel internalLuminanceX00;
+        private Bunifu.Framework.UI.BunifuCustomLabel regularLampDimmPercentX00;
+        private Bunifu.Framework.UI.BunifuCustomLabel dayLampDimmPercentX00;
         private System.Windows.Forms.TableLayoutPanel tlPanel10;
-        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel39;
-        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel38;
+        private Bunifu.Framework.UI.BunifuCustomLabel internalLuminanceX10;
+        private Bunifu.Framework.UI.BunifuCustomLabel externalLuminanceX10;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel37;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel36;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel35;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel34;
-        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel41;
-        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel40;
+        private Bunifu.Framework.UI.BunifuCustomLabel regularLampDimmPercentX10;
+        private Bunifu.Framework.UI.BunifuCustomLabel dayLampDimmPercentX10;
         private System.Windows.Forms.TableLayoutPanel tlPanel01;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel47;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel46;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel45;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel44;
-        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel49;
-        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel48;
-        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel51;
-        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel50;
+        private Bunifu.Framework.UI.BunifuCustomLabel internalLuminanceX01;
+        private Bunifu.Framework.UI.BunifuCustomLabel externalLuminanceX01;
+        private Bunifu.Framework.UI.BunifuCustomLabel regularLampDimmPercentX01;
+        private Bunifu.Framework.UI.BunifuCustomLabel dayLampDimmPercentX01;
         private System.Windows.Forms.TableLayoutPanel tlPanel11;
         private System.Windows.Forms.TableLayoutPanel tlPanel02;
         private System.Windows.Forms.TableLayoutPanel tlPanel12;
-        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel61;
-        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel60;
-        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel59;
-        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel58;
+        private Bunifu.Framework.UI.BunifuCustomLabel regularLampDimmPercentX11;
+        private Bunifu.Framework.UI.BunifuCustomLabel dayLampDimmPercentX11;
+        private Bunifu.Framework.UI.BunifuCustomLabel internalLuminanceX11;
+        private Bunifu.Framework.UI.BunifuCustomLabel externalLuminanceX11;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel57;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel56;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel55;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel54;
-        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel73;
+        private Bunifu.Framework.UI.BunifuCustomLabel externalLuminanceX12;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel71;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel70;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel69;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel68;
-        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel72;
+        private Bunifu.Framework.UI.BunifuCustomLabel externalLuminanceX02;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel67;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel66;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel65;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel64;
-        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel79;
-        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel78;
-        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel75;
-        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel77;
-        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel76;
-        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel74;
+        private Bunifu.Framework.UI.BunifuCustomLabel dayLampDimmPercentX12;
+        private Bunifu.Framework.UI.BunifuCustomLabel regularLampDimmPercentX12;
+        private Bunifu.Framework.UI.BunifuCustomLabel internalLuminanceX12;
+        private Bunifu.Framework.UI.BunifuCustomLabel dayLampDimmPercentX02;
+        private Bunifu.Framework.UI.BunifuCustomLabel regularLampDimmPercentX02;
+        private Bunifu.Framework.UI.BunifuCustomLabel internalLuminanceX02;
         private System.Windows.Forms.TableLayoutPanel tlPanel20;
-        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel4;
-        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel5;
-        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel6;
+        private Bunifu.Framework.UI.BunifuCustomLabel regularLampDimmPercentX20;
+        private Bunifu.Framework.UI.BunifuCustomLabel dayLampDimmPercentX20;
+        private Bunifu.Framework.UI.BunifuCustomLabel internalLuminanceX20;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel7;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel8;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel9;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel10;
-        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel11;
+        private Bunifu.Framework.UI.BunifuCustomLabel externalLuminanceX20;
         private System.Windows.Forms.TableLayoutPanel tlPanel31;
-        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel99;
-        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel100;
-        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel101;
-        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel102;
+        private Bunifu.Framework.UI.BunifuCustomLabel regularLampDimmPercentX31;
+        private Bunifu.Framework.UI.BunifuCustomLabel dayLampDimmPercentX31;
+        private Bunifu.Framework.UI.BunifuCustomLabel internalLuminanceX31;
+        private Bunifu.Framework.UI.BunifuCustomLabel externalLuminanceX31;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel103;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel104;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel105;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel106;
         private System.Windows.Forms.TableLayoutPanel tlPanel21;
-        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel89;
-        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel90;
-        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel91;
-        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel92;
+        private Bunifu.Framework.UI.BunifuCustomLabel regularLampDimmPercentX21;
+        private Bunifu.Framework.UI.BunifuCustomLabel dayLampDimmPercentX21;
+        private Bunifu.Framework.UI.BunifuCustomLabel internalLuminanceX21;
+        private Bunifu.Framework.UI.BunifuCustomLabel externalLuminanceX21;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel93;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel94;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel95;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel96;
         private System.Windows.Forms.TableLayoutPanel tlPanel32;
-        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel119;
-        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel120;
-        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel121;
-        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel122;
+        private Bunifu.Framework.UI.BunifuCustomLabel dayLampDimmPercentX32;
+        private Bunifu.Framework.UI.BunifuCustomLabel regularLampDimmPercentX32;
+        private Bunifu.Framework.UI.BunifuCustomLabel internalLuminanceX32;
+        private Bunifu.Framework.UI.BunifuCustomLabel externalLuminanceX32;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel123;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel124;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel125;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel126;
         private System.Windows.Forms.TableLayoutPanel tlPanel22;
-        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel109;
-        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel110;
-        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel111;
-        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel112;
+        private Bunifu.Framework.UI.BunifuCustomLabel dayLampDimmPercentX22;
+        private Bunifu.Framework.UI.BunifuCustomLabel regularLampDimmPercentX22;
+        private Bunifu.Framework.UI.BunifuCustomLabel internalLuminanceX22;
+        private Bunifu.Framework.UI.BunifuCustomLabel externalLuminanceX22;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel113;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel114;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel115;
@@ -3825,14 +3825,14 @@
         private System.Windows.Forms.TableLayoutPanel tlPanel30;
         private Bunifu.Framework.UI.BunifuFlatButton regularLampButtonX30;
         private Bunifu.Framework.UI.BunifuFlatButton dayLampButtonX30;
-        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel14;
-        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel15;
-        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel16;
+        private Bunifu.Framework.UI.BunifuCustomLabel regularLampDimmPercentX30;
+        private Bunifu.Framework.UI.BunifuCustomLabel dayLampDimmPercentX30;
+        private Bunifu.Framework.UI.BunifuCustomLabel internalLuminanceX30;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel17;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel18;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel84;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel85;
-        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel86;
+        private Bunifu.Framework.UI.BunifuCustomLabel externalLuminanceX30;
         private Bunifu.Framework.UI.BunifuFlatButton regularLampButtonX31;
         private Bunifu.Framework.UI.BunifuFlatButton dayLampButtonX31;
         private Bunifu.Framework.UI.BunifuFlatButton regularLampButtonX32;

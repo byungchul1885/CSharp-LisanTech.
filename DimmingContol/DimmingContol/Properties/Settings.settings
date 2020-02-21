@@ -63,5 +63,8 @@
     <Setting Name="descendingDirection" Type="System.String" Scope="User">
       <Value Profile="(Default)">성산방면</Value>
     </Setting>
+    <Setting Name="NumController" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">4</Value>
+    </Setting>
   </Settings>
 </SettingsFile>
