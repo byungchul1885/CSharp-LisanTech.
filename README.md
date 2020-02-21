@@ -1,2 +1,1 @@
-# CSharp-LisanTech.
-C# project
+# 
