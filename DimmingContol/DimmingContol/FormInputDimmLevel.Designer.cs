@@ -173,7 +173,7 @@
             this.dimmTextBox21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(218)))), ((int)(((byte)(227)))), ((int)(((byte)(243)))));
             this.dimmTextBox21.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.dimmTextBox21.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dimmTextBox21.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dimmTextBox21.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dimmTextBox21.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.dimmTextBox21.HintForeColor = System.Drawing.Color.Empty;
             this.dimmTextBox21.HintText = "";
@@ -181,7 +181,7 @@
             this.dimmTextBox21.LineFocusedColor = System.Drawing.Color.Blue;
             this.dimmTextBox21.LineIdleColor = System.Drawing.Color.Gray;
             this.dimmTextBox21.LineMouseHoverColor = System.Drawing.Color.Blue;
-            this.dimmTextBox21.LineThickness = 6;
+            this.dimmTextBox21.LineThickness = 5;
             this.dimmTextBox21.Location = new System.Drawing.Point(1408, 71);
             this.dimmTextBox21.Margin = new System.Windows.Forms.Padding(1);
             this.dimmTextBox21.Name = "dimmTextBox21";
@@ -196,7 +196,7 @@
             this.dimmTextBox20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(218)))), ((int)(((byte)(227)))), ((int)(((byte)(243)))));
             this.dimmTextBox20.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.dimmTextBox20.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dimmTextBox20.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dimmTextBox20.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dimmTextBox20.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.dimmTextBox20.HintForeColor = System.Drawing.Color.Empty;
             this.dimmTextBox20.HintText = "";
@@ -204,7 +204,7 @@
             this.dimmTextBox20.LineFocusedColor = System.Drawing.Color.Blue;
             this.dimmTextBox20.LineIdleColor = System.Drawing.Color.Gray;
             this.dimmTextBox20.LineMouseHoverColor = System.Drawing.Color.Blue;
-            this.dimmTextBox20.LineThickness = 6;
+            this.dimmTextBox20.LineThickness = 5;
             this.dimmTextBox20.Location = new System.Drawing.Point(1341, 71);
             this.dimmTextBox20.Margin = new System.Windows.Forms.Padding(1);
             this.dimmTextBox20.Name = "dimmTextBox20";
@@ -219,7 +219,7 @@
             this.dimmTextBox19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(218)))), ((int)(((byte)(227)))), ((int)(((byte)(243)))));
             this.dimmTextBox19.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.dimmTextBox19.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dimmTextBox19.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dimmTextBox19.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dimmTextBox19.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.dimmTextBox19.HintForeColor = System.Drawing.Color.Empty;
             this.dimmTextBox19.HintText = "";
@@ -227,7 +227,7 @@
             this.dimmTextBox19.LineFocusedColor = System.Drawing.Color.Blue;
             this.dimmTextBox19.LineIdleColor = System.Drawing.Color.Gray;
             this.dimmTextBox19.LineMouseHoverColor = System.Drawing.Color.Blue;
-            this.dimmTextBox19.LineThickness = 6;
+            this.dimmTextBox19.LineThickness = 5;
             this.dimmTextBox19.Location = new System.Drawing.Point(1274, 71);
             this.dimmTextBox19.Margin = new System.Windows.Forms.Padding(1);
             this.dimmTextBox19.Name = "dimmTextBox19";
@@ -242,7 +242,7 @@
             this.dimmTextBox18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(218)))), ((int)(((byte)(227)))), ((int)(((byte)(243)))));
             this.dimmTextBox18.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.dimmTextBox18.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dimmTextBox18.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dimmTextBox18.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dimmTextBox18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.dimmTextBox18.HintForeColor = System.Drawing.Color.Empty;
             this.dimmTextBox18.HintText = "";
@@ -250,7 +250,7 @@
             this.dimmTextBox18.LineFocusedColor = System.Drawing.Color.Blue;
             this.dimmTextBox18.LineIdleColor = System.Drawing.Color.Gray;
             this.dimmTextBox18.LineMouseHoverColor = System.Drawing.Color.Blue;
-            this.dimmTextBox18.LineThickness = 6;
+            this.dimmTextBox18.LineThickness = 5;
             this.dimmTextBox18.Location = new System.Drawing.Point(1207, 71);
             this.dimmTextBox18.Margin = new System.Windows.Forms.Padding(1);
             this.dimmTextBox18.Name = "dimmTextBox18";
@@ -265,7 +265,7 @@
             this.dimmTextBox17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(218)))), ((int)(((byte)(227)))), ((int)(((byte)(243)))));
             this.dimmTextBox17.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.dimmTextBox17.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dimmTextBox17.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dimmTextBox17.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dimmTextBox17.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.dimmTextBox17.HintForeColor = System.Drawing.Color.Empty;
             this.dimmTextBox17.HintText = "";
@@ -273,7 +273,7 @@
             this.dimmTextBox17.LineFocusedColor = System.Drawing.Color.Blue;
             this.dimmTextBox17.LineIdleColor = System.Drawing.Color.Gray;
             this.dimmTextBox17.LineMouseHoverColor = System.Drawing.Color.Blue;
-            this.dimmTextBox17.LineThickness = 6;
+            this.dimmTextBox17.LineThickness = 5;
             this.dimmTextBox17.Location = new System.Drawing.Point(1140, 71);
             this.dimmTextBox17.Margin = new System.Windows.Forms.Padding(1);
             this.dimmTextBox17.Name = "dimmTextBox17";
@@ -288,7 +288,7 @@
             this.dimmTextBox16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(218)))), ((int)(((byte)(227)))), ((int)(((byte)(243)))));
             this.dimmTextBox16.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.dimmTextBox16.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dimmTextBox16.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dimmTextBox16.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dimmTextBox16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.dimmTextBox16.HintForeColor = System.Drawing.Color.Empty;
             this.dimmTextBox16.HintText = "";
@@ -296,7 +296,7 @@
             this.dimmTextBox16.LineFocusedColor = System.Drawing.Color.Blue;
             this.dimmTextBox16.LineIdleColor = System.Drawing.Color.Gray;
             this.dimmTextBox16.LineMouseHoverColor = System.Drawing.Color.Blue;
-            this.dimmTextBox16.LineThickness = 6;
+            this.dimmTextBox16.LineThickness = 5;
             this.dimmTextBox16.Location = new System.Drawing.Point(1073, 71);
             this.dimmTextBox16.Margin = new System.Windows.Forms.Padding(1);
             this.dimmTextBox16.Name = "dimmTextBox16";
@@ -311,7 +311,7 @@
             this.dimmTextBox15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(218)))), ((int)(((byte)(227)))), ((int)(((byte)(243)))));
             this.dimmTextBox15.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.dimmTextBox15.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dimmTextBox15.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dimmTextBox15.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dimmTextBox15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.dimmTextBox15.HintForeColor = System.Drawing.Color.Empty;
             this.dimmTextBox15.HintText = "";
@@ -319,7 +319,7 @@
             this.dimmTextBox15.LineFocusedColor = System.Drawing.Color.Blue;
             this.dimmTextBox15.LineIdleColor = System.Drawing.Color.Gray;
             this.dimmTextBox15.LineMouseHoverColor = System.Drawing.Color.Blue;
-            this.dimmTextBox15.LineThickness = 6;
+            this.dimmTextBox15.LineThickness = 5;
             this.dimmTextBox15.Location = new System.Drawing.Point(1006, 71);
             this.dimmTextBox15.Margin = new System.Windows.Forms.Padding(1);
             this.dimmTextBox15.Name = "dimmTextBox15";
@@ -334,7 +334,7 @@
             this.dimmTextBox14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(218)))), ((int)(((byte)(227)))), ((int)(((byte)(243)))));
             this.dimmTextBox14.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.dimmTextBox14.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dimmTextBox14.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dimmTextBox14.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dimmTextBox14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.dimmTextBox14.HintForeColor = System.Drawing.Color.Empty;
             this.dimmTextBox14.HintText = "";
@@ -342,7 +342,7 @@
             this.dimmTextBox14.LineFocusedColor = System.Drawing.Color.Blue;
             this.dimmTextBox14.LineIdleColor = System.Drawing.Color.Gray;
             this.dimmTextBox14.LineMouseHoverColor = System.Drawing.Color.Blue;
-            this.dimmTextBox14.LineThickness = 6;
+            this.dimmTextBox14.LineThickness = 5;
             this.dimmTextBox14.Location = new System.Drawing.Point(939, 71);
             this.dimmTextBox14.Margin = new System.Windows.Forms.Padding(1);
             this.dimmTextBox14.Name = "dimmTextBox14";
@@ -357,7 +357,7 @@
             this.dimmTextBox13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(218)))), ((int)(((byte)(227)))), ((int)(((byte)(243)))));
             this.dimmTextBox13.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.dimmTextBox13.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dimmTextBox13.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dimmTextBox13.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dimmTextBox13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.dimmTextBox13.HintForeColor = System.Drawing.Color.Empty;
             this.dimmTextBox13.HintText = "";
@@ -365,7 +365,7 @@
             this.dimmTextBox13.LineFocusedColor = System.Drawing.Color.Blue;
             this.dimmTextBox13.LineIdleColor = System.Drawing.Color.Gray;
             this.dimmTextBox13.LineMouseHoverColor = System.Drawing.Color.Blue;
-            this.dimmTextBox13.LineThickness = 6;
+            this.dimmTextBox13.LineThickness = 5;
             this.dimmTextBox13.Location = new System.Drawing.Point(872, 71);
             this.dimmTextBox13.Margin = new System.Windows.Forms.Padding(1);
             this.dimmTextBox13.Name = "dimmTextBox13";
@@ -380,7 +380,7 @@
             this.dimmTextBox12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(218)))), ((int)(((byte)(227)))), ((int)(((byte)(243)))));
             this.dimmTextBox12.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.dimmTextBox12.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dimmTextBox12.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dimmTextBox12.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dimmTextBox12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.dimmTextBox12.HintForeColor = System.Drawing.Color.Empty;
             this.dimmTextBox12.HintText = "";
@@ -388,7 +388,7 @@
             this.dimmTextBox12.LineFocusedColor = System.Drawing.Color.Blue;
             this.dimmTextBox12.LineIdleColor = System.Drawing.Color.Gray;
             this.dimmTextBox12.LineMouseHoverColor = System.Drawing.Color.Blue;
-            this.dimmTextBox12.LineThickness = 6;
+            this.dimmTextBox12.LineThickness = 5;
             this.dimmTextBox12.Location = new System.Drawing.Point(805, 71);
             this.dimmTextBox12.Margin = new System.Windows.Forms.Padding(1);
             this.dimmTextBox12.Name = "dimmTextBox12";
@@ -403,7 +403,7 @@
             this.dimmTextBox11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(218)))), ((int)(((byte)(227)))), ((int)(((byte)(243)))));
             this.dimmTextBox11.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.dimmTextBox11.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dimmTextBox11.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dimmTextBox11.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dimmTextBox11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.dimmTextBox11.HintForeColor = System.Drawing.Color.Empty;
             this.dimmTextBox11.HintText = "";
@@ -411,7 +411,7 @@
             this.dimmTextBox11.LineFocusedColor = System.Drawing.Color.Blue;
             this.dimmTextBox11.LineIdleColor = System.Drawing.Color.Gray;
             this.dimmTextBox11.LineMouseHoverColor = System.Drawing.Color.Blue;
-            this.dimmTextBox11.LineThickness = 6;
+            this.dimmTextBox11.LineThickness = 5;
             this.dimmTextBox11.Location = new System.Drawing.Point(738, 71);
             this.dimmTextBox11.Margin = new System.Windows.Forms.Padding(1);
             this.dimmTextBox11.Name = "dimmTextBox11";
@@ -426,7 +426,7 @@
             this.dimmTextBox10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(218)))), ((int)(((byte)(227)))), ((int)(((byte)(243)))));
             this.dimmTextBox10.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.dimmTextBox10.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dimmTextBox10.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dimmTextBox10.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dimmTextBox10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.dimmTextBox10.HintForeColor = System.Drawing.Color.Empty;
             this.dimmTextBox10.HintText = "";
@@ -434,7 +434,7 @@
             this.dimmTextBox10.LineFocusedColor = System.Drawing.Color.Blue;
             this.dimmTextBox10.LineIdleColor = System.Drawing.Color.Gray;
             this.dimmTextBox10.LineMouseHoverColor = System.Drawing.Color.Blue;
-            this.dimmTextBox10.LineThickness = 6;
+            this.dimmTextBox10.LineThickness = 5;
             this.dimmTextBox10.Location = new System.Drawing.Point(671, 71);
             this.dimmTextBox10.Margin = new System.Windows.Forms.Padding(1);
             this.dimmTextBox10.Name = "dimmTextBox10";
@@ -449,7 +449,7 @@
             this.dimmTextBox09.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(218)))), ((int)(((byte)(227)))), ((int)(((byte)(243)))));
             this.dimmTextBox09.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.dimmTextBox09.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dimmTextBox09.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dimmTextBox09.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dimmTextBox09.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.dimmTextBox09.HintForeColor = System.Drawing.Color.Empty;
             this.dimmTextBox09.HintText = "";
@@ -457,7 +457,7 @@
             this.dimmTextBox09.LineFocusedColor = System.Drawing.Color.Blue;
             this.dimmTextBox09.LineIdleColor = System.Drawing.Color.Gray;
             this.dimmTextBox09.LineMouseHoverColor = System.Drawing.Color.Blue;
-            this.dimmTextBox09.LineThickness = 6;
+            this.dimmTextBox09.LineThickness = 5;
             this.dimmTextBox09.Location = new System.Drawing.Point(604, 71);
             this.dimmTextBox09.Margin = new System.Windows.Forms.Padding(1);
             this.dimmTextBox09.Name = "dimmTextBox09";
@@ -472,7 +472,7 @@
             this.dimmTextBox08.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(218)))), ((int)(((byte)(227)))), ((int)(((byte)(243)))));
             this.dimmTextBox08.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.dimmTextBox08.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dimmTextBox08.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dimmTextBox08.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dimmTextBox08.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.dimmTextBox08.HintForeColor = System.Drawing.Color.Empty;
             this.dimmTextBox08.HintText = "";
@@ -480,7 +480,7 @@
             this.dimmTextBox08.LineFocusedColor = System.Drawing.Color.Blue;
             this.dimmTextBox08.LineIdleColor = System.Drawing.Color.Gray;
             this.dimmTextBox08.LineMouseHoverColor = System.Drawing.Color.Blue;
-            this.dimmTextBox08.LineThickness = 6;
+            this.dimmTextBox08.LineThickness = 5;
             this.dimmTextBox08.Location = new System.Drawing.Point(537, 71);
             this.dimmTextBox08.Margin = new System.Windows.Forms.Padding(1);
             this.dimmTextBox08.Name = "dimmTextBox08";
@@ -495,7 +495,7 @@
             this.dimmTextBox07.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(218)))), ((int)(((byte)(227)))), ((int)(((byte)(243)))));
             this.dimmTextBox07.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.dimmTextBox07.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dimmTextBox07.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dimmTextBox07.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dimmTextBox07.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.dimmTextBox07.HintForeColor = System.Drawing.Color.Empty;
             this.dimmTextBox07.HintText = "";
@@ -503,7 +503,7 @@
             this.dimmTextBox07.LineFocusedColor = System.Drawing.Color.Blue;
             this.dimmTextBox07.LineIdleColor = System.Drawing.Color.Gray;
             this.dimmTextBox07.LineMouseHoverColor = System.Drawing.Color.Blue;
-            this.dimmTextBox07.LineThickness = 6;
+            this.dimmTextBox07.LineThickness = 5;
             this.dimmTextBox07.Location = new System.Drawing.Point(470, 71);
             this.dimmTextBox07.Margin = new System.Windows.Forms.Padding(1);
             this.dimmTextBox07.Name = "dimmTextBox07";
@@ -518,7 +518,7 @@
             this.dimmTextBox06.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(218)))), ((int)(((byte)(227)))), ((int)(((byte)(243)))));
             this.dimmTextBox06.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.dimmTextBox06.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dimmTextBox06.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dimmTextBox06.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dimmTextBox06.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.dimmTextBox06.HintForeColor = System.Drawing.Color.Empty;
             this.dimmTextBox06.HintText = "";
@@ -526,7 +526,7 @@
             this.dimmTextBox06.LineFocusedColor = System.Drawing.Color.Blue;
             this.dimmTextBox06.LineIdleColor = System.Drawing.Color.Gray;
             this.dimmTextBox06.LineMouseHoverColor = System.Drawing.Color.Blue;
-            this.dimmTextBox06.LineThickness = 6;
+            this.dimmTextBox06.LineThickness = 5;
             this.dimmTextBox06.Location = new System.Drawing.Point(403, 71);
             this.dimmTextBox06.Margin = new System.Windows.Forms.Padding(1);
             this.dimmTextBox06.Name = "dimmTextBox06";
@@ -541,7 +541,7 @@
             this.dimmTextBox05.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(218)))), ((int)(((byte)(227)))), ((int)(((byte)(243)))));
             this.dimmTextBox05.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.dimmTextBox05.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dimmTextBox05.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dimmTextBox05.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dimmTextBox05.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.dimmTextBox05.HintForeColor = System.Drawing.Color.Empty;
             this.dimmTextBox05.HintText = "";
@@ -549,7 +549,7 @@
             this.dimmTextBox05.LineFocusedColor = System.Drawing.Color.Blue;
             this.dimmTextBox05.LineIdleColor = System.Drawing.Color.Gray;
             this.dimmTextBox05.LineMouseHoverColor = System.Drawing.Color.Blue;
-            this.dimmTextBox05.LineThickness = 6;
+            this.dimmTextBox05.LineThickness = 5;
             this.dimmTextBox05.Location = new System.Drawing.Point(336, 71);
             this.dimmTextBox05.Margin = new System.Windows.Forms.Padding(1);
             this.dimmTextBox05.Name = "dimmTextBox05";
@@ -564,7 +564,7 @@
             this.dimmTextBox04.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(218)))), ((int)(((byte)(227)))), ((int)(((byte)(243)))));
             this.dimmTextBox04.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.dimmTextBox04.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dimmTextBox04.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dimmTextBox04.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dimmTextBox04.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.dimmTextBox04.HintForeColor = System.Drawing.Color.Empty;
             this.dimmTextBox04.HintText = "";
@@ -572,7 +572,7 @@
             this.dimmTextBox04.LineFocusedColor = System.Drawing.Color.Blue;
             this.dimmTextBox04.LineIdleColor = System.Drawing.Color.Gray;
             this.dimmTextBox04.LineMouseHoverColor = System.Drawing.Color.Blue;
-            this.dimmTextBox04.LineThickness = 6;
+            this.dimmTextBox04.LineThickness = 5;
             this.dimmTextBox04.Location = new System.Drawing.Point(269, 71);
             this.dimmTextBox04.Margin = new System.Windows.Forms.Padding(1);
             this.dimmTextBox04.Name = "dimmTextBox04";
@@ -587,7 +587,7 @@
             this.dimmTextBox03.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(218)))), ((int)(((byte)(227)))), ((int)(((byte)(243)))));
             this.dimmTextBox03.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.dimmTextBox03.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dimmTextBox03.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dimmTextBox03.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dimmTextBox03.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.dimmTextBox03.HintForeColor = System.Drawing.Color.Empty;
             this.dimmTextBox03.HintText = "";
@@ -595,7 +595,7 @@
             this.dimmTextBox03.LineFocusedColor = System.Drawing.Color.Blue;
             this.dimmTextBox03.LineIdleColor = System.Drawing.Color.Gray;
             this.dimmTextBox03.LineMouseHoverColor = System.Drawing.Color.Blue;
-            this.dimmTextBox03.LineThickness = 6;
+            this.dimmTextBox03.LineThickness = 5;
             this.dimmTextBox03.Location = new System.Drawing.Point(202, 71);
             this.dimmTextBox03.Margin = new System.Windows.Forms.Padding(1);
             this.dimmTextBox03.Name = "dimmTextBox03";
@@ -610,7 +610,7 @@
             this.dimmTextBox02.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(218)))), ((int)(((byte)(227)))), ((int)(((byte)(243)))));
             this.dimmTextBox02.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.dimmTextBox02.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dimmTextBox02.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dimmTextBox02.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dimmTextBox02.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.dimmTextBox02.HintForeColor = System.Drawing.Color.Empty;
             this.dimmTextBox02.HintText = "";
@@ -618,7 +618,7 @@
             this.dimmTextBox02.LineFocusedColor = System.Drawing.Color.Blue;
             this.dimmTextBox02.LineIdleColor = System.Drawing.Color.Gray;
             this.dimmTextBox02.LineMouseHoverColor = System.Drawing.Color.Blue;
-            this.dimmTextBox02.LineThickness = 6;
+            this.dimmTextBox02.LineThickness = 5;
             this.dimmTextBox02.Location = new System.Drawing.Point(135, 71);
             this.dimmTextBox02.Margin = new System.Windows.Forms.Padding(1);
             this.dimmTextBox02.Name = "dimmTextBox02";
@@ -978,7 +978,7 @@
             this.dimmTextBox01.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(218)))), ((int)(((byte)(227)))), ((int)(((byte)(243)))));
             this.dimmTextBox01.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.dimmTextBox01.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dimmTextBox01.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dimmTextBox01.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dimmTextBox01.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.dimmTextBox01.HintForeColor = System.Drawing.Color.Empty;
             this.dimmTextBox01.HintText = "";
@@ -986,7 +986,7 @@
             this.dimmTextBox01.LineFocusedColor = System.Drawing.Color.Blue;
             this.dimmTextBox01.LineIdleColor = System.Drawing.Color.Gray;
             this.dimmTextBox01.LineMouseHoverColor = System.Drawing.Color.Blue;
-            this.dimmTextBox01.LineThickness = 6;
+            this.dimmTextBox01.LineThickness = 5;
             this.dimmTextBox01.Location = new System.Drawing.Point(68, 71);
             this.dimmTextBox01.Margin = new System.Windows.Forms.Padding(1);
             this.dimmTextBox01.Name = "dimmTextBox01";

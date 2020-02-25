@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -16,8 +17,17 @@ namespace DimmingContol
     {
         public List<string> DimLevelValue { get; set; }
         public List<string> MaintenanceFactor { get; set; }
+        public List<string> OnOff { get; set; }
         public int ControllerIdx { get; set; }
         public string ControllerName { get; set; }
+        public int OpModeChangeButtonNum { get; set; }
+        public int OnOffButtonNum { get; set; }
+
+        public string OpMode { get; set; }
+
+        public static event EventHandler OpModeButtonClicked;
+
+        public static event EventHandler OnOffButtonClicked;
 
         public FormControllerSetup()
         {
@@ -25,9 +35,12 @@ namespace DimmingContol
 
             DimLevelValue = new List<string>();
             MaintenanceFactor = new List<string>();
+            OnOff = new List<string>();
 
             FormMain.DimmLevelValueReceivedFromController += DimmLevelValueRefresh;
             FormMain.MaintenanceFactorReceivedFromController += MaintenanceFactorRefresh;
+            FormMain.OpModeReceivedFromController += OpModeRefresh;
+            FormMain.OnOffReceivedFromController += OnOffRefresh;
         }
 
         private void Close_Click(object sender, EventArgs e)
@@ -40,8 +53,8 @@ namespace DimmingContol
             using (var form = new FormInputDimmLevel())
             {
                 form.StartPosition = FormStartPosition.CenterParent;
-
                 form.ControllerName = ControllerName;
+                form.ControllerIdx = ControllerIdx;
 
                 form.DimLevelValue.Clear();
                 form.DimLevelValue.AddRange(DimLevelValue);
@@ -55,8 +68,8 @@ namespace DimmingContol
             using (var form = new FormInputMaintenanceFactor())
             {
                 form.StartPosition = FormStartPosition.CenterParent;
-
                 form.ControllerName = ControllerName;
+                form.ControllerIdx = ControllerIdx;
 
                 form.MaintenanceFactor.Clear();
                 form.MaintenanceFactor.AddRange(MaintenanceFactor);
@@ -87,23 +100,44 @@ namespace DimmingContol
                 }
             }
 
+            foreach (Control c in onOffPanel.Controls)
+            {
+                if (c.GetType() == typeof(BunifuCustomLabel)
+                    && c.Name.Contains("onoffLabel"))
+                {
+                    int levelIndex = Int32.Parse(c.Name.Remove(0, "onoffLabel".Length));
+                    c.Text = OnOff[levelIndex];
+                    if (c.Text == "OFF")
+                    {
+                        c.ForeColor = Color.FromArgb(255, 85, 85);
+                    }
+                }
+            }
+
             titleLabel.Text = ControllerName + " 제어기 설정 상태";
+            opModeLabel.Text = OpMode;
         }
 
         private void DimmLevelValueRefresh(object sender, EventArgs e)
         {
             if (sender is List<string> li)
             {
-                DimLevelValue.Clear();
-                DimLevelValue.AddRange(li);
-
-                foreach (Control c in dimmLevelPanel.Controls)
+                if (Int32.Parse(li[0]) == ControllerIdx)
                 {
-                    if (c.GetType() == typeof(BunifuCustomLabel)
-                        && c.Name.Contains("dimmLevelLabel"))
+                    DimLevelValue.Clear();
+                    DimLevelValue.AddRange(li);
+
+                    foreach (Control c in dimmLevelPanel.Controls)
                     {
-                        int levelIndex = Int32.Parse(c.Name.Remove(0, "dimmLevelLabel".Length));
-                        c.Text = DimLevelValue[levelIndex];
+                        if (c.GetType() == typeof(BunifuCustomLabel)
+                            && c.Name.Contains("dimmLevelLabel"))
+                        {
+                            int levelIndex = Int32.Parse(c.Name.Remove(0, "dimmLevelLabel".Length));
+                            Invoke(new Action(() =>
+                            {
+                                c.Text = DimLevelValue[levelIndex];
+                            }));
+                        }
                     }
                 }
             }
@@ -113,21 +147,93 @@ namespace DimmingContol
         {   
             if (sender is List<string> li)
             {
-                MaintenanceFactor.Clear();
-                MaintenanceFactor.AddRange(li);
-
-                foreach (Control c in maintenanceFactorPanel.Controls)
+                if (Int32.Parse(li[0]) == ControllerIdx)
                 {
-                    if (c.GetType() == typeof(BunifuCustomLabel)
-                        && c.Name.Contains("maintenanceFactorLabel"))
+                    MaintenanceFactor.Clear();
+                    MaintenanceFactor.AddRange(li);
+
+                    foreach (Control c in maintenanceFactorPanel.Controls)
                     {
-                        int levelIndex = Int32.Parse(c.Name.Remove(0, "maintenanceFactorLabel".Length));
-                        c.Text = MaintenanceFactor[levelIndex];
+                        if (c.GetType() == typeof(BunifuCustomLabel)
+                            && c.Name.Contains("maintenanceFactorLabel"))
+                        {
+                            int levelIndex = Int32.Parse(c.Name.Remove(0, "maintenanceFactorLabel".Length));
+                            Invoke(new Action(() =>
+                            {
+                                c.Text = MaintenanceFactor[levelIndex];
+                            }));
+                        }
+                    }
+                }
+            }
+        }
+
+        private void OpModeRefresh(object sender, EventArgs e)
+        {
+            if (sender is ArrayList mode)
+            {
+                if ((int)mode[0] == ControllerIdx)
+                {
+                    Invoke(new Action(() =>
+                    {
+                        opModeLabel.Text = (string)mode[1];
+                    }));
+                }
+            }
+        }
+
+        private void OnOffRefresh(object sender, EventArgs e)
+        {
+            if (sender is List<string> li)
+            {
+                if (Int32.Parse(li[0]) == ControllerIdx)
+                {
+                    OnOff.Clear();
+                    OnOff.AddRange(li);
+
+                    foreach (Control c in onOffPanel.Controls)
+                    {
+                        if (c.GetType() == typeof(BunifuCustomLabel)
+                            && c.Name.Contains("onoffLabel"))
+                        {
+                            int levelIndex = Int32.Parse(c.Name.Remove(0, "onoffLabel".Length));
+                            Invoke(new Action(() =>
+                            {
+                                c.Text = OnOff[levelIndex];
+                            }));
+                        }
                     }
                 }
             }
         }
 
 
+        private void OpModeChange_Click(object sender, EventArgs e)
+        {
+            if (sender is BunifuFlatButton bt)
+            {
+                OpModeChangeButtonNum = Int32.Parse(bt.Tag.ToString());
+
+                OpModeButtonClicked?.Invoke(this, e);
+            }
+        }
+
+        private void FormControllerSetup_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            FormMain.DimmLevelValueReceivedFromController -= DimmLevelValueRefresh;
+            FormMain.MaintenanceFactorReceivedFromController -= MaintenanceFactorRefresh;
+            FormMain.OpModeReceivedFromController -= OpModeRefresh;
+            FormMain.OnOffReceivedFromController -= OnOffRefresh;
+        }
+
+        private void DimmOnOff_Click(object sender, EventArgs e)
+        {
+            if (sender is BunifuFlatButton bt)
+            {
+                OnOffButtonNum = Int32.Parse(bt.Tag.ToString());
+
+                OnOffButtonClicked?.Invoke(this, e);
+            }
+        }
     }
 }

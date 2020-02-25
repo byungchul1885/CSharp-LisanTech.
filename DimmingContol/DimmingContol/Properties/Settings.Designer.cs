@@ -39,9 +39,9 @@ namespace DimmingContol.Properties {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute(@"<?xml version=""1.0"" encoding=""utf-16""?>
 <ArrayOfString xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance"" xmlns:xsd=""http://www.w3.org/2001/XMLSchema"">
-  <string>192.168.0.100</string>
-  <string>192.168.0.101</string>
-  <string>192.168.0.102</string>
+  <string>172.22.56.178</string>
+  <string>172.22.56.178</string>
+  <string>172.22.56.178</string>
   <string>192.168.0.103</string>
   <string>192.168.0.104</string>
   <string>192.168.0.105</string>
@@ -99,7 +99,7 @@ namespace DimmingContol.Properties {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute(@"<?xml version=""1.0"" encoding=""utf-16""?>
 <ArrayOfString xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance"" xmlns:xsd=""http://www.w3.org/2001/XMLSchema"">
-  <string>5000</string>
+  <string>502</string>
   <string>5000</string>
   <string>5000</string>
   <string>5000</string>

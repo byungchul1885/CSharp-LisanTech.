@@ -18,6 +18,7 @@ namespace DimmingContol
 
         public List<string> DimLevelValue { get; set; }
         public string ControllerName { get; set; }
+        public int ControllerIdx { get; set; }
 
         public FormInputDimmLevel()
         {
@@ -62,7 +63,10 @@ namespace DimmingContol
                 }
             }
 
+            DimLevelValue[0] = ControllerIdx.ToString();
+
             UserChangedDimmLevelValue?.Invoke(this, e);
+
             Close();
         }
 
@@ -72,7 +76,7 @@ namespace DimmingContol
             if (sender is BunifuMaterialTextbox tb)
             {
                 var isNumeric = int.TryParse(tb.Text, out int n);
-                if (!isNumeric || n > 100 || n < 0)
+                if (!isNumeric || n > 9999 || n < 0)
                 {
                     inputValidation.Visible = true;
                     EnableTextBox(false);
@@ -86,7 +90,7 @@ namespace DimmingContol
                     }
                     else
                     {
-                        inputValidation.Text = "입력범위를 벗어났습니다 (0 ~ 100)";
+                        inputValidation.Text = "입력범위를 벗어났습니다 (0 ~ 9999)";
                     }
                 }
                 else

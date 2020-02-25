@@ -35,8 +35,11 @@ namespace DimmingContol
             if (sender is BunifuThinButton2 button)
             {
                 IP = ipMetroTextbox.Text;
+
+#if false
                 SubMask = subMaskMetroTextbox.Text;
                 Gateway = gateWayMetroTextbox.Text;
+#endif
                 Port = portMetroTextbox.Text;
 
                 if (button.Name == "connButton")
@@ -61,8 +64,10 @@ namespace DimmingContol
         {
             titleLabel.Text = ControllerName + " 제어기 IP 접속 설정";
             ipMetroTextbox.Text = IP;
+#if false
             subMaskMetroTextbox.Text = SubMask;
             gateWayMetroTextbox.Text = Gateway;
+#endif
             portMetroTextbox.Text = Port;
 
 

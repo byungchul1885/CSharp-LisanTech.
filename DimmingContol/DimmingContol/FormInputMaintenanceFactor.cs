@@ -17,6 +17,7 @@ namespace DimmingContol
 
         public List<string> MaintenanceFactor { get; set; }
         public string ControllerName { get; set; }
+        public int ControllerIdx { get; set; }
 
 
         public FormInputMaintenanceFactor()
@@ -57,9 +58,35 @@ namespace DimmingContol
                 }
             }
 
+            MaintenanceFactor[0] = ControllerIdx.ToString();
+
             UserChangedMaintenanceFactor?.Invoke(this, e);
+
             Close();
         }
+
+
+        //private void Apply_Click2(object sender, EventArgs e)
+        //{
+        //    DimLevelValue.Clear();
+        //    DimLevelValue.AddRange(new string[dimmLevelPanel.ColumnCount]);
+
+        //    foreach (Control c in dimmLevelPanel.Controls)
+        //    {
+        //        if (c.GetType() == typeof(BunifuMaterialTextbox)
+        //            && c.Name.Contains("dimmTextBox"))
+        //        {
+        //            int levelIndex = Int32.Parse(c.Name.Remove(0, "dimmTextBox".Length));
+        //            DimLevelValue[levelIndex] = c.Text;
+        //        }
+        //    }
+
+        //    DimLevelValue[0] = ControllerIdx.ToString();
+
+        //    UserChangedDimmLevelValue?.Invoke(this, e);
+
+        //    Close();
+        //}
 
         private void Close_Click(object sender, EventArgs e)
         {

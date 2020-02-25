@@ -34,9 +34,15 @@ namespace DimmingContol
         private const byte excExceptionOffset = 128;
         private const byte excSendFailt = 100;
 
+#if false
         private static ushort _timeout = 500;
         private static ushort _refresh = 10;
         private static bool _connected = false;
+#else
+        private ushort _timeout = 500;
+        private ushort _refresh = 10;
+        private bool _connected = false;
+#endif
 
         private Socket tcpAsyCl;
         private byte[] tcpAsyClBuffer = new byte[2048];
@@ -189,7 +195,7 @@ namespace DimmingContol
         public void ReadHoldingRegister(ushort id, byte unit, ushort startAddress, ushort numInputs)
         {
             //App.RxValues.TxFrmCnt++;
-            Debug.Write(String.Format("0x{0:X4}:TX\r\n", startAddress));
+            //Debug.Write(String.Format("0x{0:X4}:TX\r\n", startAddress));
             //Debug.Write("TX");
             //System.Threading.Thread.Sleep(5000);
             WriteAsyncData(CreateReadHeader(id, unit, startAddress, numInputs, fctReadHoldingRegister), id);
@@ -386,24 +392,5 @@ namespace DimmingContol
             //App.RxValues.RxFrmCnt++;
         }
 
-    }
-
-    public static class SocketExtensions
-    {
-        public static void Connect(this Socket socket, EndPoint endpoint, TimeSpan timeout)
-        {
-            var result = socket.BeginConnect(endpoint, null, null);
-
-            bool success = result.AsyncWaitHandle.WaitOne(timeout, true);
-            if (success)
-            {
-                socket.EndConnect(result);
-            }
-            else
-            {
-                socket.Close();
-                throw new SocketException(10060); // Connection timed out.
-            }
-        }
     }
 }

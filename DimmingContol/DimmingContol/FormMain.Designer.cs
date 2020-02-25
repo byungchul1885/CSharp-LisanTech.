@@ -144,16 +144,16 @@
             this.bunifuCustomLabel115 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel116 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.tlPanel30 = new System.Windows.Forms.TableLayoutPanel();
-            this.externalLuminanceX30 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.internalLuminanceX30 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.regularLampButtonX30 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.dayLampButtonX30 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.regularLampDimmPercentX30 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.dayLampDimmPercentX30 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.internalLuminanceX30 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel17 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel18 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel84 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel85 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.externalLuminanceX30 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.tlPanel31 = new System.Windows.Forms.TableLayoutPanel();
             this.regularLampButtonX31 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.dayLampButtonX31 = new Bunifu.Framework.UI.BunifuFlatButton();
@@ -330,11 +330,11 @@
             // 
             // connButtonX0
             // 
-            this.connButtonX0.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(60)))), ((int)(((byte)(12)))));
-            this.connButtonX0.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(60)))), ((int)(((byte)(12)))));
+            this.connButtonX0.Activecolor = System.Drawing.Color.Red;
+            this.connButtonX0.BackColor = System.Drawing.Color.Red;
             this.connButtonX0.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.connButtonX0.BorderRadius = 0;
-            this.connButtonX0.ButtonText = "연결";
+            this.connButtonX0.ButtonText = "끊어짐";
             this.mainTLPanel.SetColumnSpan(this.connButtonX0, 2);
             this.connButtonX0.Cursor = System.Windows.Forms.Cursors.Hand;
             this.connButtonX0.DisabledColor = System.Drawing.Color.Gray;
@@ -354,14 +354,15 @@
             this.connButtonX0.Location = new System.Drawing.Point(576, 55);
             this.connButtonX0.Margin = new System.Windows.Forms.Padding(0, 5, 10, 10);
             this.connButtonX0.Name = "connButtonX0";
-            this.connButtonX0.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(60)))), ((int)(((byte)(12)))));
+            this.connButtonX0.Normalcolor = System.Drawing.Color.Red;
             this.connButtonX0.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
             this.connButtonX0.OnHoverTextColor = System.Drawing.Color.White;
             this.mainTLPanel.SetRowSpan(this.connButtonX0, 2);
             this.connButtonX0.selected = false;
             this.connButtonX0.Size = new System.Drawing.Size(86, 35);
             this.connButtonX0.TabIndex = 22;
-            this.connButtonX0.Text = "연결";
+            this.connButtonX0.Tag = "0";
+            this.connButtonX0.Text = "끊어짐";
             this.connButtonX0.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.connButtonX0.Textcolor = System.Drawing.Color.White;
             this.connButtonX0.TextFont = new System.Drawing.Font("Malgun Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -369,11 +370,11 @@
             // 
             // connButtonX1
             // 
-            this.connButtonX1.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(60)))), ((int)(((byte)(12)))));
-            this.connButtonX1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(60)))), ((int)(((byte)(12)))));
+            this.connButtonX1.Activecolor = System.Drawing.Color.Red;
+            this.connButtonX1.BackColor = System.Drawing.Color.Red;
             this.connButtonX1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.connButtonX1.BorderRadius = 0;
-            this.connButtonX1.ButtonText = "연결";
+            this.connButtonX1.ButtonText = "끊어짐";
             this.mainTLPanel.SetColumnSpan(this.connButtonX1, 2);
             this.connButtonX1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.connButtonX1.DisabledColor = System.Drawing.Color.Gray;
@@ -393,14 +394,15 @@
             this.connButtonX1.Location = new System.Drawing.Point(1200, 55);
             this.connButtonX1.Margin = new System.Windows.Forms.Padding(0, 5, 10, 10);
             this.connButtonX1.Name = "connButtonX1";
-            this.connButtonX1.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(60)))), ((int)(((byte)(12)))));
+            this.connButtonX1.Normalcolor = System.Drawing.Color.Red;
             this.connButtonX1.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
             this.connButtonX1.OnHoverTextColor = System.Drawing.Color.White;
             this.mainTLPanel.SetRowSpan(this.connButtonX1, 2);
             this.connButtonX1.selected = false;
             this.connButtonX1.Size = new System.Drawing.Size(86, 35);
             this.connButtonX1.TabIndex = 23;
-            this.connButtonX1.Text = "연결";
+            this.connButtonX1.Tag = "1";
+            this.connButtonX1.Text = "끊어짐";
             this.connButtonX1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.connButtonX1.Textcolor = System.Drawing.Color.White;
             this.connButtonX1.TextFont = new System.Drawing.Font("Malgun Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -408,7 +410,7 @@
             // 
             // connButtonX2
             // 
-            this.connButtonX2.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
+            this.connButtonX2.Activecolor = System.Drawing.Color.Red;
             this.connButtonX2.BackColor = System.Drawing.Color.Red;
             this.connButtonX2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.connButtonX2.BorderRadius = 0;
@@ -439,6 +441,7 @@
             this.connButtonX2.selected = false;
             this.connButtonX2.Size = new System.Drawing.Size(86, 35);
             this.connButtonX2.TabIndex = 24;
+            this.connButtonX2.Tag = "2";
             this.connButtonX2.Text = "끊어짐";
             this.connButtonX2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.connButtonX2.Textcolor = System.Drawing.Color.White;
@@ -799,8 +802,8 @@
             // 
             // dayLampButtonX00
             // 
-            this.dayLampButtonX00.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.dayLampButtonX00.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.dayLampButtonX00.Activecolor = System.Drawing.Color.Transparent;
+            this.dayLampButtonX00.BackColor = System.Drawing.Color.Transparent;
             this.dayLampButtonX00.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.dayLampButtonX00.BorderRadius = 0;
             this.dayLampButtonX00.ButtonText = "OFF";
@@ -822,7 +825,7 @@
             this.dayLampButtonX00.Location = new System.Drawing.Point(221, 66);
             this.dayLampButtonX00.Margin = new System.Windows.Forms.Padding(2);
             this.dayLampButtonX00.Name = "dayLampButtonX00";
-            this.dayLampButtonX00.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.dayLampButtonX00.Normalcolor = System.Drawing.Color.Transparent;
             this.dayLampButtonX00.OnHovercolor = System.Drawing.Color.Pink;
             this.dayLampButtonX00.OnHoverTextColor = System.Drawing.Color.White;
             this.dayLampButtonX00.selected = false;
@@ -1476,7 +1479,7 @@
             // 
             // dayLampButtonX10
             // 
-            this.dayLampButtonX10.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.dayLampButtonX10.Activecolor = System.Drawing.Color.Transparent;
             this.dayLampButtonX10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
             this.dayLampButtonX10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.dayLampButtonX10.BorderRadius = 0;
@@ -2810,38 +2813,6 @@
             this.tlPanel30.Size = new System.Drawing.Size(330, 130);
             this.tlPanel30.TabIndex = 13;
             // 
-            // externalLuminanceX30
-            // 
-            this.externalLuminanceX30.AutoSize = true;
-            this.externalLuminanceX30.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
-            this.tlPanel30.SetColumnSpan(this.externalLuminanceX30, 2);
-            this.externalLuminanceX30.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.externalLuminanceX30.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.externalLuminanceX30.ForeColor = System.Drawing.Color.White;
-            this.externalLuminanceX30.Location = new System.Drawing.Point(112, 2);
-            this.externalLuminanceX30.Margin = new System.Windows.Forms.Padding(2);
-            this.externalLuminanceX30.Name = "externalLuminanceX30";
-            this.externalLuminanceX30.Size = new System.Drawing.Size(216, 28);
-            this.externalLuminanceX30.TabIndex = 4;
-            this.externalLuminanceX30.Text = "1653 cd/㎡";
-            this.externalLuminanceX30.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // internalLuminanceX30
-            // 
-            this.internalLuminanceX30.AutoSize = true;
-            this.internalLuminanceX30.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
-            this.tlPanel30.SetColumnSpan(this.internalLuminanceX30, 2);
-            this.internalLuminanceX30.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.internalLuminanceX30.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.internalLuminanceX30.ForeColor = System.Drawing.Color.White;
-            this.internalLuminanceX30.Location = new System.Drawing.Point(112, 34);
-            this.internalLuminanceX30.Margin = new System.Windows.Forms.Padding(2);
-            this.internalLuminanceX30.Name = "internalLuminanceX30";
-            this.internalLuminanceX30.Size = new System.Drawing.Size(216, 28);
-            this.internalLuminanceX30.TabIndex = 5;
-            this.internalLuminanceX30.Text = "86 cd/㎡";
-            this.internalLuminanceX30.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // regularLampButtonX30
             // 
             this.regularLampButtonX30.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
@@ -2944,6 +2915,22 @@
             this.dayLampDimmPercentX30.Text = "디밍 0%";
             this.dayLampDimmPercentX30.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // internalLuminanceX30
+            // 
+            this.internalLuminanceX30.AutoSize = true;
+            this.internalLuminanceX30.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
+            this.tlPanel30.SetColumnSpan(this.internalLuminanceX30, 2);
+            this.internalLuminanceX30.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.internalLuminanceX30.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.internalLuminanceX30.ForeColor = System.Drawing.Color.White;
+            this.internalLuminanceX30.Location = new System.Drawing.Point(112, 34);
+            this.internalLuminanceX30.Margin = new System.Windows.Forms.Padding(2);
+            this.internalLuminanceX30.Name = "internalLuminanceX30";
+            this.internalLuminanceX30.Size = new System.Drawing.Size(216, 28);
+            this.internalLuminanceX30.TabIndex = 5;
+            this.internalLuminanceX30.Text = "86 cd/㎡";
+            this.internalLuminanceX30.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // bunifuCustomLabel17
             // 
             this.bunifuCustomLabel17.AutoSize = true;
@@ -2999,6 +2986,22 @@
             this.bunifuCustomLabel85.TabIndex = 0;
             this.bunifuCustomLabel85.Text = "외부휘도";
             this.bunifuCustomLabel85.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // externalLuminanceX30
+            // 
+            this.externalLuminanceX30.AutoSize = true;
+            this.externalLuminanceX30.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
+            this.tlPanel30.SetColumnSpan(this.externalLuminanceX30, 2);
+            this.externalLuminanceX30.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.externalLuminanceX30.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.externalLuminanceX30.ForeColor = System.Drawing.Color.White;
+            this.externalLuminanceX30.Location = new System.Drawing.Point(112, 2);
+            this.externalLuminanceX30.Margin = new System.Windows.Forms.Padding(2);
+            this.externalLuminanceX30.Name = "externalLuminanceX30";
+            this.externalLuminanceX30.Size = new System.Drawing.Size(216, 28);
+            this.externalLuminanceX30.TabIndex = 4;
+            this.externalLuminanceX30.Text = "1653 cd/㎡";
+            this.externalLuminanceX30.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // tlPanel31
             // 
