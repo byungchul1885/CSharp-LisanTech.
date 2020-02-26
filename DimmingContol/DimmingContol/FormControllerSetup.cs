@@ -22,8 +22,8 @@ namespace DimmingContol
         public string ControllerName { get; set; }
         public int OpModeChangeButtonNum { get; set; }
         public int OnOffButtonNum { get; set; }
-
         public string OpMode { get; set; }
+
 
         public static event EventHandler OpModeButtonClicked;
 
@@ -133,10 +133,14 @@ namespace DimmingContol
                             && c.Name.Contains("dimmLevelLabel"))
                         {
                             int levelIndex = Int32.Parse(c.Name.Remove(0, "dimmLevelLabel".Length));
-                            Invoke(new Action(() =>
+                            try
                             {
-                                c.Text = DimLevelValue[levelIndex];
-                            }));
+                                Invoke(new Action(() =>
+                                {
+                                    c.Text = DimLevelValue[levelIndex];
+                                }));
+                            }
+                            catch { }
                         }
                     }
                 }
@@ -144,7 +148,7 @@ namespace DimmingContol
         }
 
         private void MaintenanceFactorRefresh(object sender, EventArgs e)
-        {   
+        {
             if (sender is List<string> li)
             {
                 if (Int32.Parse(li[0]) == ControllerIdx)
@@ -158,10 +162,14 @@ namespace DimmingContol
                             && c.Name.Contains("maintenanceFactorLabel"))
                         {
                             int levelIndex = Int32.Parse(c.Name.Remove(0, "maintenanceFactorLabel".Length));
-                            Invoke(new Action(() =>
+                            try
                             {
-                                c.Text = MaintenanceFactor[levelIndex];
-                            }));
+                                Invoke(new Action(() =>
+                                {
+                                    c.Text = MaintenanceFactor[levelIndex];
+                                }));
+                            }
+                            catch { }
                         }
                     }
                 }
@@ -174,10 +182,14 @@ namespace DimmingContol
             {
                 if ((int)mode[0] == ControllerIdx)
                 {
-                    Invoke(new Action(() =>
+                    try
                     {
-                        opModeLabel.Text = (string)mode[1];
-                    }));
+                        Invoke(new Action(() =>
+                        {
+                            opModeLabel.Text = (string)mode[1];
+                        }));
+                    }
+                    catch { }
                 }
             }
         }
@@ -197,10 +209,15 @@ namespace DimmingContol
                             && c.Name.Contains("onoffLabel"))
                         {
                             int levelIndex = Int32.Parse(c.Name.Remove(0, "onoffLabel".Length));
-                            Invoke(new Action(() =>
+                            try
                             {
-                                c.Text = OnOff[levelIndex];
-                            }));
+                                Invoke(new Action(() =>
+                                {
+                                    c.Text = OnOff[levelIndex];
+                                    c.ForeColor = c.Text == "OFF" ? c.ForeColor = Color.FromArgb(255, 85, 85) : Color.FromArgb(250, 250, 210);
+                                }));
+                            }
+                            catch { }
                         }
                     }
                 }

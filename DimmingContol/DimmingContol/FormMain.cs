@@ -6,6 +6,7 @@ using System.Data;
 using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -16,6 +17,9 @@ namespace DimmingContol
 {
     public partial class FormMain : Form
     {
+        private int[] txFrameCnt = new int[4] { 0, 0, 0, 0 };
+        private int[] rxFrameCnt = new int[4] { 0, 0, 0, 0 };
+
         private readonly List<Master> MBmaster = new List<Master>();
         private readonly List<DispatcherTimer> ReqInterval = new List<DispatcherTimer>();
 
@@ -97,19 +101,14 @@ namespace DimmingContol
 
         public static event EventHandler OnOffReceivedFromController;
 
+
         public FormMain()
         {
             InitializeComponent();
 
             InitControl();
 
-            FormInputDimmLevel.UserChangedDimmLevelValue += DimmLevelChagnedByUser;
-
-            FormInputMaintenanceFactor.UserChangedMaintenanceFactor += MaintenanceFactorChagnedByUser;
-
-            FormControllerSetup.OpModeButtonClicked += ChangeOpMode;
-
-
+            AddEventHandler();
         }
 
         public IEnumerable<Control> GetAll(Control control, Type type)
@@ -121,9 +120,32 @@ namespace DimmingContol
                                       .Where(c => c.GetType() == type);
         }
 
+        private void AddEventHandler()
+        {
+            FormInputDimmLevel.UserChangedDimmLevelValue += DimmLevelChagnedByUser;
+
+            FormInputMaintenanceFactor.UserChangedMaintenanceFactor += MaintenanceFactorChagnedByUser;
+
+            FormControllerSetup.OpModeButtonClicked += ChangeOpModeByUser;
+
+            FormControllerSetup.OnOffButtonClicked += ChangeDimmOnOffByUser;
+        }
+
         private void InitControl()
         {
-            dayLampButtonX00.Enabled = false;
+            List<TableLayoutPanel> tlpl = new List<TableLayoutPanel>
+            {
+                mainTLPanel,
+                tlPanel00, tlPanel10, tlPanel20, tlPanel30,
+                tlPanel01, tlPanel11, tlPanel21, tlPanel31,
+                tlPanel02, tlPanel12, tlPanel22, tlPanel32
+            };
+            foreach (var item in tlpl)
+            {
+                typeof(Panel).InvokeMember("DoubleBuffered",
+                    BindingFlags.SetProperty | BindingFlags.Instance | BindingFlags.NonPublic,
+                    null, item, new object[] { true });
+            }
 
             /* 상행-주행 -------------------------------------*/
             /* 외부휘도 */
@@ -142,24 +164,19 @@ namespace DimmingContol
             H709B.Add(dayLampDimmPercentX02);
 
             /* 주간등 디밍 On-Off 버튼 */
-            H7081B02.Add(dayLampButtonX00);
-            H7081B02.Add(dayLampButtonX01);
-            H7081B02.Add(dayLampButtonX02);
+            H7081B02.Add(dayLampOnOffLabelX00);
+            H7081B02.Add(dayLampOnOffLabelX01);
+            H7081B02.Add(dayLampOnOffLabelX02);
 
             /* 상시등 디밍% */
-            //H709C.Add(regularLampDimmPercentX00);
-            //H709C.Add(regularLampDimmPercentX01);
-            //H709C.Add(regularLampDimmPercentX02);
-
             H709D.Add(regularLampDimmPercentX00);
             H709D.Add(regularLampDimmPercentX01);
             H709D.Add(regularLampDimmPercentX02);
 
-
             /* 상시등 디밍 On-Off 버튼 */
-            H7081B06.Add(regularLampButtonX00);
-            H7081B06.Add(regularLampButtonX01);
-            H7081B06.Add(regularLampButtonX02);
+            H7081B06.Add(regularLampOnOffLabelX00);
+            H7081B06.Add(regularLampOnOffLabelX01);
+            H7081B06.Add(regularLampOnOffLabelX02);
 
 
             /* 상행-추월 -------------------------------------*/
@@ -179,24 +196,19 @@ namespace DimmingContol
             H709A.Add(dayLampDimmPercentX12);
 
             /* 주간등 디밍 On-Off 버튼 */
-            H7081B00.Add(dayLampButtonX10);
-            H7081B00.Add(dayLampButtonX11);
-            H7081B00.Add(dayLampButtonX12);
+            H7081B00.Add(dayLampOnOffLabelX10);
+            H7081B00.Add(dayLampOnOffLabelX11);
+            H7081B00.Add(dayLampOnOffLabelX12);
 
             /* 상시등 디밍% */
-            //H709D.Add(regularLampDimmPercentX10);
-            //H709D.Add(regularLampDimmPercentX11);
-            //H709D.Add(regularLampDimmPercentX12);
-
             H709C.Add(regularLampDimmPercentX10);
             H709C.Add(regularLampDimmPercentX11);
             H709C.Add(regularLampDimmPercentX12);
 
-
             /* 상시등 디밍 On-Off 버튼 */
-            H7081B04.Add(regularLampButtonX10);
-            H7081B04.Add(regularLampButtonX11);
-            H7081B04.Add(regularLampButtonX12);
+            H7081B04.Add(regularLampOnOffLabelX10);
+            H7081B04.Add(regularLampOnOffLabelX11);
+            H7081B04.Add(regularLampOnOffLabelX12);
 
 
             /* 하행-추월 -------------------------------------*/
@@ -216,9 +228,9 @@ namespace DimmingContol
             H70A0.Add(dayLampDimmPercentX22);
 
             /* 주간등 디밍 On-Off 버튼 */
-            H7081B08.Add(dayLampButtonX20);
-            H7081B08.Add(dayLampButtonX21);
-            H7081B08.Add(dayLampButtonX22);
+            H7081B08.Add(dayLampOnOffLabelX20);
+            H7081B08.Add(dayLampOnOffLabelX21);
+            H7081B08.Add(dayLampOnOffLabelX22);
 
             /* 상시등 디밍% */
             H70A2.Add(regularLampDimmPercentX20);
@@ -226,9 +238,9 @@ namespace DimmingContol
             H70A2.Add(regularLampDimmPercentX22);
 
             /* 상시등 디밍 On-Off 버튼 */
-            H7081B12.Add(regularLampButtonX20);
-            H7081B12.Add(regularLampButtonX21);
-            H7081B12.Add(regularLampButtonX22);
+            H7081B12.Add(regularLampOnOffLabelX20);
+            H7081B12.Add(regularLampOnOffLabelX21);
+            H7081B12.Add(regularLampOnOffLabelX22);
 
 
             /* 하행-주행 -------------------------------------*/
@@ -248,9 +260,9 @@ namespace DimmingContol
             H70A1.Add(dayLampDimmPercentX32);
 
             /* 주간등 디밍 On-Off 버튼 */
-            H7081B10.Add(dayLampButtonX30);
-            H7081B10.Add(dayLampButtonX31);
-            H7081B10.Add(dayLampButtonX32);
+            H7081B10.Add(dayLampOnOffLabelX30);
+            H7081B10.Add(dayLampOnOffLabelX31);
+            H7081B10.Add(dayLampOnOffLabelX32);
 
             /* 상시등 디밍% */
             H70A3.Add(regularLampDimmPercentX30);
@@ -258,9 +270,9 @@ namespace DimmingContol
             H70A3.Add(regularLampDimmPercentX32);
 
             /* 상시등 디밍 On-Off 버튼 */
-            H7081B14.Add(regularLampButtonX30);
-            H7081B14.Add(regularLampButtonX31);
-            H7081B14.Add(regularLampButtonX32);
+            H7081B14.Add(regularLampOnOffLabelX30);
+            H7081B14.Add(regularLampOnOffLabelX31);
+            H7081B14.Add(regularLampOnOffLabelX32);
 
             /* 연결 버튼 */
             ConnectButton.Add(connButtonX0);
@@ -309,7 +321,7 @@ namespace DimmingContol
                 /* 타이머 */
                 ReqInterval.Add(new DispatcherTimer
                 {
-                    Interval = new TimeSpan(0, 0, 0, 0, 1000),
+                    Interval = new TimeSpan(0, 0, 0, 0, 2000),
                     Tag = i
                 });
                 ReqInterval[i].Tick += ReqInterval_Tick;
@@ -420,42 +432,47 @@ namespace DimmingContol
             mainTLPanel.BackgroundImage = finalImage;
         }
 
+        private void FormMain_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Properties.Settings.Default.Save();
+
+            foreach (var item in MBmaster)
+            {
+                if (item.Connected)
+                {
+                    item.OnResponseData -= MBmaster_OnResponseData;
+                    item.OnException -= MBmaster_OnException;
+                    item.Disconnect();
+                }
+            }
+        }
+
         private void ReqInterval_Tick(object sender, EventArgs e)
         {
             if (sender is DispatcherTimer dt)
             {
                 int controllerIdx = (int)dt.Tag;
 
-                //Debug.WriteLine($"ReqInterval_Tick Tag: {controllerIdx}");
+                RequestNow(controllerIdx);
 
-                reqCnt[controllerIdx]++;
-                if (reqCnt[controllerIdx] > 5)
-                {
-                    ConnectButton[controllerIdx].Text = "끊어짐";
-                    ConnectButton[controllerIdx].BackColor = Color.FromArgb(255, 0, 0);
-                }
+                //reqCnt[controllerIdx]++;
+                //if (reqCnt[controllerIdx] > 5)
+                //{
+                //    Debug.WriteLine($"ReqInterval_Tick Tag: {controllerIdx}");
+
+                //    ConnectButton[controllerIdx].Text = "끊어짐";
+                //    ConnectButton[controllerIdx].BackColor = Color.FromArgb(255, 0, 0);
+                //}
 
             }
             else
             {
                 Debug.WriteLine($"why");
             }
-
-
-#if false
-            reqCnt++;
-            if (reqCnt > 5)
-            {
-                App.Config.ConnStat = "접속끊김";
-                App.Config.ConnStatBackgBrush = Brushes.Red;
-                App.Config.ConnStatForgBrush = Brushes.Yellow;
-            }
-#endif
         }
 
         private void CloseProgramButton_Click(object sender, EventArgs e)
         {
-            Properties.Settings.Default.Save();
             this.Close();
         }
 
@@ -508,9 +525,8 @@ namespace DimmingContol
 
                             MBmaster[buttonIndex].Connect(form.IP, ushort.Parse(form.Port));
 
-                            MBmaster[buttonIndex].OnResponseData += new Master.ResponseData(MBmaster_OnResponseData);
-
-                            MBmaster[buttonIndex].OnException += new Master.ExceptionData(MBmaster_OnException);
+                            MBmaster[buttonIndex].OnResponseData += MBmaster_OnResponseData;
+                            MBmaster[buttonIndex].OnException += MBmaster_OnException;
 
                             ReqInterval[buttonIndex].Start();
 
@@ -523,6 +539,9 @@ namespace DimmingContol
                     }
                     else if (form.ButtonAction == "close")
                     {
+                        MBmaster[buttonIndex].OnResponseData -= MBmaster_OnResponseData;
+                        MBmaster[buttonIndex].OnException -= MBmaster_OnException;
+
                         MBmaster[buttonIndex].Disconnect();
 
                         ReqInterval[buttonIndex].Stop();
@@ -600,7 +619,6 @@ namespace DimmingContol
             int remainder = ID % 100;
             int controllerIdx = quotient - 1;
 
-
             if (MBmaster[controllerIdx].Connected == false)
             {
                 return;
@@ -613,12 +631,25 @@ namespace DimmingContol
                 ConnectButton[controllerIdx].Text = "연결";
                 ConnectButton[controllerIdx].BackColor = Color.FromArgb(0, 176, 80);
 
+                rxFrameCnt[controllerIdx]++;
+
+                if (controllerIdx == 0)
+                {
+                    rxFrameCntX0.Text = rxFrameCnt[0].ToString();
+                }
+                else if (controllerIdx == 1)
+                {
+                    rxFrameCntX1.Text = rxFrameCnt[1].ToString();
+                }
+                else if (controllerIdx == 2)
+                {
+                    rxFrameCntX2.Text = rxFrameCnt[2].ToString();
+                }
+                else if (controllerIdx == 3)
+                {
+                    rxFrameCntX3.Text = rxFrameCnt[3].ToString();
+                }
             }));
-
-            //reqCnt[controllerIdx] = 0;
-
-            //ConnectButton[controllerIdx].Text = "연결";
-            //ConnectButton[controllerIdx].BackColor = Color.FromArgb(0, 176, 80);
 
             if (remainder == 0)
             {
@@ -648,7 +679,8 @@ namespace DimmingContol
             {
                 Parsing_73E0H(values, controllerIdx);
                 System.Threading.Thread.Sleep(500);
-                MBmaster[controllerIdx].ReadHoldingRegister(Convert.ToUInt16(ID - 4), 1, 0x7080, 32); // 0x7080 ~ 0x709F
+
+                //MBmaster[controllerIdx].ReadHoldingRegister(Convert.ToUInt16(ID - 4), 1, 0x7080, 32); // 0x7080 ~ 0x709F
             }
 
 #if false
@@ -873,8 +905,7 @@ namespace DimmingContol
             }
         }
 
-
-        private void ChangeOpMode(object sender, EventArgs e)
+        private void ChangeOpModeByUser(object sender, EventArgs e)
         {
             if (sender is FormControllerSetup form)
             {
@@ -905,6 +936,114 @@ namespace DimmingContol
 
                 Array.Reverse(temp);
                 MBmaster[form.ControllerIdx].WriteMultipleRegister(1000, 1, address, temp);
+            }
+        }
+
+        private void ChangeDimmOnOffByUser(object sender, EventArgs e)
+        {
+            if (sender is FormControllerSetup form)
+            {
+                byte[] temp = new byte[2];
+                ushort address = 0;
+
+                BitArray H7086 = new BitArray(16);
+                BitArray H7087 = new BitArray(16);
+
+                switch (form.OnOffButtonNum)
+                {
+                    /* 상행-추월-주간 */
+                    case 1:     /* ON */
+                        H7086[0] = true; H7086[2] = true;
+                        H7086.CopyTo(temp, 0);
+                        address = 0x7086;
+                        break;
+                    case 11:    /* OFF */
+                        H7086[1] = true; H7086[3] = true;
+                        H7086.CopyTo(temp, 0);
+                        address = 0x7086;
+                        break;
+                    /* 상행-추월-상시 */
+                    case 2:     /* ON */
+                        H7086[8] = true; H7086[10] = true;
+                        H7086.CopyTo(temp, 0);
+                        address = 0x7086;
+                        break;
+                    case 12:    /* OFF */
+                        H7086[9] = true; H7086[11] = true;
+                        H7086.CopyTo(temp, 0);
+                        address = 0x7086;
+                        break;
+                    /* 상행-주행-주간 */
+                    case 3:     /* ON */
+                        H7086[4] = true; H7086[6] = true;
+                        H7086.CopyTo(temp, 0);
+                        address = 0x7086;
+                        break;
+                    case 13:    /* OFF */
+                        H7086[5] = true; H7086[7] = true;
+                        H7086.CopyTo(temp, 0);
+                        address = 0x7086;
+                        break;
+                    /* 상행-주행-상시 */
+                    case 4:     /* ON */
+                        H7086[12] = true;
+                        H7086.CopyTo(temp, 0);
+                        address = 0x7086;
+                        break;
+                    case 14:    /* OFF */
+                        H7086[13] = true;
+                        H7086.CopyTo(temp, 0);
+                        address = 0x7086;
+                        break;
+
+                    /* 하행-추월-주간 -----------------*/
+                    case 5:     /* ON */
+                        H7087[0] = true; H7087[2] = true;
+                        H7087.CopyTo(temp, 0);
+                        address = 0x7087;
+                        break;
+                    case 15:    /* OFF */
+                        H7087[1] = true; H7087[3] = true;
+                        H7087.CopyTo(temp, 0);
+                        address = 0x7087;
+                        break;
+                    /* 하행-추월-상시 */
+                    case 6:     /* ON */
+                        H7087[8] = true; H7087[10] = true;
+                        H7087.CopyTo(temp, 0);
+                        address = 0x7087;
+                        break;
+                    case 16:    /* OFF */
+                        H7087[9] = true; H7087[11] = true;
+                        H7087.CopyTo(temp, 0);
+                        address = 0x7087;
+                        break;
+                    /* 하행-주행-주간 */
+                    case 7:     /* ON */
+                        H7087[4] = true; H7087[6] = true;
+                        H7087.CopyTo(temp, 0);
+                        address = 0x7087;
+                        break;
+                    case 17:    /* OFF */
+                        H7087[5] = true; H7087[7] = true;
+                        H7087.CopyTo(temp, 0);
+                        address = 0x7087;
+                        break;
+                    /* 상행-주행-상시 */
+                    case 8:     /* ON */
+                        H7087[12] = true;
+                        H7087.CopyTo(temp, 0);
+                        address = 0x7087;
+                        break;
+                    case 18:    /* OFF */
+                        H7087[13] = true;
+                        H7087.CopyTo(temp, 0);
+                        address = 0x7087;
+                        break;
+                }
+
+                Array.Reverse(temp);
+                MBmaster[form.ControllerIdx].WriteMultipleRegister(1003, 1, address, temp);
             }
         }
 
@@ -1559,5 +1698,7 @@ namespace DimmingContol
             App.RxValues.H73F673F7 = BitConverter.ToSingle(temp2, 0);
 #endif
         }
+
+
     }
 }
