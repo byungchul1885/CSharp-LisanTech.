@@ -181,6 +181,7 @@ namespace DimmingContol
 
             /* 상행-추월 -------------------------------------*/
             /* 외부휘도 */
+#if false
             H70AA70AB.Add(externalLuminanceX10); /* 제어기 #0 */
             H70AA70AB.Add(externalLuminanceX11); /* 제어기 #1 */
             H70AA70AB.Add(externalLuminanceX12); /* 제어기 #2 */
@@ -189,6 +190,7 @@ namespace DimmingContol
             H70A870A9.Add(internalLuminanceX10);
             H70A870A9.Add(internalLuminanceX11);
             H70A870A9.Add(internalLuminanceX12);
+#endif
 
             /* 주간등 디밍% */
             H709A.Add(dayLampDimmPercentX10);
@@ -393,10 +395,10 @@ namespace DimmingContol
             //tunnelLabelX1.Text = Properties.Settings.Default.ControllerName[1];
             //tunnelLabelX2.Text = Properties.Settings.Default.ControllerName[2];
 
-            //ascendingDirectionLabel.Text = Properties.Settings.Default.ascendingDirection;
-            //descendingDirectionLabel.Text = Properties.Settings.Default.descendingDirection;
+//ascendingDirectionLabel.Text = Properties.Settings.Default.ascendingDirection;
+//descendingDirectionLabel.Text = Properties.Settings.Default.descendingDirection;
 
-
+#if false
 
             List<Bitmap> images = new List<Bitmap>();
 
@@ -420,7 +422,6 @@ namespace DimmingContol
             //images.Add(bitmap5);
             //images.Add(bitmap6);
 
-
             using (Graphics g = Graphics.FromImage(finalImage))
             {
                 foreach (Bitmap image in images)
@@ -430,6 +431,7 @@ namespace DimmingContol
             }
 
             mainTLPanel.BackgroundImage = finalImage;
+#endif
         }
 
         private void FormMain_FormClosing(object sender, FormClosingEventArgs e)
