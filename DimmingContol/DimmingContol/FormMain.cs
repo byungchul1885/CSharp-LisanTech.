@@ -13,6 +13,13 @@ using System.Windows.Forms;
 using System.Windows.Threading;
 using Bunifu.Framework.UI;
 
+
+/*
+ * [Properties.Settings] 저장 위치
+ * C:\Users\byung\AppData\Local\DimmingContol\
+ * 
+ */
+
 namespace DimmingContol
 {
     public partial class FormMain : Form
@@ -90,7 +97,7 @@ namespace DimmingContol
         private readonly List<Control> ConnectButton = new List<Control>();
 
         /* 연결시도 회수 */
-        private readonly List<int> reqCnt = new List<int>() { 0, 0, 0 };
+        private readonly List<int> reqCnt = new List<int>() { 0, 0, 0, 0 };
 
 
         public static event EventHandler DimmLevelValueReceivedFromController;
@@ -138,7 +145,12 @@ namespace DimmingContol
                 mainTLPanel,
                 tlPanel00, tlPanel10, tlPanel20, tlPanel30,
                 tlPanel01, tlPanel11, tlPanel21, tlPanel31,
-                tlPanel02, tlPanel12, tlPanel22, tlPanel32
+                tlPanel02, tlPanel12, tlPanel22, tlPanel32,
+                tlPanel03, tlPanel13, tlPanel23, tlPanel33,
+                luminancePanelX00, luminancePanelX10, 
+                luminancePanelX01, luminancePanelX11, 
+                luminancePanelX02, luminancePanelX12,
+                luminancePanelX03, luminancePanelX13,
             };
             foreach (var item in tlpl)
             {
@@ -152,65 +164,63 @@ namespace DimmingContol
             H70AA70AB.Add(externalLuminanceX00); /* 제어기 #0 */
             H70AA70AB.Add(externalLuminanceX01); /* 제어기 #1 */
             H70AA70AB.Add(externalLuminanceX02); /* 제어기 #2 */
+            H70AA70AB.Add(externalLuminanceX03); /* 제어기 #3 */
 
             /* 내부휘도 */
             H70A870A9.Add(internalLuminanceX00);
             H70A870A9.Add(internalLuminanceX01);
             H70A870A9.Add(internalLuminanceX02);
+            H70A870A9.Add(internalLuminanceX03);
 
             /* 주간등 디밍% */
             H709B.Add(dayLampDimmPercentX00);
             H709B.Add(dayLampDimmPercentX01);
             H709B.Add(dayLampDimmPercentX02);
+            H709B.Add(dayLampDimmPercentX03);
 
             /* 주간등 디밍 On-Off 버튼 */
             H7081B02.Add(dayLampOnOffLabelX00);
             H7081B02.Add(dayLampOnOffLabelX01);
             H7081B02.Add(dayLampOnOffLabelX02);
+            H7081B02.Add(dayLampOnOffLabelX03);
 
             /* 상시등 디밍% */
             H709D.Add(regularLampDimmPercentX00);
             H709D.Add(regularLampDimmPercentX01);
             H709D.Add(regularLampDimmPercentX02);
+            H709D.Add(regularLampDimmPercentX03);
 
             /* 상시등 디밍 On-Off 버튼 */
             H7081B06.Add(regularLampOnOffLabelX00);
             H7081B06.Add(regularLampOnOffLabelX01);
             H7081B06.Add(regularLampOnOffLabelX02);
+            H7081B06.Add(regularLampOnOffLabelX03);
 
 
             /* 상행-추월 -------------------------------------*/
-            /* 외부휘도 */
-#if false
-            H70AA70AB.Add(externalLuminanceX10); /* 제어기 #0 */
-            H70AA70AB.Add(externalLuminanceX11); /* 제어기 #1 */
-            H70AA70AB.Add(externalLuminanceX12); /* 제어기 #2 */
-
-            /* 내부휘도 */
-            H70A870A9.Add(internalLuminanceX10);
-            H70A870A9.Add(internalLuminanceX11);
-            H70A870A9.Add(internalLuminanceX12);
-#endif
-
             /* 주간등 디밍% */
             H709A.Add(dayLampDimmPercentX10);
             H709A.Add(dayLampDimmPercentX11);
             H709A.Add(dayLampDimmPercentX12);
+            H709A.Add(dayLampDimmPercentX13);
 
             /* 주간등 디밍 On-Off 버튼 */
             H7081B00.Add(dayLampOnOffLabelX10);
             H7081B00.Add(dayLampOnOffLabelX11);
             H7081B00.Add(dayLampOnOffLabelX12);
+            H7081B00.Add(dayLampOnOffLabelX13);
 
             /* 상시등 디밍% */
             H709C.Add(regularLampDimmPercentX10);
             H709C.Add(regularLampDimmPercentX11);
             H709C.Add(regularLampDimmPercentX12);
+            H709C.Add(regularLampDimmPercentX13);
 
             /* 상시등 디밍 On-Off 버튼 */
             H7081B04.Add(regularLampOnOffLabelX10);
             H7081B04.Add(regularLampOnOffLabelX11);
             H7081B04.Add(regularLampOnOffLabelX12);
+            H7081B04.Add(regularLampOnOffLabelX13);
 
 
             /* 하행-추월 -------------------------------------*/
@@ -218,68 +228,69 @@ namespace DimmingContol
             H70AE70AF.Add(externalLuminanceX20); /* 제어기 #0 */
             H70AE70AF.Add(externalLuminanceX21); /* 제어기 #1 */
             H70AE70AF.Add(externalLuminanceX22); /* 제어기 #2 */
+            H70AE70AF.Add(externalLuminanceX23); /* 제어기 #3 */
 
             /* 내부휘도 */
             H70AC70AD.Add(internalLuminanceX20);
             H70AC70AD.Add(internalLuminanceX21);
             H70AC70AD.Add(internalLuminanceX22);
+            H70AC70AD.Add(internalLuminanceX23);
 
             /* 주간등 디밍% */
             H70A0.Add(dayLampDimmPercentX20);
             H70A0.Add(dayLampDimmPercentX21);
             H70A0.Add(dayLampDimmPercentX22);
+            H70A0.Add(dayLampDimmPercentX23);
 
             /* 주간등 디밍 On-Off 버튼 */
             H7081B08.Add(dayLampOnOffLabelX20);
             H7081B08.Add(dayLampOnOffLabelX21);
             H7081B08.Add(dayLampOnOffLabelX22);
+            H7081B08.Add(dayLampOnOffLabelX23);
 
             /* 상시등 디밍% */
             H70A2.Add(regularLampDimmPercentX20);
             H70A2.Add(regularLampDimmPercentX21);
             H70A2.Add(regularLampDimmPercentX22);
+            H70A2.Add(regularLampDimmPercentX23);
 
             /* 상시등 디밍 On-Off 버튼 */
             H7081B12.Add(regularLampOnOffLabelX20);
             H7081B12.Add(regularLampOnOffLabelX21);
             H7081B12.Add(regularLampOnOffLabelX22);
+            H7081B12.Add(regularLampOnOffLabelX23);
 
 
             /* 하행-주행 -------------------------------------*/
-            /* 외부휘도 */
-            H70AE70AF.Add(externalLuminanceX30); /* 제어기 #0 */
-            H70AE70AF.Add(externalLuminanceX31); /* 제어기 #1 */
-            H70AE70AF.Add(externalLuminanceX32); /* 제어기 #2 */
-
-            /* 내부휘도 */
-            H70AC70AD.Add(internalLuminanceX30);
-            H70AC70AD.Add(internalLuminanceX31);
-            H70AC70AD.Add(internalLuminanceX32);
-
             /* 주간등 디밍% */
             H70A1.Add(dayLampDimmPercentX30);
             H70A1.Add(dayLampDimmPercentX31);
             H70A1.Add(dayLampDimmPercentX32);
+            H70A1.Add(dayLampDimmPercentX33);
 
             /* 주간등 디밍 On-Off 버튼 */
             H7081B10.Add(dayLampOnOffLabelX30);
             H7081B10.Add(dayLampOnOffLabelX31);
             H7081B10.Add(dayLampOnOffLabelX32);
+            H7081B10.Add(dayLampOnOffLabelX33);
 
             /* 상시등 디밍% */
             H70A3.Add(regularLampDimmPercentX30);
             H70A3.Add(regularLampDimmPercentX31);
             H70A3.Add(regularLampDimmPercentX32);
+            H70A3.Add(regularLampDimmPercentX33);
 
             /* 상시등 디밍 On-Off 버튼 */
             H7081B14.Add(regularLampOnOffLabelX30);
             H7081B14.Add(regularLampOnOffLabelX31);
             H7081B14.Add(regularLampOnOffLabelX32);
+            H7081B14.Add(regularLampOnOffLabelX33);
 
             /* 연결 버튼 */
             ConnectButton.Add(connButtonX0);
             ConnectButton.Add(connButtonX1);
             ConnectButton.Add(connButtonX2);
+            ConnectButton.Add(connButtonX3);
 
             for (int i = 0; i < Properties.Settings.Default.NumController; i++)
             {
@@ -327,17 +338,43 @@ namespace DimmingContol
                     Tag = i
                 });
                 ReqInterval[i].Tick += ReqInterval_Tick;
+
+                SetLabelEmpty(i);
             }
 
             /* 터널 이름 */
             tunnelLabelX0.Text = Properties.Settings.Default.ControllerName[0];
             tunnelLabelX1.Text = Properties.Settings.Default.ControllerName[1];
             tunnelLabelX2.Text = Properties.Settings.Default.ControllerName[2];
+            tunnelLabelX3.Text = Properties.Settings.Default.ControllerName[3];
 
             /* 상행-하행 방면 */
             ascendingDirectionLabel.Text = Properties.Settings.Default.ascendingDirection;
             descendingDirectionLabel.Text = Properties.Settings.Default.descendingDirection;
+        }
 
+        private void SetLabelEmpty(int idx)
+        {
+            H70AA70AB[idx].Text = string.Empty;
+            H70A870A9[idx].Text = string.Empty;
+            H709B[idx].Text = string.Empty;
+            H7081B02[idx].Text = string.Empty;
+            H709D[idx].Text = string.Empty;
+            H7081B06[idx].Text = string.Empty;
+            H709A[idx].Text = string.Empty;
+            H7081B00[idx].Text = string.Empty;
+            H709C[idx].Text = string.Empty;
+            H7081B04[idx].Text = string.Empty;
+            H70AE70AF[idx].Text = string.Empty;
+            H70AC70AD[idx].Text = string.Empty;
+            H70A0[idx].Text = string.Empty;
+            H7081B08[idx].Text = string.Empty;
+            H70A2[idx].Text = string.Empty;
+            H7081B12[idx].Text = string.Empty;
+            H70A1[idx].Text = string.Empty;
+            H7081B10[idx].Text = string.Empty;
+            H70A3[idx].Text = string.Empty;
+            H7081B14[idx].Text = string.Empty;
         }
 
         private void FormMain_Load(object sender, EventArgs e)
@@ -526,7 +563,6 @@ namespace DimmingContol
                             reqCnt[buttonIndex] = 0;
 
                             MBmaster[buttonIndex].Connect(form.IP, ushort.Parse(form.Port));
-
                             MBmaster[buttonIndex].OnResponseData += MBmaster_OnResponseData;
                             MBmaster[buttonIndex].OnException += MBmaster_OnException;
 
@@ -550,15 +586,8 @@ namespace DimmingContol
 
                         ConnectButton[buttonIndex].Text = "끊어짐";
                         ConnectButton[buttonIndex].BackColor = Color.FromArgb(255, 0, 0);
-#if false
-                        App.RxValues.TxFrmCnt = App.RxValues.RxFrmCnt = 0;
 
-                        App.Config.ConnStat = "접속끊김";
-                        App.Config.ConnStatBackgBrush = Brushes.Red;
-                        App.Config.ConnStatForgBrush = Brushes.Yellow;
-
-                        App.RxValues.SetDefaultValue();
-#endif
+                        SetLabelEmpty(buttonIndex);
                     }
                 }
             }
@@ -580,6 +609,10 @@ namespace DimmingContol
             {
                 ConnectButton[controllerIdx].Text = "끊어짐";
                 ConnectButton[controllerIdx].BackColor = Color.FromArgb(255, 0, 0);
+
+                MBmaster[controllerIdx].OnResponseData -= MBmaster_OnResponseData;
+                MBmaster[controllerIdx].OnException -= MBmaster_OnException;
+                MBmaster[controllerIdx].Disconnect();
             }
 
             ushort ID = Convert.ToUInt16((controllerIdx + 1) * 100);
@@ -1127,14 +1160,14 @@ namespace DimmingContol
                 H7081B12[controllerIdx].Text = H7081[12] ? "ON" : "OFF";  // 하행 추월선 주간(일출일몰)등 상태
                 H7081B14[controllerIdx].Text = H7081[14] ? "ON" : "OFF";  // 하행 심야등 상태
 
-                H7081B00[controllerIdx].BackColor = H7081[0] ? Color.FromArgb(0, 176, 80) : Color.FromArgb(255, 0, 0);
-                H7081B02[controllerIdx].BackColor = H7081[2] ? Color.FromArgb(0, 176, 80) : Color.FromArgb(255, 0, 0);
-                H7081B04[controllerIdx].BackColor = H7081[4] ? Color.FromArgb(0, 176, 80) : Color.FromArgb(255, 0, 0);
-                H7081B06[controllerIdx].BackColor = H7081[6] ? Color.FromArgb(0, 176, 80) : Color.FromArgb(255, 0, 0);
-                H7081B08[controllerIdx].BackColor = H7081[8] ? Color.FromArgb(0, 176, 80) : Color.FromArgb(255, 0, 0);
-                H7081B10[controllerIdx].BackColor = H7081[10] ? Color.FromArgb(0, 176, 80) : Color.FromArgb(255, 0, 0);
-                H7081B12[controllerIdx].BackColor = H7081[12] ? Color.FromArgb(0, 176, 80) : Color.FromArgb(255, 0, 0);
-                H7081B14[controllerIdx].BackColor = H7081[14] ? Color.FromArgb(0, 176, 80) : Color.FromArgb(255, 0, 0);
+                H7081B00[controllerIdx].ForeColor = H7081[0] ? Color.FromArgb(0, 102, 204) : Color.FromArgb(211, 82, 48);
+                H7081B02[controllerIdx].ForeColor = H7081[2] ? Color.FromArgb(0, 102, 204) : Color.FromArgb(211, 82, 48);
+                H7081B04[controllerIdx].ForeColor = H7081[4] ? Color.FromArgb(0, 102, 204) : Color.FromArgb(211, 82, 48);
+                H7081B06[controllerIdx].ForeColor = H7081[6] ? Color.FromArgb(0, 102, 204) : Color.FromArgb(211, 82, 48);
+                H7081B08[controllerIdx].ForeColor = H7081[8] ? Color.FromArgb(0, 102, 204) : Color.FromArgb(211, 82, 48);
+                H7081B10[controllerIdx].ForeColor = H7081[10] ? Color.FromArgb(0, 102, 204) : Color.FromArgb(211, 82, 48);
+                H7081B12[controllerIdx].ForeColor = H7081[12] ? Color.FromArgb(0, 102, 204) : Color.FromArgb(211, 82, 48);
+                H7081B14[controllerIdx].ForeColor = H7081[14] ? Color.FromArgb(0, 102, 204) : Color.FromArgb(211, 82, 48);
             }));
 
             List<string> li = new List<string>
@@ -1154,7 +1187,6 @@ namespace DimmingContol
             };
 
             OnOffReceivedFromController?.Invoke(li, null);
-
 #endif
 
 #if false
@@ -1226,16 +1258,16 @@ namespace DimmingContol
             Invoke(new Action(() =>
             {
                 temp = values.Skip(52).Take(2).ToArray(); Array.Reverse(temp);
-                H709A[controllerIdx].Text = BitConverter.ToInt16(temp, 0).ToString() + " %"; // 상행 맑음등디밍출력값 감시
+                H709A[controllerIdx].Text = "디밍 " + BitConverter.ToInt16(temp, 0).ToString() + " %"; // 상행 맑음등디밍출력값 감시
 
                 temp = values.Skip(54).Take(2).ToArray(); Array.Reverse(temp);
-                H709B[controllerIdx].Text = BitConverter.ToInt16(temp, 0).ToString() + " %"; // 상행 흐림등디밍출력값 감시
+                H709B[controllerIdx].Text = "디밍 " + BitConverter.ToInt16(temp, 0).ToString() + " %"; // 상행 흐림등디밍출력값 감시
 
                 temp = values.Skip(56).Take(2).ToArray(); Array.Reverse(temp);
-                H709C[controllerIdx].Text = BitConverter.ToInt16(temp, 0).ToString() + " %"; // 상행 주간(일출일몰)등 디밍출력값 감시
+                H709C[controllerIdx].Text = "디밍 " + BitConverter.ToInt16(temp, 0).ToString() + " %"; // 상행 주간(일출일몰)등 디밍출력값 감시
 
                 temp = values.Skip(58).Take(2).ToArray(); Array.Reverse(temp);
-                H709D[controllerIdx].Text = BitConverter.ToInt16(temp, 0).ToString() + " %"; // 상행 심야등디밍출력값 감시
+                H709D[controllerIdx].Text = "디밍 " + BitConverter.ToInt16(temp, 0).ToString() + " %"; // 상행 심야등디밍출력값 감시
             }));
 #if false
             temp = values.Skip(60).Take(2).ToArray(); Array.Reverse(temp);
@@ -1253,16 +1285,16 @@ namespace DimmingContol
             Invoke(new Action(() =>
             {
                 temp = values.Skip(0).Take(2).ToArray(); Array.Reverse(temp);
-                H70A0[controllerIdx].Text = BitConverter.ToInt16(temp, 0).ToString() + " %"; // 하행 맑음등디밍출력값 감시
+                H70A0[controllerIdx].Text = "디밍 " + BitConverter.ToInt16(temp, 0).ToString() + " %"; // 하행 맑음등디밍출력값 감시
 
                 temp = values.Skip(2).Take(2).ToArray(); Array.Reverse(temp);
-                H70A1[controllerIdx].Text = BitConverter.ToInt16(temp, 0).ToString() + " %"; // 하행 흐림등디밍출력값 감시
+                H70A1[controllerIdx].Text = "디밍 " + BitConverter.ToInt16(temp, 0).ToString() + " %"; // 하행 흐림등디밍출력값 감시
 
                 temp = values.Skip(4).Take(2).ToArray(); Array.Reverse(temp);
-                H70A2[controllerIdx].Text = BitConverter.ToInt16(temp, 0).ToString() + " %"; // 하행 주간(일출일몰)등 디밍출력값 감시
+                H70A2[controllerIdx].Text = "디밍 " + BitConverter.ToInt16(temp, 0).ToString() + " %"; // 하행 주간(일출일몰)등 디밍출력값 감시
 
                 temp = values.Skip(6).Take(2).ToArray(); Array.Reverse(temp);
-                H70A3[controllerIdx].Text = BitConverter.ToInt16(temp, 0).ToString() + " %"; // 하행 심야등디밍출력값 감시
+                H70A3[controllerIdx].Text = "디밍 " + BitConverter.ToInt16(temp, 0).ToString() + " %"; // 하행 심야등디밍출력값 감시
             }));
 
 #if false

@@ -120,6 +120,7 @@ namespace DimmingContol.Properties {
         [global::System.Configuration.DefaultSettingValueAttribute(@"<?xml version=""1.0"" encoding=""utf-16""?>
 <ArrayOfString xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance"" xmlns:xsd=""http://www.w3.org/2001/XMLSchema"">
   <string>정릉 터널</string>
+  <string>정릉 터널 통합</string>
   <string>홍지문 터널 통합</string>
   <string>홍지문 터널 문화촌</string>
 </ArrayOfString>")]
