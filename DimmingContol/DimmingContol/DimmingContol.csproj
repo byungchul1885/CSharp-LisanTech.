@@ -53,7 +53,6 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Config.cs" />
     <Compile Include="FormConn.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -90,6 +89,7 @@
     <Compile Include="FormInputWidthHeight.Designer.cs">
       <DependentUpon>FormInputWidthHeight.cs</DependentUpon>
     </Compile>
+    <Compile Include="GlobalSuppressions.cs" />
     <Compile Include="Master.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -134,29 +134,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\fire01.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\fire10.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\fire11.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\fire12.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\main.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\fire02.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\fire00.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="images\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

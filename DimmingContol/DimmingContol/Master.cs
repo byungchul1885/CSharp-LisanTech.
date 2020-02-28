@@ -45,7 +45,7 @@ namespace DimmingContol
 #endif
 
         private Socket tcpAsyCl;
-        private byte[] tcpAsyClBuffer = new byte[2048];
+        private readonly byte[] tcpAsyClBuffer = new byte[2048];
 
 
         public delegate void ResponseData(ushort id, byte unit, byte function, byte[] data);
@@ -121,8 +121,6 @@ namespace DimmingContol
             }
             catch (System.IO.IOException error)
             {
-                Debug.WriteLine($"Connect: {error}");
-
                 _connected = false;
                 throw error;
             }
@@ -130,10 +128,9 @@ namespace DimmingContol
 
         public void Disconnect()
         {
-            Dispose();
-
-            // Add bccho
             _connected = false;
+
+            Dispose();
         }
 
         ~Master()
@@ -148,7 +145,11 @@ namespace DimmingContol
                 if (tcpAsyCl.Connected)
                 {
                     try { tcpAsyCl.Shutdown(SocketShutdown.Both); }
-                    catch { }
+                    catch (Exception ex)
+                    {
+                        Debug.WriteLine($"Dispose: {ex}");
+                        return;
+                    }
                     tcpAsyCl.Close();
                 }
                 tcpAsyCl = null;

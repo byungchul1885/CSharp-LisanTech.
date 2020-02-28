@@ -24,40 +24,46 @@ namespace DimmingContol
 {
     public partial class FormMain : Form
     {
-        private int[] txFrameCnt = new int[4] { 0, 0, 0, 0 };
-        private int[] rxFrameCnt = new int[4] { 0, 0, 0, 0 };
+        private readonly string[] warningString = new string[4] {string.Empty, string.Empty, string.Empty, string.Empty};
+
+        private readonly int[] rxFrameCnt = new int[4] { 0, 0, 0, 0 };
 
         private readonly List<Master> MBmaster = new List<Master>();
         private readonly List<DispatcherTimer> ReqInterval = new List<DispatcherTimer>();
+
+        /* 터널 이름 */
+        private readonly List<Control> TunnelName = new List<Control>();
 
         /* 상행-주행 */
         private readonly List<Control> H70AA70AB = new List<Control>();
         private readonly List<Control> H70A870A9 = new List<Control>();
         private readonly List<Control> H709B = new List<Control>();
         private readonly List<Control> H709C = new List<Control>();
-        private readonly List<Control> H7081B02 = new List<Control>(); /* button */
-        private readonly List<Control> H7081B06 = new List<Control>(); /* button */
+        private readonly List<Control> H7081B02 = new List<Control>();
+        private readonly List<Control> H7081B06 = new List<Control>();
 
         /* 상행-추월 */
         private readonly List<Control> H709A = new List<Control>();
         private readonly List<Control> H709D = new List<Control>();
-        private readonly List<Control> H7081B00 = new List<Control>(); /* button */
-        private readonly List<Control> H7081B04 = new List<Control>(); /* button */
+        private readonly List<Control> H7081B00 = new List<Control>();
+        private readonly List<Control> H7081B04 = new List<Control>();
 
         /* 하행-추월 */
         private readonly List<Control> H70AE70AF = new List<Control>();
         private readonly List<Control> H70AC70AD = new List<Control>();
         private readonly List<Control> H70A0 = new List<Control>();
         private readonly List<Control> H70A2 = new List<Control>();
-        private readonly List<Control> H7081B08 = new List<Control>(); /* button */
-        private readonly List<Control> H7081B12 = new List<Control>(); /* button */
+        private readonly List<Control> H7081B08 = new List<Control>();
+        private readonly List<Control> H7081B12 = new List<Control>();
 
         /* 하행-주행 */
         private readonly List<Control> H70A1 = new List<Control>();
         private readonly List<Control> H70A3 = new List<Control>();
-        private readonly List<Control> H7081B10 = new List<Control>(); /* button */
-        private readonly List<Control> H7081B14 = new List<Control>(); /* button */
+        private readonly List<Control> H7081B10 = new List<Control>();
+        private readonly List<Control> H7081B14 = new List<Control>();
 
+        /* Warning Sign */
+        private readonly List<Control> H7080B1 = new List<Control>();
 
         /* 디밍 레벨 */
         private readonly List<string> H73A9 = new List<string>();
@@ -292,41 +298,53 @@ namespace DimmingContol
             ConnectButton.Add(connButtonX2);
             ConnectButton.Add(connButtonX3);
 
+            /* Warning */
+            H7080B1.Add(warningLabelX0);
+            H7080B1.Add(warningLabelX1);
+            H7080B1.Add(warningLabelX2);
+            H7080B1.Add(warningLabelX3);
+
+            /* 터널 이름 */
+            TunnelName.Add(tunnelLabelX0);
+            TunnelName.Add(tunnelLabelX1);
+            TunnelName.Add(tunnelLabelX2);
+            TunnelName.Add(tunnelLabelX3);
+
             for (int i = 0; i < Properties.Settings.Default.NumController; i++)
             {
                 /* 디밍 레벨 */
-                H73A9.Add("");
-                H73AA.Add("");
-                H73AB.Add("");
-                H73AC.Add("");
-                H73AD.Add("");
-                H73AE.Add("");
-                H73AF.Add("");
-                H73B0.Add("");
-                H73B1.Add("");
-                H73B2.Add("");
-                H73B3.Add("");
-                H73B4.Add("");
-                H73B5.Add("");
-                H73B6.Add("");
-                H73B7.Add("");
-                H73B8.Add("");
-                H73B9.Add("");
-                H73BA.Add("");
-                H73BB.Add("");
-                H73BC.Add("");
-                H73BD.Add("");
+                H73A9.Add(String.Empty);
+                H73AA.Add(String.Empty);
+                H73AB.Add(String.Empty);
+                H73AC.Add(String.Empty);
+                H73AD.Add(String.Empty);
+                H73AE.Add(String.Empty);
+                H73AF.Add(String.Empty);
+                H73B0.Add(String.Empty);
+                H73B1.Add(String.Empty);
+                H73B2.Add(String.Empty);
+                H73B3.Add(String.Empty);
+                H73B4.Add(String.Empty);
+                H73B5.Add(String.Empty);
+                H73B6.Add(String.Empty);
+                H73B7.Add(String.Empty);
+                H73B8.Add(String.Empty);
+                H73B9.Add(String.Empty);
+                H73BA.Add(String.Empty);
+                H73BB.Add(String.Empty);
+                H73BC.Add(String.Empty);
+                H73BD.Add(String.Empty);
 
                 /* 보수율 */
-                H73A3.Add("");
-                H73A4.Add("");
-                H73A5.Add("");
-                H73A6.Add("");
-                H73A7.Add("");
-                H73A8.Add("");
+                H73A3.Add(String.Empty);
+                H73A4.Add(String.Empty);
+                H73A5.Add(String.Empty);
+                H73A6.Add(String.Empty);
+                H73A7.Add(String.Empty);
+                H73A8.Add(String.Empty);
 
                 /* 운전 모드 */
-                OpMode.Add("");
+                OpMode.Add(String.Empty);
 
                 /* Modbus object */
                 MBmaster.Add(new Master());
@@ -334,27 +352,25 @@ namespace DimmingContol
                 /* 타이머 */
                 ReqInterval.Add(new DispatcherTimer
                 {
-                    Interval = new TimeSpan(0, 0, 0, 0, 2000),
+                    Interval = new TimeSpan(0, 0, 0, 0, 3000),
                     Tag = i
                 });
                 ReqInterval[i].Tick += ReqInterval_Tick;
 
+                /* 터널 이름 */
+                TunnelName[i].Text = Properties.Settings.Default.ControllerName[i];
+
+                /* 초기화 */
                 SetLabelEmpty(i);
             }
 
-            /* 터널 이름 */
-            tunnelLabelX0.Text = Properties.Settings.Default.ControllerName[0];
-            tunnelLabelX1.Text = Properties.Settings.Default.ControllerName[1];
-            tunnelLabelX2.Text = Properties.Settings.Default.ControllerName[2];
-            tunnelLabelX3.Text = Properties.Settings.Default.ControllerName[3];
-
-            /* 상행-하행 방면 */
             ascendingDirectionLabel.Text = Properties.Settings.Default.ascendingDirection;
             descendingDirectionLabel.Text = Properties.Settings.Default.descendingDirection;
         }
 
         private void SetLabelEmpty(int idx)
         {
+            H7080B1[idx].Text = string.Empty;
             H70AA70AB[idx].Text = string.Empty;
             H70A870A9[idx].Text = string.Empty;
             H709B[idx].Text = string.Empty;
@@ -375,6 +391,47 @@ namespace DimmingContol
             H7081B10[idx].Text = string.Empty;
             H70A3[idx].Text = string.Empty;
             H7081B14[idx].Text = string.Empty;
+
+            /* 디밍 레벨 */
+            H73A9[idx] = String.Empty;
+            H73AA[idx] = String.Empty;
+            H73AB[idx] = String.Empty;
+            H73AC[idx] = String.Empty;
+            H73AD[idx] = String.Empty;
+            H73AE[idx] = String.Empty;
+            H73AF[idx] = String.Empty;
+            H73B0[idx] = String.Empty;
+            H73B1[idx] = String.Empty;
+            H73B2[idx] = String.Empty;
+            H73B3[idx] = String.Empty;
+            H73B4[idx] = String.Empty;
+            H73B5[idx] = String.Empty;
+            H73B6[idx] = String.Empty;
+            H73B7[idx] = String.Empty;
+            H73B8[idx] = String.Empty;
+            H73B9[idx] = String.Empty;
+            H73BA[idx] = String.Empty;
+            H73BB[idx] = String.Empty;
+            H73BC[idx] = String.Empty;
+            H73BD[idx] = String.Empty;
+
+            /* 보수율 */
+            H73A3[idx] = String.Empty;
+            H73A4[idx] = String.Empty;
+            H73A5[idx] = String.Empty;
+            H73A6[idx] = String.Empty;
+            H73A7[idx] = String.Empty;
+            H73A8[idx] = String.Empty;
+
+            /* 운전 모드 */
+            OpMode[idx] = String.Empty;
+
+            /* Warning */
+            H7080B1[idx].Text += String.Empty;
+
+            /* Tunnel Name color */
+            TunnelName[idx].BackColor = Color.FromArgb(217, 217, 217);
+            TunnelName[idx].ForeColor = Color.FromArgb(0, 32, 96);
         }
 
         private void FormMain_Load(object sender, EventArgs e)
@@ -421,54 +478,7 @@ namespace DimmingContol
                 {
                     label.Font = new Font(label.Font.FontFamily, label.Font.Size * fontSizeMagnification, FontStyle.Bold);
                 }
-
-                //if (label.BackColor == Color.FromArgb(32, 56, 100))
-                //{
-                //    label.Text = "";
-                //}
             }
-
-            //tunnelLabelX0.Text = Properties.Settings.Default.ControllerName[0];
-            //tunnelLabelX1.Text = Properties.Settings.Default.ControllerName[1];
-            //tunnelLabelX2.Text = Properties.Settings.Default.ControllerName[2];
-
-//ascendingDirectionLabel.Text = Properties.Settings.Default.ascendingDirection;
-//descendingDirectionLabel.Text = Properties.Settings.Default.descendingDirection;
-
-#if false
-
-            List<Bitmap> images = new List<Bitmap>();
-
-            Bitmap finalImage = (Bitmap)Properties.Resources.ResourceManager.GetObject("main");
-            //channelPic.Image = (Image)O; //Set the Image property of channelPic to the returned object as Image
-
-            //Bitmap bitmap0 = (Bitmap)Properties.Resources.ResourceManager.GetObject("main");
-            //Bitmap bitmap1 = (Bitmap)Properties.Resources.ResourceManager.GetObject("fire10");
-            Bitmap bitmap2 = (Bitmap)Properties.Resources.ResourceManager.GetObject("fire00");
-            Bitmap bitmap3 = (Bitmap)Properties.Resources.ResourceManager.GetObject("fire01");
-            Bitmap bitmap4 = (Bitmap)Properties.Resources.ResourceManager.GetObject("fire11");
-            Bitmap bitmap5 = (Bitmap)Properties.Resources.ResourceManager.GetObject("fire02");
-            Bitmap bitmap6 = (Bitmap)Properties.Resources.ResourceManager.GetObject("fire12");
-
-
-            //images.Add((Bitmap)Properties.Resources.ResourceManager.GetObject("main"));
-            images.Add((Bitmap)Properties.Resources.ResourceManager.GetObject("fire10"));
-            //images.Add(bitmap2);
-            //images.Add(bitmap3);
-            //images.Add(bitmap4);
-            //images.Add(bitmap5);
-            //images.Add(bitmap6);
-
-            using (Graphics g = Graphics.FromImage(finalImage))
-            {
-                foreach (Bitmap image in images)
-                {
-                    g.DrawImage(image, new Rectangle(0, 0, image.Width, image.Height));
-                }
-            }
-
-            mainTLPanel.BackgroundImage = finalImage;
-#endif
         }
 
         private void FormMain_FormClosing(object sender, FormClosingEventArgs e)
@@ -493,16 +503,6 @@ namespace DimmingContol
                 int controllerIdx = (int)dt.Tag;
 
                 RequestNow(controllerIdx);
-
-                //reqCnt[controllerIdx]++;
-                //if (reqCnt[controllerIdx] > 5)
-                //{
-                //    Debug.WriteLine($"ReqInterval_Tick Tag: {controllerIdx}");
-
-                //    ConnectButton[controllerIdx].Text = "끊어짐";
-                //    ConnectButton[controllerIdx].BackColor = Color.FromArgb(255, 0, 0);
-                //}
-
             }
             else
             {
@@ -512,7 +512,7 @@ namespace DimmingContol
 
         private void CloseProgramButton_Click(object sender, EventArgs e)
         {
-            this.Close();
+            Close();
         }
 
         private void ScreenSizeButton_Click(object sender, EventArgs e)
@@ -538,8 +538,6 @@ namespace DimmingContol
                     form.StartPosition = FormStartPosition.CenterParent;
 
                     int buttonIndex = Int32.Parse(button.Name.Remove(0, "connButtonX".Length));
-
-                    Debug.WriteLine($"buttonIndex {buttonIndex}");
 
                     form.IP = Properties.Settings.Default.IP[buttonIndex];
                     form.SubMask = Properties.Settings.Default.SubMask[buttonIndex];
@@ -577,6 +575,7 @@ namespace DimmingContol
                     }
                     else if (form.ButtonAction == "close")
                     {
+                        Debug.WriteLine($"close");
                         MBmaster[buttonIndex].OnResponseData -= MBmaster_OnResponseData;
                         MBmaster[buttonIndex].OnException -= MBmaster_OnException;
 
@@ -595,16 +594,6 @@ namespace DimmingContol
 
         private void RequestNow(int controllerIdx)
         {
-#if false
-            reqCnt++;
-            if (reqCnt > 5)
-            {
-                App.Config.ConnStat = "접속끊김";
-                App.Config.ConnStatBackgBrush = Brushes.Red;
-                App.Config.ConnStatForgBrush = Brushes.Yellow;
-            }
-#endif
-            reqCnt[controllerIdx]++;
             if (reqCnt[controllerIdx] > 5)
             {
                 ConnectButton[controllerIdx].Text = "끊어짐";
@@ -616,8 +605,6 @@ namespace DimmingContol
             }
 
             ushort ID = Convert.ToUInt16((controllerIdx + 1) * 100);
-
-            Debug.WriteLine($"ID {ID}");
 
             MBmaster[controllerIdx].ReadHoldingRegister(ID, 1, 0x7080, 32); // 0x7080 ~ 0x709F
         }
@@ -645,7 +632,7 @@ namespace DimmingContol
 
         private void MBmaster_OnResponseData(ushort ID, byte unit, byte function, byte[] values)
         {
-            if (ID >= 1000) /* setup response don't care */
+            if (ID >= 1000) /* setup command response don't care */
             {
                 return;
             }
@@ -654,13 +641,10 @@ namespace DimmingContol
             int remainder = ID % 100;
             int controllerIdx = quotient - 1;
 
-            if (MBmaster[controllerIdx].Connected == false)
-            {
-                return;
-            }
-
             Invoke(new Action(() =>
             {
+                if (!MBmaster[controllerIdx].Connected) return;
+
                 reqCnt[controllerIdx] = 0;
 
                 ConnectButton[controllerIdx].Text = "연결";
@@ -702,7 +686,31 @@ namespace DimmingContol
             {
                 Parsing_73A0H(values, controllerIdx);
                 System.Threading.Thread.Sleep(500);
+
+                Invoke(new Action(() =>
+                {
+                    if (!MBmaster[controllerIdx].Connected) return;
+
+                    H7080B1[controllerIdx].Text = warningString[controllerIdx];
+
+                    if (string.IsNullOrEmpty(warningString[controllerIdx]))
+                    {
+                        TunnelName[controllerIdx].BackColor = Color.FromArgb(217, 217, 217);
+                        TunnelName[controllerIdx].ForeColor = Color.FromArgb(0, 32, 96); 
+                    }
+                    else
+                    {
+                        Debug.WriteLine($"Red");
+                        TunnelName[controllerIdx].BackColor = Color.Red;
+                        TunnelName[controllerIdx].ForeColor = Color.Yellow;
+                    }
+
+                    warningString[controllerIdx] = string.Empty;
+                }));
+
+#if false // bccho, 2020-02-28, stop here
                 MBmaster[controllerIdx].ReadHoldingRegister(Convert.ToUInt16(ID + 1), 1, 0x73C0, 32);
+#endif
             }
             else if (remainder == 3)
             {
@@ -714,51 +722,7 @@ namespace DimmingContol
             {
                 Parsing_73E0H(values, controllerIdx);
                 System.Threading.Thread.Sleep(500);
-
-                //MBmaster[controllerIdx].ReadHoldingRegister(Convert.ToUInt16(ID - 4), 1, 0x7080, 32); // 0x7080 ~ 0x709F
             }
-
-#if false
-            if (MBmaster.Connected == false)
-                return;
-
-            reqCnt = 0;
-
-            App.Config.ConnStat = "정상접속중";
-            App.Config.ConnStatBackgBrush = Brushes.Green;
-            App.Config.ConnStatForgBrush = Brushes.AntiqueWhite;
-
-            if (remainder == 0)
-            {
-                Parsing_7080H(values);
-                System.Threading.Thread.Sleep(500);
-                MBmaster.ReadHoldingRegister(ID + 1, 1, 0x70A0, 16);
-            }
-            else if (remainder == 1)
-            {
-                Parsing_70A0H(values);
-                System.Threading.Thread.Sleep(500);
-                MBmaster.ReadHoldingRegister(ID + 1, 1, 0x73A0, 32);
-            }
-            else if (remainder == 2)
-            {
-                Parsing_73A0H(values);
-                System.Threading.Thread.Sleep(500);
-                MBmaster.ReadHoldingRegister(ID + 1, 1, 0x73C0, 32);
-            }
-            else if (remainder == 3)
-            {
-                Parsing_73C0H(values);
-                System.Threading.Thread.Sleep(500);
-                MBmaster.ReadHoldingRegister(ID + 1, 1, 0x73E0, 24);
-            }
-            else if (remainder == 4)
-            {
-                Parsing_73E0H(values);
-                System.Threading.Thread.Sleep(500);
-                MBmaster.ReadHoldingRegister(ID - 4, 1, 0x7080, 32); // 0x7080 ~ 0x709F
-            }
-#endif
         }
 
         private void ControllerSetupButton_Click(object sender, EventArgs e)
@@ -1084,7 +1048,7 @@ namespace DimmingContol
 
         private void Parsing_7080H(byte[] values, int controllerIdx)
         {
-            Debug.WriteLine($"Rx 7080H, controllerIdx:{controllerIdx}");
+            if (!MBmaster[controllerIdx].Connected) return;
 
             byte[] temp;
 
@@ -1094,29 +1058,7 @@ namespace DimmingContol
             temp = values.Skip(2).Take(2).ToArray(); Array.Reverse(temp);
             BitArray H7081 = new BitArray(temp); // B2
 
-#if false
-            temp = values.Skip(4).Take(2).ToArray(); Array.Reverse(temp);
-            BitArray H7082 = new BitArray(temp); // B3
-
-            App.RxValues.H7080B00 = H7080[0]; // Remote/Local 상태             0:Local, 1:Rem
-            App.RxValues.H7080B01 = H7080[1]; // 화재 운전 상태                 1:화재운전
-
-            App.RxValues.H7080B02 = H7080[2]; // 맑음/흐림등조도 자동운전 상태   1:조도운전
-            if (App.RxValues.H7080B02)
-                App.RxValues.IlLuminanceVisible = Visibility.Visible;
-
-            App.RxValues.H7080B03 = H7080[3]; // 맑음/흐림등휘도 자동운전 상태   1:휘도운전
-            if (App.RxValues.H7080B03)
-                App.RxValues.LuminanceVisible = Visibility.Visible;
-
-            App.RxValues.H7080B04 = H7080[4]; // 주간등조도/휘도운전모드 상태    1:조도/휘도운전
-            App.RxValues.H7080B05 = H7080[5]; // 주간등 시간 운전모드 상태       1:시간운전
-            App.RxValues.H7080B06 = H7080[6];  // Remote 수동운전 상태	        1:수동운전
-            App.RxValues.H7080B07 = H7080[7];  // Local 수동운전 상태	        1:수동운전
-#endif
-            //App.RxValues.H7080B00 = H7080[0]; // Remote/Local 상태             0:Local, 1:Rem
-            //App.RxValues.H7080B01 = H7080[1]; // 화재 운전 상태                 1:화재운전
-            //App.RxValues.H7080B06 = H7080[6];  // Remote 수동운전 상태	        1:수동운전
+            warningString[controllerIdx] += H7080[1] ? "화재운전 " : string.Empty;
 
             string opMode = H7080[0] ? "Remote" : "Local";
             opMode = H7080[6] ? "Remote수동" : opMode;
@@ -1130,45 +1072,50 @@ namespace DimmingContol
 
             OpModeReceivedFromController?.Invoke(al, null);
 
-#if false
-            App.RxValues.H7081B00 = H7081[0]; // 상행 추월선 맑음등 상태
-            App.RxValues.H7081B01 = H7081[1]; // 상행 주행선 맑음등 상태
-            App.RxValues.H7081B02 = H7081[2]; // 상행 추월선 흐림등 상태
-            App.RxValues.H7081B03 = H7081[3]; // 상행 주행선 흐림등 상태
-            App.RxValues.H7081B04 = H7081[4]; // 상행 추월선 주간(일출일몰)등 상태
-            App.RxValues.H7081B05 = H7081[5]; // 상행 주행선 주간(일출일몰)등 상태
-            App.RxValues.H7081B06 = H7081[6];  // 상행 심야등 상태
-            App.RxValues.H7081B07 = H7081[7];  // 상행 상시등 상태
-            App.RxValues.H7081B08 = H7081[8];  // 하행 추월선 맑음등 상태
-            App.RxValues.H7081B09 = H7081[9];  // 하행 주행선 맑음등 상태
-            App.RxValues.H7081B10 = H7081[10];  // 하행 추월선 흐림등 상태
-            App.RxValues.H7081B11 = H7081[11];  // 하행 주행선 흐림등 상태
-            App.RxValues.H7081B12 = H7081[12];  // 하행 추월선 주간(일출일몰)등 상태
-            App.RxValues.H7081B13 = H7081[13];  // 하행 주행선 주간(일출일몰)등 상태
-            App.RxValues.H7081B14 = H7081[14];  // 하행 심야등 상태
-            App.RxValues.H7081B15 = H7081[15];  // 하행 상시등 상태
-#else
-            Invoke(new Action(() =>
+            try
             {
-                H7081B00[controllerIdx].Text = H7081[0] ? "ON" : "OFF"; // 상행 추월선 맑음등 상태
-                H7081B02[controllerIdx].Text = H7081[2] ? "ON" : "OFF"; // 상행 추월선 흐림등 상태
-                H7081B04[controllerIdx].Text = H7081[4] ? "ON" : "OFF"; // 상행 추월선 주간(일출일몰)등 상태
-                H7081B06[controllerIdx].Text = H7081[6] ? "ON" : "OFF";  // 상행 심야등 상태
+                Invoke(new Action(() =>
+                {
+                    if (!MBmaster[controllerIdx].Connected) return;
 
-                H7081B08[controllerIdx].Text = H7081[8] ? "ON" : "OFF";  // 하행 추월선 맑음등 상태
-                H7081B10[controllerIdx].Text = H7081[10] ? "ON" : "OFF";  // 하행 추월선 흐림등 상태
-                H7081B12[controllerIdx].Text = H7081[12] ? "ON" : "OFF";  // 하행 추월선 주간(일출일몰)등 상태
-                H7081B14[controllerIdx].Text = H7081[14] ? "ON" : "OFF";  // 하행 심야등 상태
+                    H7081B00[controllerIdx].Text = H7081[0] ? "ON" : "OFF"; // 상행 추월선 맑음등 상태
+                    H7081B02[controllerIdx].Text = H7081[2] ? "ON" : "OFF"; // 상행 추월선 흐림등 상태
+                    H7081B04[controllerIdx].Text = H7081[4] ? "ON" : "OFF"; // 상행 추월선 주간(일출일몰)등 상태
+                    H7081B06[controllerIdx].Text = H7081[6] ? "ON" : "OFF";  // 상행 심야등 상태
 
-                H7081B00[controllerIdx].ForeColor = H7081[0] ? Color.FromArgb(0, 102, 204) : Color.FromArgb(211, 82, 48);
-                H7081B02[controllerIdx].ForeColor = H7081[2] ? Color.FromArgb(0, 102, 204) : Color.FromArgb(211, 82, 48);
-                H7081B04[controllerIdx].ForeColor = H7081[4] ? Color.FromArgb(0, 102, 204) : Color.FromArgb(211, 82, 48);
-                H7081B06[controllerIdx].ForeColor = H7081[6] ? Color.FromArgb(0, 102, 204) : Color.FromArgb(211, 82, 48);
-                H7081B08[controllerIdx].ForeColor = H7081[8] ? Color.FromArgb(0, 102, 204) : Color.FromArgb(211, 82, 48);
-                H7081B10[controllerIdx].ForeColor = H7081[10] ? Color.FromArgb(0, 102, 204) : Color.FromArgb(211, 82, 48);
-                H7081B12[controllerIdx].ForeColor = H7081[12] ? Color.FromArgb(0, 102, 204) : Color.FromArgb(211, 82, 48);
-                H7081B14[controllerIdx].ForeColor = H7081[14] ? Color.FromArgb(0, 102, 204) : Color.FromArgb(211, 82, 48);
-            }));
+                    H7081B08[controllerIdx].Text = H7081[8] ? "ON" : "OFF";  // 하행 추월선 맑음등 상태
+                    H7081B10[controllerIdx].Text = H7081[10] ? "ON" : "OFF";  // 하행 추월선 흐림등 상태
+                    H7081B12[controllerIdx].Text = H7081[12] ? "ON" : "OFF";  // 하행 추월선 주간(일출일몰)등 상태
+                    H7081B14[controllerIdx].Text = H7081[14] ? "ON" : "OFF";  // 하행 심야등 상태
+
+                    H7081B00[controllerIdx].ForeColor = H7081[0] ? Color.FromArgb(0, 102, 204) : Color.FromArgb(211, 82, 48);
+                    H7081B02[controllerIdx].ForeColor = H7081[2] ? Color.FromArgb(0, 102, 204) : Color.FromArgb(211, 82, 48);
+                    H7081B04[controllerIdx].ForeColor = H7081[4] ? Color.FromArgb(0, 102, 204) : Color.FromArgb(211, 82, 48);
+                    H7081B06[controllerIdx].ForeColor = H7081[6] ? Color.FromArgb(0, 102, 204) : Color.FromArgb(211, 82, 48);
+                    H7081B08[controllerIdx].ForeColor = H7081[8] ? Color.FromArgb(0, 102, 204) : Color.FromArgb(211, 82, 48);
+                    H7081B10[controllerIdx].ForeColor = H7081[10] ? Color.FromArgb(0, 102, 204) : Color.FromArgb(211, 82, 48);
+                    H7081B12[controllerIdx].ForeColor = H7081[12] ? Color.FromArgb(0, 102, 204) : Color.FromArgb(211, 82, 48);
+                    H7081B14[controllerIdx].ForeColor = H7081[14] ? Color.FromArgb(0, 102, 204) : Color.FromArgb(211, 82, 48);
+
+                    temp = values.Skip(52).Take(2).ToArray(); Array.Reverse(temp);
+                    H709A[controllerIdx].Text = "디밍 " + BitConverter.ToInt16(temp, 0).ToString() + " %"; // 상행 맑음등디밍출력값 감시
+
+                    temp = values.Skip(54).Take(2).ToArray(); Array.Reverse(temp);
+                    H709B[controllerIdx].Text = "디밍 " + BitConverter.ToInt16(temp, 0).ToString() + " %"; // 상행 흐림등디밍출력값 감시
+
+                    temp = values.Skip(56).Take(2).ToArray(); Array.Reverse(temp);
+                    H709C[controllerIdx].Text = "디밍 " + BitConverter.ToInt16(temp, 0).ToString() + " %"; // 상행 주간(일출일몰)등 디밍출력값 감시
+
+                    temp = values.Skip(58).Take(2).ToArray(); Array.Reverse(temp);
+                    H709D[controllerIdx].Text = "디밍 " + BitConverter.ToInt16(temp, 0).ToString() + " %"; // 상행 심야등디밍출력값 감시
+                }));
+            }
+            catch (Exception e)
+            {
+                Debug.WriteLine($"Parsing_7080H: {e}");
+                return;
+            }
+
 
             List<string> li = new List<string>
             {
@@ -1187,178 +1134,62 @@ namespace DimmingContol
             };
 
             OnOffReceivedFromController?.Invoke(li, null);
-#endif
-
-#if false
-            App.RxValues.H7082B00 = H7082[0]; // 상행 가로등상시/입구부상태
-            App.RxValues.H7082B01 = H7082[1]; // 상행 가로등격등/출구부상태
-            App.RxValues.H7082B02 = H7082[2]; // 하행 가로등상시/입구부 상태
-            App.RxValues.H7082B03 = H7082[3]; // 하행 가로등격등/출구부 상태
-            App.RxValues.H7082B04 = H7082[4]; // 교통량 설계값 많음
-            App.RxValues.H7082B05 = H7082[5]; // 교통량 설계값 보통
-            App.RxValues.H7082B06 = H7082[6];  // 교통량 설계값 적음
-            App.RxValues.H7082B07 = H7082[7];  // 교통량 실제값 많음
-            App.RxValues.H7082B08 = H7082[8];  // 교통량 실제값 보통
-            App.RxValues.H7082B09 = H7082[9];  // 교통량 실제값 적음
-
-            //BitArray H7083 = new BitArray(values.Skip(6).Take(2).ToArray()); // B4
-            //BitArray H7084 = new BitArray(values.Skip(8).Take(2).ToArray()); // B5
-            //BitArray H7085 = new BitArray(values.Skip(10).Take(2).ToArray()); // B6
-            //BitArray H7086 = new BitArray(values.Skip(12).Take(2).ToArray()); // B7
-            //BitArray H7087 = new BitArray(values.Skip(14).Take(2).ToArray()); // B8
-            //BitArray H7088 = new BitArray(values.Skip(16).Take(2).ToArray()); // B9
-            //BitArray H7089 = new BitArray(values.Skip(18).Take(2).ToArray()); // B10
-            //BitArray H708A = new BitArray(values.Skip(20).Take(2).ToArray()); // B11
-
-            temp = values.Skip(22).Take(2).ToArray(); Array.Reverse(temp);
-            App.RxValues.H708B = BitConverter.ToInt16(temp, 0); // 등기구 총수량
-
-            temp = values.Skip(24).Take(2).ToArray(); Array.Reverse(temp);
-            App.RxValues.H708C = BitConverter.ToInt16(temp, 0); // 터널등 수량 (100W)
-
-            temp = values.Skip(26).Take(2).ToArray(); Array.Reverse(temp);
-            App.RxValues.H708D = BitConverter.ToInt16(temp, 0); // 터널등 수량 (200W)
-
-            temp = values.Skip(28).Take(2).ToArray(); Array.Reverse(temp);
-            App.RxValues.H708E = BitConverter.ToInt16(temp, 0); // 가로등 수량 (100W)
-
-            temp = values.Skip(30).Take(2).ToArray(); Array.Reverse(temp);
-            App.RxValues.H708F = BitConverter.ToInt16(temp, 0); // 가로등 수량 (150W)
-
-            temp = values.Skip(32).Take(2).ToArray(); Array.Reverse(temp);
-            App.RxValues.H7090 = BitConverter.ToInt16(temp, 0); // 가로등 수량 (250W)
-
-            temp = values.Skip(34).Take(2).ToArray(); Array.Reverse(temp);
-            App.RxValues.H7091 = BitConverter.ToInt16(temp, 0); // 모뎀 불량 총수량
-
-            temp = values.Skip(36).Take(2).ToArray(); Array.Reverse(temp);
-            App.RxValues.H7092 = BitConverter.ToInt16(temp, 0); // LED 모듈 불량 총수량
-
-            temp = values.Skip(38).Take(2).ToArray(); Array.Reverse(temp);
-            App.RxValues.H7093 = BitConverter.ToInt16(temp, 0); // SMPS 불량 총수량
-
-            temp = values.Skip(40).Take(2).ToArray(); Array.Reverse(temp);
-            App.RxValues.H7094 = BitConverter.ToInt16(temp, 0); // 등기구 누전 총 수량
-
-            temp = values.Skip(42).Take(2).ToArray(); Array.Reverse(temp);
-            App.RxValues.H7095 = BitConverter.ToInt16(temp, 0); // 중계기 고장 총수량
-
-            temp = values.Skip(44).Take(2).ToArray(); Array.Reverse(temp);
-            App.RxValues.H7096 = BitConverter.ToInt16(temp, 0); // 조명 제어기 장애 총수량
-
-            temp = values.Skip(46).Take(2).ToArray(); Array.Reverse(temp);
-            App.RxValues.H7097 = BitConverter.ToInt16(temp, 0); // GPS 장애 총수량
-
-            temp = values.Skip(48).Take(2).ToArray(); Array.Reverse(temp);
-            App.RxValues.H7098 = BitConverter.ToInt16(temp, 0); // 휘도 센서 장애 총수량
-
-            temp = values.Skip(50).Take(2).ToArray(); Array.Reverse(temp);
-            App.RxValues.H7099 = BitConverter.ToInt16(temp, 0); // 조도센서 장애 총수량
-#endif
-            Invoke(new Action(() =>
-            {
-                temp = values.Skip(52).Take(2).ToArray(); Array.Reverse(temp);
-                H709A[controllerIdx].Text = "디밍 " + BitConverter.ToInt16(temp, 0).ToString() + " %"; // 상행 맑음등디밍출력값 감시
-
-                temp = values.Skip(54).Take(2).ToArray(); Array.Reverse(temp);
-                H709B[controllerIdx].Text = "디밍 " + BitConverter.ToInt16(temp, 0).ToString() + " %"; // 상행 흐림등디밍출력값 감시
-
-                temp = values.Skip(56).Take(2).ToArray(); Array.Reverse(temp);
-                H709C[controllerIdx].Text = "디밍 " + BitConverter.ToInt16(temp, 0).ToString() + " %"; // 상행 주간(일출일몰)등 디밍출력값 감시
-
-                temp = values.Skip(58).Take(2).ToArray(); Array.Reverse(temp);
-                H709D[controllerIdx].Text = "디밍 " + BitConverter.ToInt16(temp, 0).ToString() + " %"; // 상행 심야등디밍출력값 감시
-            }));
-#if false
-            temp = values.Skip(60).Take(2).ToArray(); Array.Reverse(temp);
-            App.RxValues.H709E = BitConverter.ToInt16(temp, 0); // 상행 가로등상시등디밍출력값 감시
-
-            temp = values.Skip(62).Take(2).ToArray(); Array.Reverse(temp);
-            App.RxValues.H709F = BitConverter.ToInt16(temp, 0); // 상행 가로등격등디밍출력값 감시
-#endif
         }
 
         private void Parsing_70A0H(byte[] values, int controllerIdx)
         {
             byte[] temp, temp1, temp2;
 
-            Invoke(new Action(() =>
+            try
             {
-                temp = values.Skip(0).Take(2).ToArray(); Array.Reverse(temp);
-                H70A0[controllerIdx].Text = "디밍 " + BitConverter.ToInt16(temp, 0).ToString() + " %"; // 하행 맑음등디밍출력값 감시
+                Invoke(new Action(() =>
+                {
+                    if (!MBmaster[controllerIdx].Connected) return;
 
-                temp = values.Skip(2).Take(2).ToArray(); Array.Reverse(temp);
-                H70A1[controllerIdx].Text = "디밍 " + BitConverter.ToInt16(temp, 0).ToString() + " %"; // 하행 흐림등디밍출력값 감시
+                    temp = values.Skip(0).Take(2).ToArray(); Array.Reverse(temp);
+                    H70A0[controllerIdx].Text = "디밍 " + BitConverter.ToInt16(temp, 0).ToString() + " %"; // 하행 맑음등디밍출력값 감시
 
-                temp = values.Skip(4).Take(2).ToArray(); Array.Reverse(temp);
-                H70A2[controllerIdx].Text = "디밍 " + BitConverter.ToInt16(temp, 0).ToString() + " %"; // 하행 주간(일출일몰)등 디밍출력값 감시
+                    temp = values.Skip(2).Take(2).ToArray(); Array.Reverse(temp);
+                    H70A1[controllerIdx].Text = "디밍 " + BitConverter.ToInt16(temp, 0).ToString() + " %"; // 하행 흐림등디밍출력값 감시
 
-                temp = values.Skip(6).Take(2).ToArray(); Array.Reverse(temp);
-                H70A3[controllerIdx].Text = "디밍 " + BitConverter.ToInt16(temp, 0).ToString() + " %"; // 하행 심야등디밍출력값 감시
-            }));
+                    temp = values.Skip(4).Take(2).ToArray(); Array.Reverse(temp);
+                    H70A2[controllerIdx].Text = "디밍 " + BitConverter.ToInt16(temp, 0).ToString() + " %"; // 하행 주간(일출일몰)등 디밍출력값 감시
 
-#if false
-            temp = values.Skip(0).Take(2).ToArray(); Array.Reverse(temp);
-            App.RxValues.H70A0 = BitConverter.ToInt16(temp, 0); // 하행 맑음등디밍출력값 감시 
+                    temp = values.Skip(6).Take(2).ToArray(); Array.Reverse(temp);
+                    H70A3[controllerIdx].Text = "디밍 " + BitConverter.ToInt16(temp, 0).ToString() + " %"; // 하행 심야등디밍출력값 감시
 
-            temp = values.Skip(2).Take(2).ToArray(); Array.Reverse(temp);
-            App.RxValues.H70A1 = BitConverter.ToInt16(temp, 0); // 하행 흐림등디밍출력값 감시
 
-            temp = values.Skip(4).Take(2).ToArray(); Array.Reverse(temp);
-            App.RxValues.H70A2 = BitConverter.ToInt16(temp, 0); // 하행 심야등디밍출력값 감시
+                    temp = values.Skip(16).Take(2).ToArray(); Array.Reverse(temp);
+                    temp1 = values.Skip(18).Take(2).ToArray(); Array.Reverse(temp1);
+                    temp2 = temp.Concat(temp1).ToArray();
+                    H70A870A9[controllerIdx].Text = BitConverter.ToSingle(temp2, 0).ToString() + " cd/㎡"; // 상행 외부 조도 센서값 전송
 
-            temp = values.Skip(6).Take(2).ToArray(); Array.Reverse(temp);
-            App.RxValues.H70A3 = BitConverter.ToInt16(temp, 0); // 하행 주간(일출일몰)등 디밍출력값 감시
+                    temp = values.Skip(20).Take(2).ToArray(); Array.Reverse(temp);
+                    temp1 = values.Skip(22).Take(2).ToArray(); Array.Reverse(temp1);
+                    temp2 = temp.Concat(temp1).ToArray();
+                    H70AA70AB[controllerIdx].Text = BitConverter.ToSingle(temp2, 0).ToString() + " cd/㎡"; // 상행 외부 휘도센서값 전송
 
-            temp = values.Skip(8).Take(2).ToArray(); Array.Reverse(temp);
-            App.RxValues.H70A4 = BitConverter.ToInt16(temp, 0); // 하행 가로등상시등디밍출력값 감시
+                    temp = values.Skip(24).Take(2).ToArray(); Array.Reverse(temp);
+                    temp1 = values.Skip(26).Take(2).ToArray(); Array.Reverse(temp1);
+                    temp2 = temp.Concat(temp1).ToArray();
+                    H70AC70AD[controllerIdx].Text = BitConverter.ToSingle(temp2, 0).ToString() + " cd/㎡"; // 하행 외부 조도 센서값 전송
 
-            temp = values.Skip(10).Take(2).ToArray(); Array.Reverse(temp);
-            App.RxValues.H70A5 = BitConverter.ToInt16(temp, 0); // 하행 가로등격등디밍출력값 감시
-
-            temp = values.Skip(12).Take(2).ToArray(); Array.Reverse(temp);
-            App.RxValues.H70A6 = BitConverter.ToInt16(temp, 0); // 상행 디밍단계값
-
-            temp = values.Skip(14).Take(2).ToArray(); Array.Reverse(temp);
-            App.RxValues.H70A7 = BitConverter.ToInt16(temp, 0); // 하행 디밍단계값
-#endif
-            Invoke(new Action(() =>
+                    temp = values.Skip(28).Take(2).ToArray(); Array.Reverse(temp);
+                    temp1 = values.Skip(30).Take(2).ToArray(); Array.Reverse(temp1);
+                    temp2 = temp.Concat(temp1).ToArray();
+                    H70AE70AF[controllerIdx].Text = BitConverter.ToSingle(temp2, 0).ToString() + " cd/㎡"; // 하행 외부 휘도센서값 전송
+                }));
+            }
+            catch (Exception e)
             {
-                temp = values.Skip(16).Take(2).ToArray(); Array.Reverse(temp);
-                temp1 = values.Skip(18).Take(2).ToArray(); Array.Reverse(temp1);
-                temp2 = temp.Concat(temp1).ToArray();
-                H70A870A9[controllerIdx].Text = BitConverter.ToSingle(temp2, 0).ToString() + " cd/㎡"; // 상행 외부 조도 센서값 전송
-
-                temp = values.Skip(20).Take(2).ToArray(); Array.Reverse(temp);
-                temp1 = values.Skip(22).Take(2).ToArray(); Array.Reverse(temp1);
-                temp2 = temp.Concat(temp1).ToArray();
-                H70AA70AB[controllerIdx].Text = BitConverter.ToSingle(temp2, 0).ToString() + " cd/㎡"; // 상행 외부 휘도센서값 전송
-
-                temp = values.Skip(24).Take(2).ToArray(); Array.Reverse(temp);
-                temp1 = values.Skip(26).Take(2).ToArray(); Array.Reverse(temp1);
-                temp2 = temp.Concat(temp1).ToArray();
-                H70AC70AD[controllerIdx].Text = BitConverter.ToSingle(temp2, 0).ToString() + " cd/㎡"; // 하행 외부 조도 센서값 전송
-
-                temp = values.Skip(28).Take(2).ToArray(); Array.Reverse(temp);
-                temp1 = values.Skip(30).Take(2).ToArray(); Array.Reverse(temp1);
-                temp2 = temp.Concat(temp1).ToArray();
-                H70AE70AF[controllerIdx].Text = BitConverter.ToSingle(temp2, 0).ToString() + " cd/㎡"; // 하행 외부 휘도센서값 전송
-            }));
-#if false
-            temp = values.Skip(24).Take(2).ToArray(); Array.Reverse(temp);
-            temp1 = values.Skip(26).Take(2).ToArray(); Array.Reverse(temp1);
-            temp2 = temp.Concat(temp1).ToArray();
-            App.RxValues.H70AC70AD = BitConverter.ToSingle(temp2, 0); // 하행 외부 조도 센서값 전송
-
-            temp = values.Skip(28).Take(2).ToArray(); Array.Reverse(temp);
-            temp1 = values.Skip(30).Take(2).ToArray(); Array.Reverse(temp1);
-            temp2 = temp.Concat(temp1).ToArray();
-            App.RxValues.H70AE70AF = BitConverter.ToSingle(temp2, 0); // 하행 외부 휘도센서값 전송
-#endif
+                Debug.WriteLine($"Parsing_70A0H: {e}");
+            }
         }
 
         private void Parsing_73A0H(byte[] values, int controllerIdx)
         {
+            if (!MBmaster[controllerIdx].Connected) return;
+
             byte[] temp;
 
             temp = values.Skip(0).Take(2).ToArray(); Array.Reverse(temp);
@@ -1367,90 +1198,92 @@ namespace DimmingContol
             temp = values.Skip(2).Take(2).ToArray(); Array.Reverse(temp);
             BitArray H73A1 = new BitArray(temp);
 
-            Invoke(new Action(() =>
-            {
-                temp = values.Skip(6).Take(2).ToArray(); Array.Reverse(temp);
-                H73A3[controllerIdx] = BitConverter.ToInt16(temp, 0).ToString(); // 맑음등보수율
+            warningString[controllerIdx] += H73A0[0] ? "통신이상 " : string.Empty;
+            warningString[controllerIdx] += H73A1[0] ? "CPU이상 " : string.Empty;
+            warningString[controllerIdx] += H73A1[1] ? "파워모듈이상 " : string.Empty;
 
-                temp = values.Skip(8).Take(2).ToArray(); Array.Reverse(temp);
-                H73A4[controllerIdx] = BitConverter.ToInt16(temp, 0).ToString(); // 흐림등보수율
+            temp = values.Skip(6).Take(2).ToArray(); Array.Reverse(temp);
+            H73A3[controllerIdx] = BitConverter.ToInt16(temp, 0).ToString(); // 맑음등보수율
 
-                temp = values.Skip(10).Take(2).ToArray(); Array.Reverse(temp);
-                H73A5[controllerIdx] = BitConverter.ToInt16(temp, 0).ToString(); // 주간(일출일몰)등보수율
+            temp = values.Skip(8).Take(2).ToArray(); Array.Reverse(temp);
+            H73A4[controllerIdx] = BitConverter.ToInt16(temp, 0).ToString(); // 흐림등보수율
 
-                temp = values.Skip(12).Take(2).ToArray(); Array.Reverse(temp);
-                H73A6[controllerIdx] = BitConverter.ToInt16(temp, 0).ToString(); // 심야/상시등보수율
+            temp = values.Skip(10).Take(2).ToArray(); Array.Reverse(temp);
+            H73A5[controllerIdx] = BitConverter.ToInt16(temp, 0).ToString(); // 주간(일출일몰)등보수율
 
-                temp = values.Skip(14).Take(2).ToArray(); Array.Reverse(temp);
-                H73A7[controllerIdx] = BitConverter.ToInt16(temp, 0).ToString(); // 가로등 상시/입구부보수율
+            temp = values.Skip(12).Take(2).ToArray(); Array.Reverse(temp);
+            H73A6[controllerIdx] = BitConverter.ToInt16(temp, 0).ToString(); // 심야/상시등보수율
 
-                temp = values.Skip(16).Take(2).ToArray(); Array.Reverse(temp);
-                H73A8[controllerIdx] = BitConverter.ToInt16(temp, 0).ToString(); // 가로등격등/출구부보수율
+            temp = values.Skip(14).Take(2).ToArray(); Array.Reverse(temp);
+            H73A7[controllerIdx] = BitConverter.ToInt16(temp, 0).ToString(); // 가로등 상시/입구부보수율
 
-                /* 디밍 레벨 */
-                temp = values.Skip(18).Take(2).ToArray(); Array.Reverse(temp);
-                H73A9[controllerIdx] = BitConverter.ToInt16(temp, 0).ToString();
+            temp = values.Skip(16).Take(2).ToArray(); Array.Reverse(temp);
+            H73A8[controllerIdx] = BitConverter.ToInt16(temp, 0).ToString(); // 가로등격등/출구부보수율
 
-                temp = values.Skip(20).Take(2).ToArray(); Array.Reverse(temp);
-                H73AA[controllerIdx] = BitConverter.ToInt16(temp, 0).ToString(); ;
+            /* 디밍 레벨 */
+            temp = values.Skip(18).Take(2).ToArray(); Array.Reverse(temp);
+            H73A9[controllerIdx] = BitConverter.ToInt16(temp, 0).ToString();
 
-                temp = values.Skip(22).Take(2).ToArray(); Array.Reverse(temp);
-                H73AB[controllerIdx] = BitConverter.ToInt16(temp, 0).ToString(); ;
+            temp = values.Skip(20).Take(2).ToArray(); Array.Reverse(temp);
+            H73AA[controllerIdx] = BitConverter.ToInt16(temp, 0).ToString(); ;
 
-                temp = values.Skip(24).Take(2).ToArray(); Array.Reverse(temp);
-                H73AC[controllerIdx] = BitConverter.ToInt16(temp, 0).ToString(); ;
+            temp = values.Skip(22).Take(2).ToArray(); Array.Reverse(temp);
+            H73AB[controllerIdx] = BitConverter.ToInt16(temp, 0).ToString(); ;
 
-                temp = values.Skip(26).Take(2).ToArray(); Array.Reverse(temp);
-                H73AD[controllerIdx] = BitConverter.ToInt16(temp, 0).ToString(); ;
+            temp = values.Skip(24).Take(2).ToArray(); Array.Reverse(temp);
+            H73AC[controllerIdx] = BitConverter.ToInt16(temp, 0).ToString(); ;
 
-                temp = values.Skip(28).Take(2).ToArray(); Array.Reverse(temp);
-                H73AE[controllerIdx] = BitConverter.ToInt16(temp, 0).ToString(); ;
+            temp = values.Skip(26).Take(2).ToArray(); Array.Reverse(temp);
+            H73AD[controllerIdx] = BitConverter.ToInt16(temp, 0).ToString(); ;
 
-                temp = values.Skip(30).Take(2).ToArray(); Array.Reverse(temp);
-                H73AF[controllerIdx] = BitConverter.ToInt16(temp, 0).ToString(); ;
+            temp = values.Skip(28).Take(2).ToArray(); Array.Reverse(temp);
+            H73AE[controllerIdx] = BitConverter.ToInt16(temp, 0).ToString(); ;
 
-                temp = values.Skip(32).Take(2).ToArray(); Array.Reverse(temp);
-                H73B0[controllerIdx] = BitConverter.ToInt16(temp, 0).ToString(); ;
+            temp = values.Skip(30).Take(2).ToArray(); Array.Reverse(temp);
+            H73AF[controllerIdx] = BitConverter.ToInt16(temp, 0).ToString(); ;
 
-                temp = values.Skip(34).Take(2).ToArray(); Array.Reverse(temp);
-                H73B1[controllerIdx] = BitConverter.ToInt16(temp, 0).ToString(); ;
+            temp = values.Skip(32).Take(2).ToArray(); Array.Reverse(temp);
+            H73B0[controllerIdx] = BitConverter.ToInt16(temp, 0).ToString(); ;
 
-                temp = values.Skip(36).Take(2).ToArray(); Array.Reverse(temp);
-                H73B2[controllerIdx] = BitConverter.ToInt16(temp, 0).ToString(); ;
+            temp = values.Skip(34).Take(2).ToArray(); Array.Reverse(temp);
+            H73B1[controllerIdx] = BitConverter.ToInt16(temp, 0).ToString(); ;
 
-                temp = values.Skip(38).Take(2).ToArray(); Array.Reverse(temp);
-                H73B3[controllerIdx] = BitConverter.ToInt16(temp, 0).ToString(); ;
+            temp = values.Skip(36).Take(2).ToArray(); Array.Reverse(temp);
+            H73B2[controllerIdx] = BitConverter.ToInt16(temp, 0).ToString(); ;
 
-                temp = values.Skip(40).Take(2).ToArray(); Array.Reverse(temp);
-                H73B4[controllerIdx] = BitConverter.ToInt16(temp, 0).ToString(); ;
+            temp = values.Skip(38).Take(2).ToArray(); Array.Reverse(temp);
+            H73B3[controllerIdx] = BitConverter.ToInt16(temp, 0).ToString(); ;
 
-                temp = values.Skip(42).Take(2).ToArray(); Array.Reverse(temp);
-                H73B5[controllerIdx] = BitConverter.ToInt16(temp, 0).ToString(); ;
+            temp = values.Skip(40).Take(2).ToArray(); Array.Reverse(temp);
+            H73B4[controllerIdx] = BitConverter.ToInt16(temp, 0).ToString(); ;
 
-                temp = values.Skip(44).Take(2).ToArray(); Array.Reverse(temp);
-                H73B6[controllerIdx] = BitConverter.ToInt16(temp, 0).ToString(); ;
+            temp = values.Skip(42).Take(2).ToArray(); Array.Reverse(temp);
+            H73B5[controllerIdx] = BitConverter.ToInt16(temp, 0).ToString(); ;
 
-                temp = values.Skip(46).Take(2).ToArray(); Array.Reverse(temp);
-                H73B7[controllerIdx] = BitConverter.ToInt16(temp, 0).ToString(); ;
+            temp = values.Skip(44).Take(2).ToArray(); Array.Reverse(temp);
+            H73B6[controllerIdx] = BitConverter.ToInt16(temp, 0).ToString(); ;
 
-                temp = values.Skip(48).Take(2).ToArray(); Array.Reverse(temp);
-                H73B8[controllerIdx] = BitConverter.ToInt16(temp, 0).ToString(); ;
+            temp = values.Skip(46).Take(2).ToArray(); Array.Reverse(temp);
+            H73B7[controllerIdx] = BitConverter.ToInt16(temp, 0).ToString(); ;
 
-                temp = values.Skip(50).Take(2).ToArray(); Array.Reverse(temp);
-                H73B9[controllerIdx] = BitConverter.ToInt16(temp, 0).ToString(); ;
+            temp = values.Skip(48).Take(2).ToArray(); Array.Reverse(temp);
+            H73B8[controllerIdx] = BitConverter.ToInt16(temp, 0).ToString(); ;
 
-                temp = values.Skip(52).Take(2).ToArray(); Array.Reverse(temp);
-                H73BA[controllerIdx] = BitConverter.ToInt16(temp, 0).ToString(); ;
+            temp = values.Skip(50).Take(2).ToArray(); Array.Reverse(temp);
+            H73B9[controllerIdx] = BitConverter.ToInt16(temp, 0).ToString(); ;
 
-                temp = values.Skip(54).Take(2).ToArray(); Array.Reverse(temp);
-                H73BB[controllerIdx] = BitConverter.ToInt16(temp, 0).ToString(); ;
+            temp = values.Skip(52).Take(2).ToArray(); Array.Reverse(temp);
+            H73BA[controllerIdx] = BitConverter.ToInt16(temp, 0).ToString(); ;
 
-                temp = values.Skip(56).Take(2).ToArray(); Array.Reverse(temp);
-                H73BC[controllerIdx] = BitConverter.ToInt16(temp, 0).ToString(); ;
+            temp = values.Skip(54).Take(2).ToArray(); Array.Reverse(temp);
+            H73BB[controllerIdx] = BitConverter.ToInt16(temp, 0).ToString(); ;
 
-                temp = values.Skip(58).Take(2).ToArray(); Array.Reverse(temp);
-                H73BD[controllerIdx] = BitConverter.ToInt16(temp, 0).ToString(); ;
-            }));
+            temp = values.Skip(56).Take(2).ToArray(); Array.Reverse(temp);
+            H73BC[controllerIdx] = BitConverter.ToInt16(temp, 0).ToString(); ;
+
+            temp = values.Skip(58).Take(2).ToArray(); Array.Reverse(temp);
+            H73BD[controllerIdx] = BitConverter.ToInt16(temp, 0).ToString(); ;
+
 
             List<string> li2 = new List<string>
             {
@@ -1475,100 +1308,6 @@ namespace DimmingContol
                 H73BB[controllerIdx], H73BC[controllerIdx], H73BD[controllerIdx],
             };
             DimmLevelValueReceivedFromController?.Invoke(li, null);
-#if false
-            App.RxValues.H73A0B00 = H73A0[0]; // 통신이상
-            App.RxValues.H73A1B00 = H73A1[0]; // CPU이상
-            App.RxValues.H73A1B01 = H73A1[1]; // 파워모듈 이상
-
-            //App.RxValues.H7080B01 = H73A1[1]; // 화재 운전 상태
-
-            temp = values.Skip(6).Take(2).ToArray(); Array.Reverse(temp);
-            App.RxValues.H73A3 = BitConverter.ToInt16(temp, 0); // 맑음등보수율
-
-            temp = values.Skip(8).Take(2).ToArray(); Array.Reverse(temp);
-            App.RxValues.H73A4 = BitConverter.ToInt16(temp, 0); // 흐림등보수율
-
-            temp = values.Skip(10).Take(2).ToArray(); Array.Reverse(temp);
-            App.RxValues.H73A5 = BitConverter.ToInt16(temp, 0); // 주간(일출일몰)등보수율
-
-            temp = values.Skip(12).Take(2).ToArray(); Array.Reverse(temp);
-            App.RxValues.H73A6 = BitConverter.ToInt16(temp, 0); // 심야/상시등보수율
-
-            temp = values.Skip(14).Take(2).ToArray(); Array.Reverse(temp);
-            App.RxValues.H73A7 = BitConverter.ToInt16(temp, 0); // 가로등 상시/입구부보수율
-
-            temp = values.Skip(16).Take(2).ToArray(); Array.Reverse(temp);
-            App.RxValues.H73A8 = BitConverter.ToInt16(temp, 0); // 가로등격등/출구부보수율
-
-            temp = values.Skip(18).Take(2).ToArray(); Array.Reverse(temp);
-            App.RxValues.H73A9 = BitConverter.ToInt16(temp, 0);
-
-            temp = values.Skip(20).Take(2).ToArray(); Array.Reverse(temp);
-            App.RxValues.H73AA = BitConverter.ToInt16(temp, 0);
-
-            temp = values.Skip(22).Take(2).ToArray(); Array.Reverse(temp);
-            App.RxValues.H73AB = BitConverter.ToInt16(temp, 0);
-
-            temp = values.Skip(24).Take(2).ToArray(); Array.Reverse(temp);
-            App.RxValues.H73AC = BitConverter.ToInt16(temp, 0);
-
-            temp = values.Skip(26).Take(2).ToArray(); Array.Reverse(temp);
-            App.RxValues.H73AD = BitConverter.ToInt16(temp, 0);
-
-            temp = values.Skip(28).Take(2).ToArray(); Array.Reverse(temp);
-            App.RxValues.H73AE = BitConverter.ToInt16(temp, 0);
-
-            temp = values.Skip(30).Take(2).ToArray(); Array.Reverse(temp);
-            App.RxValues.H73AF = BitConverter.ToInt16(temp, 0);
-
-            temp = values.Skip(32).Take(2).ToArray(); Array.Reverse(temp);
-            App.RxValues.H73B0 = BitConverter.ToInt16(temp, 0);
-
-            temp = values.Skip(34).Take(2).ToArray(); Array.Reverse(temp);
-            App.RxValues.H73B1 = BitConverter.ToInt16(temp, 0);
-
-            temp = values.Skip(36).Take(2).ToArray(); Array.Reverse(temp);
-            App.RxValues.H73B2 = BitConverter.ToInt16(temp, 0);
-
-            temp = values.Skip(38).Take(2).ToArray(); Array.Reverse(temp);
-            App.RxValues.H73B3 = BitConverter.ToInt16(temp, 0);
-
-            temp = values.Skip(40).Take(2).ToArray(); Array.Reverse(temp);
-            App.RxValues.H73B4 = BitConverter.ToInt16(temp, 0);
-
-            temp = values.Skip(42).Take(2).ToArray(); Array.Reverse(temp);
-            App.RxValues.H73B5 = BitConverter.ToInt16(temp, 0);
-
-            temp = values.Skip(44).Take(2).ToArray(); Array.Reverse(temp);
-            App.RxValues.H73B6 = BitConverter.ToInt16(temp, 0);
-
-            temp = values.Skip(46).Take(2).ToArray(); Array.Reverse(temp);
-            App.RxValues.H73B7 = BitConverter.ToInt16(temp, 0);
-
-            temp = values.Skip(48).Take(2).ToArray(); Array.Reverse(temp);
-            App.RxValues.H73B8 = BitConverter.ToInt16(temp, 0);
-
-            temp = values.Skip(50).Take(2).ToArray(); Array.Reverse(temp);
-            App.RxValues.H73B9 = BitConverter.ToInt16(temp, 0);
-
-            temp = values.Skip(52).Take(2).ToArray(); Array.Reverse(temp);
-            App.RxValues.H73BA = BitConverter.ToInt16(temp, 0);
-
-            temp = values.Skip(54).Take(2).ToArray(); Array.Reverse(temp);
-            App.RxValues.H73BB = BitConverter.ToInt16(temp, 0);
-
-            temp = values.Skip(56).Take(2).ToArray(); Array.Reverse(temp);
-            App.RxValues.H73BC = BitConverter.ToInt16(temp, 0);
-
-            temp = values.Skip(58).Take(2).ToArray(); Array.Reverse(temp);
-            App.RxValues.H73BD = BitConverter.ToInt16(temp, 0);
-
-            temp = values.Skip(60).Take(2).ToArray(); Array.Reverse(temp);
-            App.RxValues.H73BE = BitConverter.ToInt16(temp, 0);
-
-            temp = values.Skip(62).Take(2).ToArray(); Array.Reverse(temp);
-            App.RxValues.H73BF = BitConverter.ToInt16(temp, 0);
-#endif
         }
 
         private void Parsing_73C0H(byte[] values, int controllerIdx)

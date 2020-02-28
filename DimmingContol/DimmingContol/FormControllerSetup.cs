@@ -140,7 +140,11 @@ namespace DimmingContol
                                     c.Text = DimLevelValue[levelIndex];
                                 }));
                             }
-                            catch { }
+                            catch (Exception ex)
+                            {
+                                Debug.WriteLine($"DimmLevelValueRefresh: {ex}");
+                                return;
+                            }
                         }
                     }
                 }
@@ -169,7 +173,11 @@ namespace DimmingContol
                                     c.Text = MaintenanceFactor[levelIndex];
                                 }));
                             }
-                            catch { }
+                            catch (Exception ex)
+                            {
+                                Debug.WriteLine($"MaintenanceFactorRefresh: {ex}");
+                                return;
+                            }
                         }
                     }
                 }
@@ -189,7 +197,11 @@ namespace DimmingContol
                             opModeLabel.Text = (string)mode[1];
                         }));
                     }
-                    catch { }
+                    catch (Exception ex)
+                    {
+                        Debug.WriteLine($"OpModeRefresh: {ex}");
+                        return;
+                    }
                 }
             }
         }
@@ -217,7 +229,13 @@ namespace DimmingContol
                                     c.ForeColor = c.Text == "OFF" ? c.ForeColor = Color.FromArgb(255, 85, 85) : Color.FromArgb(250, 250, 210);
                                 }));
                             }
-                            catch { }
+#pragma warning disable CA1031 // Do not catch general exception types
+                            catch (Exception ex)
+                            {
+                                Debug.WriteLine($"OnOffRefresh: {ex}");
+                                return;
+                            }
+#pragma warning restore CA1031 // Do not catch general exception types
                         }
                     }
                 }

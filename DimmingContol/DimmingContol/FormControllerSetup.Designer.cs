@@ -33,6 +33,7 @@
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.panel1 = new System.Windows.Forms.Panel();
             this.titleLabel = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.closeFlatButton = new Bunifu.Framework.UI.BunifuFlatButton();
             this.dimmLevelPanel = new System.Windows.Forms.TableLayoutPanel();
             this.dimmLevelLabel21 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.dimmLevelLabel20 = new Bunifu.Framework.UI.BunifuCustomLabel();
@@ -95,7 +96,6 @@
             this.bunifuCustomLabel90 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel91 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuFlatButton2 = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.closeFlatButton = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bunifuCustomLabel1 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.localButton = new Bunifu.Framework.UI.BunifuFlatButton();
             this.opModeLabel = new Bunifu.Framework.UI.BunifuCustomLabel();
@@ -103,48 +103,51 @@
             this.remoteManualButton = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bunifuCustomLabel25 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.onOffPanel = new System.Windows.Forms.TableLayoutPanel();
-            this.bunifuCustomLabel26 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel27 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel28 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel29 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel30 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.onoffLabel01 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.onoffLabel02 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.onButton01 = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.offButton01 = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.bunifuCustomLabel33 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel34 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel35 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel36 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel37 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel38 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel39 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel40 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel41 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.onoffLabel03 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.onoffLabel04 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.onoffLabel05 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.onoffLabel06 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.onoffLabel07 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.onoffLabel08 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.onButton02 = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.onButton05 = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.onButton03 = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.onButton06 = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.onButton04 = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.onButton07 = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.bunifuFlatButton07 = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.offButton02 = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.offButton03 = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.offButton04 = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.offButton05 = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.offButton06 = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.offButton07 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.offButton08 = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.offButton07 = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.offButton06 = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.offButton05 = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.offButton04 = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.offButton03 = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.offButton02 = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.bunifuFlatButton07 = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.onButton07 = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.onButton04 = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.onButton06 = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.onButton03 = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.onButton05 = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.onButton02 = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.onoffLabel08 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.onoffLabel07 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.onoffLabel06 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.onoffLabel05 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.onoffLabel04 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.onoffLabel03 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuCustomLabel41 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuCustomLabel40 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuCustomLabel39 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuCustomLabel38 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuCustomLabel37 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuCustomLabel36 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuCustomLabel35 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuCustomLabel34 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuCustomLabel33 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.offButton01 = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.onButton01 = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.onoffLabel02 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.onoffLabel01 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuCustomLabel30 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuCustomLabel29 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuCustomLabel28 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuCustomLabel27 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuCustomLabel26 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuCustomLabel31 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.dimmLevelPanel.SuspendLayout();
             this.maintenanceFactorPanel.SuspendLayout();
             this.onOffPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // bunifuElipse1
@@ -174,6 +177,44 @@
             this.titleLabel.Size = new System.Drawing.Size(405, 40);
             this.titleLabel.TabIndex = 0;
             this.titleLabel.Text = "정릉 터널등 제어기 설정 상태";
+            // 
+            // closeFlatButton
+            // 
+            this.closeFlatButton.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
+            this.closeFlatButton.BackColor = System.Drawing.Color.Transparent;
+            this.closeFlatButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.closeFlatButton.BorderRadius = 0;
+            this.closeFlatButton.ButtonText = "닫기";
+            this.closeFlatButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.closeFlatButton.DisabledColor = System.Drawing.Color.Gray;
+            this.closeFlatButton.Font = new System.Drawing.Font("Gulim", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.closeFlatButton.ForeColor = System.Drawing.Color.White;
+            this.closeFlatButton.Iconcolor = System.Drawing.Color.Transparent;
+            this.closeFlatButton.Iconimage = ((System.Drawing.Image)(resources.GetObject("closeFlatButton.Iconimage")));
+            this.closeFlatButton.Iconimage_right = null;
+            this.closeFlatButton.Iconimage_right_Selected = null;
+            this.closeFlatButton.Iconimage_Selected = null;
+            this.closeFlatButton.IconMarginLeft = 0;
+            this.closeFlatButton.IconMarginRight = 0;
+            this.closeFlatButton.IconRightVisible = true;
+            this.closeFlatButton.IconRightZoom = 0D;
+            this.closeFlatButton.IconVisible = true;
+            this.closeFlatButton.IconZoom = 90D;
+            this.closeFlatButton.IsTab = false;
+            this.closeFlatButton.Location = new System.Drawing.Point(1272, 6);
+            this.closeFlatButton.Margin = new System.Windows.Forms.Padding(0);
+            this.closeFlatButton.Name = "closeFlatButton";
+            this.closeFlatButton.Normalcolor = System.Drawing.Color.Transparent;
+            this.closeFlatButton.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
+            this.closeFlatButton.OnHoverTextColor = System.Drawing.Color.White;
+            this.closeFlatButton.selected = false;
+            this.closeFlatButton.Size = new System.Drawing.Size(160, 55);
+            this.closeFlatButton.TabIndex = 9;
+            this.closeFlatButton.Text = "닫기";
+            this.closeFlatButton.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.closeFlatButton.Textcolor = System.Drawing.Color.White;
+            this.closeFlatButton.TextFont = new System.Drawing.Font("Malgun Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.closeFlatButton.Click += new System.EventHandler(this.Close_Click);
             // 
             // dimmLevelPanel
             // 
@@ -1242,44 +1283,6 @@
             this.bunifuFlatButton2.TextFont = new System.Drawing.Font("Malgun Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuFlatButton2.Click += new System.EventHandler(this.MaintenanceFactorSetup_Click);
             // 
-            // closeFlatButton
-            // 
-            this.closeFlatButton.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
-            this.closeFlatButton.BackColor = System.Drawing.Color.Transparent;
-            this.closeFlatButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.closeFlatButton.BorderRadius = 0;
-            this.closeFlatButton.ButtonText = "닫기";
-            this.closeFlatButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.closeFlatButton.DisabledColor = System.Drawing.Color.Gray;
-            this.closeFlatButton.Font = new System.Drawing.Font("Gulim", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.closeFlatButton.ForeColor = System.Drawing.Color.White;
-            this.closeFlatButton.Iconcolor = System.Drawing.Color.Transparent;
-            this.closeFlatButton.Iconimage = ((System.Drawing.Image)(resources.GetObject("closeFlatButton.Iconimage")));
-            this.closeFlatButton.Iconimage_right = null;
-            this.closeFlatButton.Iconimage_right_Selected = null;
-            this.closeFlatButton.Iconimage_Selected = null;
-            this.closeFlatButton.IconMarginLeft = 0;
-            this.closeFlatButton.IconMarginRight = 0;
-            this.closeFlatButton.IconRightVisible = true;
-            this.closeFlatButton.IconRightZoom = 0D;
-            this.closeFlatButton.IconVisible = true;
-            this.closeFlatButton.IconZoom = 90D;
-            this.closeFlatButton.IsTab = false;
-            this.closeFlatButton.Location = new System.Drawing.Point(1272, 6);
-            this.closeFlatButton.Margin = new System.Windows.Forms.Padding(0);
-            this.closeFlatButton.Name = "closeFlatButton";
-            this.closeFlatButton.Normalcolor = System.Drawing.Color.Transparent;
-            this.closeFlatButton.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
-            this.closeFlatButton.OnHoverTextColor = System.Drawing.Color.White;
-            this.closeFlatButton.selected = false;
-            this.closeFlatButton.Size = new System.Drawing.Size(160, 55);
-            this.closeFlatButton.TabIndex = 9;
-            this.closeFlatButton.Text = "닫기";
-            this.closeFlatButton.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.closeFlatButton.Textcolor = System.Drawing.Color.White;
-            this.closeFlatButton.TextFont = new System.Drawing.Font("Malgun Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.closeFlatButton.Click += new System.EventHandler(this.Close_Click);
-            // 
             // bunifuCustomLabel1
             // 
             this.bunifuCustomLabel1.AutoSize = true;
@@ -1498,895 +1501,45 @@
             this.onOffPanel.Size = new System.Drawing.Size(615, 300);
             this.onOffPanel.TabIndex = 16;
             // 
-            // bunifuCustomLabel26
-            // 
-            this.bunifuCustomLabel26.AutoSize = true;
-            this.bunifuCustomLabel26.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.bunifuCustomLabel26.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuCustomLabel26.Font = new System.Drawing.Font("Gulim", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.bunifuCustomLabel26.ForeColor = System.Drawing.Color.White;
-            this.bunifuCustomLabel26.Location = new System.Drawing.Point(3, 0);
-            this.bunifuCustomLabel26.Name = "bunifuCustomLabel26";
-            this.onOffPanel.SetRowSpan(this.bunifuCustomLabel26, 4);
-            this.bunifuCustomLabel26.Size = new System.Drawing.Size(70, 148);
-            this.bunifuCustomLabel26.TabIndex = 0;
-            this.bunifuCustomLabel26.Text = "상\r\n\r\n행";
-            this.bunifuCustomLabel26.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // bunifuCustomLabel27
-            // 
-            this.bunifuCustomLabel27.AutoSize = true;
-            this.bunifuCustomLabel27.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.bunifuCustomLabel27.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuCustomLabel27.Font = new System.Drawing.Font("Gulim", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.bunifuCustomLabel27.ForeColor = System.Drawing.Color.White;
-            this.bunifuCustomLabel27.Location = new System.Drawing.Point(79, 0);
-            this.bunifuCustomLabel27.Name = "bunifuCustomLabel27";
-            this.onOffPanel.SetRowSpan(this.bunifuCustomLabel27, 2);
-            this.bunifuCustomLabel27.Size = new System.Drawing.Size(70, 74);
-            this.bunifuCustomLabel27.TabIndex = 1;
-            this.bunifuCustomLabel27.Text = "추\r\n월";
-            this.bunifuCustomLabel27.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // bunifuCustomLabel28
-            // 
-            this.bunifuCustomLabel28.AutoSize = true;
-            this.bunifuCustomLabel28.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.bunifuCustomLabel28.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuCustomLabel28.Font = new System.Drawing.Font("Gulim", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.bunifuCustomLabel28.ForeColor = System.Drawing.Color.White;
-            this.bunifuCustomLabel28.Location = new System.Drawing.Point(79, 74);
-            this.bunifuCustomLabel28.Name = "bunifuCustomLabel28";
-            this.onOffPanel.SetRowSpan(this.bunifuCustomLabel28, 2);
-            this.bunifuCustomLabel28.Size = new System.Drawing.Size(70, 74);
-            this.bunifuCustomLabel28.TabIndex = 2;
-            this.bunifuCustomLabel28.Text = "주\r\n행";
-            this.bunifuCustomLabel28.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // bunifuCustomLabel29
-            // 
-            this.bunifuCustomLabel29.AutoSize = true;
-            this.bunifuCustomLabel29.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.onOffPanel.SetColumnSpan(this.bunifuCustomLabel29, 2);
-            this.bunifuCustomLabel29.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuCustomLabel29.Font = new System.Drawing.Font("Gulim", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.bunifuCustomLabel29.ForeColor = System.Drawing.Color.White;
-            this.bunifuCustomLabel29.Location = new System.Drawing.Point(155, 0);
-            this.bunifuCustomLabel29.Name = "bunifuCustomLabel29";
-            this.bunifuCustomLabel29.Size = new System.Drawing.Size(146, 37);
-            this.bunifuCustomLabel29.TabIndex = 3;
-            this.bunifuCustomLabel29.Text = "주간등";
-            this.bunifuCustomLabel29.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // bunifuCustomLabel30
-            // 
-            this.bunifuCustomLabel30.AutoSize = true;
-            this.bunifuCustomLabel30.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.onOffPanel.SetColumnSpan(this.bunifuCustomLabel30, 2);
-            this.bunifuCustomLabel30.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuCustomLabel30.Font = new System.Drawing.Font("Gulim", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.bunifuCustomLabel30.ForeColor = System.Drawing.Color.White;
-            this.bunifuCustomLabel30.Location = new System.Drawing.Point(155, 37);
-            this.bunifuCustomLabel30.Name = "bunifuCustomLabel30";
-            this.bunifuCustomLabel30.Size = new System.Drawing.Size(146, 37);
-            this.bunifuCustomLabel30.TabIndex = 4;
-            this.bunifuCustomLabel30.Text = "상시등";
-            this.bunifuCustomLabel30.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // onoffLabel01
-            // 
-            this.onoffLabel01.AutoSize = true;
-            this.onoffLabel01.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.onOffPanel.SetColumnSpan(this.onoffLabel01, 2);
-            this.onoffLabel01.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.onoffLabel01.Font = new System.Drawing.Font("Gulim", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.onoffLabel01.ForeColor = System.Drawing.Color.LightGoldenrodYellow;
-            this.onoffLabel01.Location = new System.Drawing.Point(307, 0);
-            this.onoffLabel01.Name = "onoffLabel01";
-            this.onoffLabel01.Size = new System.Drawing.Size(146, 37);
-            this.onoffLabel01.TabIndex = 5;
-            this.onoffLabel01.Text = "ON";
-            this.onoffLabel01.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // onoffLabel02
-            // 
-            this.onoffLabel02.AutoSize = true;
-            this.onoffLabel02.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.onOffPanel.SetColumnSpan(this.onoffLabel02, 2);
-            this.onoffLabel02.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.onoffLabel02.Font = new System.Drawing.Font("Gulim", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.onoffLabel02.ForeColor = System.Drawing.Color.LightGoldenrodYellow;
-            this.onoffLabel02.Location = new System.Drawing.Point(307, 37);
-            this.onoffLabel02.Name = "onoffLabel02";
-            this.onoffLabel02.Size = new System.Drawing.Size(146, 37);
-            this.onoffLabel02.TabIndex = 6;
-            this.onoffLabel02.Text = "OFF";
-            this.onoffLabel02.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // onButton01
-            // 
-            this.onButton01.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
-            this.onButton01.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
-            this.onButton01.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.onButton01.BorderRadius = 5;
-            this.onButton01.ButtonText = "ON";
-            this.onButton01.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.onButton01.DisabledColor = System.Drawing.Color.Gray;
-            this.onButton01.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.onButton01.Font = new System.Drawing.Font("Gulim", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.onButton01.ForeColor = System.Drawing.Color.Black;
-            this.onButton01.Iconcolor = System.Drawing.Color.Transparent;
-            this.onButton01.Iconimage = null;
-            this.onButton01.Iconimage_right = null;
-            this.onButton01.Iconimage_right_Selected = null;
-            this.onButton01.Iconimage_Selected = null;
-            this.onButton01.IconMarginLeft = 0;
-            this.onButton01.IconMarginRight = 0;
-            this.onButton01.IconRightVisible = true;
-            this.onButton01.IconRightZoom = 0D;
-            this.onButton01.IconVisible = true;
-            this.onButton01.IconZoom = 90D;
-            this.onButton01.IsTab = false;
-            this.onButton01.Location = new System.Drawing.Point(457, 1);
-            this.onButton01.Margin = new System.Windows.Forms.Padding(1);
-            this.onButton01.Name = "onButton01";
-            this.onButton01.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
-            this.onButton01.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
-            this.onButton01.OnHoverTextColor = System.Drawing.Color.White;
-            this.onButton01.selected = false;
-            this.onButton01.Size = new System.Drawing.Size(74, 35);
-            this.onButton01.TabIndex = 9;
-            this.onButton01.Tag = "1";
-            this.onButton01.Text = "ON";
-            this.onButton01.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.onButton01.Textcolor = System.Drawing.Color.Black;
-            this.onButton01.TextFont = new System.Drawing.Font("Malgun Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.onButton01.Click += new System.EventHandler(this.DimmOnOff_Click);
-            // 
-            // offButton01
-            // 
-            this.offButton01.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
-            this.offButton01.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
-            this.offButton01.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.offButton01.BorderRadius = 5;
-            this.offButton01.ButtonText = "OFF";
-            this.offButton01.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.offButton01.DisabledColor = System.Drawing.Color.Gray;
-            this.offButton01.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.offButton01.Font = new System.Drawing.Font("Gulim", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.offButton01.ForeColor = System.Drawing.Color.Black;
-            this.offButton01.Iconcolor = System.Drawing.Color.Transparent;
-            this.offButton01.Iconimage = null;
-            this.offButton01.Iconimage_right = null;
-            this.offButton01.Iconimage_right_Selected = null;
-            this.offButton01.Iconimage_Selected = null;
-            this.offButton01.IconMarginLeft = 0;
-            this.offButton01.IconMarginRight = 0;
-            this.offButton01.IconRightVisible = true;
-            this.offButton01.IconRightZoom = 0D;
-            this.offButton01.IconVisible = true;
-            this.offButton01.IconZoom = 90D;
-            this.offButton01.IsTab = false;
-            this.offButton01.Location = new System.Drawing.Point(533, 1);
-            this.offButton01.Margin = new System.Windows.Forms.Padding(1);
-            this.offButton01.Name = "offButton01";
-            this.offButton01.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
-            this.offButton01.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
-            this.offButton01.OnHoverTextColor = System.Drawing.Color.White;
-            this.offButton01.selected = false;
-            this.offButton01.Size = new System.Drawing.Size(81, 35);
-            this.offButton01.TabIndex = 10;
-            this.offButton01.Tag = "11";
-            this.offButton01.Text = "OFF";
-            this.offButton01.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.offButton01.Textcolor = System.Drawing.Color.Black;
-            this.offButton01.TextFont = new System.Drawing.Font("Malgun Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.offButton01.Click += new System.EventHandler(this.DimmOnOff_Click);
-            // 
-            // bunifuCustomLabel33
-            // 
-            this.bunifuCustomLabel33.AutoSize = true;
-            this.bunifuCustomLabel33.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.bunifuCustomLabel33.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuCustomLabel33.Font = new System.Drawing.Font("Gulim", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.bunifuCustomLabel33.ForeColor = System.Drawing.Color.White;
-            this.bunifuCustomLabel33.Location = new System.Drawing.Point(3, 148);
-            this.bunifuCustomLabel33.Name = "bunifuCustomLabel33";
-            this.onOffPanel.SetRowSpan(this.bunifuCustomLabel33, 4);
-            this.bunifuCustomLabel33.Size = new System.Drawing.Size(70, 152);
-            this.bunifuCustomLabel33.TabIndex = 11;
-            this.bunifuCustomLabel33.Text = "하\r\n\r\n행";
-            this.bunifuCustomLabel33.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // bunifuCustomLabel34
-            // 
-            this.bunifuCustomLabel34.AutoSize = true;
-            this.bunifuCustomLabel34.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.bunifuCustomLabel34.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuCustomLabel34.Font = new System.Drawing.Font("Gulim", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.bunifuCustomLabel34.ForeColor = System.Drawing.Color.White;
-            this.bunifuCustomLabel34.Location = new System.Drawing.Point(79, 148);
-            this.bunifuCustomLabel34.Name = "bunifuCustomLabel34";
-            this.onOffPanel.SetRowSpan(this.bunifuCustomLabel34, 2);
-            this.bunifuCustomLabel34.Size = new System.Drawing.Size(70, 74);
-            this.bunifuCustomLabel34.TabIndex = 12;
-            this.bunifuCustomLabel34.Text = "추\r\n월";
-            this.bunifuCustomLabel34.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // bunifuCustomLabel35
-            // 
-            this.bunifuCustomLabel35.AutoSize = true;
-            this.bunifuCustomLabel35.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.bunifuCustomLabel35.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuCustomLabel35.Font = new System.Drawing.Font("Gulim", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.bunifuCustomLabel35.ForeColor = System.Drawing.Color.White;
-            this.bunifuCustomLabel35.Location = new System.Drawing.Point(79, 222);
-            this.bunifuCustomLabel35.Name = "bunifuCustomLabel35";
-            this.onOffPanel.SetRowSpan(this.bunifuCustomLabel35, 2);
-            this.bunifuCustomLabel35.Size = new System.Drawing.Size(70, 78);
-            this.bunifuCustomLabel35.TabIndex = 13;
-            this.bunifuCustomLabel35.Text = "주\r\n행";
-            this.bunifuCustomLabel35.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // bunifuCustomLabel36
-            // 
-            this.bunifuCustomLabel36.AutoSize = true;
-            this.bunifuCustomLabel36.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.onOffPanel.SetColumnSpan(this.bunifuCustomLabel36, 2);
-            this.bunifuCustomLabel36.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuCustomLabel36.Font = new System.Drawing.Font("Gulim", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.bunifuCustomLabel36.ForeColor = System.Drawing.Color.White;
-            this.bunifuCustomLabel36.Location = new System.Drawing.Point(155, 74);
-            this.bunifuCustomLabel36.Name = "bunifuCustomLabel36";
-            this.bunifuCustomLabel36.Size = new System.Drawing.Size(146, 36);
-            this.bunifuCustomLabel36.TabIndex = 14;
-            this.bunifuCustomLabel36.Text = "주간등";
-            this.bunifuCustomLabel36.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // bunifuCustomLabel37
-            // 
-            this.bunifuCustomLabel37.AutoSize = true;
-            this.bunifuCustomLabel37.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.onOffPanel.SetColumnSpan(this.bunifuCustomLabel37, 2);
-            this.bunifuCustomLabel37.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuCustomLabel37.Font = new System.Drawing.Font("Gulim", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.bunifuCustomLabel37.ForeColor = System.Drawing.Color.White;
-            this.bunifuCustomLabel37.Location = new System.Drawing.Point(155, 110);
-            this.bunifuCustomLabel37.Name = "bunifuCustomLabel37";
-            this.bunifuCustomLabel37.Size = new System.Drawing.Size(146, 38);
-            this.bunifuCustomLabel37.TabIndex = 15;
-            this.bunifuCustomLabel37.Text = "상시등";
-            this.bunifuCustomLabel37.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // bunifuCustomLabel38
-            // 
-            this.bunifuCustomLabel38.AutoSize = true;
-            this.bunifuCustomLabel38.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.onOffPanel.SetColumnSpan(this.bunifuCustomLabel38, 2);
-            this.bunifuCustomLabel38.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuCustomLabel38.Font = new System.Drawing.Font("Gulim", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.bunifuCustomLabel38.ForeColor = System.Drawing.Color.White;
-            this.bunifuCustomLabel38.Location = new System.Drawing.Point(155, 148);
-            this.bunifuCustomLabel38.Name = "bunifuCustomLabel38";
-            this.bunifuCustomLabel38.Size = new System.Drawing.Size(146, 37);
-            this.bunifuCustomLabel38.TabIndex = 16;
-            this.bunifuCustomLabel38.Text = "주간등";
-            this.bunifuCustomLabel38.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // bunifuCustomLabel39
-            // 
-            this.bunifuCustomLabel39.AutoSize = true;
-            this.bunifuCustomLabel39.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.onOffPanel.SetColumnSpan(this.bunifuCustomLabel39, 2);
-            this.bunifuCustomLabel39.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuCustomLabel39.Font = new System.Drawing.Font("Gulim", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.bunifuCustomLabel39.ForeColor = System.Drawing.Color.White;
-            this.bunifuCustomLabel39.Location = new System.Drawing.Point(155, 185);
-            this.bunifuCustomLabel39.Name = "bunifuCustomLabel39";
-            this.bunifuCustomLabel39.Size = new System.Drawing.Size(146, 37);
-            this.bunifuCustomLabel39.TabIndex = 17;
-            this.bunifuCustomLabel39.Text = "상시등";
-            this.bunifuCustomLabel39.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // bunifuCustomLabel40
-            // 
-            this.bunifuCustomLabel40.AutoSize = true;
-            this.bunifuCustomLabel40.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.onOffPanel.SetColumnSpan(this.bunifuCustomLabel40, 2);
-            this.bunifuCustomLabel40.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuCustomLabel40.Font = new System.Drawing.Font("Gulim", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.bunifuCustomLabel40.ForeColor = System.Drawing.Color.White;
-            this.bunifuCustomLabel40.Location = new System.Drawing.Point(155, 222);
-            this.bunifuCustomLabel40.Name = "bunifuCustomLabel40";
-            this.bunifuCustomLabel40.Size = new System.Drawing.Size(146, 37);
-            this.bunifuCustomLabel40.TabIndex = 18;
-            this.bunifuCustomLabel40.Text = "주간등";
-            this.bunifuCustomLabel40.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // bunifuCustomLabel41
-            // 
-            this.bunifuCustomLabel41.AutoSize = true;
-            this.bunifuCustomLabel41.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.onOffPanel.SetColumnSpan(this.bunifuCustomLabel41, 2);
-            this.bunifuCustomLabel41.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuCustomLabel41.Font = new System.Drawing.Font("Gulim", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.bunifuCustomLabel41.ForeColor = System.Drawing.Color.White;
-            this.bunifuCustomLabel41.Location = new System.Drawing.Point(155, 259);
-            this.bunifuCustomLabel41.Name = "bunifuCustomLabel41";
-            this.bunifuCustomLabel41.Size = new System.Drawing.Size(146, 41);
-            this.bunifuCustomLabel41.TabIndex = 19;
-            this.bunifuCustomLabel41.Text = "상시등";
-            this.bunifuCustomLabel41.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // onoffLabel03
-            // 
-            this.onoffLabel03.AutoSize = true;
-            this.onoffLabel03.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.onOffPanel.SetColumnSpan(this.onoffLabel03, 2);
-            this.onoffLabel03.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.onoffLabel03.Font = new System.Drawing.Font("Gulim", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.onoffLabel03.ForeColor = System.Drawing.Color.LightGoldenrodYellow;
-            this.onoffLabel03.Location = new System.Drawing.Point(307, 74);
-            this.onoffLabel03.Name = "onoffLabel03";
-            this.onoffLabel03.Size = new System.Drawing.Size(146, 36);
-            this.onoffLabel03.TabIndex = 20;
-            this.onoffLabel03.Text = "OFF";
-            this.onoffLabel03.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // onoffLabel04
-            // 
-            this.onoffLabel04.AutoSize = true;
-            this.onoffLabel04.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.onOffPanel.SetColumnSpan(this.onoffLabel04, 2);
-            this.onoffLabel04.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.onoffLabel04.Font = new System.Drawing.Font("Gulim", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.onoffLabel04.ForeColor = System.Drawing.Color.LightGoldenrodYellow;
-            this.onoffLabel04.Location = new System.Drawing.Point(307, 110);
-            this.onoffLabel04.Name = "onoffLabel04";
-            this.onoffLabel04.Size = new System.Drawing.Size(146, 38);
-            this.onoffLabel04.TabIndex = 21;
-            this.onoffLabel04.Text = "OFF";
-            this.onoffLabel04.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // onoffLabel05
-            // 
-            this.onoffLabel05.AutoSize = true;
-            this.onoffLabel05.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.onOffPanel.SetColumnSpan(this.onoffLabel05, 2);
-            this.onoffLabel05.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.onoffLabel05.Font = new System.Drawing.Font("Gulim", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.onoffLabel05.ForeColor = System.Drawing.Color.LightGoldenrodYellow;
-            this.onoffLabel05.Location = new System.Drawing.Point(307, 148);
-            this.onoffLabel05.Name = "onoffLabel05";
-            this.onoffLabel05.Size = new System.Drawing.Size(146, 37);
-            this.onoffLabel05.TabIndex = 22;
-            this.onoffLabel05.Text = "OFF";
-            this.onoffLabel05.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // onoffLabel06
-            // 
-            this.onoffLabel06.AutoSize = true;
-            this.onoffLabel06.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.onOffPanel.SetColumnSpan(this.onoffLabel06, 2);
-            this.onoffLabel06.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.onoffLabel06.Font = new System.Drawing.Font("Gulim", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.onoffLabel06.ForeColor = System.Drawing.Color.LightGoldenrodYellow;
-            this.onoffLabel06.Location = new System.Drawing.Point(307, 185);
-            this.onoffLabel06.Name = "onoffLabel06";
-            this.onoffLabel06.Size = new System.Drawing.Size(146, 37);
-            this.onoffLabel06.TabIndex = 23;
-            this.onoffLabel06.Text = "OFF";
-            this.onoffLabel06.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // onoffLabel07
-            // 
-            this.onoffLabel07.AutoSize = true;
-            this.onoffLabel07.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.onOffPanel.SetColumnSpan(this.onoffLabel07, 2);
-            this.onoffLabel07.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.onoffLabel07.Font = new System.Drawing.Font("Gulim", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.onoffLabel07.ForeColor = System.Drawing.Color.LightGoldenrodYellow;
-            this.onoffLabel07.Location = new System.Drawing.Point(307, 222);
-            this.onoffLabel07.Name = "onoffLabel07";
-            this.onoffLabel07.Size = new System.Drawing.Size(146, 37);
-            this.onoffLabel07.TabIndex = 24;
-            this.onoffLabel07.Text = "OFF";
-            this.onoffLabel07.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // onoffLabel08
-            // 
-            this.onoffLabel08.AutoSize = true;
-            this.onoffLabel08.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.onOffPanel.SetColumnSpan(this.onoffLabel08, 2);
-            this.onoffLabel08.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.onoffLabel08.Font = new System.Drawing.Font("Gulim", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.onoffLabel08.ForeColor = System.Drawing.Color.LightGoldenrodYellow;
-            this.onoffLabel08.Location = new System.Drawing.Point(307, 259);
-            this.onoffLabel08.Name = "onoffLabel08";
-            this.onoffLabel08.Size = new System.Drawing.Size(146, 41);
-            this.onoffLabel08.TabIndex = 25;
-            this.onoffLabel08.Text = "OFF";
-            this.onoffLabel08.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // onButton02
-            // 
-            this.onButton02.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
-            this.onButton02.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
-            this.onButton02.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.onButton02.BorderRadius = 5;
-            this.onButton02.ButtonText = "ON";
-            this.onButton02.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.onButton02.DisabledColor = System.Drawing.Color.Gray;
-            this.onButton02.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.onButton02.Font = new System.Drawing.Font("Gulim", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.onButton02.ForeColor = System.Drawing.Color.Black;
-            this.onButton02.Iconcolor = System.Drawing.Color.Transparent;
-            this.onButton02.Iconimage = null;
-            this.onButton02.Iconimage_right = null;
-            this.onButton02.Iconimage_right_Selected = null;
-            this.onButton02.Iconimage_Selected = null;
-            this.onButton02.IconMarginLeft = 0;
-            this.onButton02.IconMarginRight = 0;
-            this.onButton02.IconRightVisible = true;
-            this.onButton02.IconRightZoom = 0D;
-            this.onButton02.IconVisible = true;
-            this.onButton02.IconZoom = 90D;
-            this.onButton02.IsTab = false;
-            this.onButton02.Location = new System.Drawing.Point(457, 38);
-            this.onButton02.Margin = new System.Windows.Forms.Padding(1);
-            this.onButton02.Name = "onButton02";
-            this.onButton02.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
-            this.onButton02.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
-            this.onButton02.OnHoverTextColor = System.Drawing.Color.White;
-            this.onButton02.selected = false;
-            this.onButton02.Size = new System.Drawing.Size(74, 35);
-            this.onButton02.TabIndex = 26;
-            this.onButton02.Tag = "2";
-            this.onButton02.Text = "ON";
-            this.onButton02.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.onButton02.Textcolor = System.Drawing.Color.Black;
-            this.onButton02.TextFont = new System.Drawing.Font("Malgun Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.onButton02.Click += new System.EventHandler(this.DimmOnOff_Click);
-            // 
-            // onButton05
-            // 
-            this.onButton05.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
-            this.onButton05.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
-            this.onButton05.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.onButton05.BorderRadius = 5;
-            this.onButton05.ButtonText = "ON";
-            this.onButton05.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.onButton05.DisabledColor = System.Drawing.Color.Gray;
-            this.onButton05.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.onButton05.Font = new System.Drawing.Font("Gulim", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.onButton05.ForeColor = System.Drawing.Color.Black;
-            this.onButton05.Iconcolor = System.Drawing.Color.Transparent;
-            this.onButton05.Iconimage = null;
-            this.onButton05.Iconimage_right = null;
-            this.onButton05.Iconimage_right_Selected = null;
-            this.onButton05.Iconimage_Selected = null;
-            this.onButton05.IconMarginLeft = 0;
-            this.onButton05.IconMarginRight = 0;
-            this.onButton05.IconRightVisible = true;
-            this.onButton05.IconRightZoom = 0D;
-            this.onButton05.IconVisible = true;
-            this.onButton05.IconZoom = 90D;
-            this.onButton05.IsTab = false;
-            this.onButton05.Location = new System.Drawing.Point(457, 149);
-            this.onButton05.Margin = new System.Windows.Forms.Padding(1);
-            this.onButton05.Name = "onButton05";
-            this.onButton05.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
-            this.onButton05.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
-            this.onButton05.OnHoverTextColor = System.Drawing.Color.White;
-            this.onButton05.selected = false;
-            this.onButton05.Size = new System.Drawing.Size(74, 35);
-            this.onButton05.TabIndex = 27;
-            this.onButton05.Tag = "5";
-            this.onButton05.Text = "ON";
-            this.onButton05.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.onButton05.Textcolor = System.Drawing.Color.Black;
-            this.onButton05.TextFont = new System.Drawing.Font("Malgun Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.onButton05.Click += new System.EventHandler(this.DimmOnOff_Click);
-            // 
-            // onButton03
-            // 
-            this.onButton03.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
-            this.onButton03.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
-            this.onButton03.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.onButton03.BorderRadius = 5;
-            this.onButton03.ButtonText = "ON";
-            this.onButton03.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.onButton03.DisabledColor = System.Drawing.Color.Gray;
-            this.onButton03.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.onButton03.Font = new System.Drawing.Font("Gulim", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.onButton03.ForeColor = System.Drawing.Color.Black;
-            this.onButton03.Iconcolor = System.Drawing.Color.Transparent;
-            this.onButton03.Iconimage = null;
-            this.onButton03.Iconimage_right = null;
-            this.onButton03.Iconimage_right_Selected = null;
-            this.onButton03.Iconimage_Selected = null;
-            this.onButton03.IconMarginLeft = 0;
-            this.onButton03.IconMarginRight = 0;
-            this.onButton03.IconRightVisible = true;
-            this.onButton03.IconRightZoom = 0D;
-            this.onButton03.IconVisible = true;
-            this.onButton03.IconZoom = 90D;
-            this.onButton03.IsTab = false;
-            this.onButton03.Location = new System.Drawing.Point(457, 75);
-            this.onButton03.Margin = new System.Windows.Forms.Padding(1);
-            this.onButton03.Name = "onButton03";
-            this.onButton03.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
-            this.onButton03.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
-            this.onButton03.OnHoverTextColor = System.Drawing.Color.White;
-            this.onButton03.selected = false;
-            this.onButton03.Size = new System.Drawing.Size(74, 34);
-            this.onButton03.TabIndex = 28;
-            this.onButton03.Tag = "3";
-            this.onButton03.Text = "ON";
-            this.onButton03.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.onButton03.Textcolor = System.Drawing.Color.Black;
-            this.onButton03.TextFont = new System.Drawing.Font("Malgun Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.onButton03.Click += new System.EventHandler(this.DimmOnOff_Click);
-            // 
-            // onButton06
-            // 
-            this.onButton06.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
-            this.onButton06.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
-            this.onButton06.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.onButton06.BorderRadius = 5;
-            this.onButton06.ButtonText = "ON";
-            this.onButton06.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.onButton06.DisabledColor = System.Drawing.Color.Gray;
-            this.onButton06.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.onButton06.Font = new System.Drawing.Font("Gulim", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.onButton06.ForeColor = System.Drawing.Color.Black;
-            this.onButton06.Iconcolor = System.Drawing.Color.Transparent;
-            this.onButton06.Iconimage = null;
-            this.onButton06.Iconimage_right = null;
-            this.onButton06.Iconimage_right_Selected = null;
-            this.onButton06.Iconimage_Selected = null;
-            this.onButton06.IconMarginLeft = 0;
-            this.onButton06.IconMarginRight = 0;
-            this.onButton06.IconRightVisible = true;
-            this.onButton06.IconRightZoom = 0D;
-            this.onButton06.IconVisible = true;
-            this.onButton06.IconZoom = 90D;
-            this.onButton06.IsTab = false;
-            this.onButton06.Location = new System.Drawing.Point(457, 186);
-            this.onButton06.Margin = new System.Windows.Forms.Padding(1);
-            this.onButton06.Name = "onButton06";
-            this.onButton06.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
-            this.onButton06.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
-            this.onButton06.OnHoverTextColor = System.Drawing.Color.White;
-            this.onButton06.selected = false;
-            this.onButton06.Size = new System.Drawing.Size(74, 35);
-            this.onButton06.TabIndex = 29;
-            this.onButton06.Tag = "6";
-            this.onButton06.Text = "ON";
-            this.onButton06.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.onButton06.Textcolor = System.Drawing.Color.Black;
-            this.onButton06.TextFont = new System.Drawing.Font("Malgun Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.onButton06.Click += new System.EventHandler(this.DimmOnOff_Click);
-            // 
-            // onButton04
-            // 
-            this.onButton04.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
-            this.onButton04.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
-            this.onButton04.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.onButton04.BorderRadius = 5;
-            this.onButton04.ButtonText = "ON";
-            this.onButton04.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.onButton04.DisabledColor = System.Drawing.Color.Gray;
-            this.onButton04.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.onButton04.Font = new System.Drawing.Font("Gulim", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.onButton04.ForeColor = System.Drawing.Color.Black;
-            this.onButton04.Iconcolor = System.Drawing.Color.Transparent;
-            this.onButton04.Iconimage = null;
-            this.onButton04.Iconimage_right = null;
-            this.onButton04.Iconimage_right_Selected = null;
-            this.onButton04.Iconimage_Selected = null;
-            this.onButton04.IconMarginLeft = 0;
-            this.onButton04.IconMarginRight = 0;
-            this.onButton04.IconRightVisible = true;
-            this.onButton04.IconRightZoom = 0D;
-            this.onButton04.IconVisible = true;
-            this.onButton04.IconZoom = 90D;
-            this.onButton04.IsTab = false;
-            this.onButton04.Location = new System.Drawing.Point(457, 111);
-            this.onButton04.Margin = new System.Windows.Forms.Padding(1);
-            this.onButton04.Name = "onButton04";
-            this.onButton04.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
-            this.onButton04.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
-            this.onButton04.OnHoverTextColor = System.Drawing.Color.White;
-            this.onButton04.selected = false;
-            this.onButton04.Size = new System.Drawing.Size(74, 36);
-            this.onButton04.TabIndex = 30;
-            this.onButton04.Tag = "4";
-            this.onButton04.Text = "ON";
-            this.onButton04.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.onButton04.Textcolor = System.Drawing.Color.Black;
-            this.onButton04.TextFont = new System.Drawing.Font("Malgun Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.onButton04.Click += new System.EventHandler(this.DimmOnOff_Click);
-            // 
-            // onButton07
-            // 
-            this.onButton07.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
-            this.onButton07.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
-            this.onButton07.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.onButton07.BorderRadius = 5;
-            this.onButton07.ButtonText = "ON";
-            this.onButton07.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.onButton07.DisabledColor = System.Drawing.Color.Gray;
-            this.onButton07.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.onButton07.Font = new System.Drawing.Font("Gulim", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.onButton07.ForeColor = System.Drawing.Color.Black;
-            this.onButton07.Iconcolor = System.Drawing.Color.Transparent;
-            this.onButton07.Iconimage = null;
-            this.onButton07.Iconimage_right = null;
-            this.onButton07.Iconimage_right_Selected = null;
-            this.onButton07.Iconimage_Selected = null;
-            this.onButton07.IconMarginLeft = 0;
-            this.onButton07.IconMarginRight = 0;
-            this.onButton07.IconRightVisible = true;
-            this.onButton07.IconRightZoom = 0D;
-            this.onButton07.IconVisible = true;
-            this.onButton07.IconZoom = 90D;
-            this.onButton07.IsTab = false;
-            this.onButton07.Location = new System.Drawing.Point(457, 223);
-            this.onButton07.Margin = new System.Windows.Forms.Padding(1);
-            this.onButton07.Name = "onButton07";
-            this.onButton07.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
-            this.onButton07.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
-            this.onButton07.OnHoverTextColor = System.Drawing.Color.White;
-            this.onButton07.selected = false;
-            this.onButton07.Size = new System.Drawing.Size(74, 35);
-            this.onButton07.TabIndex = 31;
-            this.onButton07.Tag = "7";
-            this.onButton07.Text = "ON";
-            this.onButton07.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.onButton07.Textcolor = System.Drawing.Color.Black;
-            this.onButton07.TextFont = new System.Drawing.Font("Malgun Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.onButton07.Click += new System.EventHandler(this.DimmOnOff_Click);
-            // 
-            // bunifuFlatButton07
-            // 
-            this.bunifuFlatButton07.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
-            this.bunifuFlatButton07.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
-            this.bunifuFlatButton07.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bunifuFlatButton07.BorderRadius = 5;
-            this.bunifuFlatButton07.ButtonText = "ON";
-            this.bunifuFlatButton07.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuFlatButton07.DisabledColor = System.Drawing.Color.Gray;
-            this.bunifuFlatButton07.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuFlatButton07.Font = new System.Drawing.Font("Gulim", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.bunifuFlatButton07.ForeColor = System.Drawing.Color.Black;
-            this.bunifuFlatButton07.Iconcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton07.Iconimage = null;
-            this.bunifuFlatButton07.Iconimage_right = null;
-            this.bunifuFlatButton07.Iconimage_right_Selected = null;
-            this.bunifuFlatButton07.Iconimage_Selected = null;
-            this.bunifuFlatButton07.IconMarginLeft = 0;
-            this.bunifuFlatButton07.IconMarginRight = 0;
-            this.bunifuFlatButton07.IconRightVisible = true;
-            this.bunifuFlatButton07.IconRightZoom = 0D;
-            this.bunifuFlatButton07.IconVisible = true;
-            this.bunifuFlatButton07.IconZoom = 90D;
-            this.bunifuFlatButton07.IsTab = false;
-            this.bunifuFlatButton07.Location = new System.Drawing.Point(457, 260);
-            this.bunifuFlatButton07.Margin = new System.Windows.Forms.Padding(1);
-            this.bunifuFlatButton07.Name = "bunifuFlatButton07";
-            this.bunifuFlatButton07.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
-            this.bunifuFlatButton07.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
-            this.bunifuFlatButton07.OnHoverTextColor = System.Drawing.Color.White;
-            this.bunifuFlatButton07.selected = false;
-            this.bunifuFlatButton07.Size = new System.Drawing.Size(74, 39);
-            this.bunifuFlatButton07.TabIndex = 32;
-            this.bunifuFlatButton07.Tag = "8";
-            this.bunifuFlatButton07.Text = "ON";
-            this.bunifuFlatButton07.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.bunifuFlatButton07.Textcolor = System.Drawing.Color.Black;
-            this.bunifuFlatButton07.TextFont = new System.Drawing.Font("Malgun Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuFlatButton07.Click += new System.EventHandler(this.DimmOnOff_Click);
-            // 
-            // offButton02
-            // 
-            this.offButton02.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
-            this.offButton02.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
-            this.offButton02.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.offButton02.BorderRadius = 5;
-            this.offButton02.ButtonText = "OFF";
-            this.offButton02.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.offButton02.DisabledColor = System.Drawing.Color.Gray;
-            this.offButton02.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.offButton02.Font = new System.Drawing.Font("Gulim", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.offButton02.ForeColor = System.Drawing.Color.Black;
-            this.offButton02.Iconcolor = System.Drawing.Color.Transparent;
-            this.offButton02.Iconimage = null;
-            this.offButton02.Iconimage_right = null;
-            this.offButton02.Iconimage_right_Selected = null;
-            this.offButton02.Iconimage_Selected = null;
-            this.offButton02.IconMarginLeft = 0;
-            this.offButton02.IconMarginRight = 0;
-            this.offButton02.IconRightVisible = true;
-            this.offButton02.IconRightZoom = 0D;
-            this.offButton02.IconVisible = true;
-            this.offButton02.IconZoom = 90D;
-            this.offButton02.IsTab = false;
-            this.offButton02.Location = new System.Drawing.Point(533, 38);
-            this.offButton02.Margin = new System.Windows.Forms.Padding(1);
-            this.offButton02.Name = "offButton02";
-            this.offButton02.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
-            this.offButton02.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
-            this.offButton02.OnHoverTextColor = System.Drawing.Color.White;
-            this.offButton02.selected = false;
-            this.offButton02.Size = new System.Drawing.Size(81, 35);
-            this.offButton02.TabIndex = 33;
-            this.offButton02.Tag = "12";
-            this.offButton02.Text = "OFF";
-            this.offButton02.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.offButton02.Textcolor = System.Drawing.Color.Black;
-            this.offButton02.TextFont = new System.Drawing.Font("Malgun Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.offButton02.Click += new System.EventHandler(this.DimmOnOff_Click);
-            // 
-            // offButton03
-            // 
-            this.offButton03.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
-            this.offButton03.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
-            this.offButton03.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.offButton03.BorderRadius = 5;
-            this.offButton03.ButtonText = "OFF";
-            this.offButton03.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.offButton03.DisabledColor = System.Drawing.Color.Gray;
-            this.offButton03.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.offButton03.Font = new System.Drawing.Font("Gulim", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.offButton03.ForeColor = System.Drawing.Color.Black;
-            this.offButton03.Iconcolor = System.Drawing.Color.Transparent;
-            this.offButton03.Iconimage = null;
-            this.offButton03.Iconimage_right = null;
-            this.offButton03.Iconimage_right_Selected = null;
-            this.offButton03.Iconimage_Selected = null;
-            this.offButton03.IconMarginLeft = 0;
-            this.offButton03.IconMarginRight = 0;
-            this.offButton03.IconRightVisible = true;
-            this.offButton03.IconRightZoom = 0D;
-            this.offButton03.IconVisible = true;
-            this.offButton03.IconZoom = 90D;
-            this.offButton03.IsTab = false;
-            this.offButton03.Location = new System.Drawing.Point(533, 75);
-            this.offButton03.Margin = new System.Windows.Forms.Padding(1);
-            this.offButton03.Name = "offButton03";
-            this.offButton03.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
-            this.offButton03.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
-            this.offButton03.OnHoverTextColor = System.Drawing.Color.White;
-            this.offButton03.selected = false;
-            this.offButton03.Size = new System.Drawing.Size(81, 34);
-            this.offButton03.TabIndex = 34;
-            this.offButton03.Tag = "13";
-            this.offButton03.Text = "OFF";
-            this.offButton03.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.offButton03.Textcolor = System.Drawing.Color.Black;
-            this.offButton03.TextFont = new System.Drawing.Font("Malgun Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.offButton03.Click += new System.EventHandler(this.DimmOnOff_Click);
-            // 
-            // offButton04
-            // 
-            this.offButton04.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
-            this.offButton04.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
-            this.offButton04.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.offButton04.BorderRadius = 5;
-            this.offButton04.ButtonText = "OFF";
-            this.offButton04.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.offButton04.DisabledColor = System.Drawing.Color.Gray;
-            this.offButton04.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.offButton04.Font = new System.Drawing.Font("Gulim", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.offButton04.ForeColor = System.Drawing.Color.Black;
-            this.offButton04.Iconcolor = System.Drawing.Color.Transparent;
-            this.offButton04.Iconimage = null;
-            this.offButton04.Iconimage_right = null;
-            this.offButton04.Iconimage_right_Selected = null;
-            this.offButton04.Iconimage_Selected = null;
-            this.offButton04.IconMarginLeft = 0;
-            this.offButton04.IconMarginRight = 0;
-            this.offButton04.IconRightVisible = true;
-            this.offButton04.IconRightZoom = 0D;
-            this.offButton04.IconVisible = true;
-            this.offButton04.IconZoom = 90D;
-            this.offButton04.IsTab = false;
-            this.offButton04.Location = new System.Drawing.Point(533, 111);
-            this.offButton04.Margin = new System.Windows.Forms.Padding(1);
-            this.offButton04.Name = "offButton04";
-            this.offButton04.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
-            this.offButton04.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
-            this.offButton04.OnHoverTextColor = System.Drawing.Color.White;
-            this.offButton04.selected = false;
-            this.offButton04.Size = new System.Drawing.Size(81, 36);
-            this.offButton04.TabIndex = 35;
-            this.offButton04.Tag = "14";
-            this.offButton04.Text = "OFF";
-            this.offButton04.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.offButton04.Textcolor = System.Drawing.Color.Black;
-            this.offButton04.TextFont = new System.Drawing.Font("Malgun Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.offButton04.Click += new System.EventHandler(this.DimmOnOff_Click);
-            // 
-            // offButton05
-            // 
-            this.offButton05.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
-            this.offButton05.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
-            this.offButton05.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.offButton05.BorderRadius = 5;
-            this.offButton05.ButtonText = "OFF";
-            this.offButton05.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.offButton05.DisabledColor = System.Drawing.Color.Gray;
-            this.offButton05.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.offButton05.Font = new System.Drawing.Font("Gulim", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.offButton05.ForeColor = System.Drawing.Color.Black;
-            this.offButton05.Iconcolor = System.Drawing.Color.Transparent;
-            this.offButton05.Iconimage = null;
-            this.offButton05.Iconimage_right = null;
-            this.offButton05.Iconimage_right_Selected = null;
-            this.offButton05.Iconimage_Selected = null;
-            this.offButton05.IconMarginLeft = 0;
-            this.offButton05.IconMarginRight = 0;
-            this.offButton05.IconRightVisible = true;
-            this.offButton05.IconRightZoom = 0D;
-            this.offButton05.IconVisible = true;
-            this.offButton05.IconZoom = 90D;
-            this.offButton05.IsTab = false;
-            this.offButton05.Location = new System.Drawing.Point(533, 149);
-            this.offButton05.Margin = new System.Windows.Forms.Padding(1);
-            this.offButton05.Name = "offButton05";
-            this.offButton05.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
-            this.offButton05.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
-            this.offButton05.OnHoverTextColor = System.Drawing.Color.White;
-            this.offButton05.selected = false;
-            this.offButton05.Size = new System.Drawing.Size(81, 35);
-            this.offButton05.TabIndex = 36;
-            this.offButton05.Tag = "15";
-            this.offButton05.Text = "OFF";
-            this.offButton05.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.offButton05.Textcolor = System.Drawing.Color.Black;
-            this.offButton05.TextFont = new System.Drawing.Font("Malgun Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.offButton05.Click += new System.EventHandler(this.DimmOnOff_Click);
-            // 
-            // offButton06
-            // 
-            this.offButton06.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
-            this.offButton06.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
-            this.offButton06.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.offButton06.BorderRadius = 5;
-            this.offButton06.ButtonText = "OFF";
-            this.offButton06.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.offButton06.DisabledColor = System.Drawing.Color.Gray;
-            this.offButton06.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.offButton06.Font = new System.Drawing.Font("Gulim", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.offButton06.ForeColor = System.Drawing.Color.Black;
-            this.offButton06.Iconcolor = System.Drawing.Color.Transparent;
-            this.offButton06.Iconimage = null;
-            this.offButton06.Iconimage_right = null;
-            this.offButton06.Iconimage_right_Selected = null;
-            this.offButton06.Iconimage_Selected = null;
-            this.offButton06.IconMarginLeft = 0;
-            this.offButton06.IconMarginRight = 0;
-            this.offButton06.IconRightVisible = true;
-            this.offButton06.IconRightZoom = 0D;
-            this.offButton06.IconVisible = true;
-            this.offButton06.IconZoom = 90D;
-            this.offButton06.IsTab = false;
-            this.offButton06.Location = new System.Drawing.Point(533, 186);
-            this.offButton06.Margin = new System.Windows.Forms.Padding(1);
-            this.offButton06.Name = "offButton06";
-            this.offButton06.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
-            this.offButton06.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
-            this.offButton06.OnHoverTextColor = System.Drawing.Color.White;
-            this.offButton06.selected = false;
-            this.offButton06.Size = new System.Drawing.Size(81, 35);
-            this.offButton06.TabIndex = 37;
-            this.offButton06.Tag = "16";
-            this.offButton06.Text = "OFF";
-            this.offButton06.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.offButton06.Textcolor = System.Drawing.Color.Black;
-            this.offButton06.TextFont = new System.Drawing.Font("Malgun Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.offButton06.Click += new System.EventHandler(this.DimmOnOff_Click);
+            // offButton08
+            // 
+            this.offButton08.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
+            this.offButton08.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
+            this.offButton08.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.offButton08.BorderRadius = 5;
+            this.offButton08.ButtonText = "OFF";
+            this.offButton08.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.offButton08.DisabledColor = System.Drawing.Color.Gray;
+            this.offButton08.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.offButton08.Font = new System.Drawing.Font("Gulim", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.offButton08.ForeColor = System.Drawing.Color.Black;
+            this.offButton08.Iconcolor = System.Drawing.Color.Transparent;
+            this.offButton08.Iconimage = null;
+            this.offButton08.Iconimage_right = null;
+            this.offButton08.Iconimage_right_Selected = null;
+            this.offButton08.Iconimage_Selected = null;
+            this.offButton08.IconMarginLeft = 0;
+            this.offButton08.IconMarginRight = 0;
+            this.offButton08.IconRightVisible = true;
+            this.offButton08.IconRightZoom = 0D;
+            this.offButton08.IconVisible = true;
+            this.offButton08.IconZoom = 90D;
+            this.offButton08.IsTab = false;
+            this.offButton08.Location = new System.Drawing.Point(533, 260);
+            this.offButton08.Margin = new System.Windows.Forms.Padding(1);
+            this.offButton08.Name = "offButton08";
+            this.offButton08.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
+            this.offButton08.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
+            this.offButton08.OnHoverTextColor = System.Drawing.Color.White;
+            this.offButton08.selected = false;
+            this.offButton08.Size = new System.Drawing.Size(81, 39);
+            this.offButton08.TabIndex = 39;
+            this.offButton08.Tag = "18";
+            this.offButton08.Text = "OFF";
+            this.offButton08.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.offButton08.Textcolor = System.Drawing.Color.Black;
+            this.offButton08.TextFont = new System.Drawing.Font("Malgun Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.offButton08.Click += new System.EventHandler(this.DimmOnOff_Click);
             // 
             // offButton07
             // 
@@ -2428,45 +1581,919 @@
             this.offButton07.TextFont = new System.Drawing.Font("Malgun Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.offButton07.Click += new System.EventHandler(this.DimmOnOff_Click);
             // 
-            // offButton08
+            // offButton06
             // 
-            this.offButton08.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
-            this.offButton08.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
-            this.offButton08.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.offButton08.BorderRadius = 5;
-            this.offButton08.ButtonText = "OFF";
-            this.offButton08.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.offButton08.DisabledColor = System.Drawing.Color.Gray;
-            this.offButton08.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.offButton08.Font = new System.Drawing.Font("Gulim", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.offButton08.ForeColor = System.Drawing.Color.Black;
-            this.offButton08.Iconcolor = System.Drawing.Color.Transparent;
-            this.offButton08.Iconimage = null;
-            this.offButton08.Iconimage_right = null;
-            this.offButton08.Iconimage_right_Selected = null;
-            this.offButton08.Iconimage_Selected = null;
-            this.offButton08.IconMarginLeft = 0;
-            this.offButton08.IconMarginRight = 0;
-            this.offButton08.IconRightVisible = true;
-            this.offButton08.IconRightZoom = 0D;
-            this.offButton08.IconVisible = true;
-            this.offButton08.IconZoom = 90D;
-            this.offButton08.IsTab = false;
-            this.offButton08.Location = new System.Drawing.Point(533, 260);
-            this.offButton08.Margin = new System.Windows.Forms.Padding(1);
-            this.offButton08.Name = "offButton08";
-            this.offButton08.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
-            this.offButton08.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
-            this.offButton08.OnHoverTextColor = System.Drawing.Color.White;
-            this.offButton08.selected = false;
-            this.offButton08.Size = new System.Drawing.Size(81, 39);
-            this.offButton08.TabIndex = 39;
-            this.offButton08.Tag = "18";
-            this.offButton08.Text = "OFF";
-            this.offButton08.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.offButton08.Textcolor = System.Drawing.Color.Black;
-            this.offButton08.TextFont = new System.Drawing.Font("Malgun Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.offButton08.Click += new System.EventHandler(this.DimmOnOff_Click);
+            this.offButton06.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
+            this.offButton06.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
+            this.offButton06.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.offButton06.BorderRadius = 5;
+            this.offButton06.ButtonText = "OFF";
+            this.offButton06.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.offButton06.DisabledColor = System.Drawing.Color.Gray;
+            this.offButton06.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.offButton06.Font = new System.Drawing.Font("Gulim", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.offButton06.ForeColor = System.Drawing.Color.Black;
+            this.offButton06.Iconcolor = System.Drawing.Color.Transparent;
+            this.offButton06.Iconimage = null;
+            this.offButton06.Iconimage_right = null;
+            this.offButton06.Iconimage_right_Selected = null;
+            this.offButton06.Iconimage_Selected = null;
+            this.offButton06.IconMarginLeft = 0;
+            this.offButton06.IconMarginRight = 0;
+            this.offButton06.IconRightVisible = true;
+            this.offButton06.IconRightZoom = 0D;
+            this.offButton06.IconVisible = true;
+            this.offButton06.IconZoom = 90D;
+            this.offButton06.IsTab = false;
+            this.offButton06.Location = new System.Drawing.Point(533, 186);
+            this.offButton06.Margin = new System.Windows.Forms.Padding(1);
+            this.offButton06.Name = "offButton06";
+            this.offButton06.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
+            this.offButton06.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
+            this.offButton06.OnHoverTextColor = System.Drawing.Color.White;
+            this.offButton06.selected = false;
+            this.offButton06.Size = new System.Drawing.Size(81, 35);
+            this.offButton06.TabIndex = 37;
+            this.offButton06.Tag = "16";
+            this.offButton06.Text = "OFF";
+            this.offButton06.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.offButton06.Textcolor = System.Drawing.Color.Black;
+            this.offButton06.TextFont = new System.Drawing.Font("Malgun Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.offButton06.Click += new System.EventHandler(this.DimmOnOff_Click);
+            // 
+            // offButton05
+            // 
+            this.offButton05.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
+            this.offButton05.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
+            this.offButton05.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.offButton05.BorderRadius = 5;
+            this.offButton05.ButtonText = "OFF";
+            this.offButton05.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.offButton05.DisabledColor = System.Drawing.Color.Gray;
+            this.offButton05.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.offButton05.Font = new System.Drawing.Font("Gulim", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.offButton05.ForeColor = System.Drawing.Color.Black;
+            this.offButton05.Iconcolor = System.Drawing.Color.Transparent;
+            this.offButton05.Iconimage = null;
+            this.offButton05.Iconimage_right = null;
+            this.offButton05.Iconimage_right_Selected = null;
+            this.offButton05.Iconimage_Selected = null;
+            this.offButton05.IconMarginLeft = 0;
+            this.offButton05.IconMarginRight = 0;
+            this.offButton05.IconRightVisible = true;
+            this.offButton05.IconRightZoom = 0D;
+            this.offButton05.IconVisible = true;
+            this.offButton05.IconZoom = 90D;
+            this.offButton05.IsTab = false;
+            this.offButton05.Location = new System.Drawing.Point(533, 149);
+            this.offButton05.Margin = new System.Windows.Forms.Padding(1);
+            this.offButton05.Name = "offButton05";
+            this.offButton05.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
+            this.offButton05.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
+            this.offButton05.OnHoverTextColor = System.Drawing.Color.White;
+            this.offButton05.selected = false;
+            this.offButton05.Size = new System.Drawing.Size(81, 35);
+            this.offButton05.TabIndex = 36;
+            this.offButton05.Tag = "15";
+            this.offButton05.Text = "OFF";
+            this.offButton05.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.offButton05.Textcolor = System.Drawing.Color.Black;
+            this.offButton05.TextFont = new System.Drawing.Font("Malgun Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.offButton05.Click += new System.EventHandler(this.DimmOnOff_Click);
+            // 
+            // offButton04
+            // 
+            this.offButton04.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
+            this.offButton04.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
+            this.offButton04.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.offButton04.BorderRadius = 5;
+            this.offButton04.ButtonText = "OFF";
+            this.offButton04.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.offButton04.DisabledColor = System.Drawing.Color.Gray;
+            this.offButton04.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.offButton04.Font = new System.Drawing.Font("Gulim", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.offButton04.ForeColor = System.Drawing.Color.Black;
+            this.offButton04.Iconcolor = System.Drawing.Color.Transparent;
+            this.offButton04.Iconimage = null;
+            this.offButton04.Iconimage_right = null;
+            this.offButton04.Iconimage_right_Selected = null;
+            this.offButton04.Iconimage_Selected = null;
+            this.offButton04.IconMarginLeft = 0;
+            this.offButton04.IconMarginRight = 0;
+            this.offButton04.IconRightVisible = true;
+            this.offButton04.IconRightZoom = 0D;
+            this.offButton04.IconVisible = true;
+            this.offButton04.IconZoom = 90D;
+            this.offButton04.IsTab = false;
+            this.offButton04.Location = new System.Drawing.Point(533, 111);
+            this.offButton04.Margin = new System.Windows.Forms.Padding(1);
+            this.offButton04.Name = "offButton04";
+            this.offButton04.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
+            this.offButton04.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
+            this.offButton04.OnHoverTextColor = System.Drawing.Color.White;
+            this.offButton04.selected = false;
+            this.offButton04.Size = new System.Drawing.Size(81, 36);
+            this.offButton04.TabIndex = 35;
+            this.offButton04.Tag = "14";
+            this.offButton04.Text = "OFF";
+            this.offButton04.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.offButton04.Textcolor = System.Drawing.Color.Black;
+            this.offButton04.TextFont = new System.Drawing.Font("Malgun Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.offButton04.Click += new System.EventHandler(this.DimmOnOff_Click);
+            // 
+            // offButton03
+            // 
+            this.offButton03.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
+            this.offButton03.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
+            this.offButton03.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.offButton03.BorderRadius = 5;
+            this.offButton03.ButtonText = "OFF";
+            this.offButton03.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.offButton03.DisabledColor = System.Drawing.Color.Gray;
+            this.offButton03.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.offButton03.Font = new System.Drawing.Font("Gulim", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.offButton03.ForeColor = System.Drawing.Color.Black;
+            this.offButton03.Iconcolor = System.Drawing.Color.Transparent;
+            this.offButton03.Iconimage = null;
+            this.offButton03.Iconimage_right = null;
+            this.offButton03.Iconimage_right_Selected = null;
+            this.offButton03.Iconimage_Selected = null;
+            this.offButton03.IconMarginLeft = 0;
+            this.offButton03.IconMarginRight = 0;
+            this.offButton03.IconRightVisible = true;
+            this.offButton03.IconRightZoom = 0D;
+            this.offButton03.IconVisible = true;
+            this.offButton03.IconZoom = 90D;
+            this.offButton03.IsTab = false;
+            this.offButton03.Location = new System.Drawing.Point(533, 75);
+            this.offButton03.Margin = new System.Windows.Forms.Padding(1);
+            this.offButton03.Name = "offButton03";
+            this.offButton03.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
+            this.offButton03.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
+            this.offButton03.OnHoverTextColor = System.Drawing.Color.White;
+            this.offButton03.selected = false;
+            this.offButton03.Size = new System.Drawing.Size(81, 34);
+            this.offButton03.TabIndex = 34;
+            this.offButton03.Tag = "13";
+            this.offButton03.Text = "OFF";
+            this.offButton03.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.offButton03.Textcolor = System.Drawing.Color.Black;
+            this.offButton03.TextFont = new System.Drawing.Font("Malgun Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.offButton03.Click += new System.EventHandler(this.DimmOnOff_Click);
+            // 
+            // offButton02
+            // 
+            this.offButton02.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
+            this.offButton02.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
+            this.offButton02.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.offButton02.BorderRadius = 5;
+            this.offButton02.ButtonText = "OFF";
+            this.offButton02.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.offButton02.DisabledColor = System.Drawing.Color.Gray;
+            this.offButton02.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.offButton02.Font = new System.Drawing.Font("Gulim", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.offButton02.ForeColor = System.Drawing.Color.Black;
+            this.offButton02.Iconcolor = System.Drawing.Color.Transparent;
+            this.offButton02.Iconimage = null;
+            this.offButton02.Iconimage_right = null;
+            this.offButton02.Iconimage_right_Selected = null;
+            this.offButton02.Iconimage_Selected = null;
+            this.offButton02.IconMarginLeft = 0;
+            this.offButton02.IconMarginRight = 0;
+            this.offButton02.IconRightVisible = true;
+            this.offButton02.IconRightZoom = 0D;
+            this.offButton02.IconVisible = true;
+            this.offButton02.IconZoom = 90D;
+            this.offButton02.IsTab = false;
+            this.offButton02.Location = new System.Drawing.Point(533, 38);
+            this.offButton02.Margin = new System.Windows.Forms.Padding(1);
+            this.offButton02.Name = "offButton02";
+            this.offButton02.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
+            this.offButton02.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
+            this.offButton02.OnHoverTextColor = System.Drawing.Color.White;
+            this.offButton02.selected = false;
+            this.offButton02.Size = new System.Drawing.Size(81, 35);
+            this.offButton02.TabIndex = 33;
+            this.offButton02.Tag = "12";
+            this.offButton02.Text = "OFF";
+            this.offButton02.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.offButton02.Textcolor = System.Drawing.Color.Black;
+            this.offButton02.TextFont = new System.Drawing.Font("Malgun Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.offButton02.Click += new System.EventHandler(this.DimmOnOff_Click);
+            // 
+            // bunifuFlatButton07
+            // 
+            this.bunifuFlatButton07.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
+            this.bunifuFlatButton07.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
+            this.bunifuFlatButton07.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bunifuFlatButton07.BorderRadius = 5;
+            this.bunifuFlatButton07.ButtonText = "ON";
+            this.bunifuFlatButton07.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuFlatButton07.DisabledColor = System.Drawing.Color.Gray;
+            this.bunifuFlatButton07.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.bunifuFlatButton07.Font = new System.Drawing.Font("Gulim", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.bunifuFlatButton07.ForeColor = System.Drawing.Color.Black;
+            this.bunifuFlatButton07.Iconcolor = System.Drawing.Color.Transparent;
+            this.bunifuFlatButton07.Iconimage = null;
+            this.bunifuFlatButton07.Iconimage_right = null;
+            this.bunifuFlatButton07.Iconimage_right_Selected = null;
+            this.bunifuFlatButton07.Iconimage_Selected = null;
+            this.bunifuFlatButton07.IconMarginLeft = 0;
+            this.bunifuFlatButton07.IconMarginRight = 0;
+            this.bunifuFlatButton07.IconRightVisible = true;
+            this.bunifuFlatButton07.IconRightZoom = 0D;
+            this.bunifuFlatButton07.IconVisible = true;
+            this.bunifuFlatButton07.IconZoom = 90D;
+            this.bunifuFlatButton07.IsTab = false;
+            this.bunifuFlatButton07.Location = new System.Drawing.Point(457, 260);
+            this.bunifuFlatButton07.Margin = new System.Windows.Forms.Padding(1);
+            this.bunifuFlatButton07.Name = "bunifuFlatButton07";
+            this.bunifuFlatButton07.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
+            this.bunifuFlatButton07.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
+            this.bunifuFlatButton07.OnHoverTextColor = System.Drawing.Color.White;
+            this.bunifuFlatButton07.selected = false;
+            this.bunifuFlatButton07.Size = new System.Drawing.Size(74, 39);
+            this.bunifuFlatButton07.TabIndex = 32;
+            this.bunifuFlatButton07.Tag = "8";
+            this.bunifuFlatButton07.Text = "ON";
+            this.bunifuFlatButton07.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.bunifuFlatButton07.Textcolor = System.Drawing.Color.Black;
+            this.bunifuFlatButton07.TextFont = new System.Drawing.Font("Malgun Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuFlatButton07.Click += new System.EventHandler(this.DimmOnOff_Click);
+            // 
+            // onButton07
+            // 
+            this.onButton07.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
+            this.onButton07.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
+            this.onButton07.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.onButton07.BorderRadius = 5;
+            this.onButton07.ButtonText = "ON";
+            this.onButton07.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.onButton07.DisabledColor = System.Drawing.Color.Gray;
+            this.onButton07.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.onButton07.Font = new System.Drawing.Font("Gulim", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.onButton07.ForeColor = System.Drawing.Color.Black;
+            this.onButton07.Iconcolor = System.Drawing.Color.Transparent;
+            this.onButton07.Iconimage = null;
+            this.onButton07.Iconimage_right = null;
+            this.onButton07.Iconimage_right_Selected = null;
+            this.onButton07.Iconimage_Selected = null;
+            this.onButton07.IconMarginLeft = 0;
+            this.onButton07.IconMarginRight = 0;
+            this.onButton07.IconRightVisible = true;
+            this.onButton07.IconRightZoom = 0D;
+            this.onButton07.IconVisible = true;
+            this.onButton07.IconZoom = 90D;
+            this.onButton07.IsTab = false;
+            this.onButton07.Location = new System.Drawing.Point(457, 223);
+            this.onButton07.Margin = new System.Windows.Forms.Padding(1);
+            this.onButton07.Name = "onButton07";
+            this.onButton07.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
+            this.onButton07.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
+            this.onButton07.OnHoverTextColor = System.Drawing.Color.White;
+            this.onButton07.selected = false;
+            this.onButton07.Size = new System.Drawing.Size(74, 35);
+            this.onButton07.TabIndex = 31;
+            this.onButton07.Tag = "7";
+            this.onButton07.Text = "ON";
+            this.onButton07.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.onButton07.Textcolor = System.Drawing.Color.Black;
+            this.onButton07.TextFont = new System.Drawing.Font("Malgun Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.onButton07.Click += new System.EventHandler(this.DimmOnOff_Click);
+            // 
+            // onButton04
+            // 
+            this.onButton04.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
+            this.onButton04.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
+            this.onButton04.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.onButton04.BorderRadius = 5;
+            this.onButton04.ButtonText = "ON";
+            this.onButton04.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.onButton04.DisabledColor = System.Drawing.Color.Gray;
+            this.onButton04.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.onButton04.Font = new System.Drawing.Font("Gulim", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.onButton04.ForeColor = System.Drawing.Color.Black;
+            this.onButton04.Iconcolor = System.Drawing.Color.Transparent;
+            this.onButton04.Iconimage = null;
+            this.onButton04.Iconimage_right = null;
+            this.onButton04.Iconimage_right_Selected = null;
+            this.onButton04.Iconimage_Selected = null;
+            this.onButton04.IconMarginLeft = 0;
+            this.onButton04.IconMarginRight = 0;
+            this.onButton04.IconRightVisible = true;
+            this.onButton04.IconRightZoom = 0D;
+            this.onButton04.IconVisible = true;
+            this.onButton04.IconZoom = 90D;
+            this.onButton04.IsTab = false;
+            this.onButton04.Location = new System.Drawing.Point(457, 111);
+            this.onButton04.Margin = new System.Windows.Forms.Padding(1);
+            this.onButton04.Name = "onButton04";
+            this.onButton04.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
+            this.onButton04.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
+            this.onButton04.OnHoverTextColor = System.Drawing.Color.White;
+            this.onButton04.selected = false;
+            this.onButton04.Size = new System.Drawing.Size(74, 36);
+            this.onButton04.TabIndex = 30;
+            this.onButton04.Tag = "4";
+            this.onButton04.Text = "ON";
+            this.onButton04.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.onButton04.Textcolor = System.Drawing.Color.Black;
+            this.onButton04.TextFont = new System.Drawing.Font("Malgun Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.onButton04.Click += new System.EventHandler(this.DimmOnOff_Click);
+            // 
+            // onButton06
+            // 
+            this.onButton06.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
+            this.onButton06.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
+            this.onButton06.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.onButton06.BorderRadius = 5;
+            this.onButton06.ButtonText = "ON";
+            this.onButton06.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.onButton06.DisabledColor = System.Drawing.Color.Gray;
+            this.onButton06.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.onButton06.Font = new System.Drawing.Font("Gulim", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.onButton06.ForeColor = System.Drawing.Color.Black;
+            this.onButton06.Iconcolor = System.Drawing.Color.Transparent;
+            this.onButton06.Iconimage = null;
+            this.onButton06.Iconimage_right = null;
+            this.onButton06.Iconimage_right_Selected = null;
+            this.onButton06.Iconimage_Selected = null;
+            this.onButton06.IconMarginLeft = 0;
+            this.onButton06.IconMarginRight = 0;
+            this.onButton06.IconRightVisible = true;
+            this.onButton06.IconRightZoom = 0D;
+            this.onButton06.IconVisible = true;
+            this.onButton06.IconZoom = 90D;
+            this.onButton06.IsTab = false;
+            this.onButton06.Location = new System.Drawing.Point(457, 186);
+            this.onButton06.Margin = new System.Windows.Forms.Padding(1);
+            this.onButton06.Name = "onButton06";
+            this.onButton06.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
+            this.onButton06.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
+            this.onButton06.OnHoverTextColor = System.Drawing.Color.White;
+            this.onButton06.selected = false;
+            this.onButton06.Size = new System.Drawing.Size(74, 35);
+            this.onButton06.TabIndex = 29;
+            this.onButton06.Tag = "6";
+            this.onButton06.Text = "ON";
+            this.onButton06.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.onButton06.Textcolor = System.Drawing.Color.Black;
+            this.onButton06.TextFont = new System.Drawing.Font("Malgun Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.onButton06.Click += new System.EventHandler(this.DimmOnOff_Click);
+            // 
+            // onButton03
+            // 
+            this.onButton03.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
+            this.onButton03.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
+            this.onButton03.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.onButton03.BorderRadius = 5;
+            this.onButton03.ButtonText = "ON";
+            this.onButton03.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.onButton03.DisabledColor = System.Drawing.Color.Gray;
+            this.onButton03.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.onButton03.Font = new System.Drawing.Font("Gulim", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.onButton03.ForeColor = System.Drawing.Color.Black;
+            this.onButton03.Iconcolor = System.Drawing.Color.Transparent;
+            this.onButton03.Iconimage = null;
+            this.onButton03.Iconimage_right = null;
+            this.onButton03.Iconimage_right_Selected = null;
+            this.onButton03.Iconimage_Selected = null;
+            this.onButton03.IconMarginLeft = 0;
+            this.onButton03.IconMarginRight = 0;
+            this.onButton03.IconRightVisible = true;
+            this.onButton03.IconRightZoom = 0D;
+            this.onButton03.IconVisible = true;
+            this.onButton03.IconZoom = 90D;
+            this.onButton03.IsTab = false;
+            this.onButton03.Location = new System.Drawing.Point(457, 75);
+            this.onButton03.Margin = new System.Windows.Forms.Padding(1);
+            this.onButton03.Name = "onButton03";
+            this.onButton03.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
+            this.onButton03.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
+            this.onButton03.OnHoverTextColor = System.Drawing.Color.White;
+            this.onButton03.selected = false;
+            this.onButton03.Size = new System.Drawing.Size(74, 34);
+            this.onButton03.TabIndex = 28;
+            this.onButton03.Tag = "3";
+            this.onButton03.Text = "ON";
+            this.onButton03.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.onButton03.Textcolor = System.Drawing.Color.Black;
+            this.onButton03.TextFont = new System.Drawing.Font("Malgun Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.onButton03.Click += new System.EventHandler(this.DimmOnOff_Click);
+            // 
+            // onButton05
+            // 
+            this.onButton05.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
+            this.onButton05.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
+            this.onButton05.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.onButton05.BorderRadius = 5;
+            this.onButton05.ButtonText = "ON";
+            this.onButton05.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.onButton05.DisabledColor = System.Drawing.Color.Gray;
+            this.onButton05.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.onButton05.Font = new System.Drawing.Font("Gulim", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.onButton05.ForeColor = System.Drawing.Color.Black;
+            this.onButton05.Iconcolor = System.Drawing.Color.Transparent;
+            this.onButton05.Iconimage = null;
+            this.onButton05.Iconimage_right = null;
+            this.onButton05.Iconimage_right_Selected = null;
+            this.onButton05.Iconimage_Selected = null;
+            this.onButton05.IconMarginLeft = 0;
+            this.onButton05.IconMarginRight = 0;
+            this.onButton05.IconRightVisible = true;
+            this.onButton05.IconRightZoom = 0D;
+            this.onButton05.IconVisible = true;
+            this.onButton05.IconZoom = 90D;
+            this.onButton05.IsTab = false;
+            this.onButton05.Location = new System.Drawing.Point(457, 149);
+            this.onButton05.Margin = new System.Windows.Forms.Padding(1);
+            this.onButton05.Name = "onButton05";
+            this.onButton05.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
+            this.onButton05.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
+            this.onButton05.OnHoverTextColor = System.Drawing.Color.White;
+            this.onButton05.selected = false;
+            this.onButton05.Size = new System.Drawing.Size(74, 35);
+            this.onButton05.TabIndex = 27;
+            this.onButton05.Tag = "5";
+            this.onButton05.Text = "ON";
+            this.onButton05.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.onButton05.Textcolor = System.Drawing.Color.Black;
+            this.onButton05.TextFont = new System.Drawing.Font("Malgun Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.onButton05.Click += new System.EventHandler(this.DimmOnOff_Click);
+            // 
+            // onButton02
+            // 
+            this.onButton02.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
+            this.onButton02.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
+            this.onButton02.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.onButton02.BorderRadius = 5;
+            this.onButton02.ButtonText = "ON";
+            this.onButton02.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.onButton02.DisabledColor = System.Drawing.Color.Gray;
+            this.onButton02.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.onButton02.Font = new System.Drawing.Font("Gulim", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.onButton02.ForeColor = System.Drawing.Color.Black;
+            this.onButton02.Iconcolor = System.Drawing.Color.Transparent;
+            this.onButton02.Iconimage = null;
+            this.onButton02.Iconimage_right = null;
+            this.onButton02.Iconimage_right_Selected = null;
+            this.onButton02.Iconimage_Selected = null;
+            this.onButton02.IconMarginLeft = 0;
+            this.onButton02.IconMarginRight = 0;
+            this.onButton02.IconRightVisible = true;
+            this.onButton02.IconRightZoom = 0D;
+            this.onButton02.IconVisible = true;
+            this.onButton02.IconZoom = 90D;
+            this.onButton02.IsTab = false;
+            this.onButton02.Location = new System.Drawing.Point(457, 38);
+            this.onButton02.Margin = new System.Windows.Forms.Padding(1);
+            this.onButton02.Name = "onButton02";
+            this.onButton02.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
+            this.onButton02.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
+            this.onButton02.OnHoverTextColor = System.Drawing.Color.White;
+            this.onButton02.selected = false;
+            this.onButton02.Size = new System.Drawing.Size(74, 35);
+            this.onButton02.TabIndex = 26;
+            this.onButton02.Tag = "2";
+            this.onButton02.Text = "ON";
+            this.onButton02.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.onButton02.Textcolor = System.Drawing.Color.Black;
+            this.onButton02.TextFont = new System.Drawing.Font("Malgun Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.onButton02.Click += new System.EventHandler(this.DimmOnOff_Click);
+            // 
+            // onoffLabel08
+            // 
+            this.onoffLabel08.AutoSize = true;
+            this.onoffLabel08.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.onOffPanel.SetColumnSpan(this.onoffLabel08, 2);
+            this.onoffLabel08.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.onoffLabel08.Font = new System.Drawing.Font("Gulim", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.onoffLabel08.ForeColor = System.Drawing.Color.LightGoldenrodYellow;
+            this.onoffLabel08.Location = new System.Drawing.Point(307, 259);
+            this.onoffLabel08.Name = "onoffLabel08";
+            this.onoffLabel08.Size = new System.Drawing.Size(146, 41);
+            this.onoffLabel08.TabIndex = 25;
+            this.onoffLabel08.Text = "OFF";
+            this.onoffLabel08.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // onoffLabel07
+            // 
+            this.onoffLabel07.AutoSize = true;
+            this.onoffLabel07.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.onOffPanel.SetColumnSpan(this.onoffLabel07, 2);
+            this.onoffLabel07.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.onoffLabel07.Font = new System.Drawing.Font("Gulim", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.onoffLabel07.ForeColor = System.Drawing.Color.LightGoldenrodYellow;
+            this.onoffLabel07.Location = new System.Drawing.Point(307, 222);
+            this.onoffLabel07.Name = "onoffLabel07";
+            this.onoffLabel07.Size = new System.Drawing.Size(146, 37);
+            this.onoffLabel07.TabIndex = 24;
+            this.onoffLabel07.Text = "OFF";
+            this.onoffLabel07.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // onoffLabel06
+            // 
+            this.onoffLabel06.AutoSize = true;
+            this.onoffLabel06.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.onOffPanel.SetColumnSpan(this.onoffLabel06, 2);
+            this.onoffLabel06.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.onoffLabel06.Font = new System.Drawing.Font("Gulim", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.onoffLabel06.ForeColor = System.Drawing.Color.LightGoldenrodYellow;
+            this.onoffLabel06.Location = new System.Drawing.Point(307, 185);
+            this.onoffLabel06.Name = "onoffLabel06";
+            this.onoffLabel06.Size = new System.Drawing.Size(146, 37);
+            this.onoffLabel06.TabIndex = 23;
+            this.onoffLabel06.Text = "OFF";
+            this.onoffLabel06.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // onoffLabel05
+            // 
+            this.onoffLabel05.AutoSize = true;
+            this.onoffLabel05.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.onOffPanel.SetColumnSpan(this.onoffLabel05, 2);
+            this.onoffLabel05.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.onoffLabel05.Font = new System.Drawing.Font("Gulim", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.onoffLabel05.ForeColor = System.Drawing.Color.LightGoldenrodYellow;
+            this.onoffLabel05.Location = new System.Drawing.Point(307, 148);
+            this.onoffLabel05.Name = "onoffLabel05";
+            this.onoffLabel05.Size = new System.Drawing.Size(146, 37);
+            this.onoffLabel05.TabIndex = 22;
+            this.onoffLabel05.Text = "OFF";
+            this.onoffLabel05.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // onoffLabel04
+            // 
+            this.onoffLabel04.AutoSize = true;
+            this.onoffLabel04.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.onOffPanel.SetColumnSpan(this.onoffLabel04, 2);
+            this.onoffLabel04.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.onoffLabel04.Font = new System.Drawing.Font("Gulim", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.onoffLabel04.ForeColor = System.Drawing.Color.LightGoldenrodYellow;
+            this.onoffLabel04.Location = new System.Drawing.Point(307, 110);
+            this.onoffLabel04.Name = "onoffLabel04";
+            this.onoffLabel04.Size = new System.Drawing.Size(146, 38);
+            this.onoffLabel04.TabIndex = 21;
+            this.onoffLabel04.Text = "OFF";
+            this.onoffLabel04.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // onoffLabel03
+            // 
+            this.onoffLabel03.AutoSize = true;
+            this.onoffLabel03.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.onOffPanel.SetColumnSpan(this.onoffLabel03, 2);
+            this.onoffLabel03.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.onoffLabel03.Font = new System.Drawing.Font("Gulim", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.onoffLabel03.ForeColor = System.Drawing.Color.LightGoldenrodYellow;
+            this.onoffLabel03.Location = new System.Drawing.Point(307, 74);
+            this.onoffLabel03.Name = "onoffLabel03";
+            this.onoffLabel03.Size = new System.Drawing.Size(146, 36);
+            this.onoffLabel03.TabIndex = 20;
+            this.onoffLabel03.Text = "OFF";
+            this.onoffLabel03.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // bunifuCustomLabel41
+            // 
+            this.bunifuCustomLabel41.AutoSize = true;
+            this.bunifuCustomLabel41.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.onOffPanel.SetColumnSpan(this.bunifuCustomLabel41, 2);
+            this.bunifuCustomLabel41.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.bunifuCustomLabel41.Font = new System.Drawing.Font("Gulim", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.bunifuCustomLabel41.ForeColor = System.Drawing.Color.White;
+            this.bunifuCustomLabel41.Location = new System.Drawing.Point(155, 259);
+            this.bunifuCustomLabel41.Name = "bunifuCustomLabel41";
+            this.bunifuCustomLabel41.Size = new System.Drawing.Size(146, 41);
+            this.bunifuCustomLabel41.TabIndex = 19;
+            this.bunifuCustomLabel41.Text = "상시등";
+            this.bunifuCustomLabel41.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // bunifuCustomLabel40
+            // 
+            this.bunifuCustomLabel40.AutoSize = true;
+            this.bunifuCustomLabel40.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.onOffPanel.SetColumnSpan(this.bunifuCustomLabel40, 2);
+            this.bunifuCustomLabel40.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.bunifuCustomLabel40.Font = new System.Drawing.Font("Gulim", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.bunifuCustomLabel40.ForeColor = System.Drawing.Color.White;
+            this.bunifuCustomLabel40.Location = new System.Drawing.Point(155, 222);
+            this.bunifuCustomLabel40.Name = "bunifuCustomLabel40";
+            this.bunifuCustomLabel40.Size = new System.Drawing.Size(146, 37);
+            this.bunifuCustomLabel40.TabIndex = 18;
+            this.bunifuCustomLabel40.Text = "주간등";
+            this.bunifuCustomLabel40.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // bunifuCustomLabel39
+            // 
+            this.bunifuCustomLabel39.AutoSize = true;
+            this.bunifuCustomLabel39.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.onOffPanel.SetColumnSpan(this.bunifuCustomLabel39, 2);
+            this.bunifuCustomLabel39.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.bunifuCustomLabel39.Font = new System.Drawing.Font("Gulim", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.bunifuCustomLabel39.ForeColor = System.Drawing.Color.White;
+            this.bunifuCustomLabel39.Location = new System.Drawing.Point(155, 185);
+            this.bunifuCustomLabel39.Name = "bunifuCustomLabel39";
+            this.bunifuCustomLabel39.Size = new System.Drawing.Size(146, 37);
+            this.bunifuCustomLabel39.TabIndex = 17;
+            this.bunifuCustomLabel39.Text = "상시등";
+            this.bunifuCustomLabel39.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // bunifuCustomLabel38
+            // 
+            this.bunifuCustomLabel38.AutoSize = true;
+            this.bunifuCustomLabel38.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.onOffPanel.SetColumnSpan(this.bunifuCustomLabel38, 2);
+            this.bunifuCustomLabel38.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.bunifuCustomLabel38.Font = new System.Drawing.Font("Gulim", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.bunifuCustomLabel38.ForeColor = System.Drawing.Color.White;
+            this.bunifuCustomLabel38.Location = new System.Drawing.Point(155, 148);
+            this.bunifuCustomLabel38.Name = "bunifuCustomLabel38";
+            this.bunifuCustomLabel38.Size = new System.Drawing.Size(146, 37);
+            this.bunifuCustomLabel38.TabIndex = 16;
+            this.bunifuCustomLabel38.Text = "주간등";
+            this.bunifuCustomLabel38.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // bunifuCustomLabel37
+            // 
+            this.bunifuCustomLabel37.AutoSize = true;
+            this.bunifuCustomLabel37.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.onOffPanel.SetColumnSpan(this.bunifuCustomLabel37, 2);
+            this.bunifuCustomLabel37.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.bunifuCustomLabel37.Font = new System.Drawing.Font("Gulim", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.bunifuCustomLabel37.ForeColor = System.Drawing.Color.White;
+            this.bunifuCustomLabel37.Location = new System.Drawing.Point(155, 110);
+            this.bunifuCustomLabel37.Name = "bunifuCustomLabel37";
+            this.bunifuCustomLabel37.Size = new System.Drawing.Size(146, 38);
+            this.bunifuCustomLabel37.TabIndex = 15;
+            this.bunifuCustomLabel37.Text = "상시등";
+            this.bunifuCustomLabel37.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // bunifuCustomLabel36
+            // 
+            this.bunifuCustomLabel36.AutoSize = true;
+            this.bunifuCustomLabel36.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.onOffPanel.SetColumnSpan(this.bunifuCustomLabel36, 2);
+            this.bunifuCustomLabel36.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.bunifuCustomLabel36.Font = new System.Drawing.Font("Gulim", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.bunifuCustomLabel36.ForeColor = System.Drawing.Color.White;
+            this.bunifuCustomLabel36.Location = new System.Drawing.Point(155, 74);
+            this.bunifuCustomLabel36.Name = "bunifuCustomLabel36";
+            this.bunifuCustomLabel36.Size = new System.Drawing.Size(146, 36);
+            this.bunifuCustomLabel36.TabIndex = 14;
+            this.bunifuCustomLabel36.Text = "주간등";
+            this.bunifuCustomLabel36.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // bunifuCustomLabel35
+            // 
+            this.bunifuCustomLabel35.AutoSize = true;
+            this.bunifuCustomLabel35.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.bunifuCustomLabel35.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.bunifuCustomLabel35.Font = new System.Drawing.Font("Gulim", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.bunifuCustomLabel35.ForeColor = System.Drawing.Color.White;
+            this.bunifuCustomLabel35.Location = new System.Drawing.Point(79, 222);
+            this.bunifuCustomLabel35.Name = "bunifuCustomLabel35";
+            this.onOffPanel.SetRowSpan(this.bunifuCustomLabel35, 2);
+            this.bunifuCustomLabel35.Size = new System.Drawing.Size(70, 78);
+            this.bunifuCustomLabel35.TabIndex = 13;
+            this.bunifuCustomLabel35.Text = "주\r\n행";
+            this.bunifuCustomLabel35.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // bunifuCustomLabel34
+            // 
+            this.bunifuCustomLabel34.AutoSize = true;
+            this.bunifuCustomLabel34.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.bunifuCustomLabel34.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.bunifuCustomLabel34.Font = new System.Drawing.Font("Gulim", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.bunifuCustomLabel34.ForeColor = System.Drawing.Color.White;
+            this.bunifuCustomLabel34.Location = new System.Drawing.Point(79, 148);
+            this.bunifuCustomLabel34.Name = "bunifuCustomLabel34";
+            this.onOffPanel.SetRowSpan(this.bunifuCustomLabel34, 2);
+            this.bunifuCustomLabel34.Size = new System.Drawing.Size(70, 74);
+            this.bunifuCustomLabel34.TabIndex = 12;
+            this.bunifuCustomLabel34.Text = "추\r\n월";
+            this.bunifuCustomLabel34.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // bunifuCustomLabel33
+            // 
+            this.bunifuCustomLabel33.AutoSize = true;
+            this.bunifuCustomLabel33.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.bunifuCustomLabel33.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.bunifuCustomLabel33.Font = new System.Drawing.Font("Gulim", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.bunifuCustomLabel33.ForeColor = System.Drawing.Color.White;
+            this.bunifuCustomLabel33.Location = new System.Drawing.Point(3, 148);
+            this.bunifuCustomLabel33.Name = "bunifuCustomLabel33";
+            this.onOffPanel.SetRowSpan(this.bunifuCustomLabel33, 4);
+            this.bunifuCustomLabel33.Size = new System.Drawing.Size(70, 152);
+            this.bunifuCustomLabel33.TabIndex = 11;
+            this.bunifuCustomLabel33.Text = "하\r\n\r\n행";
+            this.bunifuCustomLabel33.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // offButton01
+            // 
+            this.offButton01.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
+            this.offButton01.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
+            this.offButton01.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.offButton01.BorderRadius = 5;
+            this.offButton01.ButtonText = "OFF";
+            this.offButton01.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.offButton01.DisabledColor = System.Drawing.Color.Gray;
+            this.offButton01.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.offButton01.Font = new System.Drawing.Font("Gulim", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.offButton01.ForeColor = System.Drawing.Color.Black;
+            this.offButton01.Iconcolor = System.Drawing.Color.Transparent;
+            this.offButton01.Iconimage = null;
+            this.offButton01.Iconimage_right = null;
+            this.offButton01.Iconimage_right_Selected = null;
+            this.offButton01.Iconimage_Selected = null;
+            this.offButton01.IconMarginLeft = 0;
+            this.offButton01.IconMarginRight = 0;
+            this.offButton01.IconRightVisible = true;
+            this.offButton01.IconRightZoom = 0D;
+            this.offButton01.IconVisible = true;
+            this.offButton01.IconZoom = 90D;
+            this.offButton01.IsTab = false;
+            this.offButton01.Location = new System.Drawing.Point(533, 1);
+            this.offButton01.Margin = new System.Windows.Forms.Padding(1);
+            this.offButton01.Name = "offButton01";
+            this.offButton01.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
+            this.offButton01.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
+            this.offButton01.OnHoverTextColor = System.Drawing.Color.White;
+            this.offButton01.selected = false;
+            this.offButton01.Size = new System.Drawing.Size(81, 35);
+            this.offButton01.TabIndex = 10;
+            this.offButton01.Tag = "11";
+            this.offButton01.Text = "OFF";
+            this.offButton01.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.offButton01.Textcolor = System.Drawing.Color.Black;
+            this.offButton01.TextFont = new System.Drawing.Font("Malgun Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.offButton01.Click += new System.EventHandler(this.DimmOnOff_Click);
+            // 
+            // onButton01
+            // 
+            this.onButton01.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
+            this.onButton01.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
+            this.onButton01.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.onButton01.BorderRadius = 5;
+            this.onButton01.ButtonText = "ON";
+            this.onButton01.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.onButton01.DisabledColor = System.Drawing.Color.Gray;
+            this.onButton01.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.onButton01.Font = new System.Drawing.Font("Gulim", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.onButton01.ForeColor = System.Drawing.Color.Black;
+            this.onButton01.Iconcolor = System.Drawing.Color.Transparent;
+            this.onButton01.Iconimage = null;
+            this.onButton01.Iconimage_right = null;
+            this.onButton01.Iconimage_right_Selected = null;
+            this.onButton01.Iconimage_Selected = null;
+            this.onButton01.IconMarginLeft = 0;
+            this.onButton01.IconMarginRight = 0;
+            this.onButton01.IconRightVisible = true;
+            this.onButton01.IconRightZoom = 0D;
+            this.onButton01.IconVisible = true;
+            this.onButton01.IconZoom = 90D;
+            this.onButton01.IsTab = false;
+            this.onButton01.Location = new System.Drawing.Point(457, 1);
+            this.onButton01.Margin = new System.Windows.Forms.Padding(1);
+            this.onButton01.Name = "onButton01";
+            this.onButton01.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
+            this.onButton01.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
+            this.onButton01.OnHoverTextColor = System.Drawing.Color.White;
+            this.onButton01.selected = false;
+            this.onButton01.Size = new System.Drawing.Size(74, 35);
+            this.onButton01.TabIndex = 9;
+            this.onButton01.Tag = "1";
+            this.onButton01.Text = "ON";
+            this.onButton01.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.onButton01.Textcolor = System.Drawing.Color.Black;
+            this.onButton01.TextFont = new System.Drawing.Font("Malgun Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.onButton01.Click += new System.EventHandler(this.DimmOnOff_Click);
+            // 
+            // onoffLabel02
+            // 
+            this.onoffLabel02.AutoSize = true;
+            this.onoffLabel02.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.onOffPanel.SetColumnSpan(this.onoffLabel02, 2);
+            this.onoffLabel02.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.onoffLabel02.Font = new System.Drawing.Font("Gulim", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.onoffLabel02.ForeColor = System.Drawing.Color.LightGoldenrodYellow;
+            this.onoffLabel02.Location = new System.Drawing.Point(307, 37);
+            this.onoffLabel02.Name = "onoffLabel02";
+            this.onoffLabel02.Size = new System.Drawing.Size(146, 37);
+            this.onoffLabel02.TabIndex = 6;
+            this.onoffLabel02.Text = "OFF";
+            this.onoffLabel02.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // onoffLabel01
+            // 
+            this.onoffLabel01.AutoSize = true;
+            this.onoffLabel01.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.onOffPanel.SetColumnSpan(this.onoffLabel01, 2);
+            this.onoffLabel01.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.onoffLabel01.Font = new System.Drawing.Font("Gulim", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.onoffLabel01.ForeColor = System.Drawing.Color.LightGoldenrodYellow;
+            this.onoffLabel01.Location = new System.Drawing.Point(307, 0);
+            this.onoffLabel01.Name = "onoffLabel01";
+            this.onoffLabel01.Size = new System.Drawing.Size(146, 37);
+            this.onoffLabel01.TabIndex = 5;
+            this.onoffLabel01.Text = "ON";
+            this.onoffLabel01.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // bunifuCustomLabel30
+            // 
+            this.bunifuCustomLabel30.AutoSize = true;
+            this.bunifuCustomLabel30.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.onOffPanel.SetColumnSpan(this.bunifuCustomLabel30, 2);
+            this.bunifuCustomLabel30.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.bunifuCustomLabel30.Font = new System.Drawing.Font("Gulim", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.bunifuCustomLabel30.ForeColor = System.Drawing.Color.White;
+            this.bunifuCustomLabel30.Location = new System.Drawing.Point(155, 37);
+            this.bunifuCustomLabel30.Name = "bunifuCustomLabel30";
+            this.bunifuCustomLabel30.Size = new System.Drawing.Size(146, 37);
+            this.bunifuCustomLabel30.TabIndex = 4;
+            this.bunifuCustomLabel30.Text = "상시등";
+            this.bunifuCustomLabel30.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // bunifuCustomLabel29
+            // 
+            this.bunifuCustomLabel29.AutoSize = true;
+            this.bunifuCustomLabel29.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.onOffPanel.SetColumnSpan(this.bunifuCustomLabel29, 2);
+            this.bunifuCustomLabel29.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.bunifuCustomLabel29.Font = new System.Drawing.Font("Gulim", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.bunifuCustomLabel29.ForeColor = System.Drawing.Color.White;
+            this.bunifuCustomLabel29.Location = new System.Drawing.Point(155, 0);
+            this.bunifuCustomLabel29.Name = "bunifuCustomLabel29";
+            this.bunifuCustomLabel29.Size = new System.Drawing.Size(146, 37);
+            this.bunifuCustomLabel29.TabIndex = 3;
+            this.bunifuCustomLabel29.Text = "주간등";
+            this.bunifuCustomLabel29.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // bunifuCustomLabel28
+            // 
+            this.bunifuCustomLabel28.AutoSize = true;
+            this.bunifuCustomLabel28.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.bunifuCustomLabel28.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.bunifuCustomLabel28.Font = new System.Drawing.Font("Gulim", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.bunifuCustomLabel28.ForeColor = System.Drawing.Color.White;
+            this.bunifuCustomLabel28.Location = new System.Drawing.Point(79, 74);
+            this.bunifuCustomLabel28.Name = "bunifuCustomLabel28";
+            this.onOffPanel.SetRowSpan(this.bunifuCustomLabel28, 2);
+            this.bunifuCustomLabel28.Size = new System.Drawing.Size(70, 74);
+            this.bunifuCustomLabel28.TabIndex = 2;
+            this.bunifuCustomLabel28.Text = "주\r\n행";
+            this.bunifuCustomLabel28.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // bunifuCustomLabel27
+            // 
+            this.bunifuCustomLabel27.AutoSize = true;
+            this.bunifuCustomLabel27.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.bunifuCustomLabel27.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.bunifuCustomLabel27.Font = new System.Drawing.Font("Gulim", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.bunifuCustomLabel27.ForeColor = System.Drawing.Color.White;
+            this.bunifuCustomLabel27.Location = new System.Drawing.Point(79, 0);
+            this.bunifuCustomLabel27.Name = "bunifuCustomLabel27";
+            this.onOffPanel.SetRowSpan(this.bunifuCustomLabel27, 2);
+            this.bunifuCustomLabel27.Size = new System.Drawing.Size(70, 74);
+            this.bunifuCustomLabel27.TabIndex = 1;
+            this.bunifuCustomLabel27.Text = "추\r\n월";
+            this.bunifuCustomLabel27.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // bunifuCustomLabel26
+            // 
+            this.bunifuCustomLabel26.AutoSize = true;
+            this.bunifuCustomLabel26.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.bunifuCustomLabel26.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.bunifuCustomLabel26.Font = new System.Drawing.Font("Gulim", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.bunifuCustomLabel26.ForeColor = System.Drawing.Color.White;
+            this.bunifuCustomLabel26.Location = new System.Drawing.Point(3, 0);
+            this.bunifuCustomLabel26.Name = "bunifuCustomLabel26";
+            this.onOffPanel.SetRowSpan(this.bunifuCustomLabel26, 4);
+            this.bunifuCustomLabel26.Size = new System.Drawing.Size(70, 148);
+            this.bunifuCustomLabel26.TabIndex = 0;
+            this.bunifuCustomLabel26.Text = "상\r\n\r\n행";
+            this.bunifuCustomLabel26.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // bunifuCustomLabel31
+            // 
+            this.bunifuCustomLabel31.AutoSize = true;
+            this.bunifuCustomLabel31.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.bunifuCustomLabel31.Font = new System.Drawing.Font("Gulim", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.bunifuCustomLabel31.ForeColor = System.Drawing.Color.White;
+            this.bunifuCustomLabel31.Location = new System.Drawing.Point(857, 94);
+            this.bunifuCustomLabel31.Name = "bunifuCustomLabel31";
+            this.bunifuCustomLabel31.Padding = new System.Windows.Forms.Padding(5);
+            this.bunifuCustomLabel31.Size = new System.Drawing.Size(549, 31);
+            this.bunifuCustomLabel31.TabIndex = 17;
+            this.bunifuCustomLabel31.Text = "제어기 설정은 운전 모드가 \"Remote수동\"일 경우만 가능합니다";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.InitialImage = null;
+            this.pictureBox1.Location = new System.Drawing.Point(797, 94);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(65, 31);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 18;
+            this.pictureBox1.TabStop = false;
             // 
             // FormControllerSetup
             // 
@@ -2474,6 +2501,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(46)))), ((int)(((byte)(59)))));
             this.ClientSize = new System.Drawing.Size(1454, 760);
+            this.Controls.Add(this.bunifuCustomLabel31);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.onOffPanel);
             this.Controls.Add(this.bunifuCustomLabel25);
             this.Controls.Add(this.remoteManualButton);
@@ -2503,6 +2532,7 @@
             this.maintenanceFactorPanel.PerformLayout();
             this.onOffPanel.ResumeLayout(false);
             this.onOffPanel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -2621,5 +2651,7 @@
         private Bunifu.Framework.UI.BunifuFlatButton onButton03;
         private Bunifu.Framework.UI.BunifuFlatButton onButton05;
         private Bunifu.Framework.UI.BunifuFlatButton onButton02;
+        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel31;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
