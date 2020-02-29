@@ -32,6 +32,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.titlePanel = new System.Windows.Forms.Panel();
+            this.closeProgramButton = new Bunifu.Framework.UI.BunifuImageButton();
             this.titleLabel = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuDragControl1 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
             this.mainTLPanel = new System.Windows.Forms.TableLayoutPanel();
@@ -220,8 +221,8 @@
             this.descendingDirectionLabel = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.rxFrameCntX0 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.warningLabelX0 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.closeProgramButton = new Bunifu.Framework.UI.BunifuImageButton();
             this.titlePanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.closeProgramButton)).BeginInit();
             this.mainTLPanel.SuspendLayout();
             this.btnPanelX3.SuspendLayout();
             this.luminancePanelX13.SuspendLayout();
@@ -251,7 +252,6 @@
             this.btnPanelX1.SuspendLayout();
             this.btnPanelX2.SuspendLayout();
             this.tlPanel10.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.closeProgramButton)).BeginInit();
             this.SuspendLayout();
             // 
             // bunifuElipse1
@@ -270,6 +270,22 @@
             this.titlePanel.Padding = new System.Windows.Forms.Padding(0, 0, 5, 0);
             this.titlePanel.Size = new System.Drawing.Size(1920, 41);
             this.titlePanel.TabIndex = 1;
+            // 
+            // closeProgramButton
+            // 
+            this.closeProgramButton.BackColor = System.Drawing.Color.Transparent;
+            this.closeProgramButton.Dock = System.Windows.Forms.DockStyle.Right;
+            this.closeProgramButton.Image = ((System.Drawing.Image)(resources.GetObject("closeProgramButton.Image")));
+            this.closeProgramButton.ImageActive = null;
+            this.closeProgramButton.Location = new System.Drawing.Point(1885, 0);
+            this.closeProgramButton.Margin = new System.Windows.Forms.Padding(5);
+            this.closeProgramButton.Name = "closeProgramButton";
+            this.closeProgramButton.Size = new System.Drawing.Size(30, 41);
+            this.closeProgramButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.closeProgramButton.TabIndex = 1;
+            this.closeProgramButton.TabStop = false;
+            this.closeProgramButton.Zoom = 0;
+            this.closeProgramButton.Click += new System.EventHandler(this.CloseProgramButton_Click);
             // 
             // titleLabel
             // 
@@ -351,7 +367,7 @@
             this.mainTLPanel.Controls.Add(this.tlPanel03, 30, 6);
             this.mainTLPanel.Controls.Add(this.luminancePanelX12, 22, 27);
             this.mainTLPanel.Controls.Add(this.luminancePanelX02, 22, 10);
-            this.mainTLPanel.Controls.Add(this.bunifuCustomLabel50, 19, 30);
+            this.mainTLPanel.Controls.Add(this.bunifuCustomLabel50, 18, 30);
             this.mainTLPanel.Controls.Add(this.bunifuCustomLabel49, 12, 13);
             this.mainTLPanel.Controls.Add(this.tlPanel32, 22, 31);
             this.mainTLPanel.Controls.Add(this.tlPanel22, 22, 23);
@@ -383,7 +399,7 @@
             this.mainTLPanel.Controls.Add(this.tunnelLabelX2, 22, 2);
             this.mainTLPanel.Controls.Add(this.screenSizeButton, 39, 0);
             this.mainTLPanel.Controls.Add(this.ascendingDirectionLabel, 12, 9);
-            this.mainTLPanel.Controls.Add(this.descendingDirectionLabel, 19, 26);
+            this.mainTLPanel.Controls.Add(this.descendingDirectionLabel, 18, 26);
             this.mainTLPanel.Controls.Add(this.rxFrameCntX0, 1, 2);
             this.mainTLPanel.Controls.Add(this.warningLabelX0, 3, 4);
             this.mainTLPanel.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -1524,7 +1540,7 @@
             this.bunifuCustomLabel50.Dock = System.Windows.Forms.DockStyle.Fill;
             this.bunifuCustomLabel50.Font = new System.Drawing.Font("Malgun Gothic", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.bunifuCustomLabel50.ForeColor = System.Drawing.Color.DarkGoldenrod;
-            this.bunifuCustomLabel50.Location = new System.Drawing.Point(924, 755);
+            this.bunifuCustomLabel50.Location = new System.Drawing.Point(876, 755);
             this.bunifuCustomLabel50.Margin = new System.Windows.Forms.Padding(13, 5, 3, 0);
             this.bunifuCustomLabel50.Name = "bunifuCustomLabel50";
             this.mainTLPanel.SetRowSpan(this.bunifuCustomLabel50, 3);
@@ -3933,7 +3949,7 @@
             // 
             this.ascendingDirectionLabel.AutoSize = true;
             this.ascendingDirectionLabel.BackColor = System.Drawing.Color.Transparent;
-            this.mainTLPanel.SetColumnSpan(this.ascendingDirectionLabel, 3);
+            this.mainTLPanel.SetColumnSpan(this.ascendingDirectionLabel, 4);
             this.ascendingDirectionLabel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.ascendingDirectionLabel.Font = new System.Drawing.Font("Malgun Gothic", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.ascendingDirectionLabel.ForeColor = System.Drawing.Color.DarkGoldenrod;
@@ -3941,7 +3957,7 @@
             this.ascendingDirectionLabel.Margin = new System.Windows.Forms.Padding(0, 0, 0, 5);
             this.ascendingDirectionLabel.Name = "ascendingDirectionLabel";
             this.mainTLPanel.SetRowSpan(this.ascendingDirectionLabel, 2);
-            this.ascendingDirectionLabel.Size = new System.Drawing.Size(144, 45);
+            this.ascendingDirectionLabel.Size = new System.Drawing.Size(192, 45);
             this.ascendingDirectionLabel.TabIndex = 25;
             this.ascendingDirectionLabel.Text = "방면 #1";
             this.ascendingDirectionLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -3950,15 +3966,15 @@
             // 
             this.descendingDirectionLabel.AutoSize = true;
             this.descendingDirectionLabel.BackColor = System.Drawing.Color.Transparent;
-            this.mainTLPanel.SetColumnSpan(this.descendingDirectionLabel, 3);
+            this.mainTLPanel.SetColumnSpan(this.descendingDirectionLabel, 4);
             this.descendingDirectionLabel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.descendingDirectionLabel.Font = new System.Drawing.Font("Malgun Gothic", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.descendingDirectionLabel.ForeColor = System.Drawing.Color.DarkGoldenrod;
-            this.descendingDirectionLabel.Location = new System.Drawing.Point(924, 660);
+            this.descendingDirectionLabel.Location = new System.Drawing.Point(876, 660);
             this.descendingDirectionLabel.Margin = new System.Windows.Forms.Padding(13, 10, 3, 0);
             this.descendingDirectionLabel.Name = "descendingDirectionLabel";
             this.mainTLPanel.SetRowSpan(this.descendingDirectionLabel, 3);
-            this.descendingDirectionLabel.Size = new System.Drawing.Size(128, 65);
+            this.descendingDirectionLabel.Size = new System.Drawing.Size(176, 65);
             this.descendingDirectionLabel.TabIndex = 26;
             this.descendingDirectionLabel.Text = "방면 #2";
             // 
@@ -3992,22 +4008,6 @@
             this.warningLabelX0.TabIndex = 60;
             this.warningLabelX0.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // closeProgramButton
-            // 
-            this.closeProgramButton.BackColor = System.Drawing.Color.Transparent;
-            this.closeProgramButton.Dock = System.Windows.Forms.DockStyle.Right;
-            this.closeProgramButton.Image = ((System.Drawing.Image)(resources.GetObject("closeProgramButton.Image")));
-            this.closeProgramButton.ImageActive = null;
-            this.closeProgramButton.Location = new System.Drawing.Point(1885, 0);
-            this.closeProgramButton.Margin = new System.Windows.Forms.Padding(5);
-            this.closeProgramButton.Name = "closeProgramButton";
-            this.closeProgramButton.Size = new System.Drawing.Size(30, 41);
-            this.closeProgramButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.closeProgramButton.TabIndex = 1;
-            this.closeProgramButton.TabStop = false;
-            this.closeProgramButton.Zoom = 0;
-            this.closeProgramButton.Click += new System.EventHandler(this.CloseProgramButton_Click);
-            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
@@ -4027,6 +4027,7 @@
             this.Load += new System.EventHandler(this.FormMain_Load);
             this.titlePanel.ResumeLayout(false);
             this.titlePanel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.closeProgramButton)).EndInit();
             this.mainTLPanel.ResumeLayout(false);
             this.mainTLPanel.PerformLayout();
             this.btnPanelX3.ResumeLayout(false);
@@ -4081,7 +4082,6 @@
             this.btnPanelX2.ResumeLayout(false);
             this.tlPanel10.ResumeLayout(false);
             this.tlPanel10.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.closeProgramButton)).EndInit();
             this.ResumeLayout(false);
 
         }

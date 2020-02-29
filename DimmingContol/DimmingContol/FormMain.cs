@@ -522,9 +522,30 @@ namespace DimmingContol
                 form.StartPosition = FormStartPosition.CenterParent;
                 form.CurrWidthHeight = Properties.Settings.Default.WidthHeight;
 
+                form.TunnelName.Clear();
+                foreach (var item in Properties.Settings.Default.ControllerName)
+                {
+                    form.TunnelName.Add(item);
+                }
+
+                form.DirectionName.Clear();
+                form.DirectionName.Add(Properties.Settings.Default.ascendingDirection);
+                form.DirectionName.Add(Properties.Settings.Default.descendingDirection);
+
                 if (form.ShowDialog() == DialogResult.OK)
                 {
                     Properties.Settings.Default.WidthHeight = form.ReturnValue;
+
+                    int i = 0;
+                    foreach (var item in form.TunnelName)
+                    {
+                        Properties.Settings.Default.ControllerName[i++] = item;
+                    }
+
+                    Properties.Settings.Default.ascendingDirection = form.DirectionName[0];
+                    Properties.Settings.Default.descendingDirection = form.DirectionName[1];
+
+                    Properties.Settings.Default.Save();
                 }
             }
         }
