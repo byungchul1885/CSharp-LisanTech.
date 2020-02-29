@@ -544,6 +544,7 @@ namespace DimmingContol
                     form.Gateway = Properties.Settings.Default.Gateway[buttonIndex];
                     form.Port = Properties.Settings.Default.Port[buttonIndex];
                     form.ControllerName = Properties.Settings.Default.ControllerName[buttonIndex];
+                    form.Connected = MBmaster[buttonIndex].Connected;
 
                     Properties.Settings.Default.Save();
 

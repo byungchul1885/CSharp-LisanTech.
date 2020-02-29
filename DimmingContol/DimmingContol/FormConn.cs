@@ -20,10 +20,7 @@ namespace DimmingContol
         public string Port { get; set; }
         public string ButtonAction { get; set; }
         public string ControllerName { get; set; }
-
-
-        //public event EventHandler Loaded;
-
+        public bool Connected { get; set; }
 
         public FormConn()
         {
@@ -32,7 +29,7 @@ namespace DimmingContol
 
         private void Button_Click(object sender, EventArgs e)
         {
-            if (sender is BunifuThinButton2 button)
+            if (sender is BunifuFlatButton button)
             {
                 IP = ipMetroTextbox.Text;
 
@@ -64,15 +61,22 @@ namespace DimmingContol
         {
             titleLabel.Text = ControllerName + " 제어기 IP 접속 설정";
             ipMetroTextbox.Text = IP;
+
+            if (Connected)
+            {
+                connButton.Enabled = false;
+                ipMetroTextbox.Enabled = false;
+                portMetroTextbox.Enabled = false;
+            }
+            else
+            {
+                closeButton.Enabled = false;
+            }
 #if false
             subMaskMetroTextbox.Text = SubMask;
             gateWayMetroTextbox.Text = Gateway;
 #endif
             portMetroTextbox.Text = Port;
-
-
-            // Raise the event and pass any object
-            //Loaded?.Invoke("hoho", e);
         }
     }
 }
