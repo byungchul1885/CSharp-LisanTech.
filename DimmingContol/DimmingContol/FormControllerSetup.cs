@@ -23,6 +23,13 @@ namespace DimmingContol
         public int OpModeChangeButtonNum { get; set; }
         public int OnOffButtonNum { get; set; }
         public string OpMode { get; set; }
+        public bool Connected { get; set; }
+
+        public List<BunifuFlatButton> Buttons { get; set; }
+        public List<BunifuCustomLabel> OnOffLabel { get; set; }
+        public List<BunifuFlatButton> OnButton { get; set; }
+        public List<BunifuFlatButton> OffButton { get; set; }
+
 
 
         public static event EventHandler OpModeButtonClicked;
@@ -36,11 +43,64 @@ namespace DimmingContol
             DimLevelValue = new List<string>();
             MaintenanceFactor = new List<string>();
             OnOff = new List<string>();
+            Buttons = new List<BunifuFlatButton>();
+            OnOffLabel = new List<BunifuCustomLabel>();
+            OnButton = new List<BunifuFlatButton>();
+            OffButton = new List<BunifuFlatButton>();
 
             FormMain.DimmLevelValueReceivedFromController += DimmLevelValueRefresh;
             FormMain.MaintenanceFactorReceivedFromController += MaintenanceFactorRefresh;
             FormMain.OpModeReceivedFromController += OpModeRefresh;
             FormMain.OnOffReceivedFromController += OnOffRefresh;
+
+            Buttons.Add(offButton01);
+            Buttons.Add(offButton02);
+            Buttons.Add(offButton03);
+            Buttons.Add(offButton04);
+            Buttons.Add(offButton05);
+            Buttons.Add(offButton06);
+            Buttons.Add(offButton07);
+            Buttons.Add(offButton08);
+            Buttons.Add(onButton01);
+            Buttons.Add(onButton02);
+            Buttons.Add(onButton03);
+            Buttons.Add(onButton04);
+            Buttons.Add(onButton05);
+            Buttons.Add(onButton06);
+            Buttons.Add(onButton07);
+            Buttons.Add(onButton08);
+            Buttons.Add(mfSetButton);
+            Buttons.Add(dimmValueSetButton);
+            Buttons.Add(remoteButton);
+            Buttons.Add(remoteManualButton);
+            Buttons.Add(localButton);
+
+            OnOffLabel.Add(onoffLabel01);
+            OnOffLabel.Add(onoffLabel02);
+            OnOffLabel.Add(onoffLabel03);
+            OnOffLabel.Add(onoffLabel04);
+            OnOffLabel.Add(onoffLabel05);
+            OnOffLabel.Add(onoffLabel06);
+            OnOffLabel.Add(onoffLabel07);
+            OnOffLabel.Add(onoffLabel08);
+
+            OnButton.Add(onButton01);
+            OnButton.Add(onButton02);
+            OnButton.Add(onButton03);
+            OnButton.Add(onButton04);
+            OnButton.Add(onButton05);
+            OnButton.Add(onButton06);
+            OnButton.Add(onButton07);
+            OnButton.Add(onButton08);
+
+            OffButton.Add(offButton01);
+            OffButton.Add(offButton02);
+            OffButton.Add(offButton03);
+            OffButton.Add(offButton04);
+            OffButton.Add(offButton05);
+            OffButton.Add(offButton06);
+            OffButton.Add(offButton07);
+            OffButton.Add(offButton08);
         }
 
         private void Close_Click(object sender, EventArgs e)
@@ -78,7 +138,7 @@ namespace DimmingContol
             }
         }
 
-        private void FormControllerSetupDiaglog_Load(object sender, EventArgs e)
+        private void FormControllerSetup_Load(object sender, EventArgs e)
         {
             foreach (Control c in dimmLevelPanel.Controls)
             {
@@ -116,6 +176,55 @@ namespace DimmingContol
 
             titleLabel.Text = ControllerName + " 제어기 설정 상태";
             opModeLabel.Text = OpMode;
+
+            SetButtonsState();
+        }
+
+        private void SetButtonsState()
+        {
+            if (!Connected)
+            {
+                SetAllButtonsState(false);
+            }
+            else if (OpMode == "Local")
+            {
+                SetAllButtonsState(false);
+                remoteButton.Enabled = true;
+            }
+            else if (OpMode == "Remote")
+            {
+                SetAllButtonsState(false);
+                localButton.Enabled = true;
+                remoteManualButton.Enabled = true;
+            }
+            else if (OpMode == "Remote수동")
+            {
+                SetAllButtonsState(true);
+                localButton.Enabled = true;
+                remoteButton.Enabled = true;
+
+                int i = 0;
+                foreach (var item in OnOffLabel)
+                {
+                    if (item.Text == "ON")
+                    {
+                        OnButton[i].Enabled = false;
+                    }
+                    else
+                    {
+                        OffButton[i].Enabled = false;
+                    }
+                    i++;
+                }
+            }
+        }
+
+        private void SetAllButtonsState(bool on)
+        {
+            foreach (var item in Buttons)
+            {
+                item.Enabled = on;
+            }
         }
 
         private void DimmLevelValueRefresh(object sender, EventArgs e)
@@ -195,6 +304,7 @@ namespace DimmingContol
                         Invoke(new Action(() =>
                         {
                             opModeLabel.Text = (string)mode[1];
+                            SetButtonsState();
                         }));
                     }
                     catch (Exception ex)

@@ -788,6 +788,8 @@ namespace DimmingContol
                     form.OnOff.Clear();
                     form.OnOff.AddRange(OnOff);
 
+                    form.Connected = MBmaster[idx].Connected;
+
                     form.ShowDialog();
                 }
             }
