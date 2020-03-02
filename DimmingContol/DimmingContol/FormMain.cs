@@ -663,6 +663,12 @@ namespace DimmingContol
             int remainder = ID % 100;
             int controllerIdx = quotient - 1;
 
+            if (controllerIdx > 3)
+            {
+                Debug.WriteLine($"ID {ID} controllerIdx {controllerIdx} ");
+                return;
+            }
+            
             Invoke(new Action(() =>
             {
                 if (!MBmaster[controllerIdx].Connected) return;

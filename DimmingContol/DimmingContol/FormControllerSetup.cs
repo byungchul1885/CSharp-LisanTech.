@@ -23,6 +23,7 @@ namespace DimmingContol
         public int OpModeChangeButtonNum { get; set; }
         public int OnOffButtonNum { get; set; }
         public string OpMode { get; set; }
+        public string OpModePrevious { get; set; }
         public bool Connected { get; set; }
 
         public List<BunifuFlatButton> Buttons { get; set; }
@@ -175,7 +176,7 @@ namespace DimmingContol
             }
 
             titleLabel.Text = ControllerName + " 제어기 설정 상태";
-            opModeLabel.Text = OpMode;
+            opModeLabel.Text = OpModePrevious = OpMode;
 
             SetButtonsState();
         }
@@ -200,8 +201,9 @@ namespace DimmingContol
             else if (OpMode == "Remote수동")
             {
                 SetAllButtonsState(true);
+                remoteManualButton.Enabled = false;
                 localButton.Enabled = true;
-                remoteButton.Enabled = true;
+                remoteButton.Enabled = false;
 
                 int i = 0;
                 foreach (var item in OnOffLabel)
@@ -303,8 +305,13 @@ namespace DimmingContol
                     {
                         Invoke(new Action(() =>
                         {
-                            opModeLabel.Text = (string)mode[1];
-                            SetButtonsState();
+                            if (OpModePrevious != (string)mode[1])
+                            {
+                                Debug.WriteLine($"{OpModePrevious} {OpMode}");
+
+                                opModeLabel.Text = OpMode = OpModePrevious = (string)mode[1];
+                                SetButtonsState();
+                            }
                         }));
                     }
                     catch (Exception ex)
@@ -337,15 +344,14 @@ namespace DimmingContol
                                 {
                                     c.Text = OnOff[levelIndex];
                                     c.ForeColor = c.Text == "OFF" ? c.ForeColor = Color.FromArgb(255, 85, 85) : Color.FromArgb(250, 250, 210);
+                                    SetButtonsState();
                                 }));
                             }
-#pragma warning disable CA1031 // Do not catch general exception types
                             catch (Exception ex)
                             {
                                 Debug.WriteLine($"OnOffRefresh: {ex}");
                                 return;
                             }
-#pragma warning restore CA1031 // Do not catch general exception types
                         }
                     }
                 }

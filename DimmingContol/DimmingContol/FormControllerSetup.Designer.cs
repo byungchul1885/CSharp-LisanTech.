@@ -1323,7 +1323,7 @@
             this.localButton.Name = "localButton";
             this.localButton.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
             this.localButton.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
-            this.localButton.OnHoverTextColor = System.Drawing.Color.White;
+            this.localButton.OnHoverTextColor = System.Drawing.Color.Black;
             this.localButton.selected = false;
             this.localButton.Size = new System.Drawing.Size(130, 37);
             this.localButton.TabIndex = 11;
@@ -1374,7 +1374,7 @@
             this.remoteButton.Name = "remoteButton";
             this.remoteButton.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
             this.remoteButton.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
-            this.remoteButton.OnHoverTextColor = System.Drawing.Color.White;
+            this.remoteButton.OnHoverTextColor = System.Drawing.Color.Black;
             this.remoteButton.selected = false;
             this.remoteButton.Size = new System.Drawing.Size(130, 37);
             this.remoteButton.TabIndex = 13;
@@ -1413,7 +1413,7 @@
             this.remoteManualButton.Name = "remoteManualButton";
             this.remoteManualButton.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
             this.remoteManualButton.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
-            this.remoteManualButton.OnHoverTextColor = System.Drawing.Color.White;
+            this.remoteManualButton.OnHoverTextColor = System.Drawing.Color.Black;
             this.remoteManualButton.selected = false;
             this.remoteManualButton.Size = new System.Drawing.Size(130, 37);
             this.remoteManualButton.TabIndex = 14;
@@ -1530,7 +1530,7 @@
             this.offButton08.Name = "offButton08";
             this.offButton08.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
             this.offButton08.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
-            this.offButton08.OnHoverTextColor = System.Drawing.Color.White;
+            this.offButton08.OnHoverTextColor = System.Drawing.Color.Black;
             this.offButton08.selected = false;
             this.offButton08.Size = new System.Drawing.Size(81, 39);
             this.offButton08.TabIndex = 39;
@@ -1570,7 +1570,7 @@
             this.offButton07.Name = "offButton07";
             this.offButton07.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
             this.offButton07.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
-            this.offButton07.OnHoverTextColor = System.Drawing.Color.White;
+            this.offButton07.OnHoverTextColor = System.Drawing.Color.Black;
             this.offButton07.selected = false;
             this.offButton07.Size = new System.Drawing.Size(81, 35);
             this.offButton07.TabIndex = 38;
@@ -1610,7 +1610,7 @@
             this.offButton06.Name = "offButton06";
             this.offButton06.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
             this.offButton06.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
-            this.offButton06.OnHoverTextColor = System.Drawing.Color.White;
+            this.offButton06.OnHoverTextColor = System.Drawing.Color.Black;
             this.offButton06.selected = false;
             this.offButton06.Size = new System.Drawing.Size(81, 35);
             this.offButton06.TabIndex = 37;
@@ -1650,7 +1650,7 @@
             this.offButton05.Name = "offButton05";
             this.offButton05.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
             this.offButton05.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
-            this.offButton05.OnHoverTextColor = System.Drawing.Color.White;
+            this.offButton05.OnHoverTextColor = System.Drawing.Color.Black;
             this.offButton05.selected = false;
             this.offButton05.Size = new System.Drawing.Size(81, 35);
             this.offButton05.TabIndex = 36;
@@ -1690,7 +1690,7 @@
             this.offButton04.Name = "offButton04";
             this.offButton04.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
             this.offButton04.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
-            this.offButton04.OnHoverTextColor = System.Drawing.Color.White;
+            this.offButton04.OnHoverTextColor = System.Drawing.Color.Black;
             this.offButton04.selected = false;
             this.offButton04.Size = new System.Drawing.Size(81, 36);
             this.offButton04.TabIndex = 35;
@@ -1730,7 +1730,7 @@
             this.offButton03.Name = "offButton03";
             this.offButton03.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
             this.offButton03.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
-            this.offButton03.OnHoverTextColor = System.Drawing.Color.White;
+            this.offButton03.OnHoverTextColor = System.Drawing.Color.Black;
             this.offButton03.selected = false;
             this.offButton03.Size = new System.Drawing.Size(81, 34);
             this.offButton03.TabIndex = 34;
@@ -1770,7 +1770,7 @@
             this.offButton02.Name = "offButton02";
             this.offButton02.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
             this.offButton02.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
-            this.offButton02.OnHoverTextColor = System.Drawing.Color.White;
+            this.offButton02.OnHoverTextColor = System.Drawing.Color.Black;
             this.offButton02.selected = false;
             this.offButton02.Size = new System.Drawing.Size(81, 35);
             this.offButton02.TabIndex = 33;
@@ -1810,7 +1810,7 @@
             this.onButton08.Name = "onButton08";
             this.onButton08.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
             this.onButton08.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
-            this.onButton08.OnHoverTextColor = System.Drawing.Color.White;
+            this.onButton08.OnHoverTextColor = System.Drawing.Color.Black;
             this.onButton08.selected = false;
             this.onButton08.Size = new System.Drawing.Size(74, 39);
             this.onButton08.TabIndex = 32;
@@ -1850,7 +1850,7 @@
             this.onButton07.Name = "onButton07";
             this.onButton07.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
             this.onButton07.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
-            this.onButton07.OnHoverTextColor = System.Drawing.Color.White;
+            this.onButton07.OnHoverTextColor = System.Drawing.Color.Black;
             this.onButton07.selected = false;
             this.onButton07.Size = new System.Drawing.Size(74, 35);
             this.onButton07.TabIndex = 31;
@@ -1890,7 +1890,7 @@
             this.onButton04.Name = "onButton04";
             this.onButton04.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
             this.onButton04.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
-            this.onButton04.OnHoverTextColor = System.Drawing.Color.White;
+            this.onButton04.OnHoverTextColor = System.Drawing.Color.Black;
             this.onButton04.selected = false;
             this.onButton04.Size = new System.Drawing.Size(74, 36);
             this.onButton04.TabIndex = 30;
@@ -1930,7 +1930,7 @@
             this.onButton06.Name = "onButton06";
             this.onButton06.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
             this.onButton06.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
-            this.onButton06.OnHoverTextColor = System.Drawing.Color.White;
+            this.onButton06.OnHoverTextColor = System.Drawing.Color.Black;
             this.onButton06.selected = false;
             this.onButton06.Size = new System.Drawing.Size(74, 35);
             this.onButton06.TabIndex = 29;
@@ -1970,7 +1970,7 @@
             this.onButton03.Name = "onButton03";
             this.onButton03.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
             this.onButton03.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
-            this.onButton03.OnHoverTextColor = System.Drawing.Color.White;
+            this.onButton03.OnHoverTextColor = System.Drawing.Color.Black;
             this.onButton03.selected = false;
             this.onButton03.Size = new System.Drawing.Size(74, 34);
             this.onButton03.TabIndex = 28;
@@ -2010,7 +2010,7 @@
             this.onButton05.Name = "onButton05";
             this.onButton05.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
             this.onButton05.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
-            this.onButton05.OnHoverTextColor = System.Drawing.Color.White;
+            this.onButton05.OnHoverTextColor = System.Drawing.Color.Black;
             this.onButton05.selected = false;
             this.onButton05.Size = new System.Drawing.Size(74, 35);
             this.onButton05.TabIndex = 27;
@@ -2050,7 +2050,7 @@
             this.onButton02.Name = "onButton02";
             this.onButton02.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
             this.onButton02.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
-            this.onButton02.OnHoverTextColor = System.Drawing.Color.White;
+            this.onButton02.OnHoverTextColor = System.Drawing.Color.Black;
             this.onButton02.selected = false;
             this.onButton02.Size = new System.Drawing.Size(74, 35);
             this.onButton02.TabIndex = 26;
@@ -2315,7 +2315,7 @@
             this.offButton01.Name = "offButton01";
             this.offButton01.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
             this.offButton01.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
-            this.offButton01.OnHoverTextColor = System.Drawing.Color.White;
+            this.offButton01.OnHoverTextColor = System.Drawing.Color.Black;
             this.offButton01.selected = false;
             this.offButton01.Size = new System.Drawing.Size(81, 35);
             this.offButton01.TabIndex = 10;
@@ -2355,7 +2355,7 @@
             this.onButton01.Name = "onButton01";
             this.onButton01.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
             this.onButton01.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
-            this.onButton01.OnHoverTextColor = System.Drawing.Color.White;
+            this.onButton01.OnHoverTextColor = System.Drawing.Color.Black;
             this.onButton01.selected = false;
             this.onButton01.Size = new System.Drawing.Size(74, 35);
             this.onButton01.TabIndex = 9;
