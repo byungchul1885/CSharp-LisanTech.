@@ -395,6 +395,8 @@
             this.Controls.Add(this.radioButton1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FormInputWidthHeight";
+            this.ShowIcon = false;
+            this.ShowInTaskbar = false;
             this.Text = "FormResolutionDialog";
             this.Load += new System.EventHandler(this.FormResolutionDialog_Load);
             this.panel1.ResumeLayout(false);

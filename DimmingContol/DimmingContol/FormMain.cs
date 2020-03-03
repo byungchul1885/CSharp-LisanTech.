@@ -24,7 +24,7 @@ namespace DimmingContol
 {
     public partial class FormMain : Form
     {
-        private readonly string[] warningString = new string[4] {string.Empty, string.Empty, string.Empty, string.Empty};
+        private readonly string[] warningString = new string[4] { string.Empty, string.Empty, string.Empty, string.Empty };
 
         private readonly int[] rxFrameCnt = new int[4] { 0, 0, 0, 0 };
 
@@ -114,6 +114,8 @@ namespace DimmingContol
 
         public static event EventHandler OnOffReceivedFromController;
 
+        public static event EventHandler DisconnectedFormController;
+
 
         public FormMain()
         {
@@ -153,8 +155,8 @@ namespace DimmingContol
                 tlPanel01, tlPanel11, tlPanel21, tlPanel31,
                 tlPanel02, tlPanel12, tlPanel22, tlPanel32,
                 tlPanel03, tlPanel13, tlPanel23, tlPanel33,
-                luminancePanelX00, luminancePanelX10, 
-                luminancePanelX01, luminancePanelX11, 
+                luminancePanelX00, luminancePanelX10,
+                luminancePanelX01, luminancePanelX11,
                 luminancePanelX02, luminancePanelX12,
                 luminancePanelX03, luminancePanelX13,
             };
@@ -582,7 +584,10 @@ namespace DimmingContol
                         {
                             reqCnt[buttonIndex] = 0;
 
+                            Debug.WriteLine($"Connect {buttonIndex}");
+
                             MBmaster[buttonIndex].Connect(form.IP, ushort.Parse(form.Port));
+
                             MBmaster[buttonIndex].OnResponseData += MBmaster_OnResponseData;
                             MBmaster[buttonIndex].OnException += MBmaster_OnException;
 
@@ -592,7 +597,12 @@ namespace DimmingContol
                         }
                         catch (SystemException error)
                         {
-                            MessageBox.Show(error.Message, "Error!!!");
+                            using (var form2 = new FormError())
+                            {
+                                form2.StartPosition = FormStartPosition.CenterParent;
+                                form2.ErrorMsg = error.Message;
+                                form2.ShowDialog();
+                            }
                         }
                     }
                     else if (form.ButtonAction == "close")
@@ -606,7 +616,6 @@ namespace DimmingContol
                         ReqInterval[buttonIndex].Stop();
 
                         ConnectButton[buttonIndex].Text = "끊어짐";
-                        ConnectButton[buttonIndex].BackColor = Color.FromArgb(255, 0, 0);
 
                         SetLabelEmpty(buttonIndex);
                     }
@@ -616,19 +625,26 @@ namespace DimmingContol
 
         private void RequestNow(int controllerIdx)
         {
-            if (reqCnt[controllerIdx] > 5)
+            if (reqCnt[controllerIdx]++ > 3)
             {
                 ConnectButton[controllerIdx].Text = "끊어짐";
                 ConnectButton[controllerIdx].BackColor = Color.FromArgb(255, 0, 0);
 
+                ReqInterval[controllerIdx].Stop();
+
                 MBmaster[controllerIdx].OnResponseData -= MBmaster_OnResponseData;
                 MBmaster[controllerIdx].OnException -= MBmaster_OnException;
                 MBmaster[controllerIdx].Disconnect();
+
+                SetLabelEmpty(controllerIdx);
+
+                DisconnectedFormController?.Invoke(controllerIdx, null);
             }
-
-            ushort ID = Convert.ToUInt16((controllerIdx + 1) * 100);
-
-            MBmaster[controllerIdx].ReadHoldingRegister(ID, 1, 0x7080, 32); // 0x7080 ~ 0x709F
+            else
+            {
+                ushort ID = Convert.ToUInt16((controllerIdx + 1) * 100);
+                MBmaster[controllerIdx].ReadHoldingRegister(ID, 1, 0x7080, 32); // 0x7080 ~ 0x709F
+            }
         }
 
         private void MBmaster_OnException(ushort id, byte unit, byte function, byte exception)
@@ -649,7 +665,9 @@ namespace DimmingContol
                 case Master.excExceptionNotConnected: exc += "Not connected!"; break;
             }
 
+#if false
             MessageBox.Show(exc, "Modbus slave exception");
+#endif
         }
 
         private void MBmaster_OnResponseData(ushort ID, byte unit, byte function, byte[] values)
@@ -668,33 +686,41 @@ namespace DimmingContol
                 Debug.WriteLine($"ID {ID} controllerIdx {controllerIdx} ");
                 return;
             }
-            
+
             Invoke(new Action(() =>
             {
                 if (!MBmaster[controllerIdx].Connected) return;
 
                 reqCnt[controllerIdx] = 0;
 
-                ConnectButton[controllerIdx].Text = "연결";
-                ConnectButton[controllerIdx].BackColor = Color.FromArgb(0, 176, 80);
+                try
+                {
+                    ConnectButton[controllerIdx].Text = "연결";
+                    ConnectButton[controllerIdx].BackColor = Color.FromArgb(0, 176, 80);
 
-                rxFrameCnt[controllerIdx]++;
+                    rxFrameCnt[controllerIdx]++;
 
-                if (controllerIdx == 0)
-                {
-                    rxFrameCntX0.Text = rxFrameCnt[0].ToString();
+                    if (controllerIdx == 0)
+                    {
+                        rxFrameCntX0.Text = rxFrameCnt[0].ToString();
+                    }
+                    else if (controllerIdx == 1)
+                    {
+                        rxFrameCntX1.Text = rxFrameCnt[1].ToString();
+                    }
+                    else if (controllerIdx == 2)
+                    {
+                        rxFrameCntX2.Text = rxFrameCnt[2].ToString();
+                    }
+                    else if (controllerIdx == 3)
+                    {
+                        rxFrameCntX3.Text = rxFrameCnt[3].ToString();
+                    }
                 }
-                else if (controllerIdx == 1)
+                catch (Exception e)
                 {
-                    rxFrameCntX1.Text = rxFrameCnt[1].ToString();
-                }
-                else if (controllerIdx == 2)
-                {
-                    rxFrameCntX2.Text = rxFrameCnt[2].ToString();
-                }
-                else if (controllerIdx == 3)
-                {
-                    rxFrameCntX3.Text = rxFrameCnt[3].ToString();
+                    Debug.WriteLine($"MBmaster_OnResponseData#1: {e}");
+                    return;
                 }
             }));
 
@@ -719,21 +745,29 @@ namespace DimmingContol
                 {
                     if (!MBmaster[controllerIdx].Connected) return;
 
-                    H7080B1[controllerIdx].Text = warningString[controllerIdx];
-
-                    if (string.IsNullOrEmpty(warningString[controllerIdx]))
+                    try
                     {
-                        TunnelName[controllerIdx].BackColor = Color.FromArgb(217, 217, 217);
-                        TunnelName[controllerIdx].ForeColor = Color.FromArgb(0, 32, 96); 
-                    }
-                    else
-                    {
-                        Debug.WriteLine($"Red");
-                        TunnelName[controllerIdx].BackColor = Color.Red;
-                        TunnelName[controllerIdx].ForeColor = Color.Yellow;
-                    }
+                        H7080B1[controllerIdx].Text = warningString[controllerIdx];
 
-                    warningString[controllerIdx] = string.Empty;
+                        if (string.IsNullOrEmpty(warningString[controllerIdx]))
+                        {
+                            TunnelName[controllerIdx].BackColor = Color.FromArgb(217, 217, 217);
+                            TunnelName[controllerIdx].ForeColor = Color.FromArgb(0, 32, 96);
+                        }
+                        else
+                        {
+                            Debug.WriteLine($"Red");
+                            TunnelName[controllerIdx].BackColor = Color.Red;
+                            TunnelName[controllerIdx].ForeColor = Color.Yellow;
+                        }
+
+                        warningString[controllerIdx] = string.Empty;
+                    }
+                    catch (Exception e)
+                    {
+                        Debug.WriteLine($"MBmaster_OnResponseData#2: {e}");
+                        return;
+                    }
                 }));
 
 #if false // bccho, 2020-02-28, stop here
@@ -777,7 +811,7 @@ namespace DimmingContol
                     string[] OnOff = new string[] {"",
                         H7081B00[idx].Text, H7081B04[idx].Text, H7081B02[idx].Text, H7081B06[idx].Text,
                         H7081B08[idx].Text, H7081B12[idx].Text, H7081B10[idx].Text, H7081B14[idx].Text,};
-                    
+
                     form.StartPosition = FormStartPosition.CenterParent;
 
                     form.ControllerIdx = idx;
@@ -1138,6 +1172,23 @@ namespace DimmingContol
 
                     temp = values.Skip(58).Take(2).ToArray(); Array.Reverse(temp);
                     H709D[controllerIdx].Text = "디밍 " + BitConverter.ToInt16(temp, 0).ToString() + " %"; // 상행 심야등디밍출력값 감시
+
+                    List<string> li = new List<string>
+                    {
+                        controllerIdx.ToString(),
+
+                        /* order is important */
+                        H7081B00[controllerIdx].Text,
+                        H7081B04[controllerIdx].Text,
+                        H7081B02[controllerIdx].Text,
+                        H7081B06[controllerIdx].Text,
+                        H7081B08[controllerIdx].Text,
+                        H7081B12[controllerIdx].Text,
+                        H7081B10[controllerIdx].Text,
+                        H7081B14[controllerIdx].Text
+                    };
+
+                    OnOffReceivedFromController?.Invoke(li, null);
                 }));
             }
             catch (Exception e)
@@ -1145,25 +1196,6 @@ namespace DimmingContol
                 Debug.WriteLine($"Parsing_7080H: {e}");
                 return;
             }
-
-
-            List<string> li = new List<string>
-            {
-                controllerIdx.ToString(),
-
-                /* order is important */
-                H7081B00[controllerIdx].Text,
-                H7081B04[controllerIdx].Text,
-                H7081B02[controllerIdx].Text,
-                H7081B06[controllerIdx].Text,
-
-                H7081B08[controllerIdx].Text,
-                H7081B12[controllerIdx].Text,
-                H7081B10[controllerIdx].Text,
-                H7081B14[controllerIdx].Text
-            };
-
-            OnOffReceivedFromController?.Invoke(li, null);
         }
 
         private void Parsing_70A0H(byte[] values, int controllerIdx)

@@ -259,6 +259,8 @@
             this.ForeColor = System.Drawing.Color.White;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FormConn";
+            this.ShowIcon = false;
+            this.ShowInTaskbar = false;
             this.Text = "FormConnDialog";
             this.Load += new System.EventHandler(this.FormConnDialog_Load);
             this.panel1.ResumeLayout(false);

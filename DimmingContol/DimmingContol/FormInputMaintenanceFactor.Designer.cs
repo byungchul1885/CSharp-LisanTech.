@@ -428,7 +428,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(46)))), ((int)(((byte)(59)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(55)))), ((int)(((byte)(30)))));
             this.ClientSize = new System.Drawing.Size(1000, 400);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.inputValidation);
@@ -437,7 +437,11 @@
             this.Controls.Add(this.maintenanceFactorPanel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FormInputMaintenanceFactor";
+            this.ShowIcon = false;
+            this.ShowInTaskbar = false;
             this.Text = "FormMaintenanceFactorSetup";
+            this.TopMost = true;
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FormInputMaintenanceFactor_FormClosing);
             this.Load += new System.EventHandler(this.FormInputMaintenanceFactor_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

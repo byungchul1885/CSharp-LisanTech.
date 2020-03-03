@@ -25,6 +25,8 @@ namespace DimmingContol
             InitializeComponent();
 
             DimLevelValue = new List<string>();
+
+            FormMain.DisconnectedFormController += Disconnected;
         }
 
         private void Close_Click(object sender, EventArgs e)
@@ -113,6 +115,21 @@ namespace DimmingContol
                     c.TabStop = ok;
                 }
             }
+        }
+
+        private void Disconnected(object sender, EventArgs e)
+        {
+            if (sender is int idx)
+            {
+                if (idx != ControllerIdx) return;
+
+                Close();                
+            }
+        }
+
+        private void FormInputDimmLevel_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            FormMain.DisconnectedFormController -= Disconnected;
         }
     }
 }

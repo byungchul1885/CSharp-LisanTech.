@@ -32,7 +32,6 @@ namespace DimmingContol
         public List<BunifuFlatButton> OffButton { get; set; }
 
 
-
         public static event EventHandler OpModeButtonClicked;
 
         public static event EventHandler OnOffButtonClicked;
@@ -53,6 +52,7 @@ namespace DimmingContol
             FormMain.MaintenanceFactorReceivedFromController += MaintenanceFactorRefresh;
             FormMain.OpModeReceivedFromController += OpModeRefresh;
             FormMain.OnOffReceivedFromController += OnOffRefresh;
+            FormMain.DisconnectedFormController += Disconnected;
 
             Buttons.Add(offButton01);
             Buttons.Add(offButton02);
@@ -106,11 +106,36 @@ namespace DimmingContol
 
         private void Close_Click(object sender, EventArgs e)
         {
-            Close();
+            if (Connected && String.Equals(OpMode, "Remote수동"))
+            {
+                using (var form = new FormExitSetupConfirm())
+                {
+                    form.StartPosition = FormStartPosition.CenterParent;
+                    form.ShowDialog();
+
+                    if (form.ButtonAction == "confirm")
+                    {
+                        OpModeChangeButtonNum = 0; /* set local */
+                        OpModeButtonClicked?.Invoke(this, e);
+
+                        Close();
+                    }
+                    else if (form.ButtonAction == "cancel")
+                    {
+                        /* do nothing */
+                    }
+                }
+            }
+           else
+            {
+                Close();
+            }
         }
 
         private void DimmLevelSetup_Click(object sender, EventArgs e)
         {
+            //Hide();
+
             using (var form = new FormInputDimmLevel())
             {
                 form.StartPosition = FormStartPosition.CenterParent;
@@ -179,6 +204,8 @@ namespace DimmingContol
             opModeLabel.Text = OpModePrevious = OpMode;
 
             SetButtonsState();
+
+            //disconnectedLabel.Visible = false;
         }
 
         private void SetButtonsState()
@@ -358,6 +385,44 @@ namespace DimmingContol
             }
         }
 
+        private void Disconnected(object sender, EventArgs e)
+        {
+            if (sender is int idx)
+            {
+                if (idx != ControllerIdx) return;
+
+                disconnectedLabel.Visible = true;
+                Connected = false;
+
+                foreach (Control c in maintenanceFactorPanel.Controls)
+                {
+                    if (c.GetType() == typeof(BunifuCustomLabel) && c.Name.Contains("maintenanceFactorLabel"))
+                    {
+                        c.Text = String.Empty;
+                    }
+                }
+
+                foreach (Control c in dimmLevelPanel.Controls)
+                {
+                    if (c.GetType() == typeof(BunifuCustomLabel) && c.Name.Contains("dimmLevelLabel"))
+                    {
+                        c.Text = String.Empty;
+                    }
+                }
+
+                foreach (Control c in onOffPanel.Controls)
+                {
+                    if (c.GetType() == typeof(BunifuCustomLabel) && c.Name.Contains("onoffLabel"))
+                    {
+                        c.Text = String.Empty;
+                    }
+                }
+
+                opModeLabel.Text = String.Empty;
+
+                SetAllButtonsState(false);
+            }
+        }
 
         private void OpModeChange_Click(object sender, EventArgs e)
         {
@@ -375,6 +440,7 @@ namespace DimmingContol
             FormMain.MaintenanceFactorReceivedFromController -= MaintenanceFactorRefresh;
             FormMain.OpModeReceivedFromController -= OpModeRefresh;
             FormMain.OnOffReceivedFromController -= OnOffRefresh;
+            FormMain.DisconnectedFormController -= Disconnected;            
         }
 
         private void DimmOnOff_Click(object sender, EventArgs e)

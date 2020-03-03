@@ -1108,7 +1108,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(46)))), ((int)(((byte)(59)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(55)))), ((int)(((byte)(30)))));
             this.ClientSize = new System.Drawing.Size(1520, 380);
             this.Controls.Add(this.inputValidation);
             this.Controls.Add(this.closeButton);
@@ -1117,7 +1117,10 @@
             this.Controls.Add(this.dimmLevelPanel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FormInputDimmLevel";
+            this.ShowIcon = false;
+            this.ShowInTaskbar = false;
             this.Text = "FormDimmLevelSetup";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FormInputDimmLevel_FormClosing);
             this.Load += new System.EventHandler(this.FormDimmLevelSetup_Load);
             this.dimmLevelPanel.ResumeLayout(false);
             this.dimmLevelPanel.PerformLayout();

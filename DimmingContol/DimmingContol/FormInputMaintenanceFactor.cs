@@ -25,6 +25,8 @@ namespace DimmingContol
             InitializeComponent();
 
             MaintenanceFactor = new List<string>();
+
+            FormMain.DisconnectedFormController += Disconnected;
         }
 
         private void FormInputMaintenanceFactor_Load(object sender, EventArgs e)
@@ -65,28 +67,6 @@ namespace DimmingContol
             Close();
         }
 
-
-        //private void Apply_Click2(object sender, EventArgs e)
-        //{
-        //    DimLevelValue.Clear();
-        //    DimLevelValue.AddRange(new string[dimmLevelPanel.ColumnCount]);
-
-        //    foreach (Control c in dimmLevelPanel.Controls)
-        //    {
-        //        if (c.GetType() == typeof(BunifuMaterialTextbox)
-        //            && c.Name.Contains("dimmTextBox"))
-        //        {
-        //            int levelIndex = Int32.Parse(c.Name.Remove(0, "dimmTextBox".Length));
-        //            DimLevelValue[levelIndex] = c.Text;
-        //        }
-        //    }
-
-        //    DimLevelValue[0] = ControllerIdx.ToString();
-
-        //    UserChangedDimmLevelValue?.Invoke(this, e);
-
-        //    Close();
-        //}
 
         private void Close_Click(object sender, EventArgs e)
         {
@@ -135,6 +115,21 @@ namespace DimmingContol
                     c.TabStop = ok;
                 }
             }
+        }
+
+        private void Disconnected(object sender, EventArgs e)
+        {
+            if (sender is int idx)
+            {
+                if (idx != ControllerIdx) return;
+
+                Close();
+            }
+        }
+
+        private void FormInputMaintenanceFactor_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            FormMain.DisconnectedFormController -= Disconnected;
         }
     }
 }

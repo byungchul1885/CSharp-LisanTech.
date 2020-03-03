@@ -143,6 +143,7 @@
             this.bunifuCustomLabel26 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel31 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.disconnectedLabel = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.panel1.SuspendLayout();
             this.dimmLevelPanel.SuspendLayout();
             this.maintenanceFactorPanel.SuspendLayout();
@@ -158,6 +159,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
+            this.panel1.Controls.Add(this.disconnectedLabel);
             this.panel1.Controls.Add(this.titleLabel);
             this.panel1.Controls.Add(this.closeFlatButton);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
@@ -180,7 +182,7 @@
             // 
             // closeFlatButton
             // 
-            this.closeFlatButton.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
+            this.closeFlatButton.Activecolor = System.Drawing.Color.Transparent;
             this.closeFlatButton.BackColor = System.Drawing.Color.Transparent;
             this.closeFlatButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.closeFlatButton.BorderRadius = 0;
@@ -2495,6 +2497,20 @@
             this.pictureBox1.TabIndex = 18;
             this.pictureBox1.TabStop = false;
             // 
+            // disconnectedLabel
+            // 
+            this.disconnectedLabel.AutoSize = true;
+            this.disconnectedLabel.BackColor = System.Drawing.Color.Red;
+            this.disconnectedLabel.Font = new System.Drawing.Font("Malgun Gothic", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.disconnectedLabel.ForeColor = System.Drawing.Color.White;
+            this.disconnectedLabel.Location = new System.Drawing.Point(47, 16);
+            this.disconnectedLabel.Name = "disconnectedLabel";
+            this.disconnectedLabel.Size = new System.Drawing.Size(242, 37);
+            this.disconnectedLabel.TabIndex = 19;
+            this.disconnectedLabel.Text = "연결이 끊겼습니다";
+            this.disconnectedLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.disconnectedLabel.Visible = false;
+            // 
             // FormControllerSetup
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
@@ -2521,6 +2537,8 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "FormControllerSetup";
+            this.ShowIcon = false;
+            this.ShowInTaskbar = false;
             this.Text = "FormControllerSetupDiaglog";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FormControllerSetup_FormClosing);
             this.Load += new System.EventHandler(this.FormControllerSetup_Load);
@@ -2653,5 +2671,6 @@
         private Bunifu.Framework.UI.BunifuFlatButton onButton02;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel31;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private Bunifu.Framework.UI.BunifuCustomLabel disconnectedLabel;
     }
 }

@@ -84,6 +84,7 @@ namespace DimmingContol
 
         public void Connect(string ip, ushort port)
         {
+            Debug.WriteLine($"Master connect");
             try
             {
                 if (IPAddress.TryParse(ip, out IPAddress _ip) == false)
@@ -128,6 +129,8 @@ namespace DimmingContol
 
         public void Disconnect()
         {
+            Debug.WriteLine($"Master Disconnect");
+
             _connected = false;
 
             Dispose();
