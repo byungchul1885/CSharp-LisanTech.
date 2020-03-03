@@ -78,7 +78,7 @@ namespace DimmingContol
             if (sender is BunifuMaterialTextbox tb)
             {
                 var isNumeric = int.TryParse(tb.Text, out int n);
-                if (!isNumeric || n > 100 || n < 0)
+                if (!isNumeric || n > 100 || n < 40)
                 {
                     inputValidation.Visible = true;
                     EnableTextBox(false);
@@ -92,7 +92,7 @@ namespace DimmingContol
                     }
                     else
                     {
-                        inputValidation.Text = "입력범위를 벗어났습니다 (0 ~ 100)";
+                        inputValidation.Text = "입력범위를 벗어났습니다 (40 ~ 100)";
                     }
                 }
                 else

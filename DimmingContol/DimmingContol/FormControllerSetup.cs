@@ -260,7 +260,7 @@ namespace DimmingContol
         {
             if (sender is List<string> li)
             {
-                if (Int32.Parse(li[0]) == ControllerIdx)
+                if (Int32.Parse(li[0]) == ControllerIdx && Connected)
                 {
                     DimLevelValue.Clear();
                     DimLevelValue.AddRange(li);
@@ -293,7 +293,7 @@ namespace DimmingContol
         {
             if (sender is List<string> li)
             {
-                if (Int32.Parse(li[0]) == ControllerIdx)
+                if (Int32.Parse(li[0]) == ControllerIdx && Connected)
                 {
                     MaintenanceFactor.Clear();
                     MaintenanceFactor.AddRange(li);
@@ -326,7 +326,7 @@ namespace DimmingContol
         {
             if (sender is ArrayList mode)
             {
-                if ((int)mode[0] == ControllerIdx)
+                if ((int)mode[0] == ControllerIdx && Connected)
                 {
                     try
                     {
@@ -354,7 +354,7 @@ namespace DimmingContol
         {
             if (sender is List<string> li)
             {
-                if (Int32.Parse(li[0]) == ControllerIdx)
+                if (Int32.Parse(li[0]) == ControllerIdx && Connected)
                 {
                     OnOff.Clear();
                     OnOff.AddRange(li);

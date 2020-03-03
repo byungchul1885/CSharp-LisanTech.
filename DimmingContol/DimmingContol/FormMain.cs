@@ -938,31 +938,39 @@ namespace DimmingContol
                 int intTemp;
                 int controllerIdx = Int32.Parse(form.MaintenanceFactor[0]);
 
+                Debug.WriteLine($"controllerIdx {controllerIdx}");
+
                 byte[] temp = new byte[12];
 
                 intTemp = Int32.Parse(form.MaintenanceFactor[1]);
                 temp[0] = (byte)((intTemp & 0xFF00) >> 8);
                 temp[1] = (byte)((intTemp & 0x00FF));
+                Debug.WriteLine($"{intTemp}");
 
                 intTemp = Int32.Parse(form.MaintenanceFactor[2]);
                 temp[2] = (byte)((intTemp & 0xFF00) >> 8);
                 temp[3] = (byte)((intTemp & 0x00FF));
+                Debug.WriteLine($"{intTemp}");
 
                 intTemp = Int32.Parse(form.MaintenanceFactor[3]);
                 temp[4] = (byte)((intTemp & 0xFF00) >> 8);
                 temp[5] = (byte)((intTemp & 0x00FF));
+                Debug.WriteLine($"{intTemp}");
 
                 intTemp = Int32.Parse(form.MaintenanceFactor[4]);
                 temp[6] = (byte)((intTemp & 0xFF00) >> 8);
                 temp[7] = (byte)((intTemp & 0x00FF));
+                Debug.WriteLine($"{intTemp}");
 
                 intTemp = Int32.Parse(form.MaintenanceFactor[5]);
                 temp[8] = (byte)((intTemp & 0xFF00) >> 8);
                 temp[9] = (byte)((intTemp & 0x00FF));
+                Debug.WriteLine($"{intTemp}");
 
                 intTemp = Int32.Parse(form.MaintenanceFactor[6]);
                 temp[10] = (byte)((intTemp & 0xFF00) >> 8);
                 temp[11] = (byte)((intTemp & 0x00FF));
+                Debug.WriteLine($"{intTemp}");
 
                 MBmaster[controllerIdx].WriteMultipleRegister(1002, 1, 0x73A3, temp);
             }
