@@ -92,7 +92,7 @@ namespace DimmingContol
                     }
                     else
                     {
-                        inputValidation.Text = "입력범위를 벗어났습니다 (40 ~ 100)";
+                        inputValidation.Text = "입력범위를 벗어났습니다 (10 ~ 100)";
                     }
                 }
                 else

@@ -90,7 +90,7 @@
             this.maintenanceFactorTextBox06.isPassword = false;
             this.maintenanceFactorTextBox06.LineFocusedColor = System.Drawing.Color.Blue;
             this.maintenanceFactorTextBox06.LineIdleColor = System.Drawing.Color.Gray;
-            this.maintenanceFactorTextBox06.LineMouseHoverColor = System.Drawing.Color.Blue;
+            this.maintenanceFactorTextBox06.LineMouseHoverColor = System.Drawing.Color.Transparent;
             this.maintenanceFactorTextBox06.LineThickness = 8;
             this.maintenanceFactorTextBox06.Location = new System.Drawing.Point(791, 71);
             this.maintenanceFactorTextBox06.Margin = new System.Windows.Forms.Padding(1);
@@ -113,7 +113,7 @@
             this.maintenanceFactorTextBox05.isPassword = false;
             this.maintenanceFactorTextBox05.LineFocusedColor = System.Drawing.Color.Blue;
             this.maintenanceFactorTextBox05.LineIdleColor = System.Drawing.Color.Gray;
-            this.maintenanceFactorTextBox05.LineMouseHoverColor = System.Drawing.Color.Blue;
+            this.maintenanceFactorTextBox05.LineMouseHoverColor = System.Drawing.Color.Transparent;
             this.maintenanceFactorTextBox05.LineThickness = 8;
             this.maintenanceFactorTextBox05.Location = new System.Drawing.Point(633, 71);
             this.maintenanceFactorTextBox05.Margin = new System.Windows.Forms.Padding(1);
@@ -136,7 +136,7 @@
             this.maintenanceFactorTextBox04.isPassword = false;
             this.maintenanceFactorTextBox04.LineFocusedColor = System.Drawing.Color.Blue;
             this.maintenanceFactorTextBox04.LineIdleColor = System.Drawing.Color.Gray;
-            this.maintenanceFactorTextBox04.LineMouseHoverColor = System.Drawing.Color.Blue;
+            this.maintenanceFactorTextBox04.LineMouseHoverColor = System.Drawing.Color.Transparent;
             this.maintenanceFactorTextBox04.LineThickness = 8;
             this.maintenanceFactorTextBox04.Location = new System.Drawing.Point(475, 71);
             this.maintenanceFactorTextBox04.Margin = new System.Windows.Forms.Padding(1);
@@ -159,7 +159,7 @@
             this.maintenanceFactorTextBox03.isPassword = false;
             this.maintenanceFactorTextBox03.LineFocusedColor = System.Drawing.Color.Blue;
             this.maintenanceFactorTextBox03.LineIdleColor = System.Drawing.Color.Gray;
-            this.maintenanceFactorTextBox03.LineMouseHoverColor = System.Drawing.Color.Blue;
+            this.maintenanceFactorTextBox03.LineMouseHoverColor = System.Drawing.Color.Transparent;
             this.maintenanceFactorTextBox03.LineThickness = 8;
             this.maintenanceFactorTextBox03.Location = new System.Drawing.Point(317, 71);
             this.maintenanceFactorTextBox03.Margin = new System.Windows.Forms.Padding(1);
@@ -300,7 +300,7 @@
             this.maintenanceFactorTextBox01.isPassword = false;
             this.maintenanceFactorTextBox01.LineFocusedColor = System.Drawing.Color.Blue;
             this.maintenanceFactorTextBox01.LineIdleColor = System.Drawing.Color.Gray;
-            this.maintenanceFactorTextBox01.LineMouseHoverColor = System.Drawing.Color.Blue;
+            this.maintenanceFactorTextBox01.LineMouseHoverColor = System.Drawing.Color.Transparent;
             this.maintenanceFactorTextBox01.LineThickness = 8;
             this.maintenanceFactorTextBox01.Location = new System.Drawing.Point(1, 71);
             this.maintenanceFactorTextBox01.Margin = new System.Windows.Forms.Padding(1);
@@ -323,7 +323,7 @@
             this.maintenanceFactorTextBox02.isPassword = false;
             this.maintenanceFactorTextBox02.LineFocusedColor = System.Drawing.Color.Blue;
             this.maintenanceFactorTextBox02.LineIdleColor = System.Drawing.Color.Gray;
-            this.maintenanceFactorTextBox02.LineMouseHoverColor = System.Drawing.Color.Blue;
+            this.maintenanceFactorTextBox02.LineMouseHoverColor = System.Drawing.Color.Transparent;
             this.maintenanceFactorTextBox02.LineThickness = 8;
             this.maintenanceFactorTextBox02.Location = new System.Drawing.Point(159, 71);
             this.maintenanceFactorTextBox02.Margin = new System.Windows.Forms.Padding(1);

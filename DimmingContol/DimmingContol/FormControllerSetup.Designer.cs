@@ -144,6 +144,10 @@
             this.bunifuCustomLabel26 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel31 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.bunifuCustomLabel32 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuCustomLabel42 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuCustomLabel43 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuCustomLabel44 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.panel1.SuspendLayout();
             this.dimmLevelPanel.SuspendLayout();
             this.maintenanceFactorPanel.SuspendLayout();
@@ -236,28 +240,32 @@
             // 
             this.dimmLevelPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(130)))), ((int)(((byte)(131)))));
             this.dimmLevelPanel.ColumnCount = 22;
-            this.dimmLevelPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 4.545456F));
-            this.dimmLevelPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 4.545456F));
-            this.dimmLevelPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 4.545456F));
-            this.dimmLevelPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 4.545456F));
-            this.dimmLevelPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 4.545456F));
-            this.dimmLevelPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 4.545456F));
-            this.dimmLevelPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 4.545456F));
-            this.dimmLevelPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 4.545456F));
-            this.dimmLevelPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 4.545456F));
-            this.dimmLevelPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 4.545456F));
-            this.dimmLevelPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 4.545456F));
-            this.dimmLevelPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 4.545456F));
-            this.dimmLevelPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 4.545456F));
-            this.dimmLevelPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 4.545456F));
-            this.dimmLevelPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 4.545456F));
-            this.dimmLevelPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 4.545456F));
-            this.dimmLevelPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 4.545456F));
-            this.dimmLevelPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 4.545456F));
-            this.dimmLevelPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 4.545456F));
-            this.dimmLevelPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 4.545456F));
-            this.dimmLevelPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 4.545456F));
-            this.dimmLevelPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 4.545456F));
+            this.dimmLevelPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 4.001998F));
+            this.dimmLevelPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 5.052523F));
+            this.dimmLevelPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 4.547273F));
+            this.dimmLevelPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 4.547273F));
+            this.dimmLevelPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 4.547273F));
+            this.dimmLevelPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 4.547273F));
+            this.dimmLevelPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 4.547273F));
+            this.dimmLevelPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 4.547273F));
+            this.dimmLevelPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 4.547273F));
+            this.dimmLevelPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 4.547273F));
+            this.dimmLevelPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 4.547273F));
+            this.dimmLevelPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 4.547273F));
+            this.dimmLevelPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 4.547273F));
+            this.dimmLevelPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 4.547273F));
+            this.dimmLevelPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 4.547273F));
+            this.dimmLevelPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 4.547273F));
+            this.dimmLevelPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 4.547273F));
+            this.dimmLevelPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 4.547273F));
+            this.dimmLevelPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 4.547273F));
+            this.dimmLevelPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 4.547273F));
+            this.dimmLevelPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 4.547273F));
+            this.dimmLevelPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 4.547273F));
+            this.dimmLevelPanel.Controls.Add(this.bunifuCustomLabel44, 20, 2);
+            this.dimmLevelPanel.Controls.Add(this.bunifuCustomLabel43, 19, 2);
+            this.dimmLevelPanel.Controls.Add(this.bunifuCustomLabel42, 10, 2);
+            this.dimmLevelPanel.Controls.Add(this.bunifuCustomLabel32, 1, 2);
             this.dimmLevelPanel.Controls.Add(this.dimmLevelLabel21, 21, 1);
             this.dimmLevelPanel.Controls.Add(this.dimmLevelLabel20, 20, 1);
             this.dimmLevelPanel.Controls.Add(this.dimmLevelLabel19, 19, 1);
@@ -302,14 +310,14 @@
             this.dimmLevelPanel.Controls.Add(this.bunifuCustomLabel4, 2, 0);
             this.dimmLevelPanel.Controls.Add(this.bunifuCustomLabel3, 1, 0);
             this.dimmLevelPanel.Controls.Add(this.bunifuCustomLabel2, 0, 0);
-            this.dimmLevelPanel.Location = new System.Drawing.Point(46, 172);
+            this.dimmLevelPanel.Location = new System.Drawing.Point(46, 178);
             this.dimmLevelPanel.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.dimmLevelPanel.Name = "dimmLevelPanel";
-            this.dimmLevelPanel.RowCount = 2;
+            this.dimmLevelPanel.RowCount = 3;
             this.dimmLevelPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.dimmLevelPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.dimmLevelPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 25F));
-            this.dimmLevelPanel.Size = new System.Drawing.Size(1360, 125);
+            this.dimmLevelPanel.Size = new System.Drawing.Size(1360, 143);
             this.dimmLevelPanel.TabIndex = 3;
             // 
             // dimmLevelLabel21
@@ -319,11 +327,12 @@
             this.dimmLevelLabel21.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dimmLevelLabel21.Font = new System.Drawing.Font("Malgun Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.dimmLevelLabel21.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
-            this.dimmLevelLabel21.Location = new System.Drawing.Point(1282, 63);
+            this.dimmLevelLabel21.Location = new System.Drawing.Point(1282, 60);
             this.dimmLevelLabel21.Margin = new System.Windows.Forms.Padding(1);
             this.dimmLevelLabel21.Name = "dimmLevelLabel21";
-            this.dimmLevelLabel21.Size = new System.Drawing.Size(77, 61);
+            this.dimmLevelLabel21.Size = new System.Drawing.Size(77, 57);
             this.dimmLevelLabel21.TabIndex = 43;
+            this.dimmLevelLabel21.Tag = "21";
             this.dimmLevelLabel21.Text = "100";
             this.dimmLevelLabel21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -334,11 +343,12 @@
             this.dimmLevelLabel20.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dimmLevelLabel20.Font = new System.Drawing.Font("Malgun Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.dimmLevelLabel20.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
-            this.dimmLevelLabel20.Location = new System.Drawing.Point(1221, 63);
+            this.dimmLevelLabel20.Location = new System.Drawing.Point(1221, 60);
             this.dimmLevelLabel20.Margin = new System.Windows.Forms.Padding(1);
             this.dimmLevelLabel20.Name = "dimmLevelLabel20";
-            this.dimmLevelLabel20.Size = new System.Drawing.Size(59, 61);
+            this.dimmLevelLabel20.Size = new System.Drawing.Size(59, 57);
             this.dimmLevelLabel20.TabIndex = 42;
+            this.dimmLevelLabel20.Tag = "20";
             this.dimmLevelLabel20.Text = "100";
             this.dimmLevelLabel20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -349,11 +359,12 @@
             this.dimmLevelLabel19.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dimmLevelLabel19.Font = new System.Drawing.Font("Malgun Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.dimmLevelLabel19.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
-            this.dimmLevelLabel19.Location = new System.Drawing.Point(1160, 63);
+            this.dimmLevelLabel19.Location = new System.Drawing.Point(1160, 60);
             this.dimmLevelLabel19.Margin = new System.Windows.Forms.Padding(1);
             this.dimmLevelLabel19.Name = "dimmLevelLabel19";
-            this.dimmLevelLabel19.Size = new System.Drawing.Size(59, 61);
+            this.dimmLevelLabel19.Size = new System.Drawing.Size(59, 57);
             this.dimmLevelLabel19.TabIndex = 41;
+            this.dimmLevelLabel19.Tag = "19";
             this.dimmLevelLabel19.Text = "100";
             this.dimmLevelLabel19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -364,11 +375,12 @@
             this.dimmLevelLabel18.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dimmLevelLabel18.Font = new System.Drawing.Font("Malgun Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.dimmLevelLabel18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
-            this.dimmLevelLabel18.Location = new System.Drawing.Point(1099, 63);
+            this.dimmLevelLabel18.Location = new System.Drawing.Point(1099, 60);
             this.dimmLevelLabel18.Margin = new System.Windows.Forms.Padding(1);
             this.dimmLevelLabel18.Name = "dimmLevelLabel18";
-            this.dimmLevelLabel18.Size = new System.Drawing.Size(59, 61);
+            this.dimmLevelLabel18.Size = new System.Drawing.Size(59, 57);
             this.dimmLevelLabel18.TabIndex = 40;
+            this.dimmLevelLabel18.Tag = "18";
             this.dimmLevelLabel18.Text = "100";
             this.dimmLevelLabel18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -379,11 +391,12 @@
             this.dimmLevelLabel17.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dimmLevelLabel17.Font = new System.Drawing.Font("Malgun Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.dimmLevelLabel17.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
-            this.dimmLevelLabel17.Location = new System.Drawing.Point(1038, 63);
+            this.dimmLevelLabel17.Location = new System.Drawing.Point(1038, 60);
             this.dimmLevelLabel17.Margin = new System.Windows.Forms.Padding(1);
             this.dimmLevelLabel17.Name = "dimmLevelLabel17";
-            this.dimmLevelLabel17.Size = new System.Drawing.Size(59, 61);
+            this.dimmLevelLabel17.Size = new System.Drawing.Size(59, 57);
             this.dimmLevelLabel17.TabIndex = 39;
+            this.dimmLevelLabel17.Tag = "17";
             this.dimmLevelLabel17.Text = "100";
             this.dimmLevelLabel17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -394,11 +407,12 @@
             this.dimmLevelLabel16.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dimmLevelLabel16.Font = new System.Drawing.Font("Malgun Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.dimmLevelLabel16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
-            this.dimmLevelLabel16.Location = new System.Drawing.Point(977, 63);
+            this.dimmLevelLabel16.Location = new System.Drawing.Point(977, 60);
             this.dimmLevelLabel16.Margin = new System.Windows.Forms.Padding(1);
             this.dimmLevelLabel16.Name = "dimmLevelLabel16";
-            this.dimmLevelLabel16.Size = new System.Drawing.Size(59, 61);
+            this.dimmLevelLabel16.Size = new System.Drawing.Size(59, 57);
             this.dimmLevelLabel16.TabIndex = 38;
+            this.dimmLevelLabel16.Tag = "16";
             this.dimmLevelLabel16.Text = "100";
             this.dimmLevelLabel16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -409,11 +423,12 @@
             this.dimmLevelLabel15.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dimmLevelLabel15.Font = new System.Drawing.Font("Malgun Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.dimmLevelLabel15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
-            this.dimmLevelLabel15.Location = new System.Drawing.Point(916, 63);
+            this.dimmLevelLabel15.Location = new System.Drawing.Point(916, 60);
             this.dimmLevelLabel15.Margin = new System.Windows.Forms.Padding(1);
             this.dimmLevelLabel15.Name = "dimmLevelLabel15";
-            this.dimmLevelLabel15.Size = new System.Drawing.Size(59, 61);
+            this.dimmLevelLabel15.Size = new System.Drawing.Size(59, 57);
             this.dimmLevelLabel15.TabIndex = 37;
+            this.dimmLevelLabel15.Tag = "15";
             this.dimmLevelLabel15.Text = "100";
             this.dimmLevelLabel15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -424,11 +439,12 @@
             this.dimmLevelLabel14.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dimmLevelLabel14.Font = new System.Drawing.Font("Malgun Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.dimmLevelLabel14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
-            this.dimmLevelLabel14.Location = new System.Drawing.Point(855, 63);
+            this.dimmLevelLabel14.Location = new System.Drawing.Point(855, 60);
             this.dimmLevelLabel14.Margin = new System.Windows.Forms.Padding(1);
             this.dimmLevelLabel14.Name = "dimmLevelLabel14";
-            this.dimmLevelLabel14.Size = new System.Drawing.Size(59, 61);
+            this.dimmLevelLabel14.Size = new System.Drawing.Size(59, 57);
             this.dimmLevelLabel14.TabIndex = 36;
+            this.dimmLevelLabel14.Tag = "14";
             this.dimmLevelLabel14.Text = "100";
             this.dimmLevelLabel14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -439,11 +455,12 @@
             this.dimmLevelLabel13.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dimmLevelLabel13.Font = new System.Drawing.Font("Malgun Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.dimmLevelLabel13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
-            this.dimmLevelLabel13.Location = new System.Drawing.Point(794, 63);
+            this.dimmLevelLabel13.Location = new System.Drawing.Point(794, 60);
             this.dimmLevelLabel13.Margin = new System.Windows.Forms.Padding(1);
             this.dimmLevelLabel13.Name = "dimmLevelLabel13";
-            this.dimmLevelLabel13.Size = new System.Drawing.Size(59, 61);
+            this.dimmLevelLabel13.Size = new System.Drawing.Size(59, 57);
             this.dimmLevelLabel13.TabIndex = 35;
+            this.dimmLevelLabel13.Tag = "13";
             this.dimmLevelLabel13.Text = "100";
             this.dimmLevelLabel13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -454,11 +471,12 @@
             this.dimmLevelLabel12.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dimmLevelLabel12.Font = new System.Drawing.Font("Malgun Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.dimmLevelLabel12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
-            this.dimmLevelLabel12.Location = new System.Drawing.Point(733, 63);
+            this.dimmLevelLabel12.Location = new System.Drawing.Point(733, 60);
             this.dimmLevelLabel12.Margin = new System.Windows.Forms.Padding(1);
             this.dimmLevelLabel12.Name = "dimmLevelLabel12";
-            this.dimmLevelLabel12.Size = new System.Drawing.Size(59, 61);
+            this.dimmLevelLabel12.Size = new System.Drawing.Size(59, 57);
             this.dimmLevelLabel12.TabIndex = 34;
+            this.dimmLevelLabel12.Tag = "12";
             this.dimmLevelLabel12.Text = "45";
             this.dimmLevelLabel12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -469,11 +487,12 @@
             this.dimmLevelLabel11.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dimmLevelLabel11.Font = new System.Drawing.Font("Malgun Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.dimmLevelLabel11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
-            this.dimmLevelLabel11.Location = new System.Drawing.Point(672, 63);
+            this.dimmLevelLabel11.Location = new System.Drawing.Point(672, 60);
             this.dimmLevelLabel11.Margin = new System.Windows.Forms.Padding(1);
             this.dimmLevelLabel11.Name = "dimmLevelLabel11";
-            this.dimmLevelLabel11.Size = new System.Drawing.Size(59, 61);
+            this.dimmLevelLabel11.Size = new System.Drawing.Size(59, 57);
             this.dimmLevelLabel11.TabIndex = 33;
+            this.dimmLevelLabel11.Tag = "11";
             this.dimmLevelLabel11.Text = "50";
             this.dimmLevelLabel11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -484,11 +503,12 @@
             this.dimmLevelLabel10.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dimmLevelLabel10.Font = new System.Drawing.Font("Malgun Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.dimmLevelLabel10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
-            this.dimmLevelLabel10.Location = new System.Drawing.Point(611, 63);
+            this.dimmLevelLabel10.Location = new System.Drawing.Point(611, 60);
             this.dimmLevelLabel10.Margin = new System.Windows.Forms.Padding(1);
             this.dimmLevelLabel10.Name = "dimmLevelLabel10";
-            this.dimmLevelLabel10.Size = new System.Drawing.Size(59, 61);
+            this.dimmLevelLabel10.Size = new System.Drawing.Size(59, 57);
             this.dimmLevelLabel10.TabIndex = 32;
+            this.dimmLevelLabel10.Tag = "10";
             this.dimmLevelLabel10.Text = "55";
             this.dimmLevelLabel10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -499,11 +519,12 @@
             this.dimmLevelLabel09.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dimmLevelLabel09.Font = new System.Drawing.Font("Malgun Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.dimmLevelLabel09.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
-            this.dimmLevelLabel09.Location = new System.Drawing.Point(550, 63);
+            this.dimmLevelLabel09.Location = new System.Drawing.Point(550, 60);
             this.dimmLevelLabel09.Margin = new System.Windows.Forms.Padding(1);
             this.dimmLevelLabel09.Name = "dimmLevelLabel09";
-            this.dimmLevelLabel09.Size = new System.Drawing.Size(59, 61);
+            this.dimmLevelLabel09.Size = new System.Drawing.Size(59, 57);
             this.dimmLevelLabel09.TabIndex = 31;
+            this.dimmLevelLabel09.Tag = "9";
             this.dimmLevelLabel09.Text = "60";
             this.dimmLevelLabel09.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -514,11 +535,12 @@
             this.dimmLevelLabel08.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dimmLevelLabel08.Font = new System.Drawing.Font("Malgun Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.dimmLevelLabel08.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
-            this.dimmLevelLabel08.Location = new System.Drawing.Point(489, 63);
+            this.dimmLevelLabel08.Location = new System.Drawing.Point(489, 60);
             this.dimmLevelLabel08.Margin = new System.Windows.Forms.Padding(1);
             this.dimmLevelLabel08.Name = "dimmLevelLabel08";
-            this.dimmLevelLabel08.Size = new System.Drawing.Size(59, 61);
+            this.dimmLevelLabel08.Size = new System.Drawing.Size(59, 57);
             this.dimmLevelLabel08.TabIndex = 30;
+            this.dimmLevelLabel08.Tag = "8";
             this.dimmLevelLabel08.Text = "65";
             this.dimmLevelLabel08.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -529,11 +551,12 @@
             this.dimmLevelLabel07.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dimmLevelLabel07.Font = new System.Drawing.Font("Malgun Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.dimmLevelLabel07.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
-            this.dimmLevelLabel07.Location = new System.Drawing.Point(428, 63);
+            this.dimmLevelLabel07.Location = new System.Drawing.Point(428, 60);
             this.dimmLevelLabel07.Margin = new System.Windows.Forms.Padding(1);
             this.dimmLevelLabel07.Name = "dimmLevelLabel07";
-            this.dimmLevelLabel07.Size = new System.Drawing.Size(59, 61);
+            this.dimmLevelLabel07.Size = new System.Drawing.Size(59, 57);
             this.dimmLevelLabel07.TabIndex = 29;
+            this.dimmLevelLabel07.Tag = "7";
             this.dimmLevelLabel07.Text = "70";
             this.dimmLevelLabel07.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -544,11 +567,12 @@
             this.dimmLevelLabel06.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dimmLevelLabel06.Font = new System.Drawing.Font("Malgun Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.dimmLevelLabel06.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
-            this.dimmLevelLabel06.Location = new System.Drawing.Point(367, 63);
+            this.dimmLevelLabel06.Location = new System.Drawing.Point(367, 60);
             this.dimmLevelLabel06.Margin = new System.Windows.Forms.Padding(1);
             this.dimmLevelLabel06.Name = "dimmLevelLabel06";
-            this.dimmLevelLabel06.Size = new System.Drawing.Size(59, 61);
+            this.dimmLevelLabel06.Size = new System.Drawing.Size(59, 57);
             this.dimmLevelLabel06.TabIndex = 28;
+            this.dimmLevelLabel06.Tag = "6";
             this.dimmLevelLabel06.Text = "75";
             this.dimmLevelLabel06.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -559,11 +583,12 @@
             this.dimmLevelLabel05.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dimmLevelLabel05.Font = new System.Drawing.Font("Malgun Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.dimmLevelLabel05.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
-            this.dimmLevelLabel05.Location = new System.Drawing.Point(306, 63);
+            this.dimmLevelLabel05.Location = new System.Drawing.Point(306, 60);
             this.dimmLevelLabel05.Margin = new System.Windows.Forms.Padding(1);
             this.dimmLevelLabel05.Name = "dimmLevelLabel05";
-            this.dimmLevelLabel05.Size = new System.Drawing.Size(59, 61);
+            this.dimmLevelLabel05.Size = new System.Drawing.Size(59, 57);
             this.dimmLevelLabel05.TabIndex = 27;
+            this.dimmLevelLabel05.Tag = "5";
             this.dimmLevelLabel05.Text = "80";
             this.dimmLevelLabel05.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -574,11 +599,12 @@
             this.dimmLevelLabel04.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dimmLevelLabel04.Font = new System.Drawing.Font("Malgun Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.dimmLevelLabel04.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
-            this.dimmLevelLabel04.Location = new System.Drawing.Point(245, 63);
+            this.dimmLevelLabel04.Location = new System.Drawing.Point(245, 60);
             this.dimmLevelLabel04.Margin = new System.Windows.Forms.Padding(1);
             this.dimmLevelLabel04.Name = "dimmLevelLabel04";
-            this.dimmLevelLabel04.Size = new System.Drawing.Size(59, 61);
+            this.dimmLevelLabel04.Size = new System.Drawing.Size(59, 57);
             this.dimmLevelLabel04.TabIndex = 26;
+            this.dimmLevelLabel04.Tag = "4";
             this.dimmLevelLabel04.Text = "85";
             this.dimmLevelLabel04.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -589,11 +615,12 @@
             this.dimmLevelLabel03.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dimmLevelLabel03.Font = new System.Drawing.Font("Malgun Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.dimmLevelLabel03.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
-            this.dimmLevelLabel03.Location = new System.Drawing.Point(184, 63);
+            this.dimmLevelLabel03.Location = new System.Drawing.Point(184, 60);
             this.dimmLevelLabel03.Margin = new System.Windows.Forms.Padding(1);
             this.dimmLevelLabel03.Name = "dimmLevelLabel03";
-            this.dimmLevelLabel03.Size = new System.Drawing.Size(59, 61);
+            this.dimmLevelLabel03.Size = new System.Drawing.Size(59, 57);
             this.dimmLevelLabel03.TabIndex = 25;
+            this.dimmLevelLabel03.Tag = "3";
             this.dimmLevelLabel03.Text = "90";
             this.dimmLevelLabel03.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -604,11 +631,12 @@
             this.dimmLevelLabel02.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dimmLevelLabel02.Font = new System.Drawing.Font("Malgun Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.dimmLevelLabel02.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
-            this.dimmLevelLabel02.Location = new System.Drawing.Point(123, 63);
+            this.dimmLevelLabel02.Location = new System.Drawing.Point(123, 60);
             this.dimmLevelLabel02.Margin = new System.Windows.Forms.Padding(1);
             this.dimmLevelLabel02.Name = "dimmLevelLabel02";
-            this.dimmLevelLabel02.Size = new System.Drawing.Size(59, 61);
+            this.dimmLevelLabel02.Size = new System.Drawing.Size(59, 57);
             this.dimmLevelLabel02.TabIndex = 24;
+            this.dimmLevelLabel02.Tag = "2";
             this.dimmLevelLabel02.Text = "95";
             this.dimmLevelLabel02.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -617,14 +645,15 @@
             this.dimmLevelLabel01.AutoSize = true;
             this.dimmLevelLabel01.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(218)))), ((int)(((byte)(227)))), ((int)(((byte)(243)))));
             this.dimmLevelLabel01.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dimmLevelLabel01.Font = new System.Drawing.Font("Malgun Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.dimmLevelLabel01.Font = new System.Drawing.Font("Malgun Gothic", 13.5F, System.Drawing.FontStyle.Bold);
             this.dimmLevelLabel01.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
-            this.dimmLevelLabel01.Location = new System.Drawing.Point(62, 63);
+            this.dimmLevelLabel01.Location = new System.Drawing.Point(55, 60);
             this.dimmLevelLabel01.Margin = new System.Windows.Forms.Padding(1);
             this.dimmLevelLabel01.Name = "dimmLevelLabel01";
-            this.dimmLevelLabel01.Size = new System.Drawing.Size(59, 61);
+            this.dimmLevelLabel01.Size = new System.Drawing.Size(66, 57);
             this.dimmLevelLabel01.TabIndex = 23;
-            this.dimmLevelLabel01.Text = "100";
+            this.dimmLevelLabel01.Tag = "1";
+            this.dimmLevelLabel01.Text = "10000";
             this.dimmLevelLabel01.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // bunifuCustomLabel24
@@ -634,12 +663,13 @@
             this.bunifuCustomLabel24.Dock = System.Windows.Forms.DockStyle.Fill;
             this.bunifuCustomLabel24.Font = new System.Drawing.Font("Malgun Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.bunifuCustomLabel24.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
-            this.bunifuCustomLabel24.Location = new System.Drawing.Point(1, 63);
+            this.bunifuCustomLabel24.Location = new System.Drawing.Point(1, 60);
             this.bunifuCustomLabel24.Margin = new System.Windows.Forms.Padding(1);
             this.bunifuCustomLabel24.Name = "bunifuCustomLabel24";
-            this.bunifuCustomLabel24.Size = new System.Drawing.Size(59, 61);
+            this.dimmLevelPanel.SetRowSpan(this.bunifuCustomLabel24, 2);
+            this.bunifuCustomLabel24.Size = new System.Drawing.Size(52, 82);
             this.bunifuCustomLabel24.TabIndex = 22;
-            this.bunifuCustomLabel24.Text = "디밍";
+            this.bunifuCustomLabel24.Text = "휘도";
             this.bunifuCustomLabel24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // bunifuCustomLabel23
@@ -652,7 +682,7 @@
             this.bunifuCustomLabel23.Location = new System.Drawing.Point(1282, 1);
             this.bunifuCustomLabel23.Margin = new System.Windows.Forms.Padding(1);
             this.bunifuCustomLabel23.Name = "bunifuCustomLabel23";
-            this.bunifuCustomLabel23.Size = new System.Drawing.Size(77, 60);
+            this.bunifuCustomLabel23.Size = new System.Drawing.Size(77, 57);
             this.bunifuCustomLabel23.TabIndex = 21;
             this.bunifuCustomLabel23.Text = "21";
             this.bunifuCustomLabel23.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -667,7 +697,7 @@
             this.bunifuCustomLabel22.Location = new System.Drawing.Point(1221, 1);
             this.bunifuCustomLabel22.Margin = new System.Windows.Forms.Padding(1);
             this.bunifuCustomLabel22.Name = "bunifuCustomLabel22";
-            this.bunifuCustomLabel22.Size = new System.Drawing.Size(59, 60);
+            this.bunifuCustomLabel22.Size = new System.Drawing.Size(59, 57);
             this.bunifuCustomLabel22.TabIndex = 20;
             this.bunifuCustomLabel22.Text = "20";
             this.bunifuCustomLabel22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -682,7 +712,7 @@
             this.bunifuCustomLabel21.Location = new System.Drawing.Point(1160, 1);
             this.bunifuCustomLabel21.Margin = new System.Windows.Forms.Padding(1);
             this.bunifuCustomLabel21.Name = "bunifuCustomLabel21";
-            this.bunifuCustomLabel21.Size = new System.Drawing.Size(59, 60);
+            this.bunifuCustomLabel21.Size = new System.Drawing.Size(59, 57);
             this.bunifuCustomLabel21.TabIndex = 19;
             this.bunifuCustomLabel21.Text = "19";
             this.bunifuCustomLabel21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -697,7 +727,7 @@
             this.bunifuCustomLabel20.Location = new System.Drawing.Point(1099, 1);
             this.bunifuCustomLabel20.Margin = new System.Windows.Forms.Padding(1);
             this.bunifuCustomLabel20.Name = "bunifuCustomLabel20";
-            this.bunifuCustomLabel20.Size = new System.Drawing.Size(59, 60);
+            this.bunifuCustomLabel20.Size = new System.Drawing.Size(59, 57);
             this.bunifuCustomLabel20.TabIndex = 18;
             this.bunifuCustomLabel20.Text = "18";
             this.bunifuCustomLabel20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -712,7 +742,7 @@
             this.bunifuCustomLabel19.Location = new System.Drawing.Point(1038, 1);
             this.bunifuCustomLabel19.Margin = new System.Windows.Forms.Padding(1);
             this.bunifuCustomLabel19.Name = "bunifuCustomLabel19";
-            this.bunifuCustomLabel19.Size = new System.Drawing.Size(59, 60);
+            this.bunifuCustomLabel19.Size = new System.Drawing.Size(59, 57);
             this.bunifuCustomLabel19.TabIndex = 17;
             this.bunifuCustomLabel19.Text = "17";
             this.bunifuCustomLabel19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -727,7 +757,7 @@
             this.bunifuCustomLabel18.Location = new System.Drawing.Point(977, 1);
             this.bunifuCustomLabel18.Margin = new System.Windows.Forms.Padding(1);
             this.bunifuCustomLabel18.Name = "bunifuCustomLabel18";
-            this.bunifuCustomLabel18.Size = new System.Drawing.Size(59, 60);
+            this.bunifuCustomLabel18.Size = new System.Drawing.Size(59, 57);
             this.bunifuCustomLabel18.TabIndex = 16;
             this.bunifuCustomLabel18.Text = "16";
             this.bunifuCustomLabel18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -742,7 +772,7 @@
             this.bunifuCustomLabel17.Location = new System.Drawing.Point(916, 1);
             this.bunifuCustomLabel17.Margin = new System.Windows.Forms.Padding(1);
             this.bunifuCustomLabel17.Name = "bunifuCustomLabel17";
-            this.bunifuCustomLabel17.Size = new System.Drawing.Size(59, 60);
+            this.bunifuCustomLabel17.Size = new System.Drawing.Size(59, 57);
             this.bunifuCustomLabel17.TabIndex = 15;
             this.bunifuCustomLabel17.Text = "15";
             this.bunifuCustomLabel17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -757,7 +787,7 @@
             this.bunifuCustomLabel16.Location = new System.Drawing.Point(855, 1);
             this.bunifuCustomLabel16.Margin = new System.Windows.Forms.Padding(1);
             this.bunifuCustomLabel16.Name = "bunifuCustomLabel16";
-            this.bunifuCustomLabel16.Size = new System.Drawing.Size(59, 60);
+            this.bunifuCustomLabel16.Size = new System.Drawing.Size(59, 57);
             this.bunifuCustomLabel16.TabIndex = 14;
             this.bunifuCustomLabel16.Text = "14";
             this.bunifuCustomLabel16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -772,7 +802,7 @@
             this.bunifuCustomLabel15.Location = new System.Drawing.Point(794, 1);
             this.bunifuCustomLabel15.Margin = new System.Windows.Forms.Padding(1);
             this.bunifuCustomLabel15.Name = "bunifuCustomLabel15";
-            this.bunifuCustomLabel15.Size = new System.Drawing.Size(59, 60);
+            this.bunifuCustomLabel15.Size = new System.Drawing.Size(59, 57);
             this.bunifuCustomLabel15.TabIndex = 13;
             this.bunifuCustomLabel15.Text = "13";
             this.bunifuCustomLabel15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -787,7 +817,7 @@
             this.bunifuCustomLabel14.Location = new System.Drawing.Point(733, 1);
             this.bunifuCustomLabel14.Margin = new System.Windows.Forms.Padding(1);
             this.bunifuCustomLabel14.Name = "bunifuCustomLabel14";
-            this.bunifuCustomLabel14.Size = new System.Drawing.Size(59, 60);
+            this.bunifuCustomLabel14.Size = new System.Drawing.Size(59, 57);
             this.bunifuCustomLabel14.TabIndex = 12;
             this.bunifuCustomLabel14.Text = "12";
             this.bunifuCustomLabel14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -802,7 +832,7 @@
             this.bunifuCustomLabel13.Location = new System.Drawing.Point(672, 1);
             this.bunifuCustomLabel13.Margin = new System.Windows.Forms.Padding(1);
             this.bunifuCustomLabel13.Name = "bunifuCustomLabel13";
-            this.bunifuCustomLabel13.Size = new System.Drawing.Size(59, 60);
+            this.bunifuCustomLabel13.Size = new System.Drawing.Size(59, 57);
             this.bunifuCustomLabel13.TabIndex = 11;
             this.bunifuCustomLabel13.Text = "11";
             this.bunifuCustomLabel13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -817,7 +847,7 @@
             this.bunifuCustomLabel12.Location = new System.Drawing.Point(611, 1);
             this.bunifuCustomLabel12.Margin = new System.Windows.Forms.Padding(1);
             this.bunifuCustomLabel12.Name = "bunifuCustomLabel12";
-            this.bunifuCustomLabel12.Size = new System.Drawing.Size(59, 60);
+            this.bunifuCustomLabel12.Size = new System.Drawing.Size(59, 57);
             this.bunifuCustomLabel12.TabIndex = 10;
             this.bunifuCustomLabel12.Text = "10";
             this.bunifuCustomLabel12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -832,7 +862,7 @@
             this.bunifuCustomLabel11.Location = new System.Drawing.Point(550, 1);
             this.bunifuCustomLabel11.Margin = new System.Windows.Forms.Padding(1);
             this.bunifuCustomLabel11.Name = "bunifuCustomLabel11";
-            this.bunifuCustomLabel11.Size = new System.Drawing.Size(59, 60);
+            this.bunifuCustomLabel11.Size = new System.Drawing.Size(59, 57);
             this.bunifuCustomLabel11.TabIndex = 9;
             this.bunifuCustomLabel11.Text = "9";
             this.bunifuCustomLabel11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -847,7 +877,7 @@
             this.bunifuCustomLabel10.Location = new System.Drawing.Point(489, 1);
             this.bunifuCustomLabel10.Margin = new System.Windows.Forms.Padding(1);
             this.bunifuCustomLabel10.Name = "bunifuCustomLabel10";
-            this.bunifuCustomLabel10.Size = new System.Drawing.Size(59, 60);
+            this.bunifuCustomLabel10.Size = new System.Drawing.Size(59, 57);
             this.bunifuCustomLabel10.TabIndex = 8;
             this.bunifuCustomLabel10.Text = "8";
             this.bunifuCustomLabel10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -862,7 +892,7 @@
             this.bunifuCustomLabel9.Location = new System.Drawing.Point(428, 1);
             this.bunifuCustomLabel9.Margin = new System.Windows.Forms.Padding(1);
             this.bunifuCustomLabel9.Name = "bunifuCustomLabel9";
-            this.bunifuCustomLabel9.Size = new System.Drawing.Size(59, 60);
+            this.bunifuCustomLabel9.Size = new System.Drawing.Size(59, 57);
             this.bunifuCustomLabel9.TabIndex = 7;
             this.bunifuCustomLabel9.Text = "7";
             this.bunifuCustomLabel9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -877,7 +907,7 @@
             this.bunifuCustomLabel8.Location = new System.Drawing.Point(367, 1);
             this.bunifuCustomLabel8.Margin = new System.Windows.Forms.Padding(1);
             this.bunifuCustomLabel8.Name = "bunifuCustomLabel8";
-            this.bunifuCustomLabel8.Size = new System.Drawing.Size(59, 60);
+            this.bunifuCustomLabel8.Size = new System.Drawing.Size(59, 57);
             this.bunifuCustomLabel8.TabIndex = 6;
             this.bunifuCustomLabel8.Text = "6";
             this.bunifuCustomLabel8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -892,7 +922,7 @@
             this.bunifuCustomLabel7.Location = new System.Drawing.Point(306, 1);
             this.bunifuCustomLabel7.Margin = new System.Windows.Forms.Padding(1);
             this.bunifuCustomLabel7.Name = "bunifuCustomLabel7";
-            this.bunifuCustomLabel7.Size = new System.Drawing.Size(59, 60);
+            this.bunifuCustomLabel7.Size = new System.Drawing.Size(59, 57);
             this.bunifuCustomLabel7.TabIndex = 5;
             this.bunifuCustomLabel7.Text = "5";
             this.bunifuCustomLabel7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -907,7 +937,7 @@
             this.bunifuCustomLabel6.Location = new System.Drawing.Point(245, 1);
             this.bunifuCustomLabel6.Margin = new System.Windows.Forms.Padding(1);
             this.bunifuCustomLabel6.Name = "bunifuCustomLabel6";
-            this.bunifuCustomLabel6.Size = new System.Drawing.Size(59, 60);
+            this.bunifuCustomLabel6.Size = new System.Drawing.Size(59, 57);
             this.bunifuCustomLabel6.TabIndex = 4;
             this.bunifuCustomLabel6.Text = "4";
             this.bunifuCustomLabel6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -922,7 +952,7 @@
             this.bunifuCustomLabel5.Location = new System.Drawing.Point(184, 1);
             this.bunifuCustomLabel5.Margin = new System.Windows.Forms.Padding(1);
             this.bunifuCustomLabel5.Name = "bunifuCustomLabel5";
-            this.bunifuCustomLabel5.Size = new System.Drawing.Size(59, 60);
+            this.bunifuCustomLabel5.Size = new System.Drawing.Size(59, 57);
             this.bunifuCustomLabel5.TabIndex = 3;
             this.bunifuCustomLabel5.Text = "3";
             this.bunifuCustomLabel5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -937,7 +967,7 @@
             this.bunifuCustomLabel4.Location = new System.Drawing.Point(123, 1);
             this.bunifuCustomLabel4.Margin = new System.Windows.Forms.Padding(1);
             this.bunifuCustomLabel4.Name = "bunifuCustomLabel4";
-            this.bunifuCustomLabel4.Size = new System.Drawing.Size(59, 60);
+            this.bunifuCustomLabel4.Size = new System.Drawing.Size(59, 57);
             this.bunifuCustomLabel4.TabIndex = 2;
             this.bunifuCustomLabel4.Text = "2";
             this.bunifuCustomLabel4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -949,10 +979,10 @@
             this.bunifuCustomLabel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.bunifuCustomLabel3.Font = new System.Drawing.Font("Malgun Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.bunifuCustomLabel3.ForeColor = System.Drawing.Color.White;
-            this.bunifuCustomLabel3.Location = new System.Drawing.Point(62, 1);
+            this.bunifuCustomLabel3.Location = new System.Drawing.Point(55, 1);
             this.bunifuCustomLabel3.Margin = new System.Windows.Forms.Padding(1);
             this.bunifuCustomLabel3.Name = "bunifuCustomLabel3";
-            this.bunifuCustomLabel3.Size = new System.Drawing.Size(59, 60);
+            this.bunifuCustomLabel3.Size = new System.Drawing.Size(66, 57);
             this.bunifuCustomLabel3.TabIndex = 1;
             this.bunifuCustomLabel3.Text = "1";
             this.bunifuCustomLabel3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -967,7 +997,7 @@
             this.bunifuCustomLabel2.Location = new System.Drawing.Point(1, 1);
             this.bunifuCustomLabel2.Margin = new System.Windows.Forms.Padding(1);
             this.bunifuCustomLabel2.Name = "bunifuCustomLabel2";
-            this.bunifuCustomLabel2.Size = new System.Drawing.Size(59, 60);
+            this.bunifuCustomLabel2.Size = new System.Drawing.Size(52, 57);
             this.bunifuCustomLabel2.TabIndex = 0;
             this.bunifuCustomLabel2.Text = "단계";
             this.bunifuCustomLabel2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1027,7 +1057,7 @@
             this.bunifuCustomLabel47.AutoSize = true;
             this.bunifuCustomLabel47.Font = new System.Drawing.Font("Malgun Gothic", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.bunifuCustomLabel47.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.bunifuCustomLabel47.Location = new System.Drawing.Point(45, 359);
+            this.bunifuCustomLabel47.Location = new System.Drawing.Point(45, 381);
             this.bunifuCustomLabel47.Name = "bunifuCustomLabel47";
             this.bunifuCustomLabel47.Size = new System.Drawing.Size(98, 37);
             this.bunifuCustomLabel47.TabIndex = 6;
@@ -1072,7 +1102,7 @@
             this.maintenanceFactorPanel.Controls.Add(this.bunifuCustomLabel89, 2, 0);
             this.maintenanceFactorPanel.Controls.Add(this.bunifuCustomLabel90, 1, 0);
             this.maintenanceFactorPanel.Controls.Add(this.bunifuCustomLabel91, 0, 0);
-            this.maintenanceFactorPanel.Location = new System.Drawing.Point(46, 414);
+            this.maintenanceFactorPanel.Location = new System.Drawing.Point(46, 436);
             this.maintenanceFactorPanel.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.maintenanceFactorPanel.Name = "maintenanceFactorPanel";
             this.maintenanceFactorPanel.RowCount = 2;
@@ -1284,7 +1314,7 @@
             this.mfSetButton.IconVisible = true;
             this.mfSetButton.IconZoom = 90D;
             this.mfSetButton.IsTab = false;
-            this.mfSetButton.Location = new System.Drawing.Point(230, 359);
+            this.mfSetButton.Location = new System.Drawing.Point(230, 381);
             this.mfSetButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.mfSetButton.Name = "mfSetButton";
             this.mfSetButton.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
@@ -1304,7 +1334,7 @@
             this.bunifuCustomLabel1.AutoSize = true;
             this.bunifuCustomLabel1.Font = new System.Drawing.Font("Malgun Gothic", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.bunifuCustomLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.bunifuCustomLabel1.Location = new System.Drawing.Point(48, 600);
+            this.bunifuCustomLabel1.Location = new System.Drawing.Point(45, 629);
             this.bunifuCustomLabel1.Name = "bunifuCustomLabel1";
             this.bunifuCustomLabel1.Size = new System.Drawing.Size(134, 37);
             this.bunifuCustomLabel1.TabIndex = 10;
@@ -1334,7 +1364,7 @@
             this.localButton.IconVisible = true;
             this.localButton.IconZoom = 90D;
             this.localButton.IsTab = false;
-            this.localButton.Location = new System.Drawing.Point(264, 669);
+            this.localButton.Location = new System.Drawing.Point(260, 686);
             this.localButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.localButton.Name = "localButton";
             this.localButton.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
@@ -1355,7 +1385,7 @@
             this.opModeLabel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.opModeLabel.Font = new System.Drawing.Font("Malgun Gothic", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.opModeLabel.ForeColor = System.Drawing.Color.LightCyan;
-            this.opModeLabel.Location = new System.Drawing.Point(51, 664);
+            this.opModeLabel.Location = new System.Drawing.Point(47, 681);
             this.opModeLabel.Name = "opModeLabel";
             this.opModeLabel.Size = new System.Drawing.Size(200, 50);
             this.opModeLabel.TabIndex = 12;
@@ -1385,7 +1415,7 @@
             this.remoteButton.IconVisible = true;
             this.remoteButton.IconZoom = 90D;
             this.remoteButton.IsTab = false;
-            this.remoteButton.Location = new System.Drawing.Point(403, 669);
+            this.remoteButton.Location = new System.Drawing.Point(399, 686);
             this.remoteButton.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.remoteButton.Name = "remoteButton";
             this.remoteButton.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
@@ -1424,7 +1454,7 @@
             this.remoteManualButton.IconVisible = true;
             this.remoteManualButton.IconZoom = 90D;
             this.remoteManualButton.IsTab = false;
-            this.remoteManualButton.Location = new System.Drawing.Point(542, 669);
+            this.remoteManualButton.Location = new System.Drawing.Point(538, 686);
             this.remoteManualButton.Margin = new System.Windows.Forms.Padding(0);
             this.remoteManualButton.Name = "remoteManualButton";
             this.remoteManualButton.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
@@ -1445,7 +1475,7 @@
             this.bunifuCustomLabel25.AutoSize = true;
             this.bunifuCustomLabel25.Font = new System.Drawing.Font("Malgun Gothic", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.bunifuCustomLabel25.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.bunifuCustomLabel25.Location = new System.Drawing.Point(790, 359);
+            this.bunifuCustomLabel25.Location = new System.Drawing.Point(790, 381);
             this.bunifuCustomLabel25.Name = "bunifuCustomLabel25";
             this.bunifuCustomLabel25.Size = new System.Drawing.Size(170, 37);
             this.bunifuCustomLabel25.TabIndex = 15;
@@ -1503,7 +1533,7 @@
             this.onOffPanel.Controls.Add(this.bunifuCustomLabel28, 1, 2);
             this.onOffPanel.Controls.Add(this.bunifuCustomLabel27, 1, 0);
             this.onOffPanel.Controls.Add(this.bunifuCustomLabel26, 0, 0);
-            this.onOffPanel.Location = new System.Drawing.Point(790, 414);
+            this.onOffPanel.Location = new System.Drawing.Point(790, 433);
             this.onOffPanel.Name = "onOffPanel";
             this.onOffPanel.RowCount = 8;
             this.onOffPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
@@ -2511,12 +2541,75 @@
             this.pictureBox1.TabIndex = 18;
             this.pictureBox1.TabStop = false;
             // 
+            // bunifuCustomLabel32
+            // 
+            this.bunifuCustomLabel32.AutoSize = true;
+            this.bunifuCustomLabel32.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(218)))), ((int)(((byte)(227)))), ((int)(((byte)(243)))));
+            this.dimmLevelPanel.SetColumnSpan(this.bunifuCustomLabel32, 9);
+            this.bunifuCustomLabel32.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.bunifuCustomLabel32.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.bunifuCustomLabel32.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
+            this.bunifuCustomLabel32.Location = new System.Drawing.Point(55, 119);
+            this.bunifuCustomLabel32.Margin = new System.Windows.Forms.Padding(1);
+            this.bunifuCustomLabel32.Name = "bunifuCustomLabel32";
+            this.bunifuCustomLabel32.Size = new System.Drawing.Size(554, 23);
+            this.bunifuCustomLabel32.TabIndex = 44;
+            this.bunifuCustomLabel32.Text = "주간 추월";
+            this.bunifuCustomLabel32.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // bunifuCustomLabel42
+            // 
+            this.bunifuCustomLabel42.AutoSize = true;
+            this.bunifuCustomLabel42.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(218)))), ((int)(((byte)(227)))), ((int)(((byte)(243)))));
+            this.dimmLevelPanel.SetColumnSpan(this.bunifuCustomLabel42, 9);
+            this.bunifuCustomLabel42.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.bunifuCustomLabel42.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.bunifuCustomLabel42.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
+            this.bunifuCustomLabel42.Location = new System.Drawing.Point(611, 119);
+            this.bunifuCustomLabel42.Margin = new System.Windows.Forms.Padding(1);
+            this.bunifuCustomLabel42.Name = "bunifuCustomLabel42";
+            this.bunifuCustomLabel42.Size = new System.Drawing.Size(547, 23);
+            this.bunifuCustomLabel42.TabIndex = 45;
+            this.bunifuCustomLabel42.Text = "주간 주행";
+            this.bunifuCustomLabel42.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // bunifuCustomLabel43
+            // 
+            this.bunifuCustomLabel43.AutoSize = true;
+            this.bunifuCustomLabel43.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(218)))), ((int)(((byte)(227)))), ((int)(((byte)(243)))));
+            this.dimmLevelPanel.SetColumnSpan(this.bunifuCustomLabel43, 2);
+            this.bunifuCustomLabel43.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.bunifuCustomLabel43.Font = new System.Drawing.Font("Malgun Gothic", 12F);
+            this.bunifuCustomLabel43.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
+            this.bunifuCustomLabel43.Location = new System.Drawing.Point(1160, 119);
+            this.bunifuCustomLabel43.Margin = new System.Windows.Forms.Padding(1);
+            this.bunifuCustomLabel43.Name = "bunifuCustomLabel43";
+            this.bunifuCustomLabel43.Size = new System.Drawing.Size(120, 23);
+            this.bunifuCustomLabel43.TabIndex = 46;
+            this.bunifuCustomLabel43.Text = "상시 추월";
+            this.bunifuCustomLabel43.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // bunifuCustomLabel44
+            // 
+            this.bunifuCustomLabel44.AutoSize = true;
+            this.bunifuCustomLabel44.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(218)))), ((int)(((byte)(227)))), ((int)(((byte)(243)))));
+            this.bunifuCustomLabel44.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.bunifuCustomLabel44.Font = new System.Drawing.Font("Malgun Gothic", 12F);
+            this.bunifuCustomLabel44.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(56)))), ((int)(((byte)(100)))));
+            this.bunifuCustomLabel44.Location = new System.Drawing.Point(1282, 119);
+            this.bunifuCustomLabel44.Margin = new System.Windows.Forms.Padding(1);
+            this.bunifuCustomLabel44.Name = "bunifuCustomLabel44";
+            this.bunifuCustomLabel44.Size = new System.Drawing.Size(77, 23);
+            this.bunifuCustomLabel44.TabIndex = 47;
+            this.bunifuCustomLabel44.Text = "상시주행";
+            this.bunifuCustomLabel44.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // FormControllerSetup
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(46)))), ((int)(((byte)(59)))));
-            this.ClientSize = new System.Drawing.Size(1454, 760);
+            this.ClientSize = new System.Drawing.Size(1454, 763);
             this.Controls.Add(this.bunifuCustomLabel31);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.onOffPanel);
@@ -2672,5 +2765,9 @@
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel31;
         private System.Windows.Forms.PictureBox pictureBox1;
         private Bunifu.Framework.UI.BunifuCustomLabel disconnectedLabel;
+        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel44;
+        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel43;
+        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel42;
+        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel32;
     }
 }

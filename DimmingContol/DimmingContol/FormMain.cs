@@ -481,13 +481,18 @@ namespace DimmingContol
                     label.Font = new Font(label.Font.FontFamily, label.Font.Size * fontSizeMagnification, FontStyle.Bold);
                 }
             }
-            
-            #if (!DEBUG)
+
+#if DEBUG
+            rxFrameCntX0.Visible = true;
+            rxFrameCntX1.Visible = true;
+            rxFrameCntX2.Visible = true;
+            rxFrameCntX3.Visible = true;
+#else
             rxFrameCntX0.Visible = false;
             rxFrameCntX1.Visible = false;
             rxFrameCntX2.Visible = false;
             rxFrameCntX3.Visible = false;
-            #endif
+#endif
 
         }
 
@@ -706,7 +711,7 @@ namespace DimmingContol
                     ConnectButton[controllerIdx].Text = "연결";
                     ConnectButton[controllerIdx].BackColor = Color.FromArgb(0, 176, 80);
 
-                    #if (!DEBUG)
+#if DEBUG
                     rxFrameCnt[controllerIdx]++;
 
                     if (controllerIdx == 0)
@@ -725,7 +730,7 @@ namespace DimmingContol
                     {
                         rxFrameCntX3.Text = rxFrameCnt[3].ToString();
                     }
-                    #endif
+#endif
                 }
                 catch (Exception e)
                 {
