@@ -32,6 +32,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormControllerSetup));
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.panel1 = new System.Windows.Forms.Panel();
+            this.disconnectedLabel = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.titleLabel = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.closeFlatButton = new Bunifu.Framework.UI.BunifuFlatButton();
             this.dimmLevelPanel = new System.Windows.Forms.TableLayoutPanel();
@@ -143,7 +144,6 @@
             this.bunifuCustomLabel26 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel31 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.disconnectedLabel = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.panel1.SuspendLayout();
             this.dimmLevelPanel.SuspendLayout();
             this.maintenanceFactorPanel.SuspendLayout();
@@ -168,6 +168,20 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1454, 64);
             this.panel1.TabIndex = 2;
+            // 
+            // disconnectedLabel
+            // 
+            this.disconnectedLabel.AutoSize = true;
+            this.disconnectedLabel.BackColor = System.Drawing.Color.Red;
+            this.disconnectedLabel.Font = new System.Drawing.Font("Malgun Gothic", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.disconnectedLabel.ForeColor = System.Drawing.Color.White;
+            this.disconnectedLabel.Location = new System.Drawing.Point(47, 16);
+            this.disconnectedLabel.Name = "disconnectedLabel";
+            this.disconnectedLabel.Size = new System.Drawing.Size(242, 37);
+            this.disconnectedLabel.TabIndex = 19;
+            this.disconnectedLabel.Text = "연결이 끊겼습니다";
+            this.disconnectedLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.disconnectedLabel.Visible = false;
             // 
             // titleLabel
             // 
@@ -1199,7 +1213,7 @@
             this.bunifuCustomLabel88.Name = "bunifuCustomLabel88";
             this.bunifuCustomLabel88.Size = new System.Drawing.Size(102, 60);
             this.bunifuCustomLabel88.TabIndex = 3;
-            this.bunifuCustomLabel88.Text = "상시 추월";
+            this.bunifuCustomLabel88.Text = "상시 주행";
             this.bunifuCustomLabel88.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // bunifuCustomLabel89
@@ -1214,7 +1228,7 @@
             this.bunifuCustomLabel89.Name = "bunifuCustomLabel89";
             this.bunifuCustomLabel89.Size = new System.Drawing.Size(102, 60);
             this.bunifuCustomLabel89.TabIndex = 2;
-            this.bunifuCustomLabel89.Text = "상시 주행";
+            this.bunifuCustomLabel89.Text = "상시 추월";
             this.bunifuCustomLabel89.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // bunifuCustomLabel90
@@ -1229,7 +1243,7 @@
             this.bunifuCustomLabel90.Name = "bunifuCustomLabel90";
             this.bunifuCustomLabel90.Size = new System.Drawing.Size(102, 60);
             this.bunifuCustomLabel90.TabIndex = 1;
-            this.bunifuCustomLabel90.Text = "주간 추월";
+            this.bunifuCustomLabel90.Text = "주간 주행";
             this.bunifuCustomLabel90.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // bunifuCustomLabel91
@@ -1244,7 +1258,7 @@
             this.bunifuCustomLabel91.Name = "bunifuCustomLabel91";
             this.bunifuCustomLabel91.Size = new System.Drawing.Size(102, 60);
             this.bunifuCustomLabel91.TabIndex = 0;
-            this.bunifuCustomLabel91.Text = "주간 주행";
+            this.bunifuCustomLabel91.Text = "주간 추월";
             this.bunifuCustomLabel91.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // mfSetButton
@@ -2496,20 +2510,6 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 18;
             this.pictureBox1.TabStop = false;
-            // 
-            // disconnectedLabel
-            // 
-            this.disconnectedLabel.AutoSize = true;
-            this.disconnectedLabel.BackColor = System.Drawing.Color.Red;
-            this.disconnectedLabel.Font = new System.Drawing.Font("Malgun Gothic", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.disconnectedLabel.ForeColor = System.Drawing.Color.White;
-            this.disconnectedLabel.Location = new System.Drawing.Point(47, 16);
-            this.disconnectedLabel.Name = "disconnectedLabel";
-            this.disconnectedLabel.Size = new System.Drawing.Size(242, 37);
-            this.disconnectedLabel.TabIndex = 19;
-            this.disconnectedLabel.Text = "연결이 끊겼습니다";
-            this.disconnectedLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.disconnectedLabel.Visible = false;
             // 
             // FormControllerSetup
             // 
